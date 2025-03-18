@@ -1,5 +1,6 @@
 Require Import Sets Modal_Library Modal_Notations Classical List.
 
+Section Equivalence.
 Context `{X: modal_index_set}.
 
 Lemma singleton_formula:
@@ -105,3 +106,4 @@ Proof.
     + exfalso.
       firstorder.
 Qed.
+End Equivalence.

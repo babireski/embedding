@@ -1,4 +1,4 @@
-DIGEST ee00e2f0bedb56fd295793b1cfd2e6eb
+DIGEST b7aaf01efc0524aa7e6728ba8e20bfca
 FTop.Completeness
 R15:23 Coq.Logic.Decidable <> <> lib
 R25:32 Coq.Program.Equality <> <> lib
@@ -12,1850 +12,1852 @@ R131:134 Coq.Lists.List <> <> lib
 R136:144 Coq.Logic.Classical <> <> lib
 R146:149 Coq.Bool.Bool <> <> lib
 R151:154 Top.Sets <> <> lib
-R195:209 Top.Modal_Library <> modal_index_set class
-binder 192:192 <> X:2
-ax 285:290 <> encode
-R300:303 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R293:299 Top.Modal_Library <> formula ind
-R304:306 Coq.Init.Datatypes <> nat ind
-ax 315:320 <> decode
-R326:329 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R323:325 Coq.Init.Datatypes <> nat ind
-R330:335 Coq.Init.Datatypes <> option ind
-R337:343 Top.Modal_Library <> formula ind
-ax 352:360 <> countable
-binder 370:370 <> p:5
-R390:392 Coq.Init.Logic <> ::type_scope:x_'='_x not
-R373:378 Top.Completeness <> decode prfax
-R381:386 Top.Completeness <> encode prfax
-R388:388 Top.Completeness <> p:5 var
-R393:396 Coq.Init.Datatypes <> Some constr
-R398:398 Top.Completeness <> p:5 var
-sec 410:419 <> Properties
-var 434:434 Properties A
-R442:445 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R437:441 Top.Deductive_System <> axiom ind
-var 463:463 Properties G
-R466:471 Top.Modal_Library <> theory def
-def 488:497 <> Consistent
-binder 519:519 <> p:9
-R526:527 Coq.Init.Logic <> ::type_scope:'~'_x not
-R550:550 Coq.Init.Logic <> ::type_scope:'~'_x not
-R529:530 Top.Deductive_System <> :::x_';'_x_'|--'_x not
-R532:536 Top.Deductive_System <> :::x_';'_x_'|--'_x not
-R528:528 Top.Completeness <> Properties.A var
-R531:531 Top.Completeness <> Properties.G var
-R537:539 Top.Modal_Notations <> :::'[!'_x_'!]' not
-R547:549 Top.Modal_Notations <> :::'[!'_x_'!]' not
-R541:544 Top.Modal_Notations <> :modal::x_'/\'_x not
-binder 540:540 <> p:10
-binder 540:540 <> p:11
-R545:545 Top.Modal_Notations <> :modal::'~'_x not
-binder 546:546 <> p:12
-binder 546:546 <> p:13
-def 567:573 <> Maximal
-binder 595:595 <> p:14
-R605:608 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
-R602:602 Top.Completeness <> Properties.G var
-R604:604 Top.Completeness <> p:14 var
-R609:609 Top.Completeness <> Properties.G var
-R611:613 Top.Modal_Notations <> :::'[!'_x_'!]' not
-R616:618 Top.Modal_Notations <> :::'[!'_x_'!]' not
-R614:614 Top.Modal_Notations <> :modal::'~'_x not
-binder 615:615 <> p:15
-binder 615:615 <> p:16
-R626:635 Top.Completeness Properties <> sec
-prf 645:677 <> nonderivation_implies_consistency
-binder 689:689 <> A:17
-R704:709 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R694:699 Top.Sets <> Subset def
-R703:703 Top.Completeness <> A:17 var
-R701:701 Top.Deductive_System <> P ind
-binder 717:717 <> G:18
-binder 719:719 <> p:19
-R737:740 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R724:725 Coq.Init.Logic <> ::type_scope:'~'_x not
-R736:736 Coq.Init.Logic <> ::type_scope:'~'_x not
-R727:728 Top.Deductive_System <> :::x_';'_x_'|--'_x not
-R730:734 Top.Deductive_System <> :::x_';'_x_'|--'_x not
-R726:726 Top.Completeness <> A:17 var
-R729:729 Top.Completeness <> G:18 var
-R735:735 Top.Completeness <> p:19 var
-R741:750 Top.Completeness <> Consistent def
-R754:754 Top.Completeness <> G:18 var
-R752:752 Top.Completeness <> A:17 var
-R818:832 Top.Modal_Tactics <> modal_explosion thm
-R818:832 Top.Modal_Tactics <> modal_explosion thm
-R971:973 Top.Modal_Notations <> :::'[!'_x_'!]' not
-R976:978 Top.Modal_Notations <> :::'[!'_x_'!]' not
-R974:974 Top.Modal_Notations <> :modal::'~'_x not
-binder 975:975 <> q:20
-binder 975:975 <> q:21
-R956:964 Top.Modal_Tactics <> modal_ax5 thm
-R971:973 Top.Modal_Notations <> :::'[!'_x_'!]' not
-R976:978 Top.Modal_Notations <> :::'[!'_x_'!]' not
-R974:974 Top.Modal_Notations <> :modal::'~'_x not
-binder 975:975 <> q:22
-binder 975:975 <> q:23
-R956:964 Top.Modal_Tactics <> modal_ax5 thm
-R996:1000 Top.Deductive_System <> P_ax5 constr
-R996:1000 Top.Deductive_System <> P_ax5 constr
-R1031:1039 Top.Modal_Tactics <> modal_ax6 thm
-R1031:1039 Top.Modal_Tactics <> modal_ax6 thm
-R1064:1068 Top.Deductive_System <> P_ax6 constr
-R1064:1068 Top.Deductive_System <> P_ax6 constr
-prf 1101:1121 <> consistency_deduction
-binder 1133:1133 <> A:24
-R1148:1153 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R1138:1143 Top.Sets <> Subset def
-R1147:1147 Top.Completeness <> A:24 var
-R1145:1145 Top.Deductive_System <> P ind
-binder 1161:1161 <> G:25
-binder 1163:1163 <> p:26
-R1168:1168 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
-R1179:1184 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
-R1170:1171 Top.Deductive_System <> :::x_';'_x_'|--'_x not
-R1173:1177 Top.Deductive_System <> :::x_';'_x_'|--'_x not
-R1169:1169 Top.Completeness <> A:24 var
-R1172:1172 Top.Completeness <> G:25 var
-R1178:1178 Top.Completeness <> p:26 var
-R1185:1185 Coq.Init.Logic <> ::type_scope:'~'_x not
-R1186:1195 Top.Completeness <> Consistent def
-R1200:1205 Top.Sets <> Extend abbrev
-R1207:1209 Top.Modal_Notations <> :::'[!'_x_'!]' not
-R1212:1214 Top.Modal_Notations <> :::'[!'_x_'!]' not
-R1210:1210 Top.Modal_Notations <> :modal::'~'_x not
-binder 1211:1211 <> p:27
-binder 1211:1211 <> p:28
-R1216:1216 Top.Completeness <> G:25 var
-R1197:1197 Top.Completeness <> A:24 var
-R1283:1291 Top.Modal_Tactics <> modal_ax4 thm
-R1283:1291 Top.Modal_Tactics <> modal_ax4 thm
-R1321:1325 Top.Deductive_System <> P_ax1 constr
-R1321:1325 Top.Deductive_System <> P_ax1 constr
-R1355:1359 Top.Deductive_System <> P_ax2 constr
-R1355:1359 Top.Deductive_System <> P_ax2 constr
-R1389:1393 Top.Deductive_System <> P_ax4 constr
-R1389:1393 Top.Deductive_System <> P_ax4 constr
-R1408:1423 Top.Modal_Tactics <> deduction_subset thm
-R1408:1423 Top.Modal_Tactics <> deduction_subset thm
-R1539:1552 Coq.Logic.Decidable <> contrapositive thm
-R1539:1552 Coq.Logic.Decidable <> contrapositive thm
-R1575:1581 Coq.Logic.Classical_Prop <> classic prfax
-R1575:1581 Coq.Logic.Classical_Prop <> classic prfax
-R1598:1607 Top.Completeness <> Consistent def
-R1598:1607 Top.Completeness <> Consistent def
-R1633:1665 Top.Completeness <> nonderivation_implies_consistency thm
-R1633:1665 Top.Completeness <> nonderivation_implies_consistency thm
-R1731:1731 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
-R1764:1785 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
-R1819:1819 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
-R1733:1734 Top.Deductive_System <> :::x_';'_x_'|--'_x not
-R1752:1756 Top.Deductive_System <> :::x_';'_x_'|--'_x not
-R1735:1740 Top.Sets <> Extend abbrev
-R1742:1744 Top.Modal_Notations <> :::'[!'_x_'!]' not
-R1747:1749 Top.Modal_Notations <> :::'[!'_x_'!]' not
-R1745:1745 Top.Modal_Notations <> :modal::'~'_x not
-binder 1746:1746 <> p:29
-binder 1746:1746 <> p:30
-R1757:1759 Top.Modal_Notations <> :::'[!'_x_'!]' not
-R1761:1763 Top.Modal_Notations <> :::'[!'_x_'!]' not
-binder 1760:1760 <> q:31
-binder 1760:1760 <> q:32
-R1787:1788 Top.Deductive_System <> :::x_';'_x_'|--'_x not
-R1806:1810 Top.Deductive_System <> :::x_';'_x_'|--'_x not
-R1789:1794 Top.Sets <> Extend abbrev
-R1796:1798 Top.Modal_Notations <> :::'[!'_x_'!]' not
-R1801:1803 Top.Modal_Notations <> :::'[!'_x_'!]' not
-R1799:1799 Top.Modal_Notations <> :modal::'~'_x not
-binder 1800:1800 <> p:33
-binder 1800:1800 <> p:34
-R1811:1813 Top.Modal_Notations <> :::'[!'_x_'!]' not
-R1816:1818 Top.Modal_Notations <> :::'[!'_x_'!]' not
-R1814:1814 Top.Modal_Notations <> :modal::'~'_x not
-binder 1815:1815 <> q:35
-binder 1815:1815 <> q:36
-R1731:1731 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
-R1764:1785 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
-R1819:1819 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
-R1733:1734 Top.Deductive_System <> :::x_';'_x_'|--'_x not
-R1752:1756 Top.Deductive_System <> :::x_';'_x_'|--'_x not
-R1735:1740 Top.Sets <> Extend abbrev
-R1742:1744 Top.Modal_Notations <> :::'[!'_x_'!]' not
-R1747:1749 Top.Modal_Notations <> :::'[!'_x_'!]' not
-R1745:1745 Top.Modal_Notations <> :modal::'~'_x not
-binder 1746:1746 <> p:37
-binder 1746:1746 <> p:38
-R1757:1759 Top.Modal_Notations <> :::'[!'_x_'!]' not
-R1761:1763 Top.Modal_Notations <> :::'[!'_x_'!]' not
-binder 1760:1760 <> q:39
-binder 1760:1760 <> q:40
-R1787:1788 Top.Deductive_System <> :::x_';'_x_'|--'_x not
-R1806:1810 Top.Deductive_System <> :::x_';'_x_'|--'_x not
-R1789:1794 Top.Sets <> Extend abbrev
-R1796:1798 Top.Modal_Notations <> :::'[!'_x_'!]' not
-R1801:1803 Top.Modal_Notations <> :::'[!'_x_'!]' not
-R1799:1799 Top.Modal_Notations <> :modal::'~'_x not
-binder 1800:1800 <> p:41
-binder 1800:1800 <> p:42
-R1811:1813 Top.Modal_Notations <> :::'[!'_x_'!]' not
-R1816:1818 Top.Modal_Notations <> :::'[!'_x_'!]' not
-R1814:1814 Top.Modal_Notations <> :modal::'~'_x not
-binder 1815:1815 <> q:43
-binder 1815:1815 <> q:44
-R1887:1889 Top.Modal_Notations <> :::'[!'_x_'!]' not
-R1892:1894 Top.Modal_Notations <> :::'[!'_x_'!]' not
-R1890:1890 Top.Modal_Notations <> :modal::'~'_x not
-binder 1891:1891 <> q:45
-binder 1891:1891 <> q:46
-R1872:1880 Top.Modal_Tactics <> modal_ax5 thm
-R1887:1889 Top.Modal_Notations <> :::'[!'_x_'!]' not
-R1892:1894 Top.Modal_Notations <> :::'[!'_x_'!]' not
-R1890:1890 Top.Modal_Notations <> :modal::'~'_x not
-binder 1891:1891 <> q:47
-binder 1891:1891 <> q:48
-R1872:1880 Top.Modal_Tactics <> modal_ax5 thm
-R1942:1946 Top.Deductive_System <> P_ax5 constr
-R1942:1946 Top.Deductive_System <> P_ax5 constr
-R1982:1984 Top.Modal_Notations <> :::'[!'_x_'!]' not
-R1986:1988 Top.Modal_Notations <> :::'[!'_x_'!]' not
-binder 1985:1985 <> q:49
-binder 1985:1985 <> q:50
-R1967:1975 Top.Modal_Tactics <> modal_ax6 thm
-R1982:1984 Top.Modal_Notations <> :::'[!'_x_'!]' not
-R1986:1988 Top.Modal_Notations <> :::'[!'_x_'!]' not
-binder 1985:1985 <> q:51
-binder 1985:1985 <> q:52
-R1967:1975 Top.Modal_Tactics <> modal_ax6 thm
-R2036:2040 Top.Deductive_System <> P_ax6 constr
-R2036:2040 Top.Deductive_System <> P_ax6 constr
-R2061:2075 Top.Modal_Tactics <> modal_deduction thm
-R2061:2075 Top.Modal_Tactics <> modal_deduction thm
-R2061:2075 Top.Modal_Tactics <> modal_deduction thm
-R2149:2151 Top.Modal_Notations <> :::'[!'_x_'!]' not
-R2153:2155 Top.Modal_Notations <> :::'[!'_x_'!]' not
-binder 2152:2152 <> q:53
-binder 2152:2152 <> q:54
-R2157:2159 Top.Modal_Notations <> :::'[!'_x_'!]' not
-R2162:2164 Top.Modal_Notations <> :::'[!'_x_'!]' not
-R2160:2160 Top.Modal_Notations <> :modal::'~'_x not
-binder 2161:2161 <> q:55
-binder 2161:2161 <> q:56
-R2134:2142 Top.Modal_Tactics <> modal_ax9 thm
-R2149:2151 Top.Modal_Notations <> :::'[!'_x_'!]' not
-R2153:2155 Top.Modal_Notations <> :::'[!'_x_'!]' not
-binder 2152:2152 <> q:57
-binder 2152:2152 <> q:58
-R2157:2159 Top.Modal_Notations <> :::'[!'_x_'!]' not
-R2162:2164 Top.Modal_Notations <> :::'[!'_x_'!]' not
-R2160:2160 Top.Modal_Notations <> :modal::'~'_x not
-binder 2161:2161 <> q:59
-binder 2161:2161 <> q:60
-R2134:2142 Top.Modal_Tactics <> modal_ax9 thm
-R2214:2218 Top.Deductive_System <> P_ax9 constr
-R2214:2218 Top.Deductive_System <> P_ax9 constr
-R2243:2251 Top.Modal_Tactics <> modal_ax3 thm
-R2243:2251 Top.Modal_Tactics <> modal_ax3 thm
-R2309:2313 Top.Deductive_System <> P_ax3 constr
-R2309:2313 Top.Deductive_System <> P_ax3 constr
-R2370:2378 Top.Modal_Tactics <> modal_ax3 thm
-R2370:2378 Top.Modal_Tactics <> modal_ax3 thm
-R2436:2440 Top.Deductive_System <> P_ax3 constr
-R2436:2440 Top.Deductive_System <> P_ax3 constr
-R2469:2483 Top.Modal_Tactics <> modal_syllogism thm
-R2469:2483 Top.Modal_Tactics <> modal_syllogism thm
-R2548:2552 Top.Deductive_System <> P_ax1 constr
-R2548:2552 Top.Deductive_System <> P_ax1 constr
-R2610:2614 Top.Deductive_System <> P_ax2 constr
-R2610:2614 Top.Deductive_System <> P_ax2 constr
-R2675:2683 Top.Modal_Tactics <> modal_ax3 thm
-R2675:2683 Top.Modal_Tactics <> modal_ax3 thm
-R2741:2745 Top.Deductive_System <> P_ax3 constr
-R2741:2745 Top.Deductive_System <> P_ax3 constr
-R2788:2791 Top.Deductive_System <> ax10 constr
-R2793:2795 Top.Modal_Notations <> :::'[!'_x_'!]' not
-R2798:2800 Top.Modal_Notations <> :::'[!'_x_'!]' not
-R2796:2796 Top.Modal_Notations <> :modal::'~'_x not
-binder 2797:2797 <> q:61
-binder 2797:2797 <> q:62
-R2774:2775 Top.Deductive_System <> Ax constr
-R2788:2791 Top.Deductive_System <> ax10 constr
-R2793:2795 Top.Modal_Notations <> :::'[!'_x_'!]' not
-R2798:2800 Top.Modal_Notations <> :::'[!'_x_'!]' not
-R2796:2796 Top.Modal_Notations <> :modal::'~'_x not
-binder 2797:2797 <> q:63
-binder 2797:2797 <> q:64
-R2774:2775 Top.Deductive_System <> Ax constr
-R2859:2864 Top.Deductive_System <> P_ax10 constr
-R2859:2864 Top.Deductive_System <> P_ax10 constr
-R2922:2942 Top.Modal_Tactics <> modal_excluded_middle thm
-R2922:2942 Top.Modal_Tactics <> modal_excluded_middle thm
-prf 2985:3002 <> consistency_either
-binder 3014:3014 <> A:65
-R3029:3034 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R3019:3024 Top.Sets <> Subset def
-R3028:3028 Top.Completeness <> A:65 var
-R3026:3026 Top.Deductive_System <> P ind
-binder 3042:3042 <> G:66
-binder 3044:3044 <> f:67
-R3063:3069 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R3131:3131 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R3049:3058 Top.Completeness <> Consistent def
-R3062:3062 Top.Completeness <> G:66 var
-R3060:3060 Top.Completeness <> A:65 var
-R3095:3098 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
-R3070:3079 Top.Completeness <> Consistent def
-R3084:3089 Top.Sets <> Extend abbrev
-R3091:3091 Top.Completeness <> f:67 var
-R3093:3093 Top.Completeness <> G:66 var
-R3081:3081 Top.Completeness <> A:65 var
-R3099:3108 Top.Completeness <> Consistent def
-R3113:3118 Top.Sets <> Extend abbrev
-R3120:3122 Top.Modal_Notations <> :::'[!'_x_'!]' not
-R3125:3127 Top.Modal_Notations <> :::'[!'_x_'!]' not
-R3123:3123 Top.Modal_Notations <> :modal::'~'_x not
-binder 3124:3124 <> f:68
-binder 3124:3124 <> f:69
-R3129:3129 Top.Completeness <> G:66 var
-R3110:3110 Top.Completeness <> A:65 var
-R3167:3180 Coq.Logic.Decidable <> contrapositive thm
-R3167:3180 Coq.Logic.Decidable <> contrapositive thm
-R3201:3207 Coq.Logic.Classical_Prop <> classic prfax
-R3201:3207 Coq.Logic.Classical_Prop <> classic prfax
-R3248:3251 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
-R3222:3222 Coq.Init.Logic <> ::type_scope:'~'_x not
-R3223:3232 Top.Completeness <> Consistent def
-R3237:3242 Top.Sets <> Extend abbrev
-R3252:3252 Coq.Init.Logic <> ::type_scope:'~'_x not
-R3253:3262 Top.Completeness <> Consistent def
-R3267:3272 Top.Sets <> Extend abbrev
-R3274:3276 Top.Modal_Notations <> :::'[!'_x_'!]' not
-R3279:3281 Top.Modal_Notations <> :::'[!'_x_'!]' not
-R3277:3277 Top.Modal_Notations <> :modal::'~'_x not
-binder 3278:3278 <> f:70
-binder 3278:3278 <> f:71
-R3248:3251 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
-R3222:3222 Coq.Init.Logic <> ::type_scope:'~'_x not
-R3223:3232 Top.Completeness <> Consistent def
-R3237:3242 Top.Sets <> Extend abbrev
-R3252:3252 Coq.Init.Logic <> ::type_scope:'~'_x not
-R3253:3262 Top.Completeness <> Consistent def
-R3267:3272 Top.Sets <> Extend abbrev
-R3274:3276 Top.Modal_Notations <> :::'[!'_x_'!]' not
-R3279:3281 Top.Modal_Notations <> :::'[!'_x_'!]' not
-R3277:3277 Top.Modal_Notations <> :modal::'~'_x not
-binder 3278:3278 <> f:72
-binder 3278:3278 <> f:73
-R3422:3442 Top.Completeness <> consistency_deduction thm
-R3422:3442 Top.Completeness <> consistency_deduction thm
-R3606:3614 Top.Modal_Tactics <> modal_cut thm
-R3606:3614 Top.Modal_Tactics <> modal_cut thm
-prf 3636:3655 <> consistency_negation
-binder 3667:3667 <> A:74
-R3682:3687 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R3672:3677 Top.Sets <> Subset def
-R3681:3681 Top.Completeness <> A:74 var
-R3679:3679 Top.Deductive_System <> P ind
-binder 3695:3695 <> G:75
-binder 3697:3697 <> f:76
-R3716:3721 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R3702:3711 Top.Completeness <> Consistent def
-R3715:3715 Top.Completeness <> G:75 var
-R3713:3713 Top.Completeness <> A:74 var
-R3748:3753 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R3722:3722 Coq.Init.Logic <> ::type_scope:'~'_x not
-R3723:3732 Top.Completeness <> Consistent def
-R3737:3742 Top.Sets <> Extend abbrev
-R3744:3744 Top.Completeness <> f:76 var
-R3746:3746 Top.Completeness <> G:75 var
-R3734:3734 Top.Completeness <> A:74 var
-R3754:3763 Top.Completeness <> Consistent def
-R3768:3773 Top.Sets <> Extend abbrev
-R3775:3777 Top.Modal_Notations <> :::'[!'_x_'!]' not
-R3780:3782 Top.Modal_Notations <> :::'[!'_x_'!]' not
-R3778:3778 Top.Modal_Notations <> :modal::'~'_x not
-binder 3779:3779 <> f:77
-binder 3779:3779 <> f:78
-R3784:3784 Top.Completeness <> G:75 var
-R3765:3765 Top.Completeness <> A:74 var
-R3816:3833 Top.Completeness <> consistency_either thm
-R3816:3833 Top.Completeness <> consistency_either thm
-sec 3928:3939 <> Completeness
-var 3954:3954 Completeness A
-R3962:3965 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R3957:3961 Top.Deductive_System <> axiom ind
-var 3986:3996 Completeness extending_P
-R3999:4004 Top.Sets <> Subset def
-R4008:4008 Top.Completeness <> Completeness.A var
-R4006:4006 Top.Deductive_System <> P ind
-sec 4022:4031 Completeness Lindenbaum
-var 4071:4071 Completeness.Lindenbaum G
-R4074:4079 Top.Modal_Library <> theory def
-ind 4256:4261 <> Insert
-constr 4358:4368 <> Insert_skip
-constr 4479:4490 <> Insert_valid
-constr 4679:4692 <> Insert_invalid
-R4278:4281 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R4264:4269 Coq.Init.Datatypes <> option ind
-R4271:4277 Top.Modal_Library <> formula ind
-R4288:4291 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R4282:4287 Top.Modal_Library <> theory def
-R4292:4297 Top.Modal_Library <> theory def
-binder 4386:4386 <> D:84
-R4397:4402 Top.Sets <> Subset def
-R4407:4412 Top.Completeness <> Insert:82 ind
-R4419:4419 Top.Completeness <> D:84 var
-R4414:4417 Coq.Init.Datatypes <> None constr
-R4404:4404 Top.Completeness <> D:84 var
-binder 4508:4508 <> D:85
-binder 4510:4510 <> p:86
-R4546:4557 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R4521:4530 Top.Completeness <> Consistent def
-R4535:4540 Top.Sets <> Extend abbrev
-R4542:4542 Top.Completeness <> p:86 var
-R4544:4544 Top.Completeness <> D:85 var
-R4532:4532 Top.Completeness <> Completeness.A var
-R4558:4563 Top.Sets <> Subset def
-R4579:4584 Top.Completeness <> Insert:82 ind
-R4595:4595 Top.Completeness <> D:85 var
-R4587:4590 Coq.Init.Datatypes <> Some constr
-R4592:4592 Top.Completeness <> p:86 var
-R4566:4571 Top.Sets <> Extend abbrev
-R4573:4573 Top.Completeness <> p:86 var
-R4575:4575 Top.Completeness <> D:85 var
-binder 4710:4710 <> D:87
-binder 4712:4712 <> p:88
-R4749:4760 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R4723:4723 Coq.Init.Logic <> ::type_scope:'~'_x not
-R4724:4733 Top.Completeness <> Consistent def
-R4738:4743 Top.Sets <> Extend abbrev
-R4745:4745 Top.Completeness <> p:88 var
-R4747:4747 Top.Completeness <> D:87 var
-R4735:4735 Top.Completeness <> Completeness.A var
-R4761:4766 Top.Sets <> Subset def
-R4789:4794 Top.Completeness <> Insert:82 ind
-R4805:4805 Top.Completeness <> D:87 var
-R4797:4800 Coq.Init.Datatypes <> Some constr
-R4802:4802 Top.Completeness <> p:88 var
-R4769:4774 Top.Sets <> Extend abbrev
-R4776:4778 Top.Modal_Notations <> :::'[!'_x_'!]' not
-R4781:4783 Top.Modal_Notations <> :::'[!'_x_'!]' not
-R4779:4779 Top.Modal_Notations <> :modal::'~'_x not
-binder 4780:4780 <> p:89
-binder 4780:4780 <> p:90
-R4785:4785 Top.Completeness <> D:87 var
-scheme 4256:4261 <> Insert_ind
-scheme 4256:4261 <> Insert_sind
-def 4850:4854 <> Delta
-R4860:4862 Coq.Init.Datatypes <> nat ind
-binder 4857:4857 <> n:91
-R4866:4871 Top.Modal_Library <> theory def
-R4888:4888 Top.Completeness <> n:91 var
-R4910:4910 Top.Completeness <> Completeness.Lindenbaum.G var
-R4920:4920 Coq.Init.Datatypes <> S constr
-R4927:4932 Top.Completeness <> Insert ind
-R4946:4950 Top.Completeness <> Delta:92 def
-R4952:4952 Top.Completeness <> n:91 var
-R4935:4940 Top.Completeness <> decode prfax
-R4942:4942 Top.Completeness <> n:91 var
-def 5005:5007 <> Max
-R5010:5015 Top.Modal_Library <> theory def
-R5026:5032 Top.Sets <> UnionOf def
-R5034:5038 Top.Completeness <> Delta def
-prf 5052:5067 <> subset_of_insert
-binder 5083:5083 <> D:94
-binder 5085:5085 <> p:95
-R5094:5099 Top.Sets <> Subset def
-R5104:5109 Top.Completeness <> Insert ind
-R5113:5113 Top.Completeness <> D:94 var
-R5111:5111 Top.Completeness <> p:95 var
-R5101:5101 Top.Completeness <> D:94 var
-R5141:5146 Top.Sets <> Subset def
-R5193:5199 Coq.Logic.Classical_Prop <> classic prfax
-R5218:5229 Top.Completeness <> Insert_valid constr
-R5218:5229 Top.Completeness <> Insert_valid constr
-R5298:5311 Top.Completeness <> Insert_invalid constr
-R5298:5311 Top.Completeness <> Insert_invalid constr
-R5383:5393 Top.Completeness <> Insert_skip constr
-R5383:5393 Top.Completeness <> Insert_skip constr
-prf 5436:5454 <> delta_subset_of_max
-binder 5470:5470 <> n:96
-R5479:5484 Top.Sets <> Subset def
-R5496:5498 Top.Completeness <> Max def
-R5487:5491 Top.Completeness <> Delta def
-R5493:5493 Top.Completeness <> n:96 var
-R5525:5530 Top.Sets <> Subset def
-R5554:5556 Top.Completeness <> Max def
-R5559:5565 Top.Sets <> UnionOf def
-prf 5601:5619 <> gamma_subset_of_max
-R5628:5633 Top.Sets <> Subset def
-R5637:5639 Top.Completeness <> Max def
-R5635:5635 Top.Completeness <> Completeness.Lindenbaum.G var
-R5666:5671 Top.Sets <> Subset def
-R5695:5697 Top.Completeness <> Max def
-R5700:5706 Top.Sets <> UnionOf def
-R5722:5722 Coq.Init.Datatypes <> O constr
-R5722:5722 Coq.Init.Datatypes <> O constr
-prf 5770:5787 <> delta_is_monotonic
-binder 5803:5803 <> n:97
-binder 5805:5805 <> m:98
-R5820:5829 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R5815:5818 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
-R5814:5814 Top.Completeness <> n:97 var
-R5819:5819 Top.Completeness <> m:98 var
-R5830:5835 Top.Sets <> Subset def
-R5848:5852 Top.Completeness <> Delta def
-R5854:5854 Top.Completeness <> m:98 var
-R5838:5842 Top.Completeness <> Delta def
-R5844:5844 Top.Completeness <> n:97 var
-R5949:5964 Top.Completeness <> subset_of_insert thm
-R5949:5964 Top.Completeness <> subset_of_insert thm
-prf 6027:6049 <> insert_contains_formula
-binder 6065:6065 <> D:99
-binder 6067:6067 <> p:100
-R6101:6104 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
-R6076:6081 Top.Completeness <> Insert ind
-R6094:6096 Top.Modal_Notations <> :::'[!'_x_'!]' not
-R6098:6100 Top.Modal_Notations <> :::'[!'_x_'!]' not
-binder 6097:6097 <> p:101
-binder 6097:6097 <> p:102
-R6092:6092 Top.Completeness <> D:99 var
-R6084:6087 Coq.Init.Datatypes <> Some constr
-R6089:6089 Top.Completeness <> p:100 var
-R6105:6110 Top.Completeness <> Insert ind
+sec 190:204 <> CompletenessAll
+var  217:217 CompletenessAll X
+R220:234 Top.Modal_Library <> modal_index_set class
+var 310:315 CompletenessAll encode
+R325:328 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R318:324 Top.Modal_Library <> formula ind
+R329:331 Coq.Init.Datatypes <> nat ind
+var 340:345 CompletenessAll decode
+R351:354 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R348:350 Coq.Init.Datatypes <> nat ind
+R355:360 Coq.Init.Datatypes <> option ind
+R362:368 Top.Modal_Library <> formula ind
+var 377:385 CompletenessAll countable
+binder 395:395 <> p:7
+R415:417 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R398:403 Top.Completeness <> decode prfax
+R406:411 Top.Completeness <> encode prfax
+R413:413 Top.Completeness <> p:7 var
+R418:421 Coq.Init.Datatypes <> Some constr
+R423:423 Top.Completeness <> p:7 var
+sec 435:444 CompletenessAll Properties
+var 459:459 CompletenessAll.Properties A
+R467:470 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R462:466 Top.Deductive_System <> axiom ind
+var 488:488 CompletenessAll.Properties G
+R491:496 Top.Modal_Library <> theory def
+def 513:522 <> Consistent
+binder 544:544 <> p:14
+R551:552 Coq.Init.Logic <> ::type_scope:'~'_x not
+R575:575 Coq.Init.Logic <> ::type_scope:'~'_x not
+R554:555 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R557:561 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R553:553 Top.Completeness <> CompletenessAll.Properties.A var
+R556:556 Top.Completeness <> CompletenessAll.Properties.G var
+R562:564 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R572:574 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R566:569 Top.Modal_Notations <> :modal::x_'/\'_x not
+binder 565:565 <> p:15
+binder 565:565 <> p:16
+R570:570 Top.Modal_Notations <> :modal::'~'_x not
+binder 571:571 <> p:17
+binder 571:571 <> p:18
+def 592:598 <> Maximal
+binder 620:620 <> p:19
+R630:633 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R627:627 Top.Completeness <> CompletenessAll.Properties.G var
+R629:629 Top.Completeness <> p:19 var
+R634:634 Top.Completeness <> CompletenessAll.Properties.G var
+R636:638 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R641:643 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R639:639 Top.Modal_Notations <> :modal::'~'_x not
+binder 640:640 <> p:20
+binder 640:640 <> p:21
+R651:660 Top.Completeness CompletenessAll.Properties <> sec
+prf 670:702 <> nonderivation_implies_consistency
+binder 714:714 <> A:22
+R729:734 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R719:724 Top.Sets <> Subset def
+R728:728 Top.Completeness <> A:22 var
+R726:726 Top.Deductive_System <> P ind
+binder 742:742 <> G:23
+binder 744:744 <> p:24
+R762:765 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R749:750 Coq.Init.Logic <> ::type_scope:'~'_x not
+R761:761 Coq.Init.Logic <> ::type_scope:'~'_x not
+R752:753 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R755:759 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R751:751 Top.Completeness <> A:22 var
+R754:754 Top.Completeness <> G:23 var
+R760:760 Top.Completeness <> p:24 var
+R766:775 Top.Completeness <> Consistent def
+R779:779 Top.Completeness <> G:23 var
+R777:777 Top.Completeness <> A:22 var
+R843:857 Top.Modal_Tactics <> modal_explosion thm
+R843:857 Top.Modal_Tactics <> modal_explosion thm
+R996:998 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R1001:1003 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R999:999 Top.Modal_Notations <> :modal::'~'_x not
+binder 1000:1000 <> q:25
+binder 1000:1000 <> q:26
+R981:989 Top.Modal_Tactics <> modal_ax5 thm
+R996:998 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R1001:1003 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R999:999 Top.Modal_Notations <> :modal::'~'_x not
+binder 1000:1000 <> q:27
+binder 1000:1000 <> q:28
+R981:989 Top.Modal_Tactics <> modal_ax5 thm
+R1021:1025 Top.Deductive_System <> P_ax5 constr
+R1021:1025 Top.Deductive_System <> P_ax5 constr
+R1056:1064 Top.Modal_Tactics <> modal_ax6 thm
+R1056:1064 Top.Modal_Tactics <> modal_ax6 thm
+R1089:1093 Top.Deductive_System <> P_ax6 constr
+R1089:1093 Top.Deductive_System <> P_ax6 constr
+prf 1126:1146 <> consistency_deduction
+binder 1158:1158 <> A:29
+R1173:1178 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1163:1168 Top.Sets <> Subset def
+R1172:1172 Top.Completeness <> A:29 var
+R1170:1170 Top.Deductive_System <> P ind
+binder 1186:1186 <> G:30
+binder 1188:1188 <> p:31
+R1193:1193 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R1204:1209 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R1195:1196 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R1198:1202 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R1194:1194 Top.Completeness <> A:29 var
+R1197:1197 Top.Completeness <> G:30 var
+R1203:1203 Top.Completeness <> p:31 var
+R1210:1210 Coq.Init.Logic <> ::type_scope:'~'_x not
+R1211:1220 Top.Completeness <> Consistent def
+R1225:1230 Top.Sets <> Extend abbrev
+R1232:1234 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R1237:1239 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R1235:1235 Top.Modal_Notations <> :modal::'~'_x not
+binder 1236:1236 <> p:32
+binder 1236:1236 <> p:33
+R1241:1241 Top.Completeness <> G:30 var
+R1222:1222 Top.Completeness <> A:29 var
+R1308:1316 Top.Modal_Tactics <> modal_ax4 thm
+R1308:1316 Top.Modal_Tactics <> modal_ax4 thm
+R1346:1350 Top.Deductive_System <> P_ax1 constr
+R1346:1350 Top.Deductive_System <> P_ax1 constr
+R1380:1384 Top.Deductive_System <> P_ax2 constr
+R1380:1384 Top.Deductive_System <> P_ax2 constr
+R1414:1418 Top.Deductive_System <> P_ax4 constr
+R1414:1418 Top.Deductive_System <> P_ax4 constr
+R1433:1448 Top.Modal_Tactics <> deduction_subset thm
+R1433:1448 Top.Modal_Tactics <> deduction_subset thm
+R1564:1577 Coq.Logic.Decidable <> contrapositive thm
+R1564:1577 Coq.Logic.Decidable <> contrapositive thm
+R1600:1606 Coq.Logic.Classical_Prop <> classic prfax
+R1600:1606 Coq.Logic.Classical_Prop <> classic prfax
+R1623:1632 Top.Completeness <> Consistent def
+R1623:1632 Top.Completeness <> Consistent def
+R1658:1690 Top.Completeness <> nonderivation_implies_consistency thm
+R1658:1690 Top.Completeness <> nonderivation_implies_consistency thm
+R1756:1756 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R1789:1810 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R1844:1844 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R1758:1759 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R1777:1781 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R1760:1765 Top.Sets <> Extend abbrev
+R1767:1769 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R1772:1774 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R1770:1770 Top.Modal_Notations <> :modal::'~'_x not
+binder 1771:1771 <> p:34
+binder 1771:1771 <> p:35
+R1782:1784 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R1786:1788 Top.Modal_Notations <> :::'[!'_x_'!]' not
+binder 1785:1785 <> q:36
+binder 1785:1785 <> q:37
+R1812:1813 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R1831:1835 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R1814:1819 Top.Sets <> Extend abbrev
+R1821:1823 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R1826:1828 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R1824:1824 Top.Modal_Notations <> :modal::'~'_x not
+binder 1825:1825 <> p:38
+binder 1825:1825 <> p:39
+R1836:1838 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R1841:1843 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R1839:1839 Top.Modal_Notations <> :modal::'~'_x not
+binder 1840:1840 <> q:40
+binder 1840:1840 <> q:41
+R1756:1756 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R1789:1810 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R1844:1844 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R1758:1759 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R1777:1781 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R1760:1765 Top.Sets <> Extend abbrev
+R1767:1769 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R1772:1774 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R1770:1770 Top.Modal_Notations <> :modal::'~'_x not
+binder 1771:1771 <> p:42
+binder 1771:1771 <> p:43
+R1782:1784 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R1786:1788 Top.Modal_Notations <> :::'[!'_x_'!]' not
+binder 1785:1785 <> q:44
+binder 1785:1785 <> q:45
+R1812:1813 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R1831:1835 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R1814:1819 Top.Sets <> Extend abbrev
+R1821:1823 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R1826:1828 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R1824:1824 Top.Modal_Notations <> :modal::'~'_x not
+binder 1825:1825 <> p:46
+binder 1825:1825 <> p:47
+R1836:1838 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R1841:1843 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R1839:1839 Top.Modal_Notations <> :modal::'~'_x not
+binder 1840:1840 <> q:48
+binder 1840:1840 <> q:49
+R1912:1914 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R1917:1919 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R1915:1915 Top.Modal_Notations <> :modal::'~'_x not
+binder 1916:1916 <> q:50
+binder 1916:1916 <> q:51
+R1897:1905 Top.Modal_Tactics <> modal_ax5 thm
+R1912:1914 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R1917:1919 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R1915:1915 Top.Modal_Notations <> :modal::'~'_x not
+binder 1916:1916 <> q:52
+binder 1916:1916 <> q:53
+R1897:1905 Top.Modal_Tactics <> modal_ax5 thm
+R1967:1971 Top.Deductive_System <> P_ax5 constr
+R1967:1971 Top.Deductive_System <> P_ax5 constr
+R2007:2009 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R2011:2013 Top.Modal_Notations <> :::'[!'_x_'!]' not
+binder 2010:2010 <> q:54
+binder 2010:2010 <> q:55
+R1992:2000 Top.Modal_Tactics <> modal_ax6 thm
+R2007:2009 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R2011:2013 Top.Modal_Notations <> :::'[!'_x_'!]' not
+binder 2010:2010 <> q:56
+binder 2010:2010 <> q:57
+R1992:2000 Top.Modal_Tactics <> modal_ax6 thm
+R2061:2065 Top.Deductive_System <> P_ax6 constr
+R2061:2065 Top.Deductive_System <> P_ax6 constr
+R2086:2100 Top.Modal_Tactics <> modal_deduction thm
+R2086:2100 Top.Modal_Tactics <> modal_deduction thm
+R2086:2100 Top.Modal_Tactics <> modal_deduction thm
+R2174:2176 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R2178:2180 Top.Modal_Notations <> :::'[!'_x_'!]' not
+binder 2177:2177 <> q:58
+binder 2177:2177 <> q:59
+R2182:2184 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R2187:2189 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R2185:2185 Top.Modal_Notations <> :modal::'~'_x not
+binder 2186:2186 <> q:60
+binder 2186:2186 <> q:61
+R2159:2167 Top.Modal_Tactics <> modal_ax9 thm
+R2174:2176 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R2178:2180 Top.Modal_Notations <> :::'[!'_x_'!]' not
+binder 2177:2177 <> q:62
+binder 2177:2177 <> q:63
+R2182:2184 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R2187:2189 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R2185:2185 Top.Modal_Notations <> :modal::'~'_x not
+binder 2186:2186 <> q:64
+binder 2186:2186 <> q:65
+R2159:2167 Top.Modal_Tactics <> modal_ax9 thm
+R2239:2243 Top.Deductive_System <> P_ax9 constr
+R2239:2243 Top.Deductive_System <> P_ax9 constr
+R2268:2276 Top.Modal_Tactics <> modal_ax3 thm
+R2268:2276 Top.Modal_Tactics <> modal_ax3 thm
+R2334:2338 Top.Deductive_System <> P_ax3 constr
+R2334:2338 Top.Deductive_System <> P_ax3 constr
+R2395:2403 Top.Modal_Tactics <> modal_ax3 thm
+R2395:2403 Top.Modal_Tactics <> modal_ax3 thm
+R2461:2465 Top.Deductive_System <> P_ax3 constr
+R2461:2465 Top.Deductive_System <> P_ax3 constr
+R2494:2508 Top.Modal_Tactics <> modal_syllogism thm
+R2494:2508 Top.Modal_Tactics <> modal_syllogism thm
+R2573:2577 Top.Deductive_System <> P_ax1 constr
+R2573:2577 Top.Deductive_System <> P_ax1 constr
+R2635:2639 Top.Deductive_System <> P_ax2 constr
+R2635:2639 Top.Deductive_System <> P_ax2 constr
+R2700:2708 Top.Modal_Tactics <> modal_ax3 thm
+R2700:2708 Top.Modal_Tactics <> modal_ax3 thm
+R2766:2770 Top.Deductive_System <> P_ax3 constr
+R2766:2770 Top.Deductive_System <> P_ax3 constr
+R2813:2816 Top.Deductive_System <> ax10 constr
+R2818:2820 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R2823:2825 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R2821:2821 Top.Modal_Notations <> :modal::'~'_x not
+binder 2822:2822 <> q:66
+binder 2822:2822 <> q:67
+R2799:2800 Top.Deductive_System <> Ax constr
+R2813:2816 Top.Deductive_System <> ax10 constr
+R2818:2820 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R2823:2825 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R2821:2821 Top.Modal_Notations <> :modal::'~'_x not
+binder 2822:2822 <> q:68
+binder 2822:2822 <> q:69
+R2799:2800 Top.Deductive_System <> Ax constr
+R2884:2889 Top.Deductive_System <> P_ax10 constr
+R2884:2889 Top.Deductive_System <> P_ax10 constr
+R2947:2967 Top.Modal_Tactics <> modal_excluded_middle thm
+R2947:2967 Top.Modal_Tactics <> modal_excluded_middle thm
+prf 3010:3027 <> consistency_either
+binder 3039:3039 <> A:70
+R3054:3059 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3044:3049 Top.Sets <> Subset def
+R3053:3053 Top.Completeness <> A:70 var
+R3051:3051 Top.Deductive_System <> P ind
+binder 3067:3067 <> G:71
+binder 3069:3069 <> f:72
+R3088:3094 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3156:3156 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3074:3083 Top.Completeness <> Consistent def
+R3087:3087 Top.Completeness <> G:71 var
+R3085:3085 Top.Completeness <> A:70 var
+R3120:3123 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R3095:3104 Top.Completeness <> Consistent def
+R3109:3114 Top.Sets <> Extend abbrev
+R3116:3116 Top.Completeness <> f:72 var
+R3118:3118 Top.Completeness <> G:71 var
+R3106:3106 Top.Completeness <> A:70 var
+R3124:3133 Top.Completeness <> Consistent def
+R3138:3143 Top.Sets <> Extend abbrev
+R3145:3147 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R3150:3152 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R3148:3148 Top.Modal_Notations <> :modal::'~'_x not
+binder 3149:3149 <> f:73
+binder 3149:3149 <> f:74
+R3154:3154 Top.Completeness <> G:71 var
+R3135:3135 Top.Completeness <> A:70 var
+R3192:3205 Coq.Logic.Decidable <> contrapositive thm
+R3192:3205 Coq.Logic.Decidable <> contrapositive thm
+R3226:3232 Coq.Logic.Classical_Prop <> classic prfax
+R3226:3232 Coq.Logic.Classical_Prop <> classic prfax
+R3273:3276 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R3247:3247 Coq.Init.Logic <> ::type_scope:'~'_x not
+R3248:3257 Top.Completeness <> Consistent def
+R3262:3267 Top.Sets <> Extend abbrev
+R3277:3277 Coq.Init.Logic <> ::type_scope:'~'_x not
+R3278:3287 Top.Completeness <> Consistent def
+R3292:3297 Top.Sets <> Extend abbrev
+R3299:3301 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R3304:3306 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R3302:3302 Top.Modal_Notations <> :modal::'~'_x not
+binder 3303:3303 <> f:75
+binder 3303:3303 <> f:76
+R3273:3276 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R3247:3247 Coq.Init.Logic <> ::type_scope:'~'_x not
+R3248:3257 Top.Completeness <> Consistent def
+R3262:3267 Top.Sets <> Extend abbrev
+R3277:3277 Coq.Init.Logic <> ::type_scope:'~'_x not
+R3278:3287 Top.Completeness <> Consistent def
+R3292:3297 Top.Sets <> Extend abbrev
+R3299:3301 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R3304:3306 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R3302:3302 Top.Modal_Notations <> :modal::'~'_x not
+binder 3303:3303 <> f:77
+binder 3303:3303 <> f:78
+R3447:3467 Top.Completeness <> consistency_deduction thm
+R3447:3467 Top.Completeness <> consistency_deduction thm
+R3631:3639 Top.Modal_Tactics <> modal_cut thm
+R3631:3639 Top.Modal_Tactics <> modal_cut thm
+prf 3661:3680 <> consistency_negation
+binder 3692:3692 <> A:79
+R3707:3712 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3697:3702 Top.Sets <> Subset def
+R3706:3706 Top.Completeness <> A:79 var
+R3704:3704 Top.Deductive_System <> P ind
+binder 3720:3720 <> G:80
+binder 3722:3722 <> f:81
+R3741:3746 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3727:3736 Top.Completeness <> Consistent def
+R3740:3740 Top.Completeness <> G:80 var
+R3738:3738 Top.Completeness <> A:79 var
+R3773:3778 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3747:3747 Coq.Init.Logic <> ::type_scope:'~'_x not
+R3748:3757 Top.Completeness <> Consistent def
+R3762:3767 Top.Sets <> Extend abbrev
+R3769:3769 Top.Completeness <> f:81 var
+R3771:3771 Top.Completeness <> G:80 var
+R3759:3759 Top.Completeness <> A:79 var
+R3779:3788 Top.Completeness <> Consistent def
+R3793:3798 Top.Sets <> Extend abbrev
+R3800:3802 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R3805:3807 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R3803:3803 Top.Modal_Notations <> :modal::'~'_x not
+binder 3804:3804 <> f:82
+binder 3804:3804 <> f:83
+R3809:3809 Top.Completeness <> G:80 var
+R3790:3790 Top.Completeness <> A:79 var
+R3841:3858 Top.Completeness <> consistency_either thm
+R3841:3858 Top.Completeness <> consistency_either thm
+sec 3953:3964 CompletenessAll Completeness
+var 3979:3979 CompletenessAll.Completeness A
+R3987:3990 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3982:3986 Top.Deductive_System <> axiom ind
+var 4011:4021 CompletenessAll.Completeness extending_P
+R4024:4029 Top.Sets <> Subset def
+R4033:4033 Top.Completeness <> CompletenessAll.Completeness.A var
+R4031:4031 Top.Deductive_System <> P ind
+sec 4047:4056 CompletenessAll.Completeness Lindenbaum
+var 4096:4096 CompletenessAll.Completeness.Lindenbaum G
+R4099:4104 Top.Modal_Library <> theory def
+ind 4281:4286 <> Insert
+constr 4383:4393 <> Insert_skip
+constr 4504:4515 <> Insert_valid
+constr 4704:4717 <> Insert_invalid
+R4303:4306 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4289:4294 Coq.Init.Datatypes <> option ind
+R4296:4302 Top.Modal_Library <> formula ind
+R4313:4316 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4307:4312 Top.Modal_Library <> theory def
+R4317:4322 Top.Modal_Library <> theory def
+binder 4411:4411 <> D:92
+R4422:4427 Top.Sets <> Subset def
+R4432:4437 Top.Completeness <> Insert:90 ind
+R4444:4444 Top.Completeness <> D:92 var
+R4439:4442 Coq.Init.Datatypes <> None constr
+R4429:4429 Top.Completeness <> D:92 var
+binder 4533:4533 <> D:93
+binder 4535:4535 <> p:94
+R4571:4582 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4546:4555 Top.Completeness <> Consistent def
+R4560:4565 Top.Sets <> Extend abbrev
+R4567:4567 Top.Completeness <> p:94 var
+R4569:4569 Top.Completeness <> D:93 var
+R4557:4557 Top.Completeness <> CompletenessAll.Completeness.A var
+R4583:4588 Top.Sets <> Subset def
+R4604:4609 Top.Completeness <> Insert:90 ind
+R4620:4620 Top.Completeness <> D:93 var
+R4612:4615 Coq.Init.Datatypes <> Some constr
+R4617:4617 Top.Completeness <> p:94 var
+R4591:4596 Top.Sets <> Extend abbrev
+R4598:4598 Top.Completeness <> p:94 var
+R4600:4600 Top.Completeness <> D:93 var
+binder 4735:4735 <> D:95
+binder 4737:4737 <> p:96
+R4774:4785 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4748:4748 Coq.Init.Logic <> ::type_scope:'~'_x not
+R4749:4758 Top.Completeness <> Consistent def
+R4763:4768 Top.Sets <> Extend abbrev
+R4770:4770 Top.Completeness <> p:96 var
+R4772:4772 Top.Completeness <> D:95 var
+R4760:4760 Top.Completeness <> CompletenessAll.Completeness.A var
+R4786:4791 Top.Sets <> Subset def
+R4814:4819 Top.Completeness <> Insert:90 ind
+R4830:4830 Top.Completeness <> D:95 var
+R4822:4825 Coq.Init.Datatypes <> Some constr
+R4827:4827 Top.Completeness <> p:96 var
+R4794:4799 Top.Sets <> Extend abbrev
+R4801:4803 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R4806:4808 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R4804:4804 Top.Modal_Notations <> :modal::'~'_x not
+binder 4805:4805 <> p:97
+binder 4805:4805 <> p:98
+R4810:4810 Top.Completeness <> D:95 var
+scheme 4281:4286 <> Insert_ind
+scheme 4281:4286 <> Insert_sind
+def 4875:4879 <> Delta
+R4885:4887 Coq.Init.Datatypes <> nat ind
+binder 4882:4882 <> n:99
+R4891:4896 Top.Modal_Library <> theory def
+R4913:4913 Top.Completeness <> n:99 var
+R4935:4935 Top.Completeness <> CompletenessAll.Completeness.Lindenbaum.G var
+R4945:4945 Coq.Init.Datatypes <> S constr
+R4952:4957 Top.Completeness <> Insert ind
+R4971:4975 Top.Completeness <> Delta:100 def
+R4977:4977 Top.Completeness <> n:99 var
+R4960:4965 Top.Completeness <> decode prfax
+R4967:4967 Top.Completeness <> n:99 var
+def 5030:5032 <> Max
+R5035:5040 Top.Modal_Library <> theory def
+R5051:5057 Top.Sets <> UnionOf def
+R5059:5063 Top.Completeness <> Delta def
+prf 5077:5092 <> subset_of_insert
+binder 5108:5108 <> D:102
+binder 5110:5110 <> p:103
+R5119:5124 Top.Sets <> Subset def
+R5129:5134 Top.Completeness <> Insert ind
+R5138:5138 Top.Completeness <> D:102 var
+R5136:5136 Top.Completeness <> p:103 var
+R5126:5126 Top.Completeness <> D:102 var
+R5166:5171 Top.Sets <> Subset def
+R5218:5224 Coq.Logic.Classical_Prop <> classic prfax
+R5243:5254 Top.Completeness <> Insert_valid constr
+R5243:5254 Top.Completeness <> Insert_valid constr
+R5323:5336 Top.Completeness <> Insert_invalid constr
+R5323:5336 Top.Completeness <> Insert_invalid constr
+R5408:5418 Top.Completeness <> Insert_skip constr
+R5408:5418 Top.Completeness <> Insert_skip constr
+prf 5461:5479 <> delta_subset_of_max
+binder 5495:5495 <> n:104
+R5504:5509 Top.Sets <> Subset def
+R5521:5523 Top.Completeness <> Max def
+R5512:5516 Top.Completeness <> Delta def
+R5518:5518 Top.Completeness <> n:104 var
+R5550:5555 Top.Sets <> Subset def
+R5579:5581 Top.Completeness <> Max def
+R5584:5590 Top.Sets <> UnionOf def
+prf 5626:5644 <> gamma_subset_of_max
+R5653:5658 Top.Sets <> Subset def
+R5662:5664 Top.Completeness <> Max def
+R5660:5660 Top.Completeness <> CompletenessAll.Completeness.Lindenbaum.G var
+R5691:5696 Top.Sets <> Subset def
+R5720:5722 Top.Completeness <> Max def
+R5725:5731 Top.Sets <> UnionOf def
+R5747:5747 Coq.Init.Datatypes <> O constr
+R5747:5747 Coq.Init.Datatypes <> O constr
+prf 5795:5812 <> delta_is_monotonic
+binder 5828:5828 <> n:105
+binder 5830:5830 <> m:106
+R5845:5854 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5840:5843 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R5839:5839 Top.Completeness <> n:105 var
+R5844:5844 Top.Completeness <> m:106 var
+R5855:5860 Top.Sets <> Subset def
+R5873:5877 Top.Completeness <> Delta def
+R5879:5879 Top.Completeness <> m:106 var
+R5863:5867 Top.Completeness <> Delta def
+R5869:5869 Top.Completeness <> n:105 var
+R5974:5989 Top.Completeness <> subset_of_insert thm
+R5974:5989 Top.Completeness <> subset_of_insert thm
+prf 6052:6074 <> insert_contains_formula
+binder 6090:6090 <> D:107
+binder 6092:6092 <> p:108
+R6126:6129 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R6101:6106 Top.Completeness <> Insert ind
+R6119:6121 Top.Modal_Notations <> :::'[!'_x_'!]' not
 R6123:6125 Top.Modal_Notations <> :::'[!'_x_'!]' not
-R6128:6130 Top.Modal_Notations <> :::'[!'_x_'!]' not
-R6126:6126 Top.Modal_Notations <> :modal::'~'_x not
-binder 6127:6127 <> p:103
-binder 6127:6127 <> p:104
-R6121:6121 Top.Completeness <> D:99 var
-R6113:6116 Coq.Init.Datatypes <> Some constr
-R6118:6118 Top.Completeness <> p:100 var
-R6174:6180 Coq.Logic.Classical_Prop <> classic prfax
-R6211:6222 Top.Completeness <> Insert_valid constr
-R6211:6222 Top.Completeness <> Insert_valid constr
-R6259:6263 Top.Sets <> Union def
-R6334:6347 Top.Completeness <> Insert_invalid constr
-R6334:6347 Top.Completeness <> Insert_invalid constr
-R6389:6393 Top.Sets <> Union def
-prf 6455:6468 <> max_is_maximal
-binder 6484:6484 <> p:105
-R6504:6507 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
-R6493:6495 Top.Completeness <> Max def
-R6497:6499 Top.Modal_Notations <> :::'[!'_x_'!]' not
-R6501:6503 Top.Modal_Notations <> :::'[!'_x_'!]' not
-binder 6500:6500 <> p:106
-binder 6500:6500 <> p:107
-R6508:6510 Top.Completeness <> Max def
-R6512:6514 Top.Modal_Notations <> :::'[!'_x_'!]' not
-R6517:6519 Top.Modal_Notations <> :::'[!'_x_'!]' not
-R6515:6515 Top.Modal_Notations <> :modal::'~'_x not
-binder 6516:6516 <> p:108
-binder 6516:6516 <> p:109
-R6593:6597 Top.Completeness <> Delta def
-R6600:6605 Top.Completeness <> encode prfax
-R6563:6585 Top.Completeness <> insert_contains_formula thm
-R6593:6597 Top.Completeness <> Delta def
-R6600:6605 Top.Completeness <> encode prfax
-R6563:6585 Top.Completeness <> insert_contains_formula thm
-R6645:6647 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
-R6648:6653 Top.Completeness <> encode prfax
-R6645:6647 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
-R6648:6653 Top.Completeness <> encode prfax
-R6682:6690 Top.Completeness <> countable prfax
-R6682:6690 Top.Completeness <> countable prfax
-R6682:6690 Top.Completeness <> countable prfax
-R6745:6747 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
-R6748:6753 Top.Completeness <> encode prfax
-R6745:6747 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
-R6748:6753 Top.Completeness <> encode prfax
-R6782:6790 Top.Completeness <> countable prfax
-R6782:6790 Top.Completeness <> countable prfax
-R6782:6790 Top.Completeness <> countable prfax
-prf 6833:6860 <> insert_preserves_consistency
-binder 6876:6876 <> D:110
-binder 6878:6878 <> p:111
-R6901:6904 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R6887:6896 Top.Completeness <> Consistent def
-R6900:6900 Top.Completeness <> D:110 var
-R6898:6898 Top.Completeness <> Completeness.A var
-R6905:6914 Top.Completeness <> Consistent def
-R6919:6924 Top.Completeness <> Insert ind
-R6928:6928 Top.Completeness <> D:110 var
-R6926:6926 Top.Completeness <> p:111 var
-R6916:6916 Top.Completeness <> Completeness.A var
-R7006:7015 Top.Completeness <> Consistent def
-R7020:7025 Top.Sets <> Extend abbrev
-R7017:7017 Top.Completeness <> Completeness.A var
-R6992:6998 Coq.Logic.Classical_Prop <> classic prfax
-R7006:7015 Top.Completeness <> Consistent def
-R7020:7025 Top.Sets <> Extend abbrev
-R7017:7017 Top.Completeness <> Completeness.A var
-R6992:6998 Coq.Logic.Classical_Prop <> classic prfax
-R7116:7121 Top.Completeness <> Insert ind
-R7124:7127 Coq.Init.Datatypes <> Some constr
-R7093:7108 Top.Modal_Tactics <> deduction_subset thm
-R7116:7121 Top.Completeness <> Insert ind
-R7124:7127 Coq.Init.Datatypes <> Some constr
-R7093:7108 Top.Modal_Tactics <> deduction_subset thm
-R7271:7290 Top.Completeness <> consistency_negation thm
-R7271:7290 Top.Completeness <> consistency_negation thm
-R7339:7344 Top.Completeness <> Insert ind
-R7347:7350 Coq.Init.Datatypes <> Some constr
-R7316:7331 Top.Modal_Tactics <> deduction_subset thm
-R7339:7344 Top.Completeness <> Insert ind
-R7347:7350 Coq.Init.Datatypes <> Some constr
-R7316:7331 Top.Modal_Tactics <> deduction_subset thm
-R7545:7550 Top.Completeness <> Insert ind
-R7552:7555 Coq.Init.Datatypes <> None constr
-R7522:7537 Top.Modal_Tactics <> deduction_subset thm
-R7545:7550 Top.Completeness <> Insert ind
-R7552:7555 Coq.Init.Datatypes <> None constr
-R7522:7537 Top.Modal_Tactics <> deduction_subset thm
-prf 7648:7666 <> delta_is_consistent
-R7689:7698 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R7675:7684 Top.Completeness <> Consistent def
-R7688:7688 Top.Completeness <> Completeness.Lindenbaum.G var
-R7686:7686 Top.Completeness <> Completeness.A var
-binder 7706:7706 <> n:112
-R7715:7724 Top.Completeness <> Consistent def
-R7729:7733 Top.Completeness <> Delta def
-R7735:7735 Top.Completeness <> n:112 var
-R7726:7726 Top.Completeness <> Completeness.A var
-R7833:7860 Top.Completeness <> insert_preserves_consistency thm
-R7833:7860 Top.Completeness <> insert_preserves_consistency thm
-prf 8083:8100 <> find_largest_delta
-binder 8116:8116 <> p:113
-R8125:8125 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R8138:8148 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R8127:8128 Top.Deductive_System <> :::x_';'_x_'|--'_x not
-R8132:8136 Top.Deductive_System <> :::x_';'_x_'|--'_x not
-R8126:8126 Top.Completeness <> Completeness.A var
-R8129:8131 Top.Completeness <> Max def
-R8137:8137 Top.Completeness <> p:113 var
-R8149:8155 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
-R8157:8165 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
-R8182:8182 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
-binder 8156:8156 <> n:114
-R8167:8168 Top.Deductive_System <> :::x_';'_x_'|--'_x not
-R8176:8180 Top.Deductive_System <> :::x_';'_x_'|--'_x not
-R8166:8166 Top.Completeness <> Completeness.A var
-R8169:8173 Top.Completeness <> Delta def
-R8175:8175 Top.Completeness <> n:114 var
-R8181:8181 Top.Completeness <> p:113 var
-R8751:8753 Coq.Init.Peano <> max abbrev
-R8751:8753 Coq.Init.Peano <> max abbrev
-R8890:8894 Top.Completeness <> Delta def
-R8867:8882 Top.Modal_Tactics <> deduction_subset thm
-R8890:8894 Top.Completeness <> Delta def
-R8867:8882 Top.Modal_Tactics <> deduction_subset thm
-R8918:8935 Top.Completeness <> delta_is_monotonic thm
-R8918:8935 Top.Completeness <> delta_is_monotonic thm
-R9098:9102 Top.Completeness <> Delta def
-R9075:9090 Top.Modal_Tactics <> deduction_subset thm
-R9098:9102 Top.Completeness <> Delta def
-R9075:9090 Top.Modal_Tactics <> deduction_subset thm
-R9126:9143 Top.Completeness <> delta_is_monotonic thm
-R9126:9143 Top.Completeness <> delta_is_monotonic thm
-prf 9334:9350 <> max_is_consistent
-R9373:9382 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R9359:9368 Top.Completeness <> Consistent def
-R9372:9372 Top.Completeness <> Completeness.Lindenbaum.G var
-R9370:9370 Top.Completeness <> Completeness.A var
-R9383:9392 Top.Completeness <> Consistent def
-R9396:9398 Top.Completeness <> Max def
-R9394:9394 Top.Completeness <> Completeness.A var
-R9525:9542 Top.Completeness <> find_largest_delta thm
-R9646:9655 Top.Completeness <> Consistent def
-R9660:9664 Top.Completeness <> Delta def
-R9657:9657 Top.Completeness <> Completeness.A var
-R9646:9655 Top.Completeness <> Consistent def
-R9660:9664 Top.Completeness <> Delta def
-R9657:9657 Top.Completeness <> Completeness.A var
-R9685:9703 Top.Completeness <> delta_is_consistent thm
-R9685:9703 Top.Completeness <> delta_is_consistent thm
-prf 9902:9911 <> lindenbaum
-R9934:9943 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R9920:9929 Top.Completeness <> Consistent def
-R9933:9933 Top.Completeness <> Completeness.Lindenbaum.G var
-R9931:9931 Top.Completeness <> Completeness.A var
-R9944:9950 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
-R9952:9959 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
-binder 9951:9951 <> D:115
-R9974:9977 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
-R9960:9969 Top.Completeness <> Consistent def
-R9973:9973 Top.Completeness <> D:115 var
-R9971:9971 Top.Completeness <> Completeness.A var
-R9987:9990 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
-R9978:9984 Top.Completeness <> Maximal def
-R9986:9986 Top.Completeness <> D:115 var
-R9991:9996 Top.Sets <> Subset def
-R10000:10000 Top.Completeness <> D:115 var
-R9998:9998 Top.Completeness <> Completeness.Lindenbaum.G var
-R10041:10043 Top.Completeness <> Max def
-R10041:10043 Top.Completeness <> Max def
-R10067:10083 Top.Completeness <> max_is_consistent thm
-R10067:10083 Top.Completeness <> max_is_consistent thm
-R10137:10150 Top.Completeness <> max_is_maximal thm
-R10137:10150 Top.Completeness <> max_is_maximal thm
-R10169:10187 Top.Completeness <> gamma_subset_of_max thm
-R10169:10187 Top.Completeness <> gamma_subset_of_max thm
-R10206:10215 Top.Completeness Completeness.Lindenbaum <> sec
-sec 10229:10242 Completeness CanonicalModel
-var 10261:10271 Completeness.CanonicalModel extending_K
-binder 10281:10283 <> idx:116
-R10286:10291 Top.Sets <> Subset def
-R10301:10301 Top.Completeness <> Completeness.A var
-R10294:10294 Top.Deductive_System <> K ind
-R10296:10298 Top.Completeness <> idx:116 var
-ind 10319:10319 <> W
-constr 10338:10341 <> W_mk
-binder 10343:10343 <> D:120
-R10360:10363 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R10346:10355 Top.Completeness <> Consistent def
-R10359:10359 Top.Completeness <> D:120 var
-R10357:10357 Top.Completeness <> Completeness.A var
-R10373:10376 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R10364:10370 Top.Completeness <> Maximal def
-R10372:10372 Top.Completeness <> D:120 var
-R10377:10377 Top.Completeness <> W:118 ind
-scheme 10319:10319 <> W_rect
-scheme 10319:10319 <> W_ind
-scheme 10319:10319 <> W_rec
-scheme 10319:10319 <> W_sind
-def 10396:10398 <> wit
-R10404:10404 Top.Completeness <> W ind
-binder 10401:10401 <> w:121
-R10411:10417 Top.Modal_Library <> formula ind
-binder 10408:10408 <> p:122
-R10441:10441 Top.Completeness <> w:121 var
-R10457:10460 Top.Completeness <> W_mk constr
-R10473:10473 Top.Completeness <> p:122 var
-R10498:10525 Top.Completeness <> wit def
-def 10544:10566 <> canonical_accessibility
-binder 10568:10570 <> idx:124
-R10573:10580 Coq.Relations.Relation_Definitions <> relation def
-R10582:10582 Top.Completeness <> W ind
-binder 10597:10597 <> w:125
-binder 10599:10599 <> v:126
-binder 10619:10619 <> p:127
-R10636:10639 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R10622:10622 Top.Completeness <> w:125 var
-R10624:10626 Top.Modal_Notations <> :::'[!'_x_'!]' not
-R10633:10635 Top.Modal_Notations <> :::'[!'_x_'!]' not
-R10627:10627 Top.Modal_Notations <> :modal::'['_x_']'_x not
-R10631:10631 Top.Modal_Notations <> :modal::'['_x_']'_x not
-binder 10628:10630 <> idx:128
-binder 10628:10630 <> idx:129
-binder 10632:10632 <> p:130
-binder 10632:10632 <> p:131
-R10640:10640 Top.Completeness <> v:126 var
-R10642:10642 Top.Completeness <> p:127 var
-abbrev 10665:10665 <> R
-R10670:10692 Top.Completeness <> canonical_accessibility def
-def 10711:10725 <> canonical_frame
-R10736:10746 Top.Modal_Library <> Build_Frame constr
-R10748:10748 Top.Completeness <> W ind
-R10750:10750 Top.Completeness <> R abbrev
-abbrev 10773:10773 <> F
-R10778:10792 Top.Completeness <> canonical_frame def
-def 10811:10829 <> canonical_valuation
-R10835:10838 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R10832:10834 Coq.Init.Datatypes <> nat ind
-R10840:10843 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R10839:10839 Top.Completeness <> W ind
-binder 10862:10862 <> p:132
-binder 10864:10864 <> w:133
-R10877:10877 Top.Completeness <> w:133 var
-R10879:10881 Top.Modal_Notations <> :::'[!'_x_'!]' not
-R10884:10886 Top.Modal_Notations <> :::'[!'_x_'!]' not
-R10882:10882 Top.Modal_Notations <> :modal::'#'_x not
-R10883:10883 Top.Completeness <> p:132 var
-abbrev 10909:10909 <> V
-R10914:10932 Top.Completeness <> canonical_valuation def
-def 10951:10965 <> canonical_model
-R10976:10976 Top.Modal_Notations <> :::'['_x_'--'_x_']' not
-R10978:10981 Top.Modal_Notations <> :::'['_x_'--'_x_']' not
-R10983:10983 Top.Modal_Notations <> :::'['_x_'--'_x_']' not
-R10977:10977 Top.Completeness <> F abbrev
-R10982:10982 Top.Completeness <> V abbrev
-abbrev 11006:11006 <> M
-R11011:11025 Top.Completeness <> canonical_model def
-ind 11043:11059 <> existential_world
-constr 11100:11119 <> existential_world_mk
-R11065:11065 Top.Completeness <> W ind
-binder 11062:11062 <> w:134
-binder 11068:11070 <> idx:135
-R11080:11083 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R11073:11079 Top.Modal_Library <> formula ind
-binder 11137:11137 <> x:138
-R11162:11173 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R11148:11148 Top.Completeness <> w:134 var
-R11150:11152 Top.Modal_Notations <> :::'[!'_x_'!]' not
-R11159:11161 Top.Modal_Notations <> :::'[!'_x_'!]' not
-R11153:11153 Top.Modal_Notations <> :modal::'['_x_']'_x not
-R11157:11157 Top.Modal_Notations <> :modal::'['_x_']'_x not
-binder 11154:11156 <> idx:139
-binder 11154:11156 <> idx:140
-binder 11158:11158 <> x:141
-binder 11158:11158 <> x:142
-R11174:11190 Top.Completeness <> existential_world:136 ind
-R11198:11198 Top.Completeness <> x:138 var
-R11194:11196 Top.Completeness <> idx:135 var
-R11192:11192 Top.Completeness <> w:134 var
-scheme 11043:11059 <> existential_world_ind
-scheme 11043:11059 <> existential_world_sind
-R11264:11264 Top.Completeness <> Completeness.A var
-R11264:11264 Top.Completeness <> Completeness.A var
-R11286:11296 Top.Completeness <> Completeness.extending_P var
-prf 11341:11352 <> finite_world
-binder 11368:11368 <> G:143
-binder 11370:11370 <> p:144
-R11379:11379 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R11390:11400 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R11381:11382 Top.Deductive_System <> :::x_';'_x_'|--'_x not
-R11384:11388 Top.Deductive_System <> :::x_';'_x_'|--'_x not
-R11380:11380 Top.Completeness <> Completeness.A var
-R11383:11383 Top.Completeness <> G:143 var
-R11389:11389 Top.Completeness <> p:144 var
-R11401:11408 Coq.Init.Logic <> ::type_scope:'exists2'_x_':'_x_','_x_'&'_x not
-R11411:11412 Coq.Init.Logic <> ::type_scope:'exists2'_x_':'_x_','_x_'&'_x not
-R11425:11433 Coq.Init.Logic <> ::type_scope:'exists2'_x_':'_x_','_x_'&'_x not
-R11449:11452 Coq.Init.Logic <> ::type_scope:'exists2'_x_':'_x_','_x_'&'_x not
-R11413:11416 Coq.Init.Datatypes <> list ind
-R11418:11424 Top.Modal_Library <> formula ind
-binder 11409:11410 <> ps:145
-R11435:11436 Top.Deductive_System <> :::x_';'_x_'|--'_x not
-R11443:11447 Top.Deductive_System <> :::x_';'_x_'|--'_x not
-R11434:11434 Top.Completeness <> Completeness.A var
-R11437:11439 Top.Sets <> Fin def
-R11441:11442 Top.Completeness <> ps:145 var
-R11448:11448 Top.Completeness <> p:144 var
-binder 11409:11410 <> ps:146
-R11453:11458 Top.Sets <> Subset def
-R11469:11469 Top.Completeness <> G:143 var
-R11461:11463 Top.Sets <> Fin def
-R11465:11466 Top.Completeness <> ps:146 var
-R11517:11517 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
-R11519:11519 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
-R11517:11517 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
-R11519:11519 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
-R11538:11541 Top.Deductive_System <> Prem constr
-R11538:11541 Top.Deductive_System <> Prem constr
-R11674:11676 Coq.Init.Datatypes <> nil constr
-R11674:11676 Coq.Init.Datatypes <> nil constr
-R11699:11700 Top.Deductive_System <> Ax constr
-R11699:11700 Top.Deductive_System <> Ax constr
-R11912:11915 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
-R11912:11915 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
-R11938:11939 Top.Deductive_System <> Mp constr
-R11938:11939 Top.Deductive_System <> Mp constr
-R11984:11986 Top.Sets <> Fin def
-R11961:11976 Top.Modal_Tactics <> deduction_subset thm
-R11984:11986 Top.Sets <> Fin def
-R11961:11976 Top.Modal_Tactics <> deduction_subset thm
-R12042:12050 Coq.Lists.List <> in_or_app thm
-R12042:12050 Coq.Lists.List <> in_or_app thm
-R12137:12139 Top.Sets <> Fin def
-R12114:12129 Top.Modal_Tactics <> deduction_subset thm
-R12137:12139 Top.Sets <> Fin def
-R12114:12129 Top.Modal_Tactics <> deduction_subset thm
-R12195:12203 Coq.Lists.List <> in_or_app thm
-R12195:12203 Coq.Lists.List <> in_or_app thm
-R12287:12295 Coq.Lists.List <> in_app_or thm
-R12287:12295 Coq.Lists.List <> in_app_or thm
-R12451:12453 Coq.Init.Datatypes <> nil constr
-R12451:12453 Coq.Init.Datatypes <> nil constr
-R12476:12478 Top.Deductive_System <> Nec constr
-R12476:12478 Top.Deductive_System <> Nec constr
-prf 12524:12536 <> finite_spread
-binder 12552:12553 <> ps:147
-binder 12555:12555 <> p:148
-R12564:12564 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R12580:12591 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R12628:12628 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R12566:12567 Top.Deductive_System <> :::x_';'_x_'|--'_x not
-R12574:12578 Top.Deductive_System <> :::x_';'_x_'|--'_x not
-R12565:12565 Top.Completeness <> Completeness.A var
-R12568:12570 Top.Sets <> Fin def
-R12572:12573 Top.Completeness <> ps:147 var
-R12579:12579 Top.Completeness <> p:148 var
-R12593:12594 Top.Deductive_System <> :::x_';'_x_'|--'_x not
-R12600:12604 Top.Deductive_System <> :::x_';'_x_'|--'_x not
-R12592:12592 Top.Completeness <> Completeness.A var
-R12595:12599 Top.Sets <> Empty def
-R12605:12614 Coq.Lists.List <> fold_right def
-R12626:12627 Top.Completeness <> ps:147 var
-R12624:12624 Top.Completeness <> p:148 var
-R12616:12622 Top.Modal_Library <> Implies constr
-R12667:12673 Coq.Lists.List <> rev_ind thm
-R12667:12673 Coq.Lists.List <> rev_ind thm
-R12728:12729 Top.Deductive_System <> :::x_';'_x_'|--'_x not
-R12747:12751 Top.Deductive_System <> :::x_';'_x_'|--'_x not
-R12727:12727 Top.Completeness <> Completeness.A var
-R12730:12735 Top.Sets <> Extend abbrev
-R12740:12742 Top.Sets <> Fin def
-R12728:12729 Top.Deductive_System <> :::x_';'_x_'|--'_x not
-R12747:12751 Top.Deductive_System <> :::x_';'_x_'|--'_x not
-R12727:12727 Top.Completeness <> Completeness.A var
-R12730:12735 Top.Sets <> Extend abbrev
-R12740:12742 Top.Sets <> Fin def
-R12795:12797 Top.Sets <> Fin def
-R12802:12805 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
-R12806:12806 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
-R12808:12808 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
-R12772:12787 Top.Modal_Tactics <> deduction_subset thm
-R12795:12797 Top.Sets <> Fin def
-R12802:12805 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
-R12806:12806 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
-R12808:12808 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
-R12772:12787 Top.Modal_Tactics <> deduction_subset thm
-R12857:12865 Coq.Lists.List <> in_app_or thm
-R12857:12865 Coq.Lists.List <> in_app_or thm
-R13014:13028 Top.Modal_Tactics <> modal_deduction thm
-R13014:13028 Top.Modal_Tactics <> modal_deduction thm
-R13070:13072 Top.Modal_Notations <> :::'[!'_x_'!]' not
-R13079:13081 Top.Modal_Notations <> :::'[!'_x_'!]' not
-R13074:13077 Top.Modal_Notations <> :modal::x_'->'_x not
-binder 13073:13073 <> x:149
-binder 13073:13073 <> x:150
-binder 13078:13078 <> p:151
-binder 13078:13078 <> p:152
-R13070:13072 Top.Modal_Notations <> :::'[!'_x_'!]' not
-R13079:13081 Top.Modal_Notations <> :::'[!'_x_'!]' not
-R13074:13077 Top.Modal_Notations <> :modal::x_'->'_x not
-binder 13073:13073 <> x:153
-binder 13073:13073 <> x:154
-binder 13078:13078 <> p:155
-binder 13078:13078 <> p:156
-R13106:13119 Coq.Lists.List <> fold_right_app thm
-R13106:13119 Coq.Lists.List <> fold_right_app thm
-R13106:13119 Coq.Lists.List <> fold_right_app thm
-prf 13171:13194 <> existential_modus_ponens
-R13214:13214 Top.Completeness <> W ind
-binder 13211:13211 <> w:157
-binder 13217:13217 <> p:158
-binder 13219:13220 <> ps:159
-binder 13222:13224 <> idx:160
-R13233:13233 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R13269:13279 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-binder 13241:13241 <> q:161
-R13251:13254 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R13244:13245 Coq.Lists.List <> In def
-R13249:13250 Top.Completeness <> ps:159 var
-R13247:13247 Top.Completeness <> q:161 var
-R13255:13255 Top.Completeness <> w:157 var
-R13257:13259 Top.Modal_Notations <> :::'[!'_x_'!]' not
-R13266:13268 Top.Modal_Notations <> :::'[!'_x_'!]' not
-R13260:13260 Top.Modal_Notations <> :modal::'['_x_']'_x not
-R13264:13264 Top.Modal_Notations <> :modal::'['_x_']'_x not
-binder 13261:13263 <> idx:162
-binder 13261:13263 <> idx:163
-binder 13265:13265 <> q:164
-binder 13265:13265 <> q:165
-R13280:13280 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R13323:13334 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R13356:13356 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R13282:13283 Top.Deductive_System <> :::x_';'_x_'|--'_x not
-R13285:13289 Top.Deductive_System <> :::x_';'_x_'|--'_x not
-R13281:13281 Top.Completeness <> Completeness.A var
-R13284:13284 Top.Completeness <> w:157 var
-R13290:13292 Top.Modal_Library <> Box constr
-R13294:13296 Top.Completeness <> idx:160 var
-R13299:13308 Coq.Lists.List <> fold_right def
-R13320:13321 Top.Completeness <> ps:159 var
-R13318:13318 Top.Completeness <> p:158 var
-R13310:13316 Top.Modal_Library <> Implies constr
-R13336:13337 Top.Deductive_System <> :::x_';'_x_'|--'_x not
-R13339:13343 Top.Deductive_System <> :::x_';'_x_'|--'_x not
-R13335:13335 Top.Completeness <> Completeness.A var
-R13338:13338 Top.Completeness <> w:157 var
-R13344:13346 Top.Modal_Notations <> :::'[!'_x_'!]' not
-R13353:13355 Top.Modal_Notations <> :::'[!'_x_'!]' not
-R13347:13347 Top.Modal_Notations <> :modal::'['_x_']'_x not
-R13351:13351 Top.Modal_Notations <> :modal::'['_x_']'_x not
-binder 13348:13350 <> idx:166
-binder 13348:13350 <> idx:167
-binder 13352:13352 <> p:168
-binder 13352:13352 <> p:169
-R13567:13575 Top.Modal_Tactics <> modal_axK thm
-R13567:13575 Top.Modal_Tactics <> modal_axK thm
-R13610:13612 Top.Modal_Notations <> :::'[!'_x_'!]' not
-R13619:13621 Top.Modal_Notations <> :::'[!'_x_'!]' not
-R13613:13613 Top.Modal_Notations <> :modal::'['_x_']'_x not
-R13617:13617 Top.Modal_Notations <> :modal::'['_x_']'_x not
-binder 13614:13616 <> idx:170
-binder 13614:13616 <> idx:171
-binder 13618:13618 <> a:172
-binder 13618:13618 <> a:173
-R13602:13603 Top.Deductive_System <> Mp constr
-R13610:13612 Top.Modal_Notations <> :::'[!'_x_'!]' not
-R13619:13621 Top.Modal_Notations <> :::'[!'_x_'!]' not
-R13613:13613 Top.Modal_Notations <> :modal::'['_x_']'_x not
-R13617:13617 Top.Modal_Notations <> :modal::'['_x_']'_x not
-binder 13614:13616 <> idx:174
-binder 13614:13616 <> idx:175
-binder 13618:13618 <> a:176
-binder 13618:13618 <> a:177
-R13602:13603 Top.Deductive_System <> Mp constr
-R13724:13734 Top.Completeness <> Completeness.CanonicalModel.extending_K var
-R13724:13734 Top.Completeness <> Completeness.CanonicalModel.extending_K var
-R13764:13768 Top.Deductive_System <> K_axK constr
-R13764:13768 Top.Deductive_System <> K_axK constr
-prf 13791:13818 <> existential_world_consistent
-binder 13834:13834 <> p:178
-R13840:13840 Top.Completeness <> W ind
-binder 13837:13837 <> w:179
-binder 13843:13845 <> idx:180
-R13869:13878 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R13854:13854 Top.Completeness <> w:179 var
-R13856:13858 Top.Modal_Notations <> :::'[!'_x_'!]' not
-R13866:13868 Top.Modal_Notations <> :::'[!'_x_'!]' not
-R13859:13859 Top.Modal_Notations <> :modal::'~'_x not
-R13860:13860 Top.Modal_Notations <> :modal::'['_x_']'_x not
-R13864:13864 Top.Modal_Notations <> :modal::'['_x_']'_x not
-binder 13861:13863 <> idx:181
-binder 13861:13863 <> idx:182
-binder 13865:13865 <> p:183
-binder 13865:13865 <> p:184
-R13879:13888 Top.Completeness <> Consistent def
-R13893:13898 Top.Sets <> Extend abbrev
-R13900:13902 Top.Modal_Notations <> :::'[!'_x_'!]' not
-R13905:13907 Top.Modal_Notations <> :::'[!'_x_'!]' not
-R13903:13903 Top.Modal_Notations <> :modal::'~'_x not
-binder 13904:13904 <> p:185
-binder 13904:13904 <> p:186
-R13910:13926 Top.Completeness <> existential_world ind
-R13930:13932 Top.Completeness <> idx:180 var
-R13928:13928 Top.Completeness <> w:179 var
-R13890:13890 Top.Completeness <> Completeness.A var
-R14008:14024 Top.Completeness <> existential_world ind
-R14008:14024 Top.Completeness <> existential_world ind
-R14136:14150 Top.Modal_Tactics <> modal_deduction thm
-R14136:14150 Top.Modal_Tactics <> modal_deduction thm
-R14245:14281 Top.Modal_Tactics <> modal_implies_absurd_derives_negation thm
-R14245:14281 Top.Modal_Tactics <> modal_implies_absurd_derives_negation thm
-R14309:14310 Top.Deductive_System <> Mp constr
-R14380:14383 Top.Deductive_System <> ax10 constr
-R14366:14367 Top.Deductive_System <> Ax constr
-R14309:14310 Top.Deductive_System <> Mp constr
-R14380:14383 Top.Deductive_System <> ax10 constr
-R14366:14367 Top.Deductive_System <> Ax constr
-R14507:14518 Top.Completeness <> finite_world thm
-R14507:14518 Top.Completeness <> finite_world thm
-R14685:14697 Top.Completeness <> finite_spread thm
-R14685:14697 Top.Completeness <> finite_spread thm
-R14797:14799 Top.Deductive_System <> Nec constr
-R14797:14799 Top.Deductive_System <> Nec constr
-R14889:14912 Top.Completeness <> existential_modus_ponens thm
-R14889:14912 Top.Completeness <> existential_modus_ponens thm
-R14945:14954 Top.Completeness <> Consistent def
-R14956:14956 Top.Completeness <> Completeness.A var
-R14945:14954 Top.Completeness <> Consistent def
-R14956:14956 Top.Completeness <> Completeness.A var
-R15002:15004 Top.Modal_Notations <> :::'[!'_x_'!]' not
-R15011:15013 Top.Modal_Notations <> :::'[!'_x_'!]' not
-R15005:15005 Top.Modal_Notations <> :modal::'['_x_']'_x not
-R15009:15009 Top.Modal_Notations <> :modal::'['_x_']'_x not
-binder 15006:15008 <> idx:187
-binder 15006:15008 <> idx:188
-binder 15010:15010 <> p:189
-binder 15010:15010 <> p:190
-R15002:15004 Top.Modal_Notations <> :::'[!'_x_'!]' not
-R15011:15013 Top.Modal_Notations <> :::'[!'_x_'!]' not
-R15005:15005 Top.Modal_Notations <> :modal::'['_x_']'_x not
-R15009:15009 Top.Modal_Notations <> :modal::'['_x_']'_x not
-binder 15006:15008 <> idx:191
-binder 15006:15008 <> idx:192
-binder 15010:15010 <> p:193
-binder 15010:15010 <> p:194
-R15030:15038 Top.Modal_Tactics <> modal_ax4 thm
-R15030:15038 Top.Modal_Tactics <> modal_ax4 thm
-prf 15224:15234 <> existential
-R15254:15254 Top.Completeness <> W ind
-binder 15251:15251 <> w:195
-binder 15257:15257 <> p:196
-binder 15259:15261 <> idx:197
-R15285:15294 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R15270:15270 Top.Completeness <> w:195 var
-R15272:15274 Top.Modal_Notations <> :::'[!'_x_'!]' not
-R15282:15284 Top.Modal_Notations <> :::'[!'_x_'!]' not
-R15275:15275 Top.Modal_Notations <> :modal::'~'_x not
-R15276:15276 Top.Modal_Notations <> :modal::'['_x_']'_x not
-R15280:15280 Top.Modal_Notations <> :modal::'['_x_']'_x not
-binder 15277:15279 <> idx:198
-binder 15277:15279 <> idx:199
-binder 15281:15281 <> p:200
-binder 15281:15281 <> p:201
-R15295:15302 Coq.Init.Logic <> ::type_scope:'exists2'_x_','_x_'&'_x not
-R15305:15312 Coq.Init.Logic <> ::type_scope:'exists2'_x_','_x_'&'_x not
-R15323:15325 Coq.Init.Logic <> ::type_scope:'exists2'_x_','_x_'&'_x not
-binder 15303:15304 <> w':202
-R15313:15313 Top.Completeness <> R abbrev
-R15321:15322 Top.Completeness <> w':202 var
-R15319:15319 Top.Completeness <> w:195 var
-R15315:15317 Top.Completeness <> idx:197 var
-binder 15303:15304 <> w':203
-R15326:15327 Top.Completeness <> w':203 var
-R15329:15331 Top.Modal_Notations <> :::'[!'_x_'!]' not
-R15334:15336 Top.Modal_Notations <> :::'[!'_x_'!]' not
-R15332:15332 Top.Modal_Notations <> :modal::'~'_x not
-binder 15333:15333 <> p:204
-binder 15333:15333 <> p:205
-R15453:15458 Top.Sets <> Extend abbrev
-R15460:15462 Top.Modal_Notations <> :::'[!'_x_'!]' not
-R15465:15467 Top.Modal_Notations <> :::'[!'_x_'!]' not
-R15463:15463 Top.Modal_Notations <> :modal::'~'_x not
-binder 15464:15464 <> p:206
-binder 15464:15464 <> p:207
-R15470:15486 Top.Completeness <> existential_world ind
-R15453:15458 Top.Sets <> Extend abbrev
-R15460:15462 Top.Modal_Notations <> :::'[!'_x_'!]' not
-R15465:15467 Top.Modal_Notations <> :::'[!'_x_'!]' not
-R15463:15463 Top.Modal_Notations <> :modal::'~'_x not
-binder 15464:15464 <> p:208
-binder 15464:15464 <> p:209
-R15470:15486 Top.Completeness <> existential_world ind
-R15512:15521 Top.Completeness <> lindenbaum thm
-R15512:15521 Top.Completeness <> lindenbaum thm
-R15565:15592 Top.Completeness <> existential_world_consistent thm
-R15565:15592 Top.Completeness <> existential_world_consistent thm
-R15631:15634 Top.Completeness <> W_mk constr
-R15631:15634 Top.Completeness <> W_mk constr
-R15661:15661 Top.Completeness <> canonical_accessibility def
-prf 15824:15828 <> truth
-binder 15844:15844 <> p:210
-binder 15846:15846 <> w:211
-R15855:15855 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
-R15867:15873 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
-R15877:15877 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
-R15857:15859 Top.Modal_Notations <> :::x_''''_x_'||-'_x not
-R15861:15865 Top.Modal_Notations <> :::x_''''_x_'||-'_x not
-R15856:15856 Top.Completeness <> M abbrev
-R15860:15860 Top.Completeness <> w:211 var
-R15866:15866 Top.Completeness <> p:210 var
-R15874:15874 Top.Completeness <> w:211 var
-R15876:15876 Top.Completeness <> p:210 var
-R16061:16061 Coq.Init.Logic <> ::type_scope:'~'_x not
-R16061:16061 Coq.Init.Logic <> ::type_scope:'~'_x not
-R16098:16104 Top.Completeness <> Maximal def
-R16098:16104 Top.Completeness <> Maximal def
-R16275:16284 Top.Completeness <> Consistent def
-R16286:16286 Top.Completeness <> Completeness.A var
-R16275:16284 Top.Completeness <> Consistent def
-R16286:16286 Top.Completeness <> Completeness.A var
-R16353:16361 Top.Modal_Tactics <> modal_ax4 thm
-R16353:16361 Top.Modal_Tactics <> modal_ax4 thm
-R16498:16504 Coq.Logic.Classical_Prop <> classic prfax
-R16567:16573 Top.Completeness <> Maximal def
-R16567:16573 Top.Completeness <> Maximal def
-R16617:16619 Top.Modal_Notations <> :::'[!'_x_'!]' not
-R16626:16628 Top.Modal_Notations <> :::'[!'_x_'!]' not
-R16620:16620 Top.Modal_Notations <> :modal::'~'_x not
-R16621:16621 Top.Modal_Notations <> :modal::'['_x_']'_x not
-R16623:16624 Top.Modal_Notations <> :modal::'['_x_']'_x not
-binder 16622:16622 <> m:212
-binder 16622:16622 <> m:213
-binder 16625:16625 <> p:214
-binder 16625:16625 <> p:215
-R16617:16619 Top.Modal_Notations <> :::'[!'_x_'!]' not
-R16626:16628 Top.Modal_Notations <> :::'[!'_x_'!]' not
-R16620:16620 Top.Modal_Notations <> :modal::'~'_x not
-R16621:16621 Top.Modal_Notations <> :modal::'['_x_']'_x not
-R16623:16624 Top.Modal_Notations <> :modal::'['_x_']'_x not
-binder 16622:16622 <> m:216
-binder 16622:16622 <> m:217
-binder 16625:16625 <> p:218
-binder 16625:16625 <> p:219
-R16665:16675 Top.Completeness <> existential thm
-R16665:16675 Top.Completeness <> existential thm
-R16785:16794 Top.Completeness <> Consistent def
-R16796:16796 Top.Completeness <> Completeness.A var
-R16785:16794 Top.Completeness <> Consistent def
-R16796:16796 Top.Completeness <> Completeness.A var
-R16865:16873 Top.Modal_Tactics <> modal_ax4 thm
-R16865:16873 Top.Modal_Tactics <> modal_ax4 thm
-R17120:17126 Top.Completeness <> Maximal def
-R17120:17126 Top.Completeness <> Maximal def
-R17165:17165 Top.Completeness <> canonical_accessibility def
-R17198:17200 Top.Modal_Notations <> :::'[!'_x_'!]' not
-R17205:17207 Top.Modal_Notations <> :::'[!'_x_'!]' not
-R17201:17201 Top.Modal_Notations <> :modal::'<'_x_'>'_x not
-R17203:17203 Top.Modal_Notations <> :modal::'<'_x_'>'_x not
-binder 17202:17202 <> m:220
-binder 17202:17202 <> m:221
-binder 17204:17204 <> p:222
-binder 17204:17204 <> p:223
-R17198:17200 Top.Modal_Notations <> :::'[!'_x_'!]' not
-R17205:17207 Top.Modal_Notations <> :::'[!'_x_'!]' not
-R17201:17201 Top.Modal_Notations <> :modal::'<'_x_'>'_x not
-R17203:17203 Top.Modal_Notations <> :modal::'<'_x_'>'_x not
-binder 17202:17202 <> m:224
-binder 17202:17202 <> m:225
-binder 17204:17204 <> p:226
-binder 17204:17204 <> p:227
-R17278:17280 Top.Modal_Notations <> :::'[!'_x_'!]' not
-R17286:17288 Top.Modal_Notations <> :::'[!'_x_'!]' not
-R17281:17281 Top.Modal_Notations <> :modal::'['_x_']'_x not
-R17283:17283 Top.Modal_Notations <> :modal::'['_x_']'_x not
-binder 17282:17282 <> m:228
-binder 17282:17282 <> m:229
-R17284:17284 Top.Modal_Notations <> :modal::'~'_x not
-binder 17285:17285 <> p:230
-binder 17285:17285 <> p:231
-R17278:17280 Top.Modal_Notations <> :::'[!'_x_'!]' not
-R17286:17288 Top.Modal_Notations <> :::'[!'_x_'!]' not
-R17281:17281 Top.Modal_Notations <> :modal::'['_x_']'_x not
-R17283:17283 Top.Modal_Notations <> :modal::'['_x_']'_x not
-binder 17282:17282 <> m:232
-binder 17282:17282 <> m:233
-R17284:17284 Top.Modal_Notations <> :modal::'~'_x not
-binder 17285:17285 <> p:234
-binder 17285:17285 <> p:235
-R17311:17320 Top.Completeness <> Consistent def
-R17322:17322 Top.Completeness <> Completeness.A var
-R17311:17320 Top.Completeness <> Consistent def
-R17322:17322 Top.Completeness <> Completeness.A var
-R17374:17376 Top.Modal_Notations <> :::'[!'_x_'!]' not
-R17379:17381 Top.Modal_Notations <> :::'[!'_x_'!]' not
-R17377:17377 Top.Modal_Notations <> :modal::'~'_x not
-binder 17378:17378 <> p:236
-binder 17378:17378 <> p:237
-R17374:17376 Top.Modal_Notations <> :::'[!'_x_'!]' not
-R17379:17381 Top.Modal_Notations <> :::'[!'_x_'!]' not
-R17377:17377 Top.Modal_Notations <> :modal::'~'_x not
-binder 17378:17378 <> p:238
-binder 17378:17378 <> p:239
-R17414:17416 Top.Modal_Notations <> :::'[!'_x_'!]' not
-R17418:17420 Top.Modal_Notations <> :::'[!'_x_'!]' not
-binder 17417:17417 <> p:240
-binder 17417:17417 <> p:241
-R17414:17416 Top.Modal_Notations <> :::'[!'_x_'!]' not
-R17418:17420 Top.Modal_Notations <> :::'[!'_x_'!]' not
-binder 17417:17417 <> p:242
-binder 17417:17417 <> p:243
-R17441:17449 Top.Modal_Tactics <> modal_ax4 thm
-R17441:17449 Top.Modal_Tactics <> modal_ax4 thm
-R17544:17553 Top.Completeness <> Consistent def
-R17555:17555 Top.Completeness <> Completeness.A var
-R17544:17553 Top.Completeness <> Consistent def
-R17555:17555 Top.Completeness <> Completeness.A var
-R17605:17607 Top.Modal_Notations <> :::'[!'_x_'!]' not
-R17612:17614 Top.Modal_Notations <> :::'[!'_x_'!]' not
-R17608:17608 Top.Modal_Notations <> :modal::'<'_x_'>'_x not
-R17610:17610 Top.Modal_Notations <> :modal::'<'_x_'>'_x not
-binder 17609:17609 <> m:244
-binder 17609:17609 <> m:245
-binder 17611:17611 <> p:246
-binder 17611:17611 <> p:247
-R17605:17607 Top.Modal_Notations <> :::'[!'_x_'!]' not
-R17612:17614 Top.Modal_Notations <> :::'[!'_x_'!]' not
-R17608:17608 Top.Modal_Notations <> :modal::'<'_x_'>'_x not
-R17610:17610 Top.Modal_Notations <> :modal::'<'_x_'>'_x not
-binder 17609:17609 <> m:248
-binder 17609:17609 <> m:249
-binder 17611:17611 <> p:250
-binder 17611:17611 <> p:251
-R17635:17643 Top.Modal_Tactics <> modal_ax4 thm
-R17635:17643 Top.Modal_Tactics <> modal_ax4 thm
-R17670:17681 Top.Modal_Tactics <> modal_axDual thm
-R17670:17681 Top.Modal_Tactics <> modal_axDual thm
-R17710:17720 Top.Completeness <> Completeness.CanonicalModel.extending_K var
-R17710:17720 Top.Completeness <> Completeness.CanonicalModel.extending_K var
-R17853:17855 Top.Modal_Notations <> :::'[!'_x_'!]' not
-R17858:17860 Top.Modal_Notations <> :::'[!'_x_'!]' not
-R17856:17856 Top.Modal_Notations <> :modal::'~'_x not
-binder 17857:17857 <> p:252
-binder 17857:17857 <> p:253
-R17834:17844 Top.Completeness <> existential thm
-R17853:17855 Top.Modal_Notations <> :::'[!'_x_'!]' not
-R17858:17860 Top.Modal_Notations <> :::'[!'_x_'!]' not
-R17856:17856 Top.Modal_Notations <> :modal::'~'_x not
-binder 17857:17857 <> p:254
-binder 17857:17857 <> p:255
-R17834:17844 Top.Completeness <> existential thm
-R17903:17909 Top.Completeness <> Maximal def
-R17903:17909 Top.Completeness <> Maximal def
-R17951:17960 Top.Completeness <> Consistent def
-R17962:17962 Top.Completeness <> Completeness.A var
-R17951:17960 Top.Completeness <> Consistent def
-R17962:17962 Top.Completeness <> Completeness.A var
-R18013:18015 Top.Modal_Notations <> :::'[!'_x_'!]' not
-R18021:18023 Top.Modal_Notations <> :::'[!'_x_'!]' not
-R18016:18016 Top.Modal_Notations <> :modal::'['_x_']'_x not
-R18018:18018 Top.Modal_Notations <> :modal::'['_x_']'_x not
-binder 18017:18017 <> m:256
-binder 18017:18017 <> m:257
-R18019:18019 Top.Modal_Notations <> :modal::'~'_x not
-binder 18020:18020 <> p:258
-binder 18020:18020 <> p:259
-R18013:18015 Top.Modal_Notations <> :::'[!'_x_'!]' not
-R18021:18023 Top.Modal_Notations <> :::'[!'_x_'!]' not
-R18016:18016 Top.Modal_Notations <> :modal::'['_x_']'_x not
-R18018:18018 Top.Modal_Notations <> :modal::'['_x_']'_x not
-binder 18017:18017 <> m:260
-binder 18017:18017 <> m:261
-R18019:18019 Top.Modal_Notations <> :modal::'~'_x not
-binder 18020:18020 <> p:262
-binder 18020:18020 <> p:263
-R18073:18075 Top.Modal_Notations <> :::'[!'_x_'!]' not
-R18081:18083 Top.Modal_Notations <> :::'[!'_x_'!]' not
-R18076:18076 Top.Modal_Notations <> :modal::'['_x_']'_x not
-R18078:18078 Top.Modal_Notations <> :modal::'['_x_']'_x not
-binder 18077:18077 <> m:264
-binder 18077:18077 <> m:265
-R18079:18079 Top.Modal_Notations <> :modal::'~'_x not
-binder 18080:18080 <> p:266
-binder 18080:18080 <> p:267
-R18073:18075 Top.Modal_Notations <> :::'[!'_x_'!]' not
-R18081:18083 Top.Modal_Notations <> :::'[!'_x_'!]' not
-R18076:18076 Top.Modal_Notations <> :modal::'['_x_']'_x not
-R18078:18078 Top.Modal_Notations <> :modal::'['_x_']'_x not
-binder 18077:18077 <> m:268
-binder 18077:18077 <> m:269
-R18079:18079 Top.Modal_Notations <> :modal::'~'_x not
-binder 18080:18080 <> p:270
-binder 18080:18080 <> p:271
-R18104:18112 Top.Modal_Tactics <> modal_ax4 thm
-R18104:18112 Top.Modal_Tactics <> modal_ax4 thm
-R18174:18185 Top.Modal_Tactics <> modal_axDual thm
-R18174:18185 Top.Modal_Tactics <> modal_axDual thm
-R18214:18224 Top.Completeness <> Completeness.CanonicalModel.extending_K var
-R18214:18224 Top.Completeness <> Completeness.CanonicalModel.extending_K var
-R18308:18314 Top.Completeness <> Maximal def
-R18308:18314 Top.Completeness <> Maximal def
-R18358:18367 Top.Completeness <> Consistent def
-R18369:18369 Top.Completeness <> Completeness.A var
-R18358:18367 Top.Completeness <> Consistent def
-R18369:18369 Top.Completeness <> Completeness.A var
-R18548:18550 Top.Modal_Notations <> :::'[!'_x_'!]' not
-R18553:18555 Top.Modal_Notations <> :::'[!'_x_'!]' not
-R18551:18551 Top.Modal_Notations <> :modal::'~'_x not
-binder 18552:18552 <> p:272
-binder 18552:18552 <> p:273
-R18548:18550 Top.Modal_Notations <> :::'[!'_x_'!]' not
-R18553:18555 Top.Modal_Notations <> :::'[!'_x_'!]' not
-R18551:18551 Top.Modal_Notations <> :modal::'~'_x not
-binder 18552:18552 <> p:274
-binder 18552:18552 <> p:275
-R18576:18584 Top.Modal_Tactics <> modal_ax4 thm
-R18576:18584 Top.Modal_Tactics <> modal_ax4 thm
-R18766:18772 Top.Completeness <> Maximal def
-R18766:18772 Top.Completeness <> Maximal def
-R18812:18821 Top.Completeness <> Consistent def
-R18823:18823 Top.Completeness <> Completeness.A var
-R18812:18821 Top.Completeness <> Consistent def
-R18823:18823 Top.Completeness <> Completeness.A var
-R18872:18874 Top.Modal_Notations <> :::'[!'_x_'!]' not
-R18883:18885 Top.Modal_Notations <> :::'[!'_x_'!]' not
-R18877:18880 Top.Modal_Notations <> :modal::x_'/\'_x not
-binder 18875:18876 <> p1:276
-binder 18875:18876 <> p1:277
-binder 18881:18882 <> p2:278
-binder 18881:18882 <> p2:279
-R18872:18874 Top.Modal_Notations <> :::'[!'_x_'!]' not
-R18883:18885 Top.Modal_Notations <> :::'[!'_x_'!]' not
-R18877:18880 Top.Modal_Notations <> :modal::x_'/\'_x not
-binder 18875:18876 <> p1:280
-binder 18875:18876 <> p1:281
-binder 18881:18882 <> p2:282
-binder 18881:18882 <> p2:283
-R18953:18955 Top.Modal_Notations <> :::'[!'_x_'!]' not
-R18964:18966 Top.Modal_Notations <> :::'[!'_x_'!]' not
-R18958:18961 Top.Modal_Notations <> :modal::x_'/\'_x not
-binder 18956:18957 <> p1:284
-binder 18956:18957 <> p1:285
-binder 18962:18963 <> p2:286
-binder 18962:18963 <> p2:287
-R18953:18955 Top.Modal_Notations <> :::'[!'_x_'!]' not
-R18964:18966 Top.Modal_Notations <> :::'[!'_x_'!]' not
-R18958:18961 Top.Modal_Notations <> :modal::x_'/\'_x not
-binder 18956:18957 <> p1:288
-binder 18956:18957 <> p1:289
-binder 18962:18963 <> p2:290
-binder 18962:18963 <> p2:291
-R18985:18993 Top.Modal_Tactics <> modal_ax4 thm
-R18985:18993 Top.Modal_Tactics <> modal_ax4 thm
-R19016:19024 Top.Modal_Tactics <> modal_ax4 thm
-R19016:19024 Top.Modal_Tactics <> modal_ax4 thm
-R19166:19172 Top.Completeness <> Maximal def
-R19166:19172 Top.Completeness <> Maximal def
-R19212:19221 Top.Completeness <> Consistent def
-R19223:19223 Top.Completeness <> Completeness.A var
-R19212:19221 Top.Completeness <> Consistent def
-R19223:19223 Top.Completeness <> Completeness.A var
-R19410:19418 Top.Modal_Tactics <> modal_ax4 thm
-R19410:19418 Top.Modal_Tactics <> modal_ax4 thm
-R19445:19453 Top.Modal_Tactics <> modal_ax5 thm
-R19445:19453 Top.Modal_Tactics <> modal_ax5 thm
-R19684:19692 Top.Modal_Tactics <> modal_ax4 thm
-R19684:19692 Top.Modal_Tactics <> modal_ax4 thm
-R19719:19727 Top.Modal_Tactics <> modal_ax6 thm
-R19719:19727 Top.Modal_Tactics <> modal_ax6 thm
-R19895:19901 Top.Completeness <> Maximal def
-R19895:19901 Top.Completeness <> Maximal def
-R19943:19952 Top.Completeness <> Consistent def
-R19954:19954 Top.Completeness <> Completeness.A var
-R19943:19952 Top.Completeness <> Consistent def
-R19954:19954 Top.Completeness <> Completeness.A var
-R20005:20007 Top.Modal_Notations <> :::'[!'_x_'!]' not
-R20016:20018 Top.Modal_Notations <> :::'[!'_x_'!]' not
-R20010:20013 Top.Modal_Notations <> :modal::x_'\/'_x not
-binder 20008:20009 <> p1:292
-binder 20008:20009 <> p1:293
-binder 20014:20015 <> p2:294
-binder 20014:20015 <> p2:295
-R20005:20007 Top.Modal_Notations <> :::'[!'_x_'!]' not
-R20016:20018 Top.Modal_Notations <> :::'[!'_x_'!]' not
-R20010:20013 Top.Modal_Notations <> :modal::x_'\/'_x not
-binder 20008:20009 <> p1:296
-binder 20008:20009 <> p1:297
-binder 20014:20015 <> p2:298
-binder 20014:20015 <> p2:299
-R20092:20094 Top.Modal_Notations <> :::'[!'_x_'!]' not
-R20105:20107 Top.Modal_Notations <> :::'[!'_x_'!]' not
-R20095:20095 Top.Modal_Notations <> :modal::'('_x_')' not
-R20104:20104 Top.Modal_Notations <> :modal::'('_x_')' not
-R20098:20101 Top.Modal_Notations <> :modal::x_'\/'_x not
-binder 20096:20097 <> p1:300
-binder 20096:20097 <> p1:301
-binder 20102:20103 <> p2:302
-binder 20102:20103 <> p2:303
-R20092:20094 Top.Modal_Notations <> :::'[!'_x_'!]' not
-R20105:20107 Top.Modal_Notations <> :::'[!'_x_'!]' not
-R20095:20095 Top.Modal_Notations <> :modal::'('_x_')' not
-R20104:20104 Top.Modal_Notations <> :modal::'('_x_')' not
-R20098:20101 Top.Modal_Notations <> :modal::x_'\/'_x not
-binder 20096:20097 <> p1:304
-binder 20096:20097 <> p1:305
-binder 20102:20103 <> p2:306
-binder 20102:20103 <> p2:307
-R20128:20136 Top.Modal_Tactics <> modal_ax4 thm
-R20128:20136 Top.Modal_Tactics <> modal_ax4 thm
-R20163:20171 Top.Modal_Tactics <> modal_ax7 thm
-R20163:20171 Top.Modal_Tactics <> modal_ax7 thm
-R20291:20297 Top.Completeness <> Maximal def
-R20291:20297 Top.Completeness <> Maximal def
-R20339:20348 Top.Completeness <> Consistent def
-R20350:20350 Top.Completeness <> Completeness.A var
-R20339:20348 Top.Completeness <> Consistent def
-R20350:20350 Top.Completeness <> Completeness.A var
-R20401:20403 Top.Modal_Notations <> :::'[!'_x_'!]' not
-R20412:20414 Top.Modal_Notations <> :::'[!'_x_'!]' not
-R20406:20409 Top.Modal_Notations <> :modal::x_'\/'_x not
-binder 20404:20405 <> p1:308
-binder 20404:20405 <> p1:309
-binder 20410:20411 <> p2:310
-binder 20410:20411 <> p2:311
-R20401:20403 Top.Modal_Notations <> :::'[!'_x_'!]' not
-R20412:20414 Top.Modal_Notations <> :::'[!'_x_'!]' not
-R20406:20409 Top.Modal_Notations <> :modal::x_'\/'_x not
-binder 20404:20405 <> p1:312
-binder 20404:20405 <> p1:313
-binder 20410:20411 <> p2:314
-binder 20410:20411 <> p2:315
-R20488:20490 Top.Modal_Notations <> :::'[!'_x_'!]' not
-R20501:20503 Top.Modal_Notations <> :::'[!'_x_'!]' not
-R20491:20491 Top.Modal_Notations <> :modal::'('_x_')' not
-R20500:20500 Top.Modal_Notations <> :modal::'('_x_')' not
-R20494:20497 Top.Modal_Notations <> :modal::x_'\/'_x not
-binder 20492:20493 <> p1:316
-binder 20492:20493 <> p1:317
-binder 20498:20499 <> p2:318
-binder 20498:20499 <> p2:319
-R20488:20490 Top.Modal_Notations <> :::'[!'_x_'!]' not
-R20501:20503 Top.Modal_Notations <> :::'[!'_x_'!]' not
-R20491:20491 Top.Modal_Notations <> :modal::'('_x_')' not
-R20500:20500 Top.Modal_Notations <> :modal::'('_x_')' not
-R20494:20497 Top.Modal_Notations <> :modal::x_'\/'_x not
-binder 20492:20493 <> p1:320
-binder 20492:20493 <> p1:321
-binder 20498:20499 <> p2:322
-binder 20498:20499 <> p2:323
-R20524:20532 Top.Modal_Tactics <> modal_ax4 thm
-R20524:20532 Top.Modal_Tactics <> modal_ax4 thm
-R20559:20567 Top.Modal_Tactics <> modal_ax8 thm
-R20559:20567 Top.Modal_Tactics <> modal_ax8 thm
-R20678:20684 Top.Completeness <> Maximal def
-R20678:20684 Top.Completeness <> Maximal def
-R20724:20733 Top.Completeness <> Consistent def
-R20735:20735 Top.Completeness <> Completeness.A var
-R20724:20733 Top.Completeness <> Consistent def
-R20735:20735 Top.Completeness <> Completeness.A var
-R20993:20995 Top.Modal_Notations <> :::'[!'_x_'!]' not
-R21004:21006 Top.Modal_Notations <> :::'[!'_x_'!]' not
-R20998:21001 Top.Modal_Notations <> :modal::x_'\/'_x not
-binder 20996:20997 <> p1:324
-binder 20996:20997 <> p1:325
-binder 21002:21003 <> p2:326
-binder 21002:21003 <> p2:327
-R20993:20995 Top.Modal_Notations <> :::'[!'_x_'!]' not
-R21004:21006 Top.Modal_Notations <> :::'[!'_x_'!]' not
-R20998:21001 Top.Modal_Notations <> :modal::x_'\/'_x not
-binder 20996:20997 <> p1:328
-binder 20996:20997 <> p1:329
-binder 21002:21003 <> p2:330
-binder 21002:21003 <> p2:331
-R21027:21035 Top.Modal_Tactics <> modal_ax4 thm
-R21027:21035 Top.Modal_Tactics <> modal_ax4 thm
-R21097:21105 Top.Modal_Tactics <> modal_ax9 thm
-R21097:21105 Top.Modal_Tactics <> modal_ax9 thm
-R21147:21161 Top.Modal_Tactics <> modal_deduction thm
-R21147:21161 Top.Modal_Tactics <> modal_deduction thm
-R21196:21210 Top.Modal_Tactics <> modal_explosion thm
-R21196:21210 Top.Modal_Tactics <> modal_explosion thm
-R21326:21341 Top.Modal_Tactics <> deduction_subset thm
-R21326:21341 Top.Modal_Tactics <> deduction_subset thm
-R21501:21515 Top.Modal_Tactics <> modal_deduction thm
-R21501:21515 Top.Modal_Tactics <> modal_deduction thm
-R21550:21564 Top.Modal_Tactics <> modal_explosion thm
-R21550:21564 Top.Modal_Tactics <> modal_explosion thm
-R21680:21695 Top.Modal_Tactics <> deduction_subset thm
-R21680:21695 Top.Modal_Tactics <> deduction_subset thm
-R21904:21910 Top.Completeness <> Maximal def
-R21904:21910 Top.Completeness <> Maximal def
-R21950:21959 Top.Completeness <> Consistent def
-R21961:21961 Top.Completeness <> Completeness.A var
-R21950:21959 Top.Completeness <> Consistent def
-R21961:21961 Top.Completeness <> Completeness.A var
-R22125:22127 Top.Modal_Notations <> :::'[!'_x_'!]' not
-R22136:22138 Top.Modal_Notations <> :::'[!'_x_'!]' not
-R22130:22133 Top.Modal_Notations <> :modal::x_'->'_x not
-binder 22128:22129 <> p1:332
-binder 22128:22129 <> p1:333
-binder 22134:22135 <> p2:334
-binder 22134:22135 <> p2:335
-R22125:22127 Top.Modal_Notations <> :::'[!'_x_'!]' not
-R22136:22138 Top.Modal_Notations <> :::'[!'_x_'!]' not
-R22130:22133 Top.Modal_Notations <> :modal::x_'->'_x not
-binder 22128:22129 <> p1:336
-binder 22128:22129 <> p1:337
-binder 22134:22135 <> p2:338
-binder 22134:22135 <> p2:339
-R22182:22184 Top.Modal_Notations <> :::'[!'_x_'!]' not
-R22193:22195 Top.Modal_Notations <> :::'[!'_x_'!]' not
-R22187:22190 Top.Modal_Notations <> :modal::x_'->'_x not
-binder 22185:22186 <> p1:340
-binder 22185:22186 <> p1:341
-binder 22191:22192 <> p2:342
-binder 22191:22192 <> p2:343
-R22182:22184 Top.Modal_Notations <> :::'[!'_x_'!]' not
-R22193:22195 Top.Modal_Notations <> :::'[!'_x_'!]' not
-R22187:22190 Top.Modal_Notations <> :modal::x_'->'_x not
-binder 22185:22186 <> p1:344
-binder 22185:22186 <> p1:345
-binder 22191:22192 <> p2:346
-binder 22191:22192 <> p2:347
-R22216:22224 Top.Modal_Tactics <> modal_ax4 thm
-R22216:22224 Top.Modal_Tactics <> modal_ax4 thm
-R22251:22259 Top.Modal_Tactics <> modal_ax1 thm
-R22251:22259 Top.Modal_Tactics <> modal_ax1 thm
-R22394:22396 Top.Modal_Notations <> :::'[!'_x_'!]' not
-R22405:22407 Top.Modal_Notations <> :::'[!'_x_'!]' not
-R22399:22402 Top.Modal_Notations <> :modal::x_'->'_x not
-binder 22397:22398 <> p1:348
-binder 22397:22398 <> p1:349
-binder 22403:22404 <> p2:350
-binder 22403:22404 <> p2:351
-R22394:22396 Top.Modal_Notations <> :::'[!'_x_'!]' not
-R22405:22407 Top.Modal_Notations <> :::'[!'_x_'!]' not
-R22399:22402 Top.Modal_Notations <> :modal::x_'->'_x not
-binder 22397:22398 <> p1:352
-binder 22397:22398 <> p1:353
-binder 22403:22404 <> p2:354
-binder 22403:22404 <> p2:355
-R22451:22453 Top.Modal_Notations <> :::'[!'_x_'!]' not
-R22462:22464 Top.Modal_Notations <> :::'[!'_x_'!]' not
-R22456:22459 Top.Modal_Notations <> :modal::x_'->'_x not
-binder 22454:22455 <> p1:356
-binder 22454:22455 <> p1:357
-binder 22460:22461 <> p2:358
-binder 22460:22461 <> p2:359
-R22451:22453 Top.Modal_Notations <> :::'[!'_x_'!]' not
-R22462:22464 Top.Modal_Notations <> :::'[!'_x_'!]' not
-R22456:22459 Top.Modal_Notations <> :modal::x_'->'_x not
-binder 22454:22455 <> p1:360
-binder 22454:22455 <> p1:361
-binder 22460:22461 <> p2:362
-binder 22460:22461 <> p2:363
-R22485:22493 Top.Modal_Tactics <> modal_ax4 thm
-R22485:22493 Top.Modal_Tactics <> modal_ax4 thm
-R22520:22528 Top.Modal_Tactics <> modal_ax1 thm
-R22520:22528 Top.Modal_Tactics <> modal_ax1 thm
-R22632:22634 Top.Modal_Notations <> :::'[!'_x_'!]' not
-R22643:22645 Top.Modal_Notations <> :::'[!'_x_'!]' not
-R22637:22640 Top.Modal_Notations <> :modal::x_'->'_x not
-binder 22635:22636 <> p1:364
-binder 22635:22636 <> p1:365
-binder 22641:22642 <> p2:366
-binder 22641:22642 <> p2:367
-R22632:22634 Top.Modal_Notations <> :::'[!'_x_'!]' not
-R22643:22645 Top.Modal_Notations <> :::'[!'_x_'!]' not
-R22637:22640 Top.Modal_Notations <> :modal::x_'->'_x not
-binder 22635:22636 <> p1:368
-binder 22635:22636 <> p1:369
-binder 22641:22642 <> p2:370
-binder 22641:22642 <> p2:371
-R22689:22691 Top.Modal_Notations <> :::'[!'_x_'!]' not
-R22700:22702 Top.Modal_Notations <> :::'[!'_x_'!]' not
-R22694:22697 Top.Modal_Notations <> :modal::x_'->'_x not
-binder 22692:22693 <> p1:372
-binder 22692:22693 <> p1:373
-binder 22698:22699 <> p2:374
-binder 22698:22699 <> p2:375
-R22689:22691 Top.Modal_Notations <> :::'[!'_x_'!]' not
-R22700:22702 Top.Modal_Notations <> :::'[!'_x_'!]' not
-R22694:22697 Top.Modal_Notations <> :modal::x_'->'_x not
-binder 22692:22693 <> p1:376
-binder 22692:22693 <> p1:377
-binder 22698:22699 <> p2:378
-binder 22698:22699 <> p2:379
-R22723:22731 Top.Modal_Tactics <> modal_ax4 thm
-R22723:22731 Top.Modal_Tactics <> modal_ax4 thm
-R22758:22766 Top.Modal_Tactics <> modal_ax3 thm
-R22758:22766 Top.Modal_Tactics <> modal_ax3 thm
-R22793:22801 Top.Modal_Tactics <> modal_ax1 thm
-R22793:22801 Top.Modal_Tactics <> modal_ax1 thm
-R22966:22972 Top.Completeness <> Maximal def
-R22966:22972 Top.Completeness <> Maximal def
-R23012:23021 Top.Completeness <> Consistent def
-R23023:23023 Top.Completeness <> Completeness.A var
-R23012:23021 Top.Completeness <> Consistent def
-R23023:23023 Top.Completeness <> Completeness.A var
-R23161:23169 Top.Modal_Tactics <> modal_ax4 thm
-R23161:23169 Top.Modal_Tactics <> modal_ax4 thm
-R23192:23193 Top.Deductive_System <> Mp constr
-R23192:23193 Top.Deductive_System <> Mp constr
-var 23328:23328 Completeness.CanonicalModel G
-R23331:23336 Top.Modal_Library <> theory def
-prf 23352:23360 <> canonical
-R23383:23392 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R23369:23378 Top.Completeness <> Consistent def
-R23382:23382 Top.Completeness <> Completeness.CanonicalModel.G var
-R23380:23380 Top.Completeness <> Completeness.A var
-binder 23400:23400 <> p:381
-R23412:23421 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R23409:23409 Top.Completeness <> Completeness.CanonicalModel.G var
-R23411:23411 Top.Completeness <> p:381 var
-R23422:23428 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
-R23430:23437 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
-binder 23429:23429 <> w:382
-R23439:23441 Top.Modal_Notations <> :::x_''''_x_'||-'_x not
-R23443:23447 Top.Modal_Notations <> :::x_''''_x_'||-'_x not
-R23438:23438 Top.Completeness <> M abbrev
-R23442:23442 Top.Completeness <> w:382 var
-R23448:23448 Top.Completeness <> p:381 var
-R23507:23507 Top.Completeness <> Completeness.CanonicalModel.G var
-R23491:23500 Top.Completeness <> lindenbaum thm
-R23507:23507 Top.Completeness <> Completeness.CanonicalModel.G var
-R23491:23500 Top.Completeness <> lindenbaum thm
-R23574:23577 Top.Completeness <> W_mk constr
-R23574:23577 Top.Completeness <> W_mk constr
-R23603:23607 Top.Completeness <> truth thm
-R23603:23607 Top.Completeness <> truth thm
-prf 23675:23690 <> world_derivation
-binder 23706:23706 <> p:383
-R23715:23715 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
-R23730:23736 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
-R23753:23753 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
-R23717:23718 Top.Deductive_System <> :::x_';'_x_'|--'_x not
-R23724:23728 Top.Deductive_System <> :::x_';'_x_'|--'_x not
-R23716:23716 Top.Completeness <> Completeness.A var
-R23719:23723 Top.Sets <> Empty def
-R23729:23729 Top.Completeness <> p:383 var
-R23747:23747 Top.Completeness <> W ind
-binder 23744:23744 <> w:384
-R23750:23750 Top.Completeness <> w:384 var
-R23752:23752 Top.Completeness <> p:383 var
-R23942:23950 Top.Modal_Tactics <> modal_ax4 thm
-R23942:23950 Top.Modal_Tactics <> modal_ax4 thm
-R23971:23981 Top.Completeness <> Completeness.extending_P var
-R23971:23981 Top.Completeness <> Completeness.extending_P var
-R24002:24006 Top.Deductive_System <> P_ax1 constr
-R24002:24006 Top.Deductive_System <> P_ax1 constr
-R24027:24037 Top.Completeness <> Completeness.extending_P var
-R24027:24037 Top.Completeness <> Completeness.extending_P var
-R24058:24062 Top.Deductive_System <> P_ax2 constr
-R24058:24062 Top.Deductive_System <> P_ax2 constr
-R24083:24093 Top.Completeness <> Completeness.extending_P var
-R24083:24093 Top.Completeness <> Completeness.extending_P var
-R24114:24118 Top.Deductive_System <> P_ax4 constr
-R24114:24118 Top.Deductive_System <> P_ax4 constr
-R24161:24165 Top.Sets <> Empty def
-R24139:24154 Top.Modal_Tactics <> deduction_subset thm
-R24161:24165 Top.Sets <> Empty def
-R24139:24154 Top.Modal_Tactics <> deduction_subset thm
-R24268:24288 Top.Completeness <> consistency_deduction thm
-R24268:24288 Top.Completeness <> consistency_deduction thm
-R24338:24346 Top.Sets <> Singleton ind
-R24348:24350 Top.Modal_Notations <> :::'[!'_x_'!]' not
-R24353:24355 Top.Modal_Notations <> :::'[!'_x_'!]' not
-R24351:24351 Top.Modal_Notations <> :modal::'~'_x not
-binder 24352:24352 <> p:385
-binder 24352:24352 <> p:386
-R24321:24330 Top.Completeness <> lindenbaum thm
-R24338:24346 Top.Sets <> Singleton ind
-R24348:24350 Top.Modal_Notations <> :::'[!'_x_'!]' not
-R24353:24355 Top.Modal_Notations <> :::'[!'_x_'!]' not
-R24351:24351 Top.Modal_Notations <> :modal::'~'_x not
-binder 24352:24352 <> p:387
-binder 24352:24352 <> p:388
-R24321:24330 Top.Completeness <> lindenbaum thm
-R24473:24481 Top.Sets <> Singleton ind
-R24483:24485 Top.Modal_Notations <> :::'[!'_x_'!]' not
-R24488:24490 Top.Modal_Notations <> :::'[!'_x_'!]' not
-R24486:24486 Top.Modal_Notations <> :modal::'~'_x not
-binder 24487:24487 <> p:389
-binder 24487:24487 <> p:390
-R24444:24459 Top.Modal_Tactics <> deduction_subset thm
-R24473:24481 Top.Sets <> Singleton ind
-R24483:24485 Top.Modal_Notations <> :::'[!'_x_'!]' not
-R24488:24490 Top.Modal_Notations <> :::'[!'_x_'!]' not
-R24486:24486 Top.Modal_Notations <> :modal::'~'_x not
-binder 24487:24487 <> p:391
-binder 24487:24487 <> p:392
-R24444:24459 Top.Modal_Tactics <> deduction_subset thm
-R24605:24608 Top.Completeness <> W_mk constr
-R24605:24608 Top.Completeness <> W_mk constr
-R24674:24682 Top.Modal_Tactics <> modal_ax4 thm
-R24674:24682 Top.Modal_Tactics <> modal_ax4 thm
-R24705:24715 Top.Completeness <> Completeness.extending_P var
-R24705:24715 Top.Completeness <> Completeness.extending_P var
-R24738:24742 Top.Deductive_System <> P_ax1 constr
-R24738:24742 Top.Deductive_System <> P_ax1 constr
-R24765:24775 Top.Completeness <> Completeness.extending_P var
-R24765:24775 Top.Completeness <> Completeness.extending_P var
-R24798:24802 Top.Deductive_System <> P_ax2 constr
-R24798:24802 Top.Deductive_System <> P_ax2 constr
-R24825:24835 Top.Completeness <> Completeness.extending_P var
-R24825:24835 Top.Completeness <> Completeness.extending_P var
-R24858:24862 Top.Deductive_System <> P_ax4 constr
-R24858:24862 Top.Deductive_System <> P_ax4 constr
-prf 24998:25013 <> determination_if
-binder 25029:25029 <> p:393
-R25038:25038 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R25045:25050 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R25065:25065 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R25040:25043 Top.Modal_Notations <> :::x_'|='_x not
-R25039:25039 Top.Completeness <> M abbrev
-R25044:25044 Top.Completeness <> p:393 var
-R25052:25053 Top.Deductive_System <> :::x_';'_x_'|--'_x not
-R25059:25063 Top.Deductive_System <> :::x_';'_x_'|--'_x not
-R25051:25051 Top.Completeness <> Completeness.A var
-R25054:25058 Top.Sets <> Empty def
-R25064:25064 Top.Completeness <> p:393 var
-R25127:25140 Coq.Logic.Decidable <> contrapositive thm
-R25127:25140 Coq.Logic.Decidable <> contrapositive thm
-R25165:25171 Coq.Logic.Classical_Prop <> classic prfax
-R25165:25171 Coq.Logic.Classical_Prop <> classic prfax
-R25214:25219 Top.Sets <> Extend abbrev
-R25221:25223 Top.Modal_Notations <> :::'[!'_x_'!]' not
-R25226:25228 Top.Modal_Notations <> :::'[!'_x_'!]' not
-R25224:25224 Top.Modal_Notations <> :modal::'~'_x not
-binder 25225:25225 <> p:394
-binder 25225:25225 <> p:395
-R25230:25234 Top.Sets <> Empty def
-R25192:25201 Top.Completeness <> lindenbaum thm
-R25214:25219 Top.Sets <> Extend abbrev
-R25221:25223 Top.Modal_Notations <> :::'[!'_x_'!]' not
-R25226:25228 Top.Modal_Notations <> :::'[!'_x_'!]' not
-R25224:25224 Top.Modal_Notations <> :modal::'~'_x not
-binder 25225:25225 <> p:396
-binder 25225:25225 <> p:397
-R25230:25234 Top.Sets <> Empty def
-R25192:25201 Top.Completeness <> lindenbaum thm
-R25325:25339 Top.Modal_Tactics <> modal_deduction thm
-R25325:25339 Top.Modal_Tactics <> modal_deduction thm
-R25370:25385 Top.Completeness <> world_derivation thm
-R25370:25385 Top.Completeness <> world_derivation thm
-R25563:25564 Top.Deductive_System <> Mp constr
-R25563:25564 Top.Deductive_System <> Mp constr
-R25611:25615 Top.Sets <> Empty def
-R25589:25604 Top.Modal_Tactics <> deduction_subset thm
-R25611:25615 Top.Sets <> Empty def
-R25589:25604 Top.Modal_Tactics <> deduction_subset thm
-R25706:25709 Top.Deductive_System <> Prem constr
-R25706:25709 Top.Deductive_System <> Prem constr
-R25767:25770 Top.Completeness <> W_mk constr
-R25767:25770 Top.Completeness <> W_mk constr
-R25799:25803 Top.Completeness <> truth thm
-R25799:25803 Top.Completeness <> truth thm
-R25868:25876 Top.Modal_Tactics <> modal_ax4 thm
-R25868:25876 Top.Modal_Tactics <> modal_ax4 thm
-prf 25983:26003 <> determination_only_if
-binder 26019:26019 <> p:398
-R26028:26028 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R26043:26048 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R26055:26055 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R26030:26031 Top.Deductive_System <> :::x_';'_x_'|--'_x not
-R26037:26041 Top.Deductive_System <> :::x_';'_x_'|--'_x not
-R26029:26029 Top.Completeness <> Completeness.A var
-R26032:26036 Top.Sets <> Empty def
-R26042:26042 Top.Completeness <> p:398 var
-R26050:26053 Top.Modal_Notations <> :::x_'|='_x not
-R26049:26049 Top.Completeness <> M abbrev
-R26054:26054 Top.Completeness <> p:398 var
-R26131:26135 Top.Completeness <> truth thm
-R26131:26135 Top.Completeness <> truth thm
-R26215:26223 Top.Modal_Tactics <> modal_ax4 thm
-R26215:26223 Top.Modal_Tactics <> modal_ax4 thm
-R26264:26268 Top.Sets <> Empty def
-R26242:26257 Top.Modal_Tactics <> deduction_subset thm
-R26264:26268 Top.Sets <> Empty def
-R26242:26257 Top.Modal_Tactics <> deduction_subset thm
-prf 26379:26391 <> determination
-binder 26407:26407 <> p:399
-R26416:26416 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
-R26423:26429 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
-R26444:26444 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
-R26418:26421 Top.Modal_Notations <> :::x_'|='_x not
-R26417:26417 Top.Completeness <> M abbrev
-R26422:26422 Top.Completeness <> p:399 var
-R26431:26432 Top.Deductive_System <> :::x_';'_x_'|--'_x not
-R26438:26442 Top.Deductive_System <> :::x_';'_x_'|--'_x not
-R26430:26430 Top.Completeness <> Completeness.A var
-R26433:26437 Top.Sets <> Empty def
-R26443:26443 Top.Completeness <> p:399 var
-R26485:26500 Top.Completeness <> determination_if thm
-R26485:26500 Top.Completeness <> determination_if thm
-R26517:26537 Top.Completeness <> determination_only_if thm
-R26517:26537 Top.Completeness <> determination_only_if thm
-prf 26562:26573 <> completeness
-binder 26589:26589 <> p:400
-R26598:26598 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R26610:26615 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R26630:26630 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R26604:26608 Top.Modal_Notations <> :::x_'||='_x not
-R26599:26603 Top.Sets <> Empty def
-R26609:26609 Top.Completeness <> p:400 var
-R26617:26618 Top.Deductive_System <> :::x_';'_x_'|--'_x not
-R26624:26628 Top.Deductive_System <> :::x_';'_x_'|--'_x not
-R26616:26616 Top.Completeness <> Completeness.A var
-R26619:26623 Top.Sets <> Empty def
-R26629:26629 Top.Completeness <> p:400 var
-R26763:26776 Coq.Logic.Decidable <> contrapositive thm
-R26763:26776 Coq.Logic.Decidable <> contrapositive thm
-R26801:26807 Coq.Logic.Classical_Prop <> classic prfax
-R26801:26807 Coq.Logic.Classical_Prop <> classic prfax
-R27021:27030 Top.Completeness <> Consistent def
-R27034:27038 Top.Sets <> Empty def
-R27032:27032 Top.Completeness <> Completeness.A var
-R27021:27030 Top.Completeness <> Consistent def
-R27034:27038 Top.Sets <> Empty def
-R27032:27032 Top.Completeness <> Completeness.A var
-R27062:27094 Top.Completeness <> nonderivation_implies_consistency thm
-R27062:27094 Top.Completeness <> nonderivation_implies_consistency thm
-R27258:27258 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R27265:27269 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R27260:27263 Top.Modal_Notations <> :::x_'|='_x not
-R27259:27259 Top.Completeness <> M abbrev
-R27270:27274 Coq.Init.Logic <> False ind
-R27258:27258 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R27265:27269 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R27260:27263 Top.Modal_Notations <> :::x_'|='_x not
-R27259:27259 Top.Completeness <> M abbrev
-R27270:27274 Coq.Init.Logic <> False ind
-R27304:27316 Top.Completeness <> determination thm
-R27304:27316 Top.Completeness <> determination thm
-R27514:27527 Top.Completeness Completeness.CanonicalModel <> sec
-R27535:27546 Top.Completeness Completeness <> sec
+binder 6122:6122 <> p:109
+binder 6122:6122 <> p:110
+R6117:6117 Top.Completeness <> D:107 var
+R6109:6112 Coq.Init.Datatypes <> Some constr
+R6114:6114 Top.Completeness <> p:108 var
+R6130:6135 Top.Completeness <> Insert ind
+R6148:6150 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R6153:6155 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R6151:6151 Top.Modal_Notations <> :modal::'~'_x not
+binder 6152:6152 <> p:111
+binder 6152:6152 <> p:112
+R6146:6146 Top.Completeness <> D:107 var
+R6138:6141 Coq.Init.Datatypes <> Some constr
+R6143:6143 Top.Completeness <> p:108 var
+R6199:6205 Coq.Logic.Classical_Prop <> classic prfax
+R6236:6247 Top.Completeness <> Insert_valid constr
+R6236:6247 Top.Completeness <> Insert_valid constr
+R6284:6288 Top.Sets <> Union def
+R6359:6372 Top.Completeness <> Insert_invalid constr
+R6359:6372 Top.Completeness <> Insert_invalid constr
+R6414:6418 Top.Sets <> Union def
+prf 6480:6493 <> max_is_maximal
+binder 6509:6509 <> p:113
+R6529:6532 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R6518:6520 Top.Completeness <> Max def
+R6522:6524 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R6526:6528 Top.Modal_Notations <> :::'[!'_x_'!]' not
+binder 6525:6525 <> p:114
+binder 6525:6525 <> p:115
+R6533:6535 Top.Completeness <> Max def
+R6537:6539 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R6542:6544 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R6540:6540 Top.Modal_Notations <> :modal::'~'_x not
+binder 6541:6541 <> p:116
+binder 6541:6541 <> p:117
+R6618:6622 Top.Completeness <> Delta def
+R6625:6630 Top.Completeness <> encode prfax
+R6588:6610 Top.Completeness <> insert_contains_formula thm
+R6618:6622 Top.Completeness <> Delta def
+R6625:6630 Top.Completeness <> encode prfax
+R6588:6610 Top.Completeness <> insert_contains_formula thm
+R6670:6672 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R6673:6678 Top.Completeness <> encode prfax
+R6670:6672 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R6673:6678 Top.Completeness <> encode prfax
+R6707:6715 Top.Completeness <> countable prfax
+R6707:6715 Top.Completeness <> countable prfax
+R6707:6715 Top.Completeness <> countable prfax
+R6770:6772 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R6773:6778 Top.Completeness <> encode prfax
+R6770:6772 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R6773:6778 Top.Completeness <> encode prfax
+R6807:6815 Top.Completeness <> countable prfax
+R6807:6815 Top.Completeness <> countable prfax
+R6807:6815 Top.Completeness <> countable prfax
+prf 6858:6885 <> insert_preserves_consistency
+binder 6901:6901 <> D:118
+binder 6903:6903 <> p:119
+R6926:6929 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6912:6921 Top.Completeness <> Consistent def
+R6925:6925 Top.Completeness <> D:118 var
+R6923:6923 Top.Completeness <> CompletenessAll.Completeness.A var
+R6930:6939 Top.Completeness <> Consistent def
+R6944:6949 Top.Completeness <> Insert ind
+R6953:6953 Top.Completeness <> D:118 var
+R6951:6951 Top.Completeness <> p:119 var
+R6941:6941 Top.Completeness <> CompletenessAll.Completeness.A var
+R7031:7040 Top.Completeness <> Consistent def
+R7045:7050 Top.Sets <> Extend abbrev
+R7042:7042 Top.Completeness <> CompletenessAll.Completeness.A var
+R7017:7023 Coq.Logic.Classical_Prop <> classic prfax
+R7031:7040 Top.Completeness <> Consistent def
+R7045:7050 Top.Sets <> Extend abbrev
+R7042:7042 Top.Completeness <> CompletenessAll.Completeness.A var
+R7017:7023 Coq.Logic.Classical_Prop <> classic prfax
+R7141:7146 Top.Completeness <> Insert ind
+R7149:7152 Coq.Init.Datatypes <> Some constr
+R7118:7133 Top.Modal_Tactics <> deduction_subset thm
+R7141:7146 Top.Completeness <> Insert ind
+R7149:7152 Coq.Init.Datatypes <> Some constr
+R7118:7133 Top.Modal_Tactics <> deduction_subset thm
+R7296:7315 Top.Completeness <> consistency_negation thm
+R7296:7315 Top.Completeness <> consistency_negation thm
+R7364:7369 Top.Completeness <> Insert ind
+R7372:7375 Coq.Init.Datatypes <> Some constr
+R7341:7356 Top.Modal_Tactics <> deduction_subset thm
+R7364:7369 Top.Completeness <> Insert ind
+R7372:7375 Coq.Init.Datatypes <> Some constr
+R7341:7356 Top.Modal_Tactics <> deduction_subset thm
+R7570:7575 Top.Completeness <> Insert ind
+R7577:7580 Coq.Init.Datatypes <> None constr
+R7547:7562 Top.Modal_Tactics <> deduction_subset thm
+R7570:7575 Top.Completeness <> Insert ind
+R7577:7580 Coq.Init.Datatypes <> None constr
+R7547:7562 Top.Modal_Tactics <> deduction_subset thm
+prf 7673:7691 <> delta_is_consistent
+R7714:7723 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7700:7709 Top.Completeness <> Consistent def
+R7713:7713 Top.Completeness <> CompletenessAll.Completeness.Lindenbaum.G var
+R7711:7711 Top.Completeness <> CompletenessAll.Completeness.A var
+binder 7731:7731 <> n:120
+R7740:7749 Top.Completeness <> Consistent def
+R7754:7758 Top.Completeness <> Delta def
+R7760:7760 Top.Completeness <> n:120 var
+R7751:7751 Top.Completeness <> CompletenessAll.Completeness.A var
+R7858:7885 Top.Completeness <> insert_preserves_consistency thm
+R7858:7885 Top.Completeness <> insert_preserves_consistency thm
+prf 8108:8125 <> find_largest_delta
+binder 8141:8141 <> p:121
+R8150:8150 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8163:8173 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8152:8153 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R8157:8161 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R8151:8151 Top.Completeness <> CompletenessAll.Completeness.A var
+R8154:8156 Top.Completeness <> Max def
+R8162:8162 Top.Completeness <> p:121 var
+R8174:8180 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R8182:8190 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R8207:8207 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 8181:8181 <> n:122
+R8192:8193 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R8201:8205 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R8191:8191 Top.Completeness <> CompletenessAll.Completeness.A var
+R8194:8198 Top.Completeness <> Delta def
+R8200:8200 Top.Completeness <> n:122 var
+R8206:8206 Top.Completeness <> p:121 var
+R8776:8778 Coq.Init.Peano <> max abbrev
+R8776:8778 Coq.Init.Peano <> max abbrev
+R8915:8919 Top.Completeness <> Delta def
+R8892:8907 Top.Modal_Tactics <> deduction_subset thm
+R8915:8919 Top.Completeness <> Delta def
+R8892:8907 Top.Modal_Tactics <> deduction_subset thm
+R8943:8960 Top.Completeness <> delta_is_monotonic thm
+R8943:8960 Top.Completeness <> delta_is_monotonic thm
+R9123:9127 Top.Completeness <> Delta def
+R9100:9115 Top.Modal_Tactics <> deduction_subset thm
+R9123:9127 Top.Completeness <> Delta def
+R9100:9115 Top.Modal_Tactics <> deduction_subset thm
+R9151:9168 Top.Completeness <> delta_is_monotonic thm
+R9151:9168 Top.Completeness <> delta_is_monotonic thm
+prf 9359:9375 <> max_is_consistent
+R9398:9407 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9384:9393 Top.Completeness <> Consistent def
+R9397:9397 Top.Completeness <> CompletenessAll.Completeness.Lindenbaum.G var
+R9395:9395 Top.Completeness <> CompletenessAll.Completeness.A var
+R9408:9417 Top.Completeness <> Consistent def
+R9421:9423 Top.Completeness <> Max def
+R9419:9419 Top.Completeness <> CompletenessAll.Completeness.A var
+R9550:9567 Top.Completeness <> find_largest_delta thm
+R9671:9680 Top.Completeness <> Consistent def
+R9685:9689 Top.Completeness <> Delta def
+R9682:9682 Top.Completeness <> CompletenessAll.Completeness.A var
+R9671:9680 Top.Completeness <> Consistent def
+R9685:9689 Top.Completeness <> Delta def
+R9682:9682 Top.Completeness <> CompletenessAll.Completeness.A var
+R9710:9728 Top.Completeness <> delta_is_consistent thm
+R9710:9728 Top.Completeness <> delta_is_consistent thm
+prf 9927:9936 <> lindenbaum
+R9959:9968 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9945:9954 Top.Completeness <> Consistent def
+R9958:9958 Top.Completeness <> CompletenessAll.Completeness.Lindenbaum.G var
+R9956:9956 Top.Completeness <> CompletenessAll.Completeness.A var
+R9969:9975 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R9977:9984 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 9976:9976 <> D:123
+R9999:10002 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R9985:9994 Top.Completeness <> Consistent def
+R9998:9998 Top.Completeness <> D:123 var
+R9996:9996 Top.Completeness <> CompletenessAll.Completeness.A var
+R10012:10015 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R10003:10009 Top.Completeness <> Maximal def
+R10011:10011 Top.Completeness <> D:123 var
+R10016:10021 Top.Sets <> Subset def
+R10025:10025 Top.Completeness <> D:123 var
+R10023:10023 Top.Completeness <> CompletenessAll.Completeness.Lindenbaum.G var
+R10066:10068 Top.Completeness <> Max def
+R10066:10068 Top.Completeness <> Max def
+R10092:10108 Top.Completeness <> max_is_consistent thm
+R10092:10108 Top.Completeness <> max_is_consistent thm
+R10162:10175 Top.Completeness <> max_is_maximal thm
+R10162:10175 Top.Completeness <> max_is_maximal thm
+R10194:10212 Top.Completeness <> gamma_subset_of_max thm
+R10194:10212 Top.Completeness <> gamma_subset_of_max thm
+R10231:10240 Top.Completeness CompletenessAll.Completeness.Lindenbaum <> sec
+sec 10254:10267 CompletenessAll.Completeness CanonicalModel
+var 10286:10296 CompletenessAll.Completeness.CanonicalModel extending_K
+binder 10306:10308 <> idx:124
+R10311:10316 Top.Sets <> Subset def
+R10326:10326 Top.Completeness <> CompletenessAll.Completeness.A var
+R10319:10319 Top.Deductive_System <> K ind
+R10321:10323 Top.Completeness <> idx:124 var
+ind 10344:10344 <> W
+constr 10363:10366 <> W_mk
+binder 10368:10368 <> D:129
+R10385:10388 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10371:10380 Top.Completeness <> Consistent def
+R10384:10384 Top.Completeness <> D:129 var
+R10382:10382 Top.Completeness <> CompletenessAll.Completeness.A var
+R10398:10401 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10389:10395 Top.Completeness <> Maximal def
+R10397:10397 Top.Completeness <> D:129 var
+R10402:10402 Top.Completeness <> W:127 ind
+scheme 10344:10344 <> W_rect
+scheme 10344:10344 <> W_ind
+scheme 10344:10344 <> W_rec
+scheme 10344:10344 <> W_sind
+def 10421:10423 <> wit
+R10429:10429 Top.Completeness <> W ind
+binder 10426:10426 <> w:130
+R10436:10442 Top.Modal_Library <> formula ind
+binder 10433:10433 <> p:131
+R10466:10466 Top.Completeness <> w:130 var
+R10482:10485 Top.Completeness <> W_mk constr
+R10498:10498 Top.Completeness <> p:131 var
+R10523:10550 Top.Completeness <> wit def
+def 10569:10591 <> canonical_accessibility
+binder 10593:10595 <> idx:133
+R10598:10605 Coq.Relations.Relation_Definitions <> relation def
+R10607:10607 Top.Completeness <> W ind
+binder 10622:10622 <> w:134
+binder 10624:10624 <> v:135
+binder 10644:10644 <> p:136
+R10661:10664 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10647:10647 Top.Completeness <> w:134 var
+R10649:10651 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R10658:10660 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R10652:10652 Top.Modal_Notations <> :modal::'['_x_']'_x not
+R10656:10656 Top.Modal_Notations <> :modal::'['_x_']'_x not
+binder 10653:10655 <> idx:137
+binder 10653:10655 <> idx:138
+binder 10657:10657 <> p:139
+binder 10657:10657 <> p:140
+R10665:10665 Top.Completeness <> v:135 var
+R10667:10667 Top.Completeness <> p:136 var
+abbrev 10690:10690 <> R
+R10695:10717 Top.Completeness <> canonical_accessibility def
+def 10736:10750 <> canonical_frame
+R10761:10771 Top.Modal_Library <> Build_Frame constr
+R10773:10773 Top.Completeness <> W ind
+R10775:10775 Top.Completeness <> R abbrev
+abbrev 10798:10798 <> F
+R10803:10817 Top.Completeness <> canonical_frame def
+def 10836:10854 <> canonical_valuation
+R10860:10863 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10857:10859 Coq.Init.Datatypes <> nat ind
+R10865:10868 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10864:10864 Top.Completeness <> W ind
+binder 10887:10887 <> p:141
+binder 10889:10889 <> w:142
+R10902:10902 Top.Completeness <> w:142 var
+R10904:10906 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R10909:10911 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R10907:10907 Top.Modal_Notations <> :modal::'#'_x not
+R10908:10908 Top.Completeness <> p:141 var
+abbrev 10934:10934 <> V
+R10939:10957 Top.Completeness <> canonical_valuation def
+def 10976:10990 <> canonical_model
+R11001:11001 Top.Modal_Notations <> :::'['_x_'--'_x_']' not
+R11003:11006 Top.Modal_Notations <> :::'['_x_'--'_x_']' not
+R11008:11008 Top.Modal_Notations <> :::'['_x_'--'_x_']' not
+R11002:11002 Top.Completeness <> F abbrev
+R11007:11007 Top.Completeness <> V abbrev
+abbrev 11031:11031 <> M
+R11036:11050 Top.Completeness <> canonical_model def
+ind 11068:11084 <> existential_world
+constr 11125:11144 <> existential_world_mk
+R11090:11090 Top.Completeness <> W ind
+binder 11087:11087 <> w:143
+binder 11093:11095 <> idx:144
+R11105:11108 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11098:11104 Top.Modal_Library <> formula ind
+binder 11162:11162 <> x:147
+R11187:11198 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11173:11173 Top.Completeness <> w:143 var
+R11175:11177 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R11184:11186 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R11178:11178 Top.Modal_Notations <> :modal::'['_x_']'_x not
+R11182:11182 Top.Modal_Notations <> :modal::'['_x_']'_x not
+binder 11179:11181 <> idx:148
+binder 11179:11181 <> idx:149
+binder 11183:11183 <> x:150
+binder 11183:11183 <> x:151
+R11199:11215 Top.Completeness <> existential_world:145 ind
+R11223:11223 Top.Completeness <> x:147 var
+R11219:11221 Top.Completeness <> idx:144 var
+R11217:11217 Top.Completeness <> w:143 var
+scheme 11068:11084 <> existential_world_ind
+scheme 11068:11084 <> existential_world_sind
+R11289:11289 Top.Completeness <> CompletenessAll.Completeness.A var
+R11289:11289 Top.Completeness <> CompletenessAll.Completeness.A var
+R11311:11321 Top.Completeness <> CompletenessAll.Completeness.extending_P var
+prf 11366:11377 <> finite_world
+binder 11393:11393 <> G:152
+binder 11395:11395 <> p:153
+R11404:11404 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11415:11425 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11406:11407 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R11409:11413 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R11405:11405 Top.Completeness <> CompletenessAll.Completeness.A var
+R11408:11408 Top.Completeness <> G:152 var
+R11414:11414 Top.Completeness <> p:153 var
+R11426:11433 Coq.Init.Logic <> ::type_scope:'exists2'_x_':'_x_','_x_'&'_x not
+R11436:11437 Coq.Init.Logic <> ::type_scope:'exists2'_x_':'_x_','_x_'&'_x not
+R11450:11458 Coq.Init.Logic <> ::type_scope:'exists2'_x_':'_x_','_x_'&'_x not
+R11474:11477 Coq.Init.Logic <> ::type_scope:'exists2'_x_':'_x_','_x_'&'_x not
+R11438:11441 Coq.Init.Datatypes <> list ind
+R11443:11449 Top.Modal_Library <> formula ind
+binder 11434:11435 <> ps:154
+R11460:11461 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R11468:11472 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R11459:11459 Top.Completeness <> CompletenessAll.Completeness.A var
+R11462:11464 Top.Sets <> Fin def
+R11466:11467 Top.Completeness <> ps:154 var
+R11473:11473 Top.Completeness <> p:153 var
+binder 11434:11435 <> ps:155
+R11478:11483 Top.Sets <> Subset def
+R11494:11494 Top.Completeness <> G:152 var
+R11486:11488 Top.Sets <> Fin def
+R11490:11491 Top.Completeness <> ps:155 var
+R11542:11542 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R11544:11544 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R11542:11542 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R11544:11544 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R11563:11566 Top.Deductive_System <> Prem constr
+R11563:11566 Top.Deductive_System <> Prem constr
+R11699:11701 Coq.Init.Datatypes <> nil constr
+R11699:11701 Coq.Init.Datatypes <> nil constr
+R11724:11725 Top.Deductive_System <> Ax constr
+R11724:11725 Top.Deductive_System <> Ax constr
+R11937:11940 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R11937:11940 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R11963:11964 Top.Deductive_System <> Mp constr
+R11963:11964 Top.Deductive_System <> Mp constr
+R12009:12011 Top.Sets <> Fin def
+R11986:12001 Top.Modal_Tactics <> deduction_subset thm
+R12009:12011 Top.Sets <> Fin def
+R11986:12001 Top.Modal_Tactics <> deduction_subset thm
+R12067:12075 Coq.Lists.List <> in_or_app thm
+R12067:12075 Coq.Lists.List <> in_or_app thm
+R12162:12164 Top.Sets <> Fin def
+R12139:12154 Top.Modal_Tactics <> deduction_subset thm
+R12162:12164 Top.Sets <> Fin def
+R12139:12154 Top.Modal_Tactics <> deduction_subset thm
+R12220:12228 Coq.Lists.List <> in_or_app thm
+R12220:12228 Coq.Lists.List <> in_or_app thm
+R12312:12320 Coq.Lists.List <> in_app_or thm
+R12312:12320 Coq.Lists.List <> in_app_or thm
+R12476:12478 Coq.Init.Datatypes <> nil constr
+R12476:12478 Coq.Init.Datatypes <> nil constr
+R12501:12503 Top.Deductive_System <> Nec constr
+R12501:12503 Top.Deductive_System <> Nec constr
+prf 12549:12561 <> finite_spread
+binder 12577:12578 <> ps:156
+binder 12580:12580 <> p:157
+R12589:12589 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12605:12616 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12653:12653 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12591:12592 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R12599:12603 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R12590:12590 Top.Completeness <> CompletenessAll.Completeness.A var
+R12593:12595 Top.Sets <> Fin def
+R12597:12598 Top.Completeness <> ps:156 var
+R12604:12604 Top.Completeness <> p:157 var
+R12618:12619 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R12625:12629 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R12617:12617 Top.Completeness <> CompletenessAll.Completeness.A var
+R12620:12624 Top.Sets <> Empty def
+R12630:12639 Coq.Lists.List <> fold_right def
+R12651:12652 Top.Completeness <> ps:156 var
+R12649:12649 Top.Completeness <> p:157 var
+R12641:12647 Top.Modal_Library <> Implies constr
+R12692:12698 Coq.Lists.List <> rev_ind thm
+R12692:12698 Coq.Lists.List <> rev_ind thm
+R12753:12754 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R12772:12776 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R12752:12752 Top.Completeness <> CompletenessAll.Completeness.A var
+R12755:12760 Top.Sets <> Extend abbrev
+R12765:12767 Top.Sets <> Fin def
+R12753:12754 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R12772:12776 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R12752:12752 Top.Completeness <> CompletenessAll.Completeness.A var
+R12755:12760 Top.Sets <> Extend abbrev
+R12765:12767 Top.Sets <> Fin def
+R12820:12822 Top.Sets <> Fin def
+R12827:12830 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R12831:12831 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R12833:12833 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R12797:12812 Top.Modal_Tactics <> deduction_subset thm
+R12820:12822 Top.Sets <> Fin def
+R12827:12830 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R12831:12831 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R12833:12833 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R12797:12812 Top.Modal_Tactics <> deduction_subset thm
+R12882:12890 Coq.Lists.List <> in_app_or thm
+R12882:12890 Coq.Lists.List <> in_app_or thm
+R13039:13053 Top.Modal_Tactics <> modal_deduction thm
+R13039:13053 Top.Modal_Tactics <> modal_deduction thm
+R13095:13097 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R13104:13106 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R13099:13102 Top.Modal_Notations <> :modal::x_'->'_x not
+binder 13098:13098 <> x:158
+binder 13098:13098 <> x:159
+binder 13103:13103 <> p:160
+binder 13103:13103 <> p:161
+R13095:13097 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R13104:13106 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R13099:13102 Top.Modal_Notations <> :modal::x_'->'_x not
+binder 13098:13098 <> x:162
+binder 13098:13098 <> x:163
+binder 13103:13103 <> p:164
+binder 13103:13103 <> p:165
+R13131:13144 Coq.Lists.List <> fold_right_app thm
+R13131:13144 Coq.Lists.List <> fold_right_app thm
+R13131:13144 Coq.Lists.List <> fold_right_app thm
+prf 13196:13219 <> existential_modus_ponens
+R13239:13239 Top.Completeness <> W ind
+binder 13236:13236 <> w:166
+binder 13242:13242 <> p:167
+binder 13244:13245 <> ps:168
+binder 13247:13249 <> idx:169
+R13258:13258 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13294:13304 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 13266:13266 <> q:170
+R13276:13279 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13269:13270 Coq.Lists.List <> In def
+R13274:13275 Top.Completeness <> ps:168 var
+R13272:13272 Top.Completeness <> q:170 var
+R13280:13280 Top.Completeness <> w:166 var
+R13282:13284 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R13291:13293 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R13285:13285 Top.Modal_Notations <> :modal::'['_x_']'_x not
+R13289:13289 Top.Modal_Notations <> :modal::'['_x_']'_x not
+binder 13286:13288 <> idx:171
+binder 13286:13288 <> idx:172
+binder 13290:13290 <> q:173
+binder 13290:13290 <> q:174
+R13305:13305 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13348:13359 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13381:13381 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13307:13308 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R13310:13314 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R13306:13306 Top.Completeness <> CompletenessAll.Completeness.A var
+R13309:13309 Top.Completeness <> w:166 var
+R13315:13317 Top.Modal_Library <> Box constr
+R13319:13321 Top.Completeness <> idx:169 var
+R13324:13333 Coq.Lists.List <> fold_right def
+R13345:13346 Top.Completeness <> ps:168 var
+R13343:13343 Top.Completeness <> p:167 var
+R13335:13341 Top.Modal_Library <> Implies constr
+R13361:13362 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R13364:13368 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R13360:13360 Top.Completeness <> CompletenessAll.Completeness.A var
+R13363:13363 Top.Completeness <> w:166 var
+R13369:13371 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R13378:13380 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R13372:13372 Top.Modal_Notations <> :modal::'['_x_']'_x not
+R13376:13376 Top.Modal_Notations <> :modal::'['_x_']'_x not
+binder 13373:13375 <> idx:175
+binder 13373:13375 <> idx:176
+binder 13377:13377 <> p:177
+binder 13377:13377 <> p:178
+R13592:13600 Top.Modal_Tactics <> modal_axK thm
+R13592:13600 Top.Modal_Tactics <> modal_axK thm
+R13635:13637 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R13644:13646 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R13638:13638 Top.Modal_Notations <> :modal::'['_x_']'_x not
+R13642:13642 Top.Modal_Notations <> :modal::'['_x_']'_x not
+binder 13639:13641 <> idx:179
+binder 13639:13641 <> idx:180
+binder 13643:13643 <> a:181
+binder 13643:13643 <> a:182
+R13627:13628 Top.Deductive_System <> Mp constr
+R13635:13637 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R13644:13646 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R13638:13638 Top.Modal_Notations <> :modal::'['_x_']'_x not
+R13642:13642 Top.Modal_Notations <> :modal::'['_x_']'_x not
+binder 13639:13641 <> idx:183
+binder 13639:13641 <> idx:184
+binder 13643:13643 <> a:185
+binder 13643:13643 <> a:186
+R13627:13628 Top.Deductive_System <> Mp constr
+R13749:13759 Top.Completeness <> CompletenessAll.Completeness.CanonicalModel.extending_K var
+R13749:13759 Top.Completeness <> CompletenessAll.Completeness.CanonicalModel.extending_K var
+R13789:13793 Top.Deductive_System <> K_axK constr
+R13789:13793 Top.Deductive_System <> K_axK constr
+prf 13816:13843 <> existential_world_consistent
+binder 13859:13859 <> p:187
+R13865:13865 Top.Completeness <> W ind
+binder 13862:13862 <> w:188
+binder 13868:13870 <> idx:189
+R13894:13903 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13879:13879 Top.Completeness <> w:188 var
+R13881:13883 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R13891:13893 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R13884:13884 Top.Modal_Notations <> :modal::'~'_x not
+R13885:13885 Top.Modal_Notations <> :modal::'['_x_']'_x not
+R13889:13889 Top.Modal_Notations <> :modal::'['_x_']'_x not
+binder 13886:13888 <> idx:190
+binder 13886:13888 <> idx:191
+binder 13890:13890 <> p:192
+binder 13890:13890 <> p:193
+R13904:13913 Top.Completeness <> Consistent def
+R13918:13923 Top.Sets <> Extend abbrev
+R13925:13927 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R13930:13932 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R13928:13928 Top.Modal_Notations <> :modal::'~'_x not
+binder 13929:13929 <> p:194
+binder 13929:13929 <> p:195
+R13935:13951 Top.Completeness <> existential_world ind
+R13955:13957 Top.Completeness <> idx:189 var
+R13953:13953 Top.Completeness <> w:188 var
+R13915:13915 Top.Completeness <> CompletenessAll.Completeness.A var
+R14033:14049 Top.Completeness <> existential_world ind
+R14033:14049 Top.Completeness <> existential_world ind
+R14161:14175 Top.Modal_Tactics <> modal_deduction thm
+R14161:14175 Top.Modal_Tactics <> modal_deduction thm
+R14270:14306 Top.Modal_Tactics <> modal_implies_absurd_derives_negation thm
+R14270:14306 Top.Modal_Tactics <> modal_implies_absurd_derives_negation thm
+R14334:14335 Top.Deductive_System <> Mp constr
+R14405:14408 Top.Deductive_System <> ax10 constr
+R14391:14392 Top.Deductive_System <> Ax constr
+R14334:14335 Top.Deductive_System <> Mp constr
+R14405:14408 Top.Deductive_System <> ax10 constr
+R14391:14392 Top.Deductive_System <> Ax constr
+R14532:14543 Top.Completeness <> finite_world thm
+R14532:14543 Top.Completeness <> finite_world thm
+R14710:14722 Top.Completeness <> finite_spread thm
+R14710:14722 Top.Completeness <> finite_spread thm
+R14822:14824 Top.Deductive_System <> Nec constr
+R14822:14824 Top.Deductive_System <> Nec constr
+R14914:14937 Top.Completeness <> existential_modus_ponens thm
+R14914:14937 Top.Completeness <> existential_modus_ponens thm
+R14970:14979 Top.Completeness <> Consistent def
+R14981:14981 Top.Completeness <> CompletenessAll.Completeness.A var
+R14970:14979 Top.Completeness <> Consistent def
+R14981:14981 Top.Completeness <> CompletenessAll.Completeness.A var
+R15027:15029 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R15036:15038 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R15030:15030 Top.Modal_Notations <> :modal::'['_x_']'_x not
+R15034:15034 Top.Modal_Notations <> :modal::'['_x_']'_x not
+binder 15031:15033 <> idx:196
+binder 15031:15033 <> idx:197
+binder 15035:15035 <> p:198
+binder 15035:15035 <> p:199
+R15027:15029 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R15036:15038 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R15030:15030 Top.Modal_Notations <> :modal::'['_x_']'_x not
+R15034:15034 Top.Modal_Notations <> :modal::'['_x_']'_x not
+binder 15031:15033 <> idx:200
+binder 15031:15033 <> idx:201
+binder 15035:15035 <> p:202
+binder 15035:15035 <> p:203
+R15055:15063 Top.Modal_Tactics <> modal_ax4 thm
+R15055:15063 Top.Modal_Tactics <> modal_ax4 thm
+prf 15249:15259 <> existential
+R15279:15279 Top.Completeness <> W ind
+binder 15276:15276 <> w:204
+binder 15282:15282 <> p:205
+binder 15284:15286 <> idx:206
+R15310:15319 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R15295:15295 Top.Completeness <> w:204 var
+R15297:15299 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R15307:15309 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R15300:15300 Top.Modal_Notations <> :modal::'~'_x not
+R15301:15301 Top.Modal_Notations <> :modal::'['_x_']'_x not
+R15305:15305 Top.Modal_Notations <> :modal::'['_x_']'_x not
+binder 15302:15304 <> idx:207
+binder 15302:15304 <> idx:208
+binder 15306:15306 <> p:209
+binder 15306:15306 <> p:210
+R15320:15327 Coq.Init.Logic <> ::type_scope:'exists2'_x_','_x_'&'_x not
+R15330:15337 Coq.Init.Logic <> ::type_scope:'exists2'_x_','_x_'&'_x not
+R15348:15350 Coq.Init.Logic <> ::type_scope:'exists2'_x_','_x_'&'_x not
+binder 15328:15329 <> w':211
+R15338:15338 Top.Completeness <> R abbrev
+R15346:15347 Top.Completeness <> w':211 var
+R15344:15344 Top.Completeness <> w:204 var
+R15340:15342 Top.Completeness <> idx:206 var
+binder 15328:15329 <> w':212
+R15351:15352 Top.Completeness <> w':212 var
+R15354:15356 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R15359:15361 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R15357:15357 Top.Modal_Notations <> :modal::'~'_x not
+binder 15358:15358 <> p:213
+binder 15358:15358 <> p:214
+R15478:15483 Top.Sets <> Extend abbrev
+R15485:15487 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R15490:15492 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R15488:15488 Top.Modal_Notations <> :modal::'~'_x not
+binder 15489:15489 <> p:215
+binder 15489:15489 <> p:216
+R15495:15511 Top.Completeness <> existential_world ind
+R15478:15483 Top.Sets <> Extend abbrev
+R15485:15487 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R15490:15492 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R15488:15488 Top.Modal_Notations <> :modal::'~'_x not
+binder 15489:15489 <> p:217
+binder 15489:15489 <> p:218
+R15495:15511 Top.Completeness <> existential_world ind
+R15537:15546 Top.Completeness <> lindenbaum thm
+R15537:15546 Top.Completeness <> lindenbaum thm
+R15590:15617 Top.Completeness <> existential_world_consistent thm
+R15590:15617 Top.Completeness <> existential_world_consistent thm
+R15656:15659 Top.Completeness <> W_mk constr
+R15656:15659 Top.Completeness <> W_mk constr
+R15686:15686 Top.Completeness <> canonical_accessibility def
+prf 15849:15853 <> truth
+binder 15869:15869 <> p:219
+binder 15871:15871 <> w:220
+R15880:15880 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R15892:15898 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R15902:15902 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R15882:15884 Top.Modal_Notations <> :::x_''''_x_'||-'_x not
+R15886:15890 Top.Modal_Notations <> :::x_''''_x_'||-'_x not
+R15881:15881 Top.Completeness <> M abbrev
+R15885:15885 Top.Completeness <> w:220 var
+R15891:15891 Top.Completeness <> p:219 var
+R15899:15899 Top.Completeness <> w:220 var
+R15901:15901 Top.Completeness <> p:219 var
+R16086:16086 Coq.Init.Logic <> ::type_scope:'~'_x not
+R16086:16086 Coq.Init.Logic <> ::type_scope:'~'_x not
+R16123:16129 Top.Completeness <> Maximal def
+R16123:16129 Top.Completeness <> Maximal def
+R16300:16309 Top.Completeness <> Consistent def
+R16311:16311 Top.Completeness <> CompletenessAll.Completeness.A var
+R16300:16309 Top.Completeness <> Consistent def
+R16311:16311 Top.Completeness <> CompletenessAll.Completeness.A var
+R16378:16386 Top.Modal_Tactics <> modal_ax4 thm
+R16378:16386 Top.Modal_Tactics <> modal_ax4 thm
+R16523:16529 Coq.Logic.Classical_Prop <> classic prfax
+R16592:16598 Top.Completeness <> Maximal def
+R16592:16598 Top.Completeness <> Maximal def
+R16642:16644 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R16651:16653 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R16645:16645 Top.Modal_Notations <> :modal::'~'_x not
+R16646:16646 Top.Modal_Notations <> :modal::'['_x_']'_x not
+R16648:16649 Top.Modal_Notations <> :modal::'['_x_']'_x not
+binder 16647:16647 <> m:221
+binder 16647:16647 <> m:222
+binder 16650:16650 <> p:223
+binder 16650:16650 <> p:224
+R16642:16644 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R16651:16653 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R16645:16645 Top.Modal_Notations <> :modal::'~'_x not
+R16646:16646 Top.Modal_Notations <> :modal::'['_x_']'_x not
+R16648:16649 Top.Modal_Notations <> :modal::'['_x_']'_x not
+binder 16647:16647 <> m:225
+binder 16647:16647 <> m:226
+binder 16650:16650 <> p:227
+binder 16650:16650 <> p:228
+R16690:16700 Top.Completeness <> existential thm
+R16690:16700 Top.Completeness <> existential thm
+R16810:16819 Top.Completeness <> Consistent def
+R16821:16821 Top.Completeness <> CompletenessAll.Completeness.A var
+R16810:16819 Top.Completeness <> Consistent def
+R16821:16821 Top.Completeness <> CompletenessAll.Completeness.A var
+R16890:16898 Top.Modal_Tactics <> modal_ax4 thm
+R16890:16898 Top.Modal_Tactics <> modal_ax4 thm
+R17145:17151 Top.Completeness <> Maximal def
+R17145:17151 Top.Completeness <> Maximal def
+R17190:17190 Top.Completeness <> canonical_accessibility def
+R17223:17225 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R17230:17232 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R17226:17226 Top.Modal_Notations <> :modal::'<'_x_'>'_x not
+R17228:17228 Top.Modal_Notations <> :modal::'<'_x_'>'_x not
+binder 17227:17227 <> m:229
+binder 17227:17227 <> m:230
+binder 17229:17229 <> p:231
+binder 17229:17229 <> p:232
+R17223:17225 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R17230:17232 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R17226:17226 Top.Modal_Notations <> :modal::'<'_x_'>'_x not
+R17228:17228 Top.Modal_Notations <> :modal::'<'_x_'>'_x not
+binder 17227:17227 <> m:233
+binder 17227:17227 <> m:234
+binder 17229:17229 <> p:235
+binder 17229:17229 <> p:236
+R17303:17305 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R17311:17313 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R17306:17306 Top.Modal_Notations <> :modal::'['_x_']'_x not
+R17308:17308 Top.Modal_Notations <> :modal::'['_x_']'_x not
+binder 17307:17307 <> m:237
+binder 17307:17307 <> m:238
+R17309:17309 Top.Modal_Notations <> :modal::'~'_x not
+binder 17310:17310 <> p:239
+binder 17310:17310 <> p:240
+R17303:17305 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R17311:17313 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R17306:17306 Top.Modal_Notations <> :modal::'['_x_']'_x not
+R17308:17308 Top.Modal_Notations <> :modal::'['_x_']'_x not
+binder 17307:17307 <> m:241
+binder 17307:17307 <> m:242
+R17309:17309 Top.Modal_Notations <> :modal::'~'_x not
+binder 17310:17310 <> p:243
+binder 17310:17310 <> p:244
+R17336:17345 Top.Completeness <> Consistent def
+R17347:17347 Top.Completeness <> CompletenessAll.Completeness.A var
+R17336:17345 Top.Completeness <> Consistent def
+R17347:17347 Top.Completeness <> CompletenessAll.Completeness.A var
+R17399:17401 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R17404:17406 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R17402:17402 Top.Modal_Notations <> :modal::'~'_x not
+binder 17403:17403 <> p:245
+binder 17403:17403 <> p:246
+R17399:17401 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R17404:17406 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R17402:17402 Top.Modal_Notations <> :modal::'~'_x not
+binder 17403:17403 <> p:247
+binder 17403:17403 <> p:248
+R17439:17441 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R17443:17445 Top.Modal_Notations <> :::'[!'_x_'!]' not
+binder 17442:17442 <> p:249
+binder 17442:17442 <> p:250
+R17439:17441 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R17443:17445 Top.Modal_Notations <> :::'[!'_x_'!]' not
+binder 17442:17442 <> p:251
+binder 17442:17442 <> p:252
+R17466:17474 Top.Modal_Tactics <> modal_ax4 thm
+R17466:17474 Top.Modal_Tactics <> modal_ax4 thm
+R17569:17578 Top.Completeness <> Consistent def
+R17580:17580 Top.Completeness <> CompletenessAll.Completeness.A var
+R17569:17578 Top.Completeness <> Consistent def
+R17580:17580 Top.Completeness <> CompletenessAll.Completeness.A var
+R17630:17632 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R17637:17639 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R17633:17633 Top.Modal_Notations <> :modal::'<'_x_'>'_x not
+R17635:17635 Top.Modal_Notations <> :modal::'<'_x_'>'_x not
+binder 17634:17634 <> m:253
+binder 17634:17634 <> m:254
+binder 17636:17636 <> p:255
+binder 17636:17636 <> p:256
+R17630:17632 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R17637:17639 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R17633:17633 Top.Modal_Notations <> :modal::'<'_x_'>'_x not
+R17635:17635 Top.Modal_Notations <> :modal::'<'_x_'>'_x not
+binder 17634:17634 <> m:257
+binder 17634:17634 <> m:258
+binder 17636:17636 <> p:259
+binder 17636:17636 <> p:260
+R17660:17668 Top.Modal_Tactics <> modal_ax4 thm
+R17660:17668 Top.Modal_Tactics <> modal_ax4 thm
+R17695:17706 Top.Modal_Tactics <> modal_axDual thm
+R17695:17706 Top.Modal_Tactics <> modal_axDual thm
+R17735:17745 Top.Completeness <> CompletenessAll.Completeness.CanonicalModel.extending_K var
+R17735:17745 Top.Completeness <> CompletenessAll.Completeness.CanonicalModel.extending_K var
+R17878:17880 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R17883:17885 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R17881:17881 Top.Modal_Notations <> :modal::'~'_x not
+binder 17882:17882 <> p:261
+binder 17882:17882 <> p:262
+R17859:17869 Top.Completeness <> existential thm
+R17878:17880 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R17883:17885 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R17881:17881 Top.Modal_Notations <> :modal::'~'_x not
+binder 17882:17882 <> p:263
+binder 17882:17882 <> p:264
+R17859:17869 Top.Completeness <> existential thm
+R17928:17934 Top.Completeness <> Maximal def
+R17928:17934 Top.Completeness <> Maximal def
+R17976:17985 Top.Completeness <> Consistent def
+R17987:17987 Top.Completeness <> CompletenessAll.Completeness.A var
+R17976:17985 Top.Completeness <> Consistent def
+R17987:17987 Top.Completeness <> CompletenessAll.Completeness.A var
+R18038:18040 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R18046:18048 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R18041:18041 Top.Modal_Notations <> :modal::'['_x_']'_x not
+R18043:18043 Top.Modal_Notations <> :modal::'['_x_']'_x not
+binder 18042:18042 <> m:265
+binder 18042:18042 <> m:266
+R18044:18044 Top.Modal_Notations <> :modal::'~'_x not
+binder 18045:18045 <> p:267
+binder 18045:18045 <> p:268
+R18038:18040 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R18046:18048 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R18041:18041 Top.Modal_Notations <> :modal::'['_x_']'_x not
+R18043:18043 Top.Modal_Notations <> :modal::'['_x_']'_x not
+binder 18042:18042 <> m:269
+binder 18042:18042 <> m:270
+R18044:18044 Top.Modal_Notations <> :modal::'~'_x not
+binder 18045:18045 <> p:271
+binder 18045:18045 <> p:272
+R18098:18100 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R18106:18108 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R18101:18101 Top.Modal_Notations <> :modal::'['_x_']'_x not
+R18103:18103 Top.Modal_Notations <> :modal::'['_x_']'_x not
+binder 18102:18102 <> m:273
+binder 18102:18102 <> m:274
+R18104:18104 Top.Modal_Notations <> :modal::'~'_x not
+binder 18105:18105 <> p:275
+binder 18105:18105 <> p:276
+R18098:18100 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R18106:18108 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R18101:18101 Top.Modal_Notations <> :modal::'['_x_']'_x not
+R18103:18103 Top.Modal_Notations <> :modal::'['_x_']'_x not
+binder 18102:18102 <> m:277
+binder 18102:18102 <> m:278
+R18104:18104 Top.Modal_Notations <> :modal::'~'_x not
+binder 18105:18105 <> p:279
+binder 18105:18105 <> p:280
+R18129:18137 Top.Modal_Tactics <> modal_ax4 thm
+R18129:18137 Top.Modal_Tactics <> modal_ax4 thm
+R18199:18210 Top.Modal_Tactics <> modal_axDual thm
+R18199:18210 Top.Modal_Tactics <> modal_axDual thm
+R18239:18249 Top.Completeness <> CompletenessAll.Completeness.CanonicalModel.extending_K var
+R18239:18249 Top.Completeness <> CompletenessAll.Completeness.CanonicalModel.extending_K var
+R18333:18339 Top.Completeness <> Maximal def
+R18333:18339 Top.Completeness <> Maximal def
+R18383:18392 Top.Completeness <> Consistent def
+R18394:18394 Top.Completeness <> CompletenessAll.Completeness.A var
+R18383:18392 Top.Completeness <> Consistent def
+R18394:18394 Top.Completeness <> CompletenessAll.Completeness.A var
+R18573:18575 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R18578:18580 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R18576:18576 Top.Modal_Notations <> :modal::'~'_x not
+binder 18577:18577 <> p:281
+binder 18577:18577 <> p:282
+R18573:18575 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R18578:18580 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R18576:18576 Top.Modal_Notations <> :modal::'~'_x not
+binder 18577:18577 <> p:283
+binder 18577:18577 <> p:284
+R18601:18609 Top.Modal_Tactics <> modal_ax4 thm
+R18601:18609 Top.Modal_Tactics <> modal_ax4 thm
+R18791:18797 Top.Completeness <> Maximal def
+R18791:18797 Top.Completeness <> Maximal def
+R18837:18846 Top.Completeness <> Consistent def
+R18848:18848 Top.Completeness <> CompletenessAll.Completeness.A var
+R18837:18846 Top.Completeness <> Consistent def
+R18848:18848 Top.Completeness <> CompletenessAll.Completeness.A var
+R18897:18899 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R18908:18910 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R18902:18905 Top.Modal_Notations <> :modal::x_'/\'_x not
+binder 18900:18901 <> p1:285
+binder 18900:18901 <> p1:286
+binder 18906:18907 <> p2:287
+binder 18906:18907 <> p2:288
+R18897:18899 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R18908:18910 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R18902:18905 Top.Modal_Notations <> :modal::x_'/\'_x not
+binder 18900:18901 <> p1:289
+binder 18900:18901 <> p1:290
+binder 18906:18907 <> p2:291
+binder 18906:18907 <> p2:292
+R18978:18980 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R18989:18991 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R18983:18986 Top.Modal_Notations <> :modal::x_'/\'_x not
+binder 18981:18982 <> p1:293
+binder 18981:18982 <> p1:294
+binder 18987:18988 <> p2:295
+binder 18987:18988 <> p2:296
+R18978:18980 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R18989:18991 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R18983:18986 Top.Modal_Notations <> :modal::x_'/\'_x not
+binder 18981:18982 <> p1:297
+binder 18981:18982 <> p1:298
+binder 18987:18988 <> p2:299
+binder 18987:18988 <> p2:300
+R19010:19018 Top.Modal_Tactics <> modal_ax4 thm
+R19010:19018 Top.Modal_Tactics <> modal_ax4 thm
+R19041:19049 Top.Modal_Tactics <> modal_ax4 thm
+R19041:19049 Top.Modal_Tactics <> modal_ax4 thm
+R19191:19197 Top.Completeness <> Maximal def
+R19191:19197 Top.Completeness <> Maximal def
+R19237:19246 Top.Completeness <> Consistent def
+R19248:19248 Top.Completeness <> CompletenessAll.Completeness.A var
+R19237:19246 Top.Completeness <> Consistent def
+R19248:19248 Top.Completeness <> CompletenessAll.Completeness.A var
+R19435:19443 Top.Modal_Tactics <> modal_ax4 thm
+R19435:19443 Top.Modal_Tactics <> modal_ax4 thm
+R19470:19478 Top.Modal_Tactics <> modal_ax5 thm
+R19470:19478 Top.Modal_Tactics <> modal_ax5 thm
+R19709:19717 Top.Modal_Tactics <> modal_ax4 thm
+R19709:19717 Top.Modal_Tactics <> modal_ax4 thm
+R19744:19752 Top.Modal_Tactics <> modal_ax6 thm
+R19744:19752 Top.Modal_Tactics <> modal_ax6 thm
+R19920:19926 Top.Completeness <> Maximal def
+R19920:19926 Top.Completeness <> Maximal def
+R19968:19977 Top.Completeness <> Consistent def
+R19979:19979 Top.Completeness <> CompletenessAll.Completeness.A var
+R19968:19977 Top.Completeness <> Consistent def
+R19979:19979 Top.Completeness <> CompletenessAll.Completeness.A var
+R20030:20032 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R20041:20043 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R20035:20038 Top.Modal_Notations <> :modal::x_'\/'_x not
+binder 20033:20034 <> p1:301
+binder 20033:20034 <> p1:302
+binder 20039:20040 <> p2:303
+binder 20039:20040 <> p2:304
+R20030:20032 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R20041:20043 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R20035:20038 Top.Modal_Notations <> :modal::x_'\/'_x not
+binder 20033:20034 <> p1:305
+binder 20033:20034 <> p1:306
+binder 20039:20040 <> p2:307
+binder 20039:20040 <> p2:308
+R20117:20119 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R20130:20132 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R20120:20120 Top.Modal_Notations <> :modal::'('_x_')' not
+R20129:20129 Top.Modal_Notations <> :modal::'('_x_')' not
+R20123:20126 Top.Modal_Notations <> :modal::x_'\/'_x not
+binder 20121:20122 <> p1:309
+binder 20121:20122 <> p1:310
+binder 20127:20128 <> p2:311
+binder 20127:20128 <> p2:312
+R20117:20119 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R20130:20132 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R20120:20120 Top.Modal_Notations <> :modal::'('_x_')' not
+R20129:20129 Top.Modal_Notations <> :modal::'('_x_')' not
+R20123:20126 Top.Modal_Notations <> :modal::x_'\/'_x not
+binder 20121:20122 <> p1:313
+binder 20121:20122 <> p1:314
+binder 20127:20128 <> p2:315
+binder 20127:20128 <> p2:316
+R20153:20161 Top.Modal_Tactics <> modal_ax4 thm
+R20153:20161 Top.Modal_Tactics <> modal_ax4 thm
+R20188:20196 Top.Modal_Tactics <> modal_ax7 thm
+R20188:20196 Top.Modal_Tactics <> modal_ax7 thm
+R20316:20322 Top.Completeness <> Maximal def
+R20316:20322 Top.Completeness <> Maximal def
+R20364:20373 Top.Completeness <> Consistent def
+R20375:20375 Top.Completeness <> CompletenessAll.Completeness.A var
+R20364:20373 Top.Completeness <> Consistent def
+R20375:20375 Top.Completeness <> CompletenessAll.Completeness.A var
+R20426:20428 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R20437:20439 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R20431:20434 Top.Modal_Notations <> :modal::x_'\/'_x not
+binder 20429:20430 <> p1:317
+binder 20429:20430 <> p1:318
+binder 20435:20436 <> p2:319
+binder 20435:20436 <> p2:320
+R20426:20428 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R20437:20439 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R20431:20434 Top.Modal_Notations <> :modal::x_'\/'_x not
+binder 20429:20430 <> p1:321
+binder 20429:20430 <> p1:322
+binder 20435:20436 <> p2:323
+binder 20435:20436 <> p2:324
+R20513:20515 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R20526:20528 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R20516:20516 Top.Modal_Notations <> :modal::'('_x_')' not
+R20525:20525 Top.Modal_Notations <> :modal::'('_x_')' not
+R20519:20522 Top.Modal_Notations <> :modal::x_'\/'_x not
+binder 20517:20518 <> p1:325
+binder 20517:20518 <> p1:326
+binder 20523:20524 <> p2:327
+binder 20523:20524 <> p2:328
+R20513:20515 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R20526:20528 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R20516:20516 Top.Modal_Notations <> :modal::'('_x_')' not
+R20525:20525 Top.Modal_Notations <> :modal::'('_x_')' not
+R20519:20522 Top.Modal_Notations <> :modal::x_'\/'_x not
+binder 20517:20518 <> p1:329
+binder 20517:20518 <> p1:330
+binder 20523:20524 <> p2:331
+binder 20523:20524 <> p2:332
+R20549:20557 Top.Modal_Tactics <> modal_ax4 thm
+R20549:20557 Top.Modal_Tactics <> modal_ax4 thm
+R20584:20592 Top.Modal_Tactics <> modal_ax8 thm
+R20584:20592 Top.Modal_Tactics <> modal_ax8 thm
+R20703:20709 Top.Completeness <> Maximal def
+R20703:20709 Top.Completeness <> Maximal def
+R20749:20758 Top.Completeness <> Consistent def
+R20760:20760 Top.Completeness <> CompletenessAll.Completeness.A var
+R20749:20758 Top.Completeness <> Consistent def
+R20760:20760 Top.Completeness <> CompletenessAll.Completeness.A var
+R21018:21020 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R21029:21031 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R21023:21026 Top.Modal_Notations <> :modal::x_'\/'_x not
+binder 21021:21022 <> p1:333
+binder 21021:21022 <> p1:334
+binder 21027:21028 <> p2:335
+binder 21027:21028 <> p2:336
+R21018:21020 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R21029:21031 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R21023:21026 Top.Modal_Notations <> :modal::x_'\/'_x not
+binder 21021:21022 <> p1:337
+binder 21021:21022 <> p1:338
+binder 21027:21028 <> p2:339
+binder 21027:21028 <> p2:340
+R21052:21060 Top.Modal_Tactics <> modal_ax4 thm
+R21052:21060 Top.Modal_Tactics <> modal_ax4 thm
+R21122:21130 Top.Modal_Tactics <> modal_ax9 thm
+R21122:21130 Top.Modal_Tactics <> modal_ax9 thm
+R21172:21186 Top.Modal_Tactics <> modal_deduction thm
+R21172:21186 Top.Modal_Tactics <> modal_deduction thm
+R21221:21235 Top.Modal_Tactics <> modal_explosion thm
+R21221:21235 Top.Modal_Tactics <> modal_explosion thm
+R21351:21366 Top.Modal_Tactics <> deduction_subset thm
+R21351:21366 Top.Modal_Tactics <> deduction_subset thm
+R21526:21540 Top.Modal_Tactics <> modal_deduction thm
+R21526:21540 Top.Modal_Tactics <> modal_deduction thm
+R21575:21589 Top.Modal_Tactics <> modal_explosion thm
+R21575:21589 Top.Modal_Tactics <> modal_explosion thm
+R21705:21720 Top.Modal_Tactics <> deduction_subset thm
+R21705:21720 Top.Modal_Tactics <> deduction_subset thm
+R21929:21935 Top.Completeness <> Maximal def
+R21929:21935 Top.Completeness <> Maximal def
+R21975:21984 Top.Completeness <> Consistent def
+R21986:21986 Top.Completeness <> CompletenessAll.Completeness.A var
+R21975:21984 Top.Completeness <> Consistent def
+R21986:21986 Top.Completeness <> CompletenessAll.Completeness.A var
+R22150:22152 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R22161:22163 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R22155:22158 Top.Modal_Notations <> :modal::x_'->'_x not
+binder 22153:22154 <> p1:341
+binder 22153:22154 <> p1:342
+binder 22159:22160 <> p2:343
+binder 22159:22160 <> p2:344
+R22150:22152 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R22161:22163 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R22155:22158 Top.Modal_Notations <> :modal::x_'->'_x not
+binder 22153:22154 <> p1:345
+binder 22153:22154 <> p1:346
+binder 22159:22160 <> p2:347
+binder 22159:22160 <> p2:348
+R22207:22209 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R22218:22220 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R22212:22215 Top.Modal_Notations <> :modal::x_'->'_x not
+binder 22210:22211 <> p1:349
+binder 22210:22211 <> p1:350
+binder 22216:22217 <> p2:351
+binder 22216:22217 <> p2:352
+R22207:22209 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R22218:22220 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R22212:22215 Top.Modal_Notations <> :modal::x_'->'_x not
+binder 22210:22211 <> p1:353
+binder 22210:22211 <> p1:354
+binder 22216:22217 <> p2:355
+binder 22216:22217 <> p2:356
+R22241:22249 Top.Modal_Tactics <> modal_ax4 thm
+R22241:22249 Top.Modal_Tactics <> modal_ax4 thm
+R22276:22284 Top.Modal_Tactics <> modal_ax1 thm
+R22276:22284 Top.Modal_Tactics <> modal_ax1 thm
+R22419:22421 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R22430:22432 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R22424:22427 Top.Modal_Notations <> :modal::x_'->'_x not
+binder 22422:22423 <> p1:357
+binder 22422:22423 <> p1:358
+binder 22428:22429 <> p2:359
+binder 22428:22429 <> p2:360
+R22419:22421 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R22430:22432 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R22424:22427 Top.Modal_Notations <> :modal::x_'->'_x not
+binder 22422:22423 <> p1:361
+binder 22422:22423 <> p1:362
+binder 22428:22429 <> p2:363
+binder 22428:22429 <> p2:364
+R22476:22478 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R22487:22489 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R22481:22484 Top.Modal_Notations <> :modal::x_'->'_x not
+binder 22479:22480 <> p1:365
+binder 22479:22480 <> p1:366
+binder 22485:22486 <> p2:367
+binder 22485:22486 <> p2:368
+R22476:22478 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R22487:22489 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R22481:22484 Top.Modal_Notations <> :modal::x_'->'_x not
+binder 22479:22480 <> p1:369
+binder 22479:22480 <> p1:370
+binder 22485:22486 <> p2:371
+binder 22485:22486 <> p2:372
+R22510:22518 Top.Modal_Tactics <> modal_ax4 thm
+R22510:22518 Top.Modal_Tactics <> modal_ax4 thm
+R22545:22553 Top.Modal_Tactics <> modal_ax1 thm
+R22545:22553 Top.Modal_Tactics <> modal_ax1 thm
+R22657:22659 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R22668:22670 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R22662:22665 Top.Modal_Notations <> :modal::x_'->'_x not
+binder 22660:22661 <> p1:373
+binder 22660:22661 <> p1:374
+binder 22666:22667 <> p2:375
+binder 22666:22667 <> p2:376
+R22657:22659 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R22668:22670 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R22662:22665 Top.Modal_Notations <> :modal::x_'->'_x not
+binder 22660:22661 <> p1:377
+binder 22660:22661 <> p1:378
+binder 22666:22667 <> p2:379
+binder 22666:22667 <> p2:380
+R22714:22716 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R22725:22727 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R22719:22722 Top.Modal_Notations <> :modal::x_'->'_x not
+binder 22717:22718 <> p1:381
+binder 22717:22718 <> p1:382
+binder 22723:22724 <> p2:383
+binder 22723:22724 <> p2:384
+R22714:22716 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R22725:22727 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R22719:22722 Top.Modal_Notations <> :modal::x_'->'_x not
+binder 22717:22718 <> p1:385
+binder 22717:22718 <> p1:386
+binder 22723:22724 <> p2:387
+binder 22723:22724 <> p2:388
+R22748:22756 Top.Modal_Tactics <> modal_ax4 thm
+R22748:22756 Top.Modal_Tactics <> modal_ax4 thm
+R22783:22791 Top.Modal_Tactics <> modal_ax3 thm
+R22783:22791 Top.Modal_Tactics <> modal_ax3 thm
+R22818:22826 Top.Modal_Tactics <> modal_ax1 thm
+R22818:22826 Top.Modal_Tactics <> modal_ax1 thm
+R22991:22997 Top.Completeness <> Maximal def
+R22991:22997 Top.Completeness <> Maximal def
+R23037:23046 Top.Completeness <> Consistent def
+R23048:23048 Top.Completeness <> CompletenessAll.Completeness.A var
+R23037:23046 Top.Completeness <> Consistent def
+R23048:23048 Top.Completeness <> CompletenessAll.Completeness.A var
+R23186:23194 Top.Modal_Tactics <> modal_ax4 thm
+R23186:23194 Top.Modal_Tactics <> modal_ax4 thm
+R23217:23218 Top.Deductive_System <> Mp constr
+R23217:23218 Top.Deductive_System <> Mp constr
+var 23353:23353 CompletenessAll.Completeness.CanonicalModel G
+R23356:23361 Top.Modal_Library <> theory def
+prf 23377:23385 <> canonical
+R23408:23417 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R23394:23403 Top.Completeness <> Consistent def
+R23407:23407 Top.Completeness <> CompletenessAll.Completeness.CanonicalModel.G var
+R23405:23405 Top.Completeness <> CompletenessAll.Completeness.A var
+binder 23425:23425 <> p:391
+R23437:23446 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R23434:23434 Top.Completeness <> CompletenessAll.Completeness.CanonicalModel.G var
+R23436:23436 Top.Completeness <> p:391 var
+R23447:23453 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R23455:23462 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 23454:23454 <> w:392
+R23464:23466 Top.Modal_Notations <> :::x_''''_x_'||-'_x not
+R23468:23472 Top.Modal_Notations <> :::x_''''_x_'||-'_x not
+R23463:23463 Top.Completeness <> M abbrev
+R23467:23467 Top.Completeness <> w:392 var
+R23473:23473 Top.Completeness <> p:391 var
+R23532:23532 Top.Completeness <> CompletenessAll.Completeness.CanonicalModel.G var
+R23516:23525 Top.Completeness <> lindenbaum thm
+R23532:23532 Top.Completeness <> CompletenessAll.Completeness.CanonicalModel.G var
+R23516:23525 Top.Completeness <> lindenbaum thm
+R23599:23602 Top.Completeness <> W_mk constr
+R23599:23602 Top.Completeness <> W_mk constr
+R23628:23632 Top.Completeness <> truth thm
+R23628:23632 Top.Completeness <> truth thm
+prf 23700:23715 <> world_derivation
+binder 23731:23731 <> p:393
+R23740:23740 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R23755:23761 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R23778:23778 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R23742:23743 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R23749:23753 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R23741:23741 Top.Completeness <> CompletenessAll.Completeness.A var
+R23744:23748 Top.Sets <> Empty def
+R23754:23754 Top.Completeness <> p:393 var
+R23772:23772 Top.Completeness <> W ind
+binder 23769:23769 <> w:394
+R23775:23775 Top.Completeness <> w:394 var
+R23777:23777 Top.Completeness <> p:393 var
+R23967:23975 Top.Modal_Tactics <> modal_ax4 thm
+R23967:23975 Top.Modal_Tactics <> modal_ax4 thm
+R23996:24006 Top.Completeness <> CompletenessAll.Completeness.extending_P var
+R23996:24006 Top.Completeness <> CompletenessAll.Completeness.extending_P var
+R24027:24031 Top.Deductive_System <> P_ax1 constr
+R24027:24031 Top.Deductive_System <> P_ax1 constr
+R24052:24062 Top.Completeness <> CompletenessAll.Completeness.extending_P var
+R24052:24062 Top.Completeness <> CompletenessAll.Completeness.extending_P var
+R24083:24087 Top.Deductive_System <> P_ax2 constr
+R24083:24087 Top.Deductive_System <> P_ax2 constr
+R24108:24118 Top.Completeness <> CompletenessAll.Completeness.extending_P var
+R24108:24118 Top.Completeness <> CompletenessAll.Completeness.extending_P var
+R24139:24143 Top.Deductive_System <> P_ax4 constr
+R24139:24143 Top.Deductive_System <> P_ax4 constr
+R24186:24190 Top.Sets <> Empty def
+R24164:24179 Top.Modal_Tactics <> deduction_subset thm
+R24186:24190 Top.Sets <> Empty def
+R24164:24179 Top.Modal_Tactics <> deduction_subset thm
+R24293:24313 Top.Completeness <> consistency_deduction thm
+R24293:24313 Top.Completeness <> consistency_deduction thm
+R24363:24371 Top.Sets <> Singleton ind
+R24373:24375 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R24378:24380 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R24376:24376 Top.Modal_Notations <> :modal::'~'_x not
+binder 24377:24377 <> p:395
+binder 24377:24377 <> p:396
+R24346:24355 Top.Completeness <> lindenbaum thm
+R24363:24371 Top.Sets <> Singleton ind
+R24373:24375 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R24378:24380 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R24376:24376 Top.Modal_Notations <> :modal::'~'_x not
+binder 24377:24377 <> p:397
+binder 24377:24377 <> p:398
+R24346:24355 Top.Completeness <> lindenbaum thm
+R24498:24506 Top.Sets <> Singleton ind
+R24508:24510 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R24513:24515 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R24511:24511 Top.Modal_Notations <> :modal::'~'_x not
+binder 24512:24512 <> p:399
+binder 24512:24512 <> p:400
+R24469:24484 Top.Modal_Tactics <> deduction_subset thm
+R24498:24506 Top.Sets <> Singleton ind
+R24508:24510 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R24513:24515 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R24511:24511 Top.Modal_Notations <> :modal::'~'_x not
+binder 24512:24512 <> p:401
+binder 24512:24512 <> p:402
+R24469:24484 Top.Modal_Tactics <> deduction_subset thm
+R24630:24633 Top.Completeness <> W_mk constr
+R24630:24633 Top.Completeness <> W_mk constr
+R24699:24707 Top.Modal_Tactics <> modal_ax4 thm
+R24699:24707 Top.Modal_Tactics <> modal_ax4 thm
+R24730:24740 Top.Completeness <> CompletenessAll.Completeness.extending_P var
+R24730:24740 Top.Completeness <> CompletenessAll.Completeness.extending_P var
+R24763:24767 Top.Deductive_System <> P_ax1 constr
+R24763:24767 Top.Deductive_System <> P_ax1 constr
+R24790:24800 Top.Completeness <> CompletenessAll.Completeness.extending_P var
+R24790:24800 Top.Completeness <> CompletenessAll.Completeness.extending_P var
+R24823:24827 Top.Deductive_System <> P_ax2 constr
+R24823:24827 Top.Deductive_System <> P_ax2 constr
+R24850:24860 Top.Completeness <> CompletenessAll.Completeness.extending_P var
+R24850:24860 Top.Completeness <> CompletenessAll.Completeness.extending_P var
+R24883:24887 Top.Deductive_System <> P_ax4 constr
+R24883:24887 Top.Deductive_System <> P_ax4 constr
+prf 25023:25038 <> determination_if
+binder 25054:25054 <> p:403
+R25063:25063 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R25070:25075 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R25090:25090 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R25065:25068 Top.Modal_Notations <> :::x_'|='_x not
+R25064:25064 Top.Completeness <> M abbrev
+R25069:25069 Top.Completeness <> p:403 var
+R25077:25078 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R25084:25088 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R25076:25076 Top.Completeness <> CompletenessAll.Completeness.A var
+R25079:25083 Top.Sets <> Empty def
+R25089:25089 Top.Completeness <> p:403 var
+R25152:25165 Coq.Logic.Decidable <> contrapositive thm
+R25152:25165 Coq.Logic.Decidable <> contrapositive thm
+R25190:25196 Coq.Logic.Classical_Prop <> classic prfax
+R25190:25196 Coq.Logic.Classical_Prop <> classic prfax
+R25239:25244 Top.Sets <> Extend abbrev
+R25246:25248 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R25251:25253 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R25249:25249 Top.Modal_Notations <> :modal::'~'_x not
+binder 25250:25250 <> p:404
+binder 25250:25250 <> p:405
+R25255:25259 Top.Sets <> Empty def
+R25217:25226 Top.Completeness <> lindenbaum thm
+R25239:25244 Top.Sets <> Extend abbrev
+R25246:25248 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R25251:25253 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R25249:25249 Top.Modal_Notations <> :modal::'~'_x not
+binder 25250:25250 <> p:406
+binder 25250:25250 <> p:407
+R25255:25259 Top.Sets <> Empty def
+R25217:25226 Top.Completeness <> lindenbaum thm
+R25350:25364 Top.Modal_Tactics <> modal_deduction thm
+R25350:25364 Top.Modal_Tactics <> modal_deduction thm
+R25395:25410 Top.Completeness <> world_derivation thm
+R25395:25410 Top.Completeness <> world_derivation thm
+R25588:25589 Top.Deductive_System <> Mp constr
+R25588:25589 Top.Deductive_System <> Mp constr
+R25636:25640 Top.Sets <> Empty def
+R25614:25629 Top.Modal_Tactics <> deduction_subset thm
+R25636:25640 Top.Sets <> Empty def
+R25614:25629 Top.Modal_Tactics <> deduction_subset thm
+R25731:25734 Top.Deductive_System <> Prem constr
+R25731:25734 Top.Deductive_System <> Prem constr
+R25792:25795 Top.Completeness <> W_mk constr
+R25792:25795 Top.Completeness <> W_mk constr
+R25824:25828 Top.Completeness <> truth thm
+R25824:25828 Top.Completeness <> truth thm
+R25893:25901 Top.Modal_Tactics <> modal_ax4 thm
+R25893:25901 Top.Modal_Tactics <> modal_ax4 thm
+prf 26008:26028 <> determination_only_if
+binder 26044:26044 <> p:408
+R26053:26053 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R26068:26073 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R26080:26080 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R26055:26056 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R26062:26066 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R26054:26054 Top.Completeness <> CompletenessAll.Completeness.A var
+R26057:26061 Top.Sets <> Empty def
+R26067:26067 Top.Completeness <> p:408 var
+R26075:26078 Top.Modal_Notations <> :::x_'|='_x not
+R26074:26074 Top.Completeness <> M abbrev
+R26079:26079 Top.Completeness <> p:408 var
+R26156:26160 Top.Completeness <> truth thm
+R26156:26160 Top.Completeness <> truth thm
+R26240:26248 Top.Modal_Tactics <> modal_ax4 thm
+R26240:26248 Top.Modal_Tactics <> modal_ax4 thm
+R26289:26293 Top.Sets <> Empty def
+R26267:26282 Top.Modal_Tactics <> deduction_subset thm
+R26289:26293 Top.Sets <> Empty def
+R26267:26282 Top.Modal_Tactics <> deduction_subset thm
+prf 26404:26416 <> determination
+binder 26432:26432 <> p:409
+R26441:26441 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R26448:26454 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R26469:26469 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R26443:26446 Top.Modal_Notations <> :::x_'|='_x not
+R26442:26442 Top.Completeness <> M abbrev
+R26447:26447 Top.Completeness <> p:409 var
+R26456:26457 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R26463:26467 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R26455:26455 Top.Completeness <> CompletenessAll.Completeness.A var
+R26458:26462 Top.Sets <> Empty def
+R26468:26468 Top.Completeness <> p:409 var
+R26510:26525 Top.Completeness <> determination_if thm
+R26510:26525 Top.Completeness <> determination_if thm
+R26542:26562 Top.Completeness <> determination_only_if thm
+R26542:26562 Top.Completeness <> determination_only_if thm
+prf 26587:26598 <> completeness
+binder 26614:26614 <> p:410
+R26623:26623 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R26635:26640 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R26655:26655 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R26629:26633 Top.Modal_Notations <> :::x_'||='_x not
+R26624:26628 Top.Sets <> Empty def
+R26634:26634 Top.Completeness <> p:410 var
+R26642:26643 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R26649:26653 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R26641:26641 Top.Completeness <> CompletenessAll.Completeness.A var
+R26644:26648 Top.Sets <> Empty def
+R26654:26654 Top.Completeness <> p:410 var
+R26788:26801 Coq.Logic.Decidable <> contrapositive thm
+R26788:26801 Coq.Logic.Decidable <> contrapositive thm
+R26826:26832 Coq.Logic.Classical_Prop <> classic prfax
+R26826:26832 Coq.Logic.Classical_Prop <> classic prfax
+R27046:27055 Top.Completeness <> Consistent def
+R27059:27063 Top.Sets <> Empty def
+R27057:27057 Top.Completeness <> CompletenessAll.Completeness.A var
+R27046:27055 Top.Completeness <> Consistent def
+R27059:27063 Top.Sets <> Empty def
+R27057:27057 Top.Completeness <> CompletenessAll.Completeness.A var
+R27087:27119 Top.Completeness <> nonderivation_implies_consistency thm
+R27087:27119 Top.Completeness <> nonderivation_implies_consistency thm
+R27283:27283 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R27290:27294 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R27285:27288 Top.Modal_Notations <> :::x_'|='_x not
+R27284:27284 Top.Completeness <> M abbrev
+R27295:27299 Coq.Init.Logic <> False ind
+R27283:27283 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R27290:27294 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R27285:27288 Top.Modal_Notations <> :::x_'|='_x not
+R27284:27284 Top.Completeness <> M abbrev
+R27295:27299 Coq.Init.Logic <> False ind
+R27329:27341 Top.Completeness <> determination thm
+R27329:27341 Top.Completeness <> determination thm
+R27539:27552 Top.Completeness CompletenessAll.Completeness.CanonicalModel <> sec
+R27559:27570 Top.Completeness CompletenessAll.Completeness <> sec
+R27577:27591 Top.Completeness CompletenessAll <> sec

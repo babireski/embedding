@@ -6,8 +6,8 @@ R45:53 Coq.Logic.Classical <> <> lib
 R55:58 Coq.Lists.List <> <> lib
 R60:75 Top.Deductive_System <> <> lib
 sec 87:95 <> Soundness
+var  109:109 Soundness X
 R112:126 Top.Modal_Library <> modal_index_set class
-binder 109:109 <> X:2
 prf 157:181 <> Hilbert_Axiom_1_soundness
 binder 193:193 <> M:3
 binder 195:195 <> w:4

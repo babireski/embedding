@@ -2,6 +2,7 @@ Require Import Decidable.
 Require Import Classical.
 Require Import Modal_Library Modal_Notations Modal_Tactics Classical.
 
+Section Validation.
 Context `{X: modal_index_set}.
 
 Theorem reflexive_frame_implies_axiomT:
@@ -504,3 +505,4 @@ Proof.
         apply H4 in H6.
         contradiction.
 Qed.
+End Validation.

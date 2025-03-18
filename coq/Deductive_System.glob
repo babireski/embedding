@@ -8,8 +8,8 @@ R60:64 Coq.Init.Logic <> <> lib
 R66:73 Coq.Program.Equality <> <> lib
 R75:78 Top.Sets <> <> lib
 sec 115:121 <> Hilbert
+var  135:135 Hilbert X
 R138:152 Top.Modal_Library <> modal_index_set class
-binder 135:135 <> X:2
 ind 213:217 <> axiom
 constr 231:233 <> ax1
 constr 268:270 <> ax2
@@ -574,8 +574,8 @@ scheme 1971:1979 <> deduction_ind
 scheme 1971:1979 <> deduction_sind
 R2531:2537 Top.Deductive_System Hilbert <> sec
 sec 2549:2555 <> Systems
+var  2569:2569 Systems X
 R2572:2586 Top.Modal_Library <> modal_index_set class
-binder 2569:2569 <> X:192
 ind 2601:2601 <> P
 constr 2625:2629 <> P_ax1
 constr 2664:2668 <> P_ax2
@@ -661,23 +661,23 @@ constr 3116:3120 <> K_axK
 constr 3159:3166 <> K_axDual
 R3067:3070 Coq.Init.Logic <> ::type_scope:x_'->'_x not
 R3062:3066 Top.Deductive_System <> axiom ind
-binder 3095:3096 <> φ:219
+binder 3095:3096 <> φ:220
 R3103:3106 Coq.Init.Logic <> ::type_scope:x_'->'_x not
 R3099:3099 Top.Deductive_System <> P ind
-R3101:3102 Top.Deductive_System <> φ:219 var
-R3107:3107 Top.Deductive_System <> K:217 ind
-R3109:3110 Top.Deductive_System <> φ:219 var
-binder 3130:3131 <> φ:220
-binder 3133:3134 <> ψ:221
-R3137:3137 Top.Deductive_System <> K:217 ind
+R3101:3102 Top.Deductive_System <> φ:220 var
+R3107:3107 Top.Deductive_System <> K:218 ind
+R3109:3110 Top.Deductive_System <> φ:220 var
+binder 3130:3131 <> φ:221
+binder 3133:3134 <> ψ:222
+R3137:3137 Top.Deductive_System <> K:218 ind
 R3140:3142 Top.Deductive_System <> axK constr
-R3151:3152 Top.Deductive_System <> ψ:221 var
-R3148:3149 Top.Deductive_System <> φ:220 var
+R3151:3152 Top.Deductive_System <> ψ:222 var
+R3148:3149 Top.Deductive_System <> φ:221 var
 R3144:3146 Top.Deductive_System <> Systems.idx var
-binder 3176:3177 <> φ:222
-R3180:3180 Top.Deductive_System <> K:217 ind
+binder 3176:3177 <> φ:223
+R3180:3180 Top.Deductive_System <> K:218 ind
 R3183:3188 Top.Deductive_System <> axDual constr
-R3194:3195 Top.Deductive_System <> φ:222 var
+R3194:3195 Top.Deductive_System <> φ:223 var
 R3190:3192 Top.Deductive_System <> Systems.idx var
 scheme 3059:3059 <> K_ind
 scheme 3059:3059 <> K_sind
@@ -686,16 +686,16 @@ constr 3250:3252 <> T_K
 constr 3283:3287 <> T_axT
 R3234:3237 Coq.Init.Logic <> ::type_scope:x_'->'_x not
 R3229:3233 Top.Deductive_System <> axiom ind
-binder 3262:3263 <> φ:225
+binder 3262:3263 <> φ:226
 R3270:3273 Coq.Init.Logic <> ::type_scope:x_'->'_x not
 R3266:3266 Top.Deductive_System <> K ind
-R3268:3269 Top.Deductive_System <> φ:225 var
-R3274:3274 Top.Deductive_System <> T:223 ind
-R3276:3277 Top.Deductive_System <> φ:225 var
-binder 3297:3298 <> φ:226
-R3302:3302 Top.Deductive_System <> T:223 ind
+R3268:3269 Top.Deductive_System <> φ:226 var
+R3274:3274 Top.Deductive_System <> T:224 ind
+R3276:3277 Top.Deductive_System <> φ:226 var
+binder 3297:3298 <> φ:227
+R3302:3302 Top.Deductive_System <> T:224 ind
 R3305:3307 Top.Deductive_System <> axT constr
-R3313:3314 Top.Deductive_System <> φ:226 var
+R3313:3314 Top.Deductive_System <> φ:227 var
 R3309:3311 Top.Deductive_System <> Systems.idx var
 scheme 3226:3226 <> T_ind
 scheme 3226:3226 <> T_sind
@@ -704,16 +704,16 @@ constr 3382:3384 <> B_T
 constr 3415:3419 <> B_axB
 R3366:3369 Coq.Init.Logic <> ::type_scope:x_'->'_x not
 R3361:3365 Top.Deductive_System <> axiom ind
-binder 3394:3395 <> φ:229
+binder 3394:3395 <> φ:230
 R3402:3405 Coq.Init.Logic <> ::type_scope:x_'->'_x not
 R3398:3398 Top.Deductive_System <> T ind
-R3400:3401 Top.Deductive_System <> φ:229 var
-R3406:3406 Top.Deductive_System <> B:227 ind
-R3408:3409 Top.Deductive_System <> φ:229 var
-binder 3429:3430 <> φ:230
-R3434:3434 Top.Deductive_System <> B:227 ind
+R3400:3401 Top.Deductive_System <> φ:230 var
+R3406:3406 Top.Deductive_System <> B:228 ind
+R3408:3409 Top.Deductive_System <> φ:230 var
+binder 3429:3430 <> φ:231
+R3434:3434 Top.Deductive_System <> B:228 ind
 R3437:3439 Top.Deductive_System <> axB constr
-R3445:3446 Top.Deductive_System <> φ:230 var
+R3445:3446 Top.Deductive_System <> φ:231 var
 R3441:3443 Top.Deductive_System <> Systems.idx var
 scheme 3358:3358 <> B_ind
 scheme 3358:3358 <> B_sind
@@ -722,16 +722,16 @@ constr 3503:3506 <> K4_K
 constr 3538:3544 <> K4_axK4
 R3487:3490 Coq.Init.Logic <> ::type_scope:x_'->'_x not
 R3482:3486 Top.Deductive_System <> axiom ind
-binder 3516:3517 <> φ:233
+binder 3516:3517 <> φ:234
 R3524:3527 Coq.Init.Logic <> ::type_scope:x_'->'_x not
 R3520:3520 Top.Deductive_System <> K ind
-R3522:3523 Top.Deductive_System <> φ:233 var
-R3528:3529 Top.Deductive_System <> K4:231 ind
-R3531:3532 Top.Deductive_System <> φ:233 var
-binder 3554:3555 <> φ:234
-R3559:3560 Top.Deductive_System <> K4:231 ind
+R3522:3523 Top.Deductive_System <> φ:234 var
+R3528:3529 Top.Deductive_System <> K4:232 ind
+R3531:3532 Top.Deductive_System <> φ:234 var
+binder 3554:3555 <> φ:235
+R3559:3560 Top.Deductive_System <> K4:232 ind
 R3563:3566 Top.Deductive_System <> axK4 constr
-R3572:3573 Top.Deductive_System <> φ:234 var
+R3572:3573 Top.Deductive_System <> φ:235 var
 R3568:3570 Top.Deductive_System <> Systems.idx var
 scheme 3478:3479 <> K4_ind
 scheme 3478:3479 <> K4_sind
@@ -740,16 +740,16 @@ constr 3625:3627 <> D_K
 constr 3658:3662 <> D_axD
 R3609:3612 Coq.Init.Logic <> ::type_scope:x_'->'_x not
 R3604:3608 Top.Deductive_System <> axiom ind
-binder 3637:3638 <> φ:237
+binder 3637:3638 <> φ:238
 R3645:3648 Coq.Init.Logic <> ::type_scope:x_'->'_x not
 R3641:3641 Top.Deductive_System <> K ind
-R3643:3644 Top.Deductive_System <> φ:237 var
-R3649:3649 Top.Deductive_System <> D:235 ind
-R3651:3652 Top.Deductive_System <> φ:237 var
-binder 3672:3673 <> φ:238
-R3677:3677 Top.Deductive_System <> D:235 ind
+R3643:3644 Top.Deductive_System <> φ:238 var
+R3649:3649 Top.Deductive_System <> D:236 ind
+R3651:3652 Top.Deductive_System <> φ:238 var
+binder 3672:3673 <> φ:239
+R3677:3677 Top.Deductive_System <> D:236 ind
 R3680:3682 Top.Deductive_System <> axD constr
-R3688:3689 Top.Deductive_System <> φ:238 var
+R3688:3689 Top.Deductive_System <> φ:239 var
 R3684:3686 Top.Deductive_System <> Systems.idx var
 scheme 3601:3601 <> D_ind
 scheme 3601:3601 <> D_sind
@@ -758,16 +758,16 @@ constr 3745:3748 <> K5_K
 constr 3780:3786 <> K5_axK5
 R3729:3732 Coq.Init.Logic <> ::type_scope:x_'->'_x not
 R3724:3728 Top.Deductive_System <> axiom ind
-binder 3758:3759 <> φ:241
+binder 3758:3759 <> φ:242
 R3766:3769 Coq.Init.Logic <> ::type_scope:x_'->'_x not
 R3762:3762 Top.Deductive_System <> K ind
-R3764:3765 Top.Deductive_System <> φ:241 var
-R3770:3771 Top.Deductive_System <> K5:239 ind
-R3773:3774 Top.Deductive_System <> φ:241 var
-binder 3796:3797 <> φ:242
-R3801:3802 Top.Deductive_System <> K5:239 ind
+R3764:3765 Top.Deductive_System <> φ:242 var
+R3770:3771 Top.Deductive_System <> K5:240 ind
+R3773:3774 Top.Deductive_System <> φ:242 var
+binder 3796:3797 <> φ:243
+R3801:3802 Top.Deductive_System <> K5:240 ind
 R3805:3808 Top.Deductive_System <> axK5 constr
-R3814:3815 Top.Deductive_System <> φ:242 var
+R3814:3815 Top.Deductive_System <> φ:243 var
 R3810:3812 Top.Deductive_System <> Systems.idx var
 scheme 3720:3721 <> K5_ind
 scheme 3720:3721 <> K5_sind
@@ -776,16 +776,16 @@ constr 3886:3889 <> S4_T
 constr 3921:3927 <> S4_axK4
 R3870:3873 Coq.Init.Logic <> ::type_scope:x_'->'_x not
 R3865:3869 Top.Deductive_System <> axiom ind
-binder 3899:3900 <> φ:245
+binder 3899:3900 <> φ:246
 R3907:3910 Coq.Init.Logic <> ::type_scope:x_'->'_x not
 R3903:3903 Top.Deductive_System <> T ind
-R3905:3906 Top.Deductive_System <> φ:245 var
-R3911:3912 Top.Deductive_System <> S4:243 ind
-R3914:3915 Top.Deductive_System <> φ:245 var
-binder 3937:3938 <> φ:246
-R3942:3943 Top.Deductive_System <> S4:243 ind
+R3905:3906 Top.Deductive_System <> φ:246 var
+R3911:3912 Top.Deductive_System <> S4:244 ind
+R3914:3915 Top.Deductive_System <> φ:246 var
+binder 3937:3938 <> φ:247
+R3942:3943 Top.Deductive_System <> S4:244 ind
 R3946:3949 Top.Deductive_System <> axK4 constr
-R3955:3956 Top.Deductive_System <> φ:246 var
+R3955:3956 Top.Deductive_System <> φ:247 var
 R3951:3953 Top.Deductive_System <> Systems.idx var
 scheme 3861:3862 <> S4_ind
 scheme 3861:3862 <> S4_sind
@@ -794,18 +794,18 @@ constr 4018:4021 <> S5_B
 constr 4053:4057 <> S5_S4
 R4002:4005 Coq.Init.Logic <> ::type_scope:x_'->'_x not
 R3997:4001 Top.Deductive_System <> axiom ind
-binder 4031:4032 <> φ:249
+binder 4031:4032 <> φ:250
 R4039:4042 Coq.Init.Logic <> ::type_scope:x_'->'_x not
 R4035:4035 Top.Deductive_System <> B ind
-R4037:4038 Top.Deductive_System <> φ:249 var
-R4043:4044 Top.Deductive_System <> S5:247 ind
-R4046:4047 Top.Deductive_System <> φ:249 var
-binder 4067:4068 <> φ:250
+R4037:4038 Top.Deductive_System <> φ:250 var
+R4043:4044 Top.Deductive_System <> S5:248 ind
+R4046:4047 Top.Deductive_System <> φ:250 var
+binder 4067:4068 <> φ:251
 R4077:4080 Coq.Init.Logic <> ::type_scope:x_'->'_x not
 R4072:4073 Top.Deductive_System <> S4 ind
-R4075:4076 Top.Deductive_System <> φ:250 var
-R4081:4082 Top.Deductive_System <> S5:247 ind
-R4084:4085 Top.Deductive_System <> φ:250 var
+R4075:4076 Top.Deductive_System <> φ:251 var
+R4081:4082 Top.Deductive_System <> S5:248 ind
+R4084:4085 Top.Deductive_System <> φ:251 var
 scheme 3993:3994 <> S5_ind
 scheme 3993:3994 <> S5_sind
 ind 4129:4132 <> S5_2
@@ -813,18 +813,18 @@ constr 4156:4161 <> S5_2_T
 constr 4195:4201 <> S5_2_K5
 R4140:4143 Coq.Init.Logic <> ::type_scope:x_'->'_x not
 R4135:4139 Top.Deductive_System <> axiom ind
-binder 4171:4172 <> φ:253
+binder 4171:4172 <> φ:254
 R4179:4182 Coq.Init.Logic <> ::type_scope:x_'->'_x not
 R4175:4175 Top.Deductive_System <> T ind
-R4177:4178 Top.Deductive_System <> φ:253 var
-R4183:4186 Top.Deductive_System <> S5_2:251 ind
-R4188:4189 Top.Deductive_System <> φ:253 var
-binder 4211:4212 <> φ:254
+R4177:4178 Top.Deductive_System <> φ:254 var
+R4183:4186 Top.Deductive_System <> S5_2:252 ind
+R4188:4189 Top.Deductive_System <> φ:254 var
+binder 4211:4212 <> φ:255
 R4221:4224 Coq.Init.Logic <> ::type_scope:x_'->'_x not
 R4216:4217 Top.Deductive_System <> K5 ind
-R4219:4220 Top.Deductive_System <> φ:254 var
-R4225:4228 Top.Deductive_System <> S5_2:251 ind
-R4230:4231 Top.Deductive_System <> φ:254 var
+R4219:4220 Top.Deductive_System <> φ:255 var
+R4225:4228 Top.Deductive_System <> S5_2:252 ind
+R4230:4231 Top.Deductive_System <> φ:255 var
 scheme 4129:4132 <> S5_2_ind
 scheme 4129:4132 <> S5_2_sind
 ind 4245:4246 <> GL
@@ -832,16 +832,16 @@ constr 4270:4274 <> GL_K4
 constr 4309:4315 <> GL_axGL
 R4254:4257 Coq.Init.Logic <> ::type_scope:x_'->'_x not
 R4249:4253 Top.Deductive_System <> axiom ind
-binder 4286:4287 <> φ:257
+binder 4286:4287 <> φ:258
 R4295:4298 Coq.Init.Logic <> ::type_scope:x_'->'_x not
 R4290:4291 Top.Deductive_System <> K4 ind
-R4293:4294 Top.Deductive_System <> φ:257 var
-R4299:4300 Top.Deductive_System <> GL:255 ind
-R4302:4303 Top.Deductive_System <> φ:257 var
-binder 4325:4326 <> φ:258
-R4329:4330 Top.Deductive_System <> GL:255 ind
+R4293:4294 Top.Deductive_System <> φ:258 var
+R4299:4300 Top.Deductive_System <> GL:256 ind
+R4302:4303 Top.Deductive_System <> φ:258 var
+binder 4325:4326 <> φ:259
+R4329:4330 Top.Deductive_System <> GL:256 ind
 R4333:4336 Top.Deductive_System <> axGL constr
-R4342:4343 Top.Deductive_System <> φ:258 var
+R4342:4343 Top.Deductive_System <> φ:259 var
 R4338:4340 Top.Deductive_System <> Systems.idx var
 scheme 4245:4246 <> GL_ind
 scheme 4245:4246 <> GL_sind
@@ -849,30 +849,30 @@ R4352:4358 Top.Deductive_System Systems <> sec
 R4464:4472 Top.Deductive_System <> deduction ind
 not 4446:4446 <> :::x_';'_x_'|--'_x
 sec 4528:4533 <> Helper
+var  4547:4547 Helper X
 R4550:4564 Top.Modal_Library <> modal_index_set class
-binder 4547:4547 <> X:260
 prf 4575:4585 <> derive_weak
-binder 4597:4598 <> Γ:261
-binder 4600:4602 <> ẟ:262
+binder 4597:4598 <> Γ:262
+binder 4600:4602 <> ẟ:263
 R4620:4625 Coq.Init.Logic <> ::type_scope:x_'->'_x not
 R4607:4612 Top.Sets <> Subset def
-R4617:4619 Top.Deductive_System <> ẟ:262 var
-R4614:4615 Top.Deductive_System <> Γ:261 var
-binder 4633:4633 <> A:263
-binder 4635:4636 <> φ:264
+R4617:4619 Top.Deductive_System <> ẟ:263 var
+R4614:4615 Top.Deductive_System <> Γ:262 var
+binder 4633:4633 <> A:264
+binder 4635:4636 <> φ:265
 R4641:4641 Coq.Init.Logic <> ::type_scope:x_'->'_x not
 R4654:4661 Coq.Init.Logic <> ::type_scope:x_'->'_x not
 R4675:4675 Coq.Init.Logic <> ::type_scope:x_'->'_x not
 R4643:4644 Top.Deductive_System <> :::x_';'_x_'|--'_x not
 R4647:4651 Top.Deductive_System <> :::x_';'_x_'|--'_x not
-R4642:4642 Top.Deductive_System <> A:263 var
-R4645:4646 Top.Deductive_System <> Γ:261 var
-R4652:4653 Top.Deductive_System <> φ:264 var
+R4642:4642 Top.Deductive_System <> A:264 var
+R4645:4646 Top.Deductive_System <> Γ:262 var
+R4652:4653 Top.Deductive_System <> φ:265 var
 R4663:4664 Top.Deductive_System <> :::x_';'_x_'|--'_x not
 R4668:4672 Top.Deductive_System <> :::x_';'_x_'|--'_x not
-R4662:4662 Top.Deductive_System <> A:263 var
-R4665:4667 Top.Deductive_System <> ẟ:262 var
-R4673:4674 Top.Deductive_System <> φ:264 var
+R4662:4662 Top.Deductive_System <> A:264 var
+R4665:4667 Top.Deductive_System <> ẟ:263 var
+R4673:4674 Top.Deductive_System <> φ:265 var
 R4721:4724 Top.Deductive_System <> Prem constr
 R4721:4724 Top.Deductive_System <> Prem constr
 R4766:4767 Top.Deductive_System <> Ax constr
@@ -882,25 +882,25 @@ R4800:4801 Top.Deductive_System <> Mp constr
 R4821:4823 Top.Deductive_System <> Nec constr
 R4821:4823 Top.Deductive_System <> Nec constr
 prf 4849:4867 <> derive_monotonicity
-binder 4879:4879 <> A:265
-binder 4881:4883 <> ẟ:266
-binder 4885:4886 <> Γ:267
-binder 4888:4889 <> φ:268
+binder 4879:4879 <> A:266
+binder 4881:4883 <> ẟ:267
+binder 4885:4886 <> Γ:268
+binder 4888:4889 <> φ:269
 R4894:4894 Coq.Init.Logic <> ::type_scope:x_'->'_x not
 R4907:4914 Coq.Init.Logic <> ::type_scope:x_'->'_x not
 R4937:4937 Coq.Init.Logic <> ::type_scope:x_'->'_x not
 R4896:4897 Top.Deductive_System <> :::x_';'_x_'|--'_x not
 R4900:4904 Top.Deductive_System <> :::x_';'_x_'|--'_x not
-R4895:4895 Top.Deductive_System <> A:265 var
-R4898:4899 Top.Deductive_System <> Γ:267 var
-R4905:4906 Top.Deductive_System <> φ:268 var
+R4895:4895 Top.Deductive_System <> A:266 var
+R4898:4899 Top.Deductive_System <> Γ:268 var
+R4905:4906 Top.Deductive_System <> φ:269 var
 R4916:4917 Top.Deductive_System <> :::x_';'_x_'|--'_x not
 R4930:4934 Top.Deductive_System <> :::x_';'_x_'|--'_x not
-R4915:4915 Top.Deductive_System <> A:265 var
+R4915:4915 Top.Deductive_System <> A:266 var
 R4918:4922 Top.Sets <> Union def
-R4928:4929 Top.Deductive_System <> Γ:267 var
-R4924:4926 Top.Deductive_System <> ẟ:266 var
-R4935:4936 Top.Deductive_System <> φ:268 var
+R4928:4929 Top.Deductive_System <> Γ:268 var
+R4924:4926 Top.Deductive_System <> ẟ:267 var
+R4935:4936 Top.Deductive_System <> φ:269 var
 R4965:4975 Top.Deductive_System <> derive_weak thm
 R4965:4975 Top.Deductive_System <> derive_weak thm
 R5045:5050 Top.Deductive_System Helper <> sec

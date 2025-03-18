@@ -1,4 +1,4 @@
-DIGEST 7db416791c62860b584b373fd7800663
+DIGEST 259e50f749616a179870df0eea6d7a8f
 FTop.Examples
 R15:18 Coq.Lists.List <> <> lib
 R20:32 Top.Modal_Library <> <> lib
@@ -7,571 +7,573 @@ R50:65 Top.Deductive_System <> <> lib
 R67:79 Top.Modal_Tactics <> <> lib
 R81:84 Top.Sets <> <> lib
 R94:106 Coq.Lists.List ListNotations <> mod
-R123:137 Top.Modal_Library <> modal_index_set class
-binder 120:120 <> X:2
-def 153:163 <> fixed_point
-binder 165:165 <> A:3
-binder 167:167 <> G:4
-binder 169:169 <> i:5
-binder 183:183 <> f:6
-R188:194 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
-R196:200 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
-R232:232 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
-binder 195:195 <> p:7
-R202:203 Top.Deductive_System <> :::x_';'_x_'|--'_x not
-R205:209 Top.Deductive_System <> :::x_';'_x_'|--'_x not
-R201:201 Top.Examples <> A:3 var
-R204:204 Top.Examples <> G:4 var
-R210:212 Top.Modal_Notations <> :::'[!'_x_'!]' not
-R230:231 Top.Modal_Notations <> :::'[!'_x_'!]' not
-R213:213 Top.Modal_Notations <> :modal::'('_x_')' not
-R229:229 Top.Modal_Notations <> :modal::'('_x_')' not
-R215:219 Top.Modal_Notations <> :modal::x_'<->'_x not
-binder 214:214 <> p:8
-binder 214:214 <> p:9
-R221:221 Top.Modal_Notations <> :modal::x_x not
-R222:222 Top.Modal_Notations <> :modal::'('_x_')' not
-R228:228 Top.Modal_Notations <> :modal::'('_x_')' not
-R223:223 Top.Modal_Notations <> :modal::'['_x_']'_x not
-R225:226 Top.Modal_Notations <> :modal::'['_x_']'_x not
-binder 224:224 <> i:10
-binder 224:224 <> i:11
-binder 227:227 <> p:12
-binder 227:227 <> p:13
-binder 220:220 <> f:14
-binder 220:220 <> f:15
-R221:221 Top.Modal_Notations <> :modal::x_x not
-R222:222 Top.Modal_Notations <> :modal::'('_x_')' not
-R228:228 Top.Modal_Notations <> :modal::'('_x_')' not
-R223:223 Top.Modal_Notations <> :modal::'['_x_']'_x not
-R225:226 Top.Modal_Notations <> :modal::'['_x_']'_x not
-binder 224:224 <> i:16
-binder 224:224 <> i:17
-binder 227:227 <> p:18
-binder 227:227 <> p:19
-binder 220:220 <> f:20
-binder 220:220 <> f:21
-binder 214:214 <> p:22
-binder 214:214 <> p:23
-def 247:252 <> subset
-binder 255:255 <> T:24
-R263:266 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R262:262 Top.Examples <> T:24 var
-binder 259:259 <> P:25
-R278:281 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R277:277 Top.Examples <> T:24 var
-binder 274:274 <> Q:26
-binder 306:306 <> x:27
-R312:315 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R309:309 Top.Examples <> P:25 var
-R311:311 Top.Examples <> x:27 var
-R316:316 Top.Examples <> Q:26 var
-R318:318 Top.Examples <> x:27 var
-R369:374 Top.Examples <> subset def
-R408:408 Top.Examples <> P ind
-R442:442 Top.Examples <> K ind
-R476:477 Top.Examples <> K4 ind
-prf 496:498 <> Lob
-binder 586:586 <> A:28
-binder 588:588 <> i:29
-R633:638 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R608:611 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
-R593:598 Top.Examples <> subset def
-R607:607 Top.Examples <> A:28 var
-R601:602 Top.Deductive_System <> K4 ind
-R604:604 Top.Examples <> i:29 var
-R612:622 Top.Examples <> fixed_point def
-R624:624 Top.Examples <> A:28 var
-R626:630 Top.Sets <> Empty def
-R632:632 Top.Examples <> i:29 var
-binder 646:646 <> p:30
-R651:651 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R680:687 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R708:708 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R653:654 Top.Deductive_System <> :::x_';'_x_'|--'_x not
-R660:664 Top.Deductive_System <> :::x_';'_x_'|--'_x not
-R652:652 Top.Examples <> A:28 var
-R655:659 Top.Sets <> Empty def
-R665:667 Top.Modal_Notations <> :::'[!'_x_'!]' not
-R677:679 Top.Modal_Notations <> :::'[!'_x_'!]' not
-R672:675 Top.Modal_Notations <> :modal::x_'->'_x not
-R668:668 Top.Modal_Notations <> :modal::'['_x_']'_x not
-R670:670 Top.Modal_Notations <> :modal::'['_x_']'_x not
-binder 669:669 <> i:31
-binder 669:669 <> i:32
-binder 671:671 <> p:33
-binder 671:671 <> p:34
-binder 676:676 <> p:35
-binder 676:676 <> p:36
-R689:690 Top.Deductive_System <> :::x_';'_x_'|--'_x not
-R696:700 Top.Deductive_System <> :::x_';'_x_'|--'_x not
-R688:688 Top.Examples <> A:28 var
-R691:695 Top.Sets <> Empty def
-R701:703 Top.Modal_Notations <> :::'[!'_x_'!]' not
-R705:707 Top.Modal_Notations <> :::'[!'_x_'!]' not
-binder 704:704 <> p:37
-binder 704:704 <> p:38
-R730:734 Top.Sets <> Empty def
-R730:734 Top.Sets <> Empty def
-binder 820:820 <> X:39
-R825:827 Top.Modal_Notations <> :::'[!'_x_'!]' not
-R834:836 Top.Modal_Notations <> :::'[!'_x_'!]' not
-R829:832 Top.Modal_Notations <> :modal::x_'->'_x not
-binder 828:828 <> X:40
-binder 828:828 <> X:41
-binder 833:833 <> p:42
-binder 833:833 <> p:43
-binder 820:820 <> X:44
-R825:827 Top.Modal_Notations <> :::'[!'_x_'!]' not
-R834:836 Top.Modal_Notations <> :::'[!'_x_'!]' not
-R829:832 Top.Modal_Notations <> :modal::x_'->'_x not
-binder 828:828 <> X:45
-binder 828:828 <> X:46
-binder 833:833 <> p:47
-binder 833:833 <> p:48
-R880:881 Top.Deductive_System <> :::x_';'_x_'|--'_x not
-R883:887 Top.Deductive_System <> :::x_';'_x_'|--'_x not
-R888:890 Top.Modal_Notations <> :::'[!'_x_'!]' not
-R909:911 Top.Modal_Notations <> :::'[!'_x_'!]' not
-R894:897 Top.Modal_Notations <> :modal::x_'->'_x not
-binder 891:893 <> psi:49
-binder 891:893 <> psi:50
-R904:907 Top.Modal_Notations <> :modal::x_'->'_x not
-R898:898 Top.Modal_Notations <> :modal::'['_x_']'_x not
-R900:900 Top.Modal_Notations <> :modal::'['_x_']'_x not
-binder 899:899 <> i:51
-binder 899:899 <> i:52
-binder 901:903 <> psi:53
-binder 901:903 <> psi:54
-binder 908:908 <> p:55
-binder 908:908 <> p:56
-R880:881 Top.Deductive_System <> :::x_';'_x_'|--'_x not
-R883:887 Top.Deductive_System <> :::x_';'_x_'|--'_x not
-R888:890 Top.Modal_Notations <> :::'[!'_x_'!]' not
-R909:911 Top.Modal_Notations <> :::'[!'_x_'!]' not
-R894:897 Top.Modal_Notations <> :modal::x_'->'_x not
-binder 891:893 <> psi:57
-binder 891:893 <> psi:58
-R904:907 Top.Modal_Notations <> :modal::x_'->'_x not
-R898:898 Top.Modal_Notations <> :modal::'['_x_']'_x not
-R900:900 Top.Modal_Notations <> :modal::'['_x_']'_x not
-binder 899:899 <> i:59
-binder 899:899 <> i:60
-binder 901:903 <> psi:61
-binder 901:903 <> psi:62
-binder 908:908 <> p:63
-binder 908:908 <> p:64
-R929:937 Top.Modal_Tactics <> modal_ax5 thm
-R929:937 Top.Modal_Tactics <> modal_ax5 thm
-R990:991 Top.Deductive_System <> :::x_';'_x_'|--'_x not
-R993:997 Top.Deductive_System <> :::x_';'_x_'|--'_x not
-R998:1000 Top.Modal_Notations <> :::'[!'_x_'!]' not
-R1024:1026 Top.Modal_Notations <> :::'[!'_x_'!]' not
-R1001:1001 Top.Modal_Notations <> :modal::'['_x_']'_x not
-R1003:1003 Top.Modal_Notations <> :modal::'['_x_']'_x not
-binder 1002:1002 <> i:65
-binder 1002:1002 <> i:66
-R1004:1004 Top.Modal_Notations <> :modal::'('_x_')' not
-R1023:1023 Top.Modal_Notations <> :modal::'('_x_')' not
-R1008:1011 Top.Modal_Notations <> :modal::x_'->'_x not
-binder 1005:1007 <> psi:67
-binder 1005:1007 <> psi:68
-R1018:1021 Top.Modal_Notations <> :modal::x_'->'_x not
-R1012:1012 Top.Modal_Notations <> :modal::'['_x_']'_x not
-R1014:1014 Top.Modal_Notations <> :modal::'['_x_']'_x not
-binder 1013:1013 <> i:69
-binder 1013:1013 <> i:70
-binder 1015:1017 <> psi:71
-binder 1015:1017 <> psi:72
-binder 1022:1022 <> p:73
-binder 1022:1022 <> p:74
-R990:991 Top.Deductive_System <> :::x_';'_x_'|--'_x not
-R993:997 Top.Deductive_System <> :::x_';'_x_'|--'_x not
-R998:1000 Top.Modal_Notations <> :::'[!'_x_'!]' not
-R1024:1026 Top.Modal_Notations <> :::'[!'_x_'!]' not
-R1001:1001 Top.Modal_Notations <> :modal::'['_x_']'_x not
-R1003:1003 Top.Modal_Notations <> :modal::'['_x_']'_x not
-binder 1002:1002 <> i:75
-binder 1002:1002 <> i:76
-R1004:1004 Top.Modal_Notations <> :modal::'('_x_')' not
-R1023:1023 Top.Modal_Notations <> :modal::'('_x_')' not
-R1008:1011 Top.Modal_Notations <> :modal::x_'->'_x not
-binder 1005:1007 <> psi:77
-binder 1005:1007 <> psi:78
-R1018:1021 Top.Modal_Notations <> :modal::x_'->'_x not
-R1012:1012 Top.Modal_Notations <> :modal::'['_x_']'_x not
-R1014:1014 Top.Modal_Notations <> :modal::'['_x_']'_x not
-binder 1013:1013 <> i:79
-binder 1013:1013 <> i:80
-binder 1015:1017 <> psi:81
-binder 1015:1017 <> psi:82
-binder 1022:1022 <> p:83
-binder 1022:1022 <> p:84
-R1044:1046 Top.Deductive_System <> Nec constr
-R1044:1046 Top.Deductive_System <> Nec constr
-R1082:1083 Top.Deductive_System <> :::x_';'_x_'|--'_x not
-R1085:1089 Top.Deductive_System <> :::x_';'_x_'|--'_x not
-R1090:1092 Top.Modal_Notations <> :::'[!'_x_'!]' not
-R1119:1121 Top.Modal_Notations <> :::'[!'_x_'!]' not
-R1099:1102 Top.Modal_Notations <> :modal::x_'->'_x not
-R1093:1093 Top.Modal_Notations <> :modal::'['_x_']'_x not
-R1095:1095 Top.Modal_Notations <> :modal::'['_x_']'_x not
-binder 1094:1094 <> i:85
-binder 1094:1094 <> i:86
-binder 1096:1098 <> psi:87
-binder 1096:1098 <> psi:88
-R1103:1103 Top.Modal_Notations <> :modal::'['_x_']'_x not
-R1105:1105 Top.Modal_Notations <> :modal::'['_x_']'_x not
-binder 1104:1104 <> i:89
-binder 1104:1104 <> i:90
-R1106:1106 Top.Modal_Notations <> :modal::'('_x_')' not
-R1118:1118 Top.Modal_Notations <> :modal::'('_x_')' not
-R1113:1116 Top.Modal_Notations <> :modal::x_'->'_x not
-R1107:1107 Top.Modal_Notations <> :modal::'['_x_']'_x not
-R1109:1109 Top.Modal_Notations <> :modal::'['_x_']'_x not
-binder 1108:1108 <> i:91
-binder 1108:1108 <> i:92
-binder 1110:1112 <> psi:93
-binder 1110:1112 <> psi:94
-binder 1117:1117 <> p:95
-binder 1117:1117 <> p:96
-R1082:1083 Top.Deductive_System <> :::x_';'_x_'|--'_x not
-R1085:1089 Top.Deductive_System <> :::x_';'_x_'|--'_x not
-R1090:1092 Top.Modal_Notations <> :::'[!'_x_'!]' not
-R1119:1121 Top.Modal_Notations <> :::'[!'_x_'!]' not
-R1099:1102 Top.Modal_Notations <> :modal::x_'->'_x not
-R1093:1093 Top.Modal_Notations <> :modal::'['_x_']'_x not
-R1095:1095 Top.Modal_Notations <> :modal::'['_x_']'_x not
-binder 1094:1094 <> i:97
-binder 1094:1094 <> i:98
-binder 1096:1098 <> psi:99
-binder 1096:1098 <> psi:100
-R1103:1103 Top.Modal_Notations <> :modal::'['_x_']'_x not
-R1105:1105 Top.Modal_Notations <> :modal::'['_x_']'_x not
-binder 1104:1104 <> i:101
-binder 1104:1104 <> i:102
-R1106:1106 Top.Modal_Notations <> :modal::'('_x_')' not
-R1118:1118 Top.Modal_Notations <> :modal::'('_x_')' not
-R1113:1116 Top.Modal_Notations <> :modal::x_'->'_x not
-R1107:1107 Top.Modal_Notations <> :modal::'['_x_']'_x not
-R1109:1109 Top.Modal_Notations <> :modal::'['_x_']'_x not
-binder 1108:1108 <> i:103
-binder 1108:1108 <> i:104
-binder 1110:1112 <> psi:105
-binder 1110:1112 <> psi:106
-binder 1117:1117 <> p:107
-binder 1117:1117 <> p:108
-R1139:1147 Top.Modal_Tactics <> modal_axK thm
-R1139:1147 Top.Modal_Tactics <> modal_axK thm
-R1200:1201 Top.Deductive_System <> :::x_';'_x_'|--'_x not
-R1203:1207 Top.Deductive_System <> :::x_';'_x_'|--'_x not
-R1208:1210 Top.Modal_Notations <> :::'[!'_x_'!]' not
-R1248:1250 Top.Modal_Notations <> :::'[!'_x_'!]' not
-R1227:1230 Top.Modal_Notations <> :modal::x_'->'_x not
-R1211:1211 Top.Modal_Notations <> :modal::'['_x_']'_x not
-R1213:1213 Top.Modal_Notations <> :modal::'['_x_']'_x not
-binder 1212:1212 <> i:109
-binder 1212:1212 <> i:110
-R1214:1214 Top.Modal_Notations <> :modal::'('_x_')' not
-R1226:1226 Top.Modal_Notations <> :modal::'('_x_')' not
-R1221:1224 Top.Modal_Notations <> :modal::x_'->'_x not
-R1215:1215 Top.Modal_Notations <> :modal::'['_x_']'_x not
-R1217:1217 Top.Modal_Notations <> :modal::'['_x_']'_x not
-binder 1216:1216 <> i:111
-binder 1216:1216 <> i:112
-binder 1218:1220 <> psi:113
-binder 1218:1220 <> psi:114
-binder 1225:1225 <> p:115
-binder 1225:1225 <> p:116
-R1240:1243 Top.Modal_Notations <> :modal::x_'->'_x not
+sec 118:125 <> Examples
+var  138:138 Examples X
+R141:155 Top.Modal_Library <> modal_index_set class
+def 171:181 <> fixed_point
+binder 183:183 <> A:3
+binder 185:185 <> G:4
+binder 187:187 <> i:5
+binder 201:201 <> f:6
+R206:212 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R214:218 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R250:250 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 213:213 <> p:7
+R220:221 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R223:227 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R219:219 Top.Examples <> A:3 var
+R222:222 Top.Examples <> G:4 var
+R228:230 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R248:249 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R231:231 Top.Modal_Notations <> :modal::'('_x_')' not
+R247:247 Top.Modal_Notations <> :modal::'('_x_')' not
+R233:237 Top.Modal_Notations <> :modal::x_'<->'_x not
+binder 232:232 <> p:8
+binder 232:232 <> p:9
+R239:239 Top.Modal_Notations <> :modal::x_x not
+R240:240 Top.Modal_Notations <> :modal::'('_x_')' not
+R246:246 Top.Modal_Notations <> :modal::'('_x_')' not
+R241:241 Top.Modal_Notations <> :modal::'['_x_']'_x not
+R243:244 Top.Modal_Notations <> :modal::'['_x_']'_x not
+binder 242:242 <> i:10
+binder 242:242 <> i:11
+binder 245:245 <> p:12
+binder 245:245 <> p:13
+binder 238:238 <> f:14
+binder 238:238 <> f:15
+R239:239 Top.Modal_Notations <> :modal::x_x not
+R240:240 Top.Modal_Notations <> :modal::'('_x_')' not
+R246:246 Top.Modal_Notations <> :modal::'('_x_')' not
+R241:241 Top.Modal_Notations <> :modal::'['_x_']'_x not
+R243:244 Top.Modal_Notations <> :modal::'['_x_']'_x not
+binder 242:242 <> i:16
+binder 242:242 <> i:17
+binder 245:245 <> p:18
+binder 245:245 <> p:19
+binder 238:238 <> f:20
+binder 238:238 <> f:21
+binder 232:232 <> p:22
+binder 232:232 <> p:23
+def 265:270 <> subset
+binder 273:273 <> T:24
+R281:284 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R280:280 Top.Examples <> T:24 var
+binder 277:277 <> P:25
+R296:299 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R295:295 Top.Examples <> T:24 var
+binder 292:292 <> Q:26
+binder 324:324 <> x:27
+R330:333 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R327:327 Top.Examples <> P:25 var
+R329:329 Top.Examples <> x:27 var
+R334:334 Top.Examples <> Q:26 var
+R336:336 Top.Examples <> x:27 var
+R387:392 Top.Examples <> subset def
+R426:426 Top.Examples <> P ind
+R460:460 Top.Examples <> K ind
+R494:495 Top.Examples <> K4 ind
+prf 514:516 <> Lob
+binder 604:604 <> A:28
+binder 606:606 <> i:29
+R651:656 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R626:629 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R611:616 Top.Examples <> subset def
+R625:625 Top.Examples <> A:28 var
+R619:620 Top.Deductive_System <> K4 ind
+R622:622 Top.Examples <> i:29 var
+R630:640 Top.Examples <> fixed_point def
+R642:642 Top.Examples <> A:28 var
+R644:648 Top.Sets <> Empty def
+R650:650 Top.Examples <> i:29 var
+binder 664:664 <> p:30
+R669:669 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R698:705 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R726:726 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R671:672 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R678:682 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R670:670 Top.Examples <> A:28 var
+R673:677 Top.Sets <> Empty def
+R683:685 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R695:697 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R690:693 Top.Modal_Notations <> :modal::x_'->'_x not
+R686:686 Top.Modal_Notations <> :modal::'['_x_']'_x not
+R688:688 Top.Modal_Notations <> :modal::'['_x_']'_x not
+binder 687:687 <> i:31
+binder 687:687 <> i:32
+binder 689:689 <> p:33
+binder 689:689 <> p:34
+binder 694:694 <> p:35
+binder 694:694 <> p:36
+R707:708 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R714:718 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R706:706 Top.Examples <> A:28 var
+R709:713 Top.Sets <> Empty def
+R719:721 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R723:725 Top.Modal_Notations <> :::'[!'_x_'!]' not
+binder 722:722 <> p:37
+binder 722:722 <> p:38
+R748:752 Top.Sets <> Empty def
+R748:752 Top.Sets <> Empty def
+binder 838:838 <> X:39
+R843:845 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R852:854 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R847:850 Top.Modal_Notations <> :modal::x_'->'_x not
+binder 846:846 <> X:40
+binder 846:846 <> X:41
+binder 851:851 <> p:42
+binder 851:851 <> p:43
+binder 838:838 <> X:44
+R843:845 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R852:854 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R847:850 Top.Modal_Notations <> :modal::x_'->'_x not
+binder 846:846 <> X:45
+binder 846:846 <> X:46
+binder 851:851 <> p:47
+binder 851:851 <> p:48
+R898:899 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R901:905 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R906:908 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R927:929 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R912:915 Top.Modal_Notations <> :modal::x_'->'_x not
+binder 909:911 <> psi:49
+binder 909:911 <> psi:50
+R922:925 Top.Modal_Notations <> :modal::x_'->'_x not
+R916:916 Top.Modal_Notations <> :modal::'['_x_']'_x not
+R918:918 Top.Modal_Notations <> :modal::'['_x_']'_x not
+binder 917:917 <> i:51
+binder 917:917 <> i:52
+binder 919:921 <> psi:53
+binder 919:921 <> psi:54
+binder 926:926 <> p:55
+binder 926:926 <> p:56
+R898:899 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R901:905 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R906:908 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R927:929 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R912:915 Top.Modal_Notations <> :modal::x_'->'_x not
+binder 909:911 <> psi:57
+binder 909:911 <> psi:58
+R922:925 Top.Modal_Notations <> :modal::x_'->'_x not
+R916:916 Top.Modal_Notations <> :modal::'['_x_']'_x not
+R918:918 Top.Modal_Notations <> :modal::'['_x_']'_x not
+binder 917:917 <> i:59
+binder 917:917 <> i:60
+binder 919:921 <> psi:61
+binder 919:921 <> psi:62
+binder 926:926 <> p:63
+binder 926:926 <> p:64
+R947:955 Top.Modal_Tactics <> modal_ax5 thm
+R947:955 Top.Modal_Tactics <> modal_ax5 thm
+R1008:1009 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R1011:1015 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R1016:1018 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R1042:1044 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R1019:1019 Top.Modal_Notations <> :modal::'['_x_']'_x not
+R1021:1021 Top.Modal_Notations <> :modal::'['_x_']'_x not
+binder 1020:1020 <> i:65
+binder 1020:1020 <> i:66
+R1022:1022 Top.Modal_Notations <> :modal::'('_x_')' not
+R1041:1041 Top.Modal_Notations <> :modal::'('_x_')' not
+R1026:1029 Top.Modal_Notations <> :modal::x_'->'_x not
+binder 1023:1025 <> psi:67
+binder 1023:1025 <> psi:68
+R1036:1039 Top.Modal_Notations <> :modal::x_'->'_x not
+R1030:1030 Top.Modal_Notations <> :modal::'['_x_']'_x not
+R1032:1032 Top.Modal_Notations <> :modal::'['_x_']'_x not
+binder 1031:1031 <> i:69
+binder 1031:1031 <> i:70
+binder 1033:1035 <> psi:71
+binder 1033:1035 <> psi:72
+binder 1040:1040 <> p:73
+binder 1040:1040 <> p:74
+R1008:1009 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R1011:1015 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R1016:1018 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R1042:1044 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R1019:1019 Top.Modal_Notations <> :modal::'['_x_']'_x not
+R1021:1021 Top.Modal_Notations <> :modal::'['_x_']'_x not
+binder 1020:1020 <> i:75
+binder 1020:1020 <> i:76
+R1022:1022 Top.Modal_Notations <> :modal::'('_x_')' not
+R1041:1041 Top.Modal_Notations <> :modal::'('_x_')' not
+R1026:1029 Top.Modal_Notations <> :modal::x_'->'_x not
+binder 1023:1025 <> psi:77
+binder 1023:1025 <> psi:78
+R1036:1039 Top.Modal_Notations <> :modal::x_'->'_x not
+R1030:1030 Top.Modal_Notations <> :modal::'['_x_']'_x not
+R1032:1032 Top.Modal_Notations <> :modal::'['_x_']'_x not
+binder 1031:1031 <> i:79
+binder 1031:1031 <> i:80
+binder 1033:1035 <> psi:81
+binder 1033:1035 <> psi:82
+binder 1040:1040 <> p:83
+binder 1040:1040 <> p:84
+R1062:1064 Top.Deductive_System <> Nec constr
+R1062:1064 Top.Deductive_System <> Nec constr
+R1100:1101 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R1103:1107 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R1108:1110 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R1137:1139 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R1117:1120 Top.Modal_Notations <> :modal::x_'->'_x not
+R1111:1111 Top.Modal_Notations <> :modal::'['_x_']'_x not
+R1113:1113 Top.Modal_Notations <> :modal::'['_x_']'_x not
+binder 1112:1112 <> i:85
+binder 1112:1112 <> i:86
+binder 1114:1116 <> psi:87
+binder 1114:1116 <> psi:88
+R1121:1121 Top.Modal_Notations <> :modal::'['_x_']'_x not
+R1123:1123 Top.Modal_Notations <> :modal::'['_x_']'_x not
+binder 1122:1122 <> i:89
+binder 1122:1122 <> i:90
+R1124:1124 Top.Modal_Notations <> :modal::'('_x_')' not
+R1136:1136 Top.Modal_Notations <> :modal::'('_x_')' not
+R1131:1134 Top.Modal_Notations <> :modal::x_'->'_x not
+R1125:1125 Top.Modal_Notations <> :modal::'['_x_']'_x not
+R1127:1127 Top.Modal_Notations <> :modal::'['_x_']'_x not
+binder 1126:1126 <> i:91
+binder 1126:1126 <> i:92
+binder 1128:1130 <> psi:93
+binder 1128:1130 <> psi:94
+binder 1135:1135 <> p:95
+binder 1135:1135 <> p:96
+R1100:1101 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R1103:1107 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R1108:1110 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R1137:1139 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R1117:1120 Top.Modal_Notations <> :modal::x_'->'_x not
+R1111:1111 Top.Modal_Notations <> :modal::'['_x_']'_x not
+R1113:1113 Top.Modal_Notations <> :modal::'['_x_']'_x not
+binder 1112:1112 <> i:97
+binder 1112:1112 <> i:98
+binder 1114:1116 <> psi:99
+binder 1114:1116 <> psi:100
+R1121:1121 Top.Modal_Notations <> :modal::'['_x_']'_x not
+R1123:1123 Top.Modal_Notations <> :modal::'['_x_']'_x not
+binder 1122:1122 <> i:101
+binder 1122:1122 <> i:102
+R1124:1124 Top.Modal_Notations <> :modal::'('_x_')' not
+R1136:1136 Top.Modal_Notations <> :modal::'('_x_')' not
+R1131:1134 Top.Modal_Notations <> :modal::x_'->'_x not
+R1125:1125 Top.Modal_Notations <> :modal::'['_x_']'_x not
+R1127:1127 Top.Modal_Notations <> :modal::'['_x_']'_x not
+binder 1126:1126 <> i:103
+binder 1126:1126 <> i:104
+binder 1128:1130 <> psi:105
+binder 1128:1130 <> psi:106
+binder 1135:1135 <> p:107
+binder 1135:1135 <> p:108
+R1157:1165 Top.Modal_Tactics <> modal_axK thm
+R1157:1165 Top.Modal_Tactics <> modal_axK thm
+R1218:1219 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R1221:1225 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R1226:1228 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R1266:1268 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R1245:1248 Top.Modal_Notations <> :modal::x_'->'_x not
+R1229:1229 Top.Modal_Notations <> :modal::'['_x_']'_x not
 R1231:1231 Top.Modal_Notations <> :modal::'['_x_']'_x not
+binder 1230:1230 <> i:109
+binder 1230:1230 <> i:110
+R1232:1232 Top.Modal_Notations <> :modal::'('_x_')' not
+R1244:1244 Top.Modal_Notations <> :modal::'('_x_')' not
+R1239:1242 Top.Modal_Notations <> :modal::x_'->'_x not
 R1233:1233 Top.Modal_Notations <> :modal::'['_x_']'_x not
-binder 1232:1232 <> i:117
-binder 1232:1232 <> i:118
-R1234:1234 Top.Modal_Notations <> :modal::'['_x_']'_x not
-R1236:1236 Top.Modal_Notations <> :modal::'['_x_']'_x not
-binder 1235:1235 <> i:119
-binder 1235:1235 <> i:120
-binder 1237:1239 <> psi:121
-binder 1237:1239 <> psi:122
-R1244:1244 Top.Modal_Notations <> :modal::'['_x_']'_x not
-R1246:1246 Top.Modal_Notations <> :modal::'['_x_']'_x not
-binder 1245:1245 <> i:123
-binder 1245:1245 <> i:124
-binder 1247:1247 <> p:125
-binder 1247:1247 <> p:126
-R1200:1201 Top.Deductive_System <> :::x_';'_x_'|--'_x not
-R1203:1207 Top.Deductive_System <> :::x_';'_x_'|--'_x not
-R1208:1210 Top.Modal_Notations <> :::'[!'_x_'!]' not
-R1248:1250 Top.Modal_Notations <> :::'[!'_x_'!]' not
-R1227:1230 Top.Modal_Notations <> :modal::x_'->'_x not
-R1211:1211 Top.Modal_Notations <> :modal::'['_x_']'_x not
-R1213:1213 Top.Modal_Notations <> :modal::'['_x_']'_x not
-binder 1212:1212 <> i:127
-binder 1212:1212 <> i:128
-R1214:1214 Top.Modal_Notations <> :modal::'('_x_')' not
-R1226:1226 Top.Modal_Notations <> :modal::'('_x_')' not
-R1221:1224 Top.Modal_Notations <> :modal::x_'->'_x not
-R1215:1215 Top.Modal_Notations <> :modal::'['_x_']'_x not
-R1217:1217 Top.Modal_Notations <> :modal::'['_x_']'_x not
-binder 1216:1216 <> i:129
-binder 1216:1216 <> i:130
-binder 1218:1220 <> psi:131
-binder 1218:1220 <> psi:132
-binder 1225:1225 <> p:133
-binder 1225:1225 <> p:134
-R1240:1243 Top.Modal_Notations <> :modal::x_'->'_x not
+R1235:1235 Top.Modal_Notations <> :modal::'['_x_']'_x not
+binder 1234:1234 <> i:111
+binder 1234:1234 <> i:112
+binder 1236:1238 <> psi:113
+binder 1236:1238 <> psi:114
+binder 1243:1243 <> p:115
+binder 1243:1243 <> p:116
+R1258:1261 Top.Modal_Notations <> :modal::x_'->'_x not
+R1249:1249 Top.Modal_Notations <> :modal::'['_x_']'_x not
+R1251:1251 Top.Modal_Notations <> :modal::'['_x_']'_x not
+binder 1250:1250 <> i:117
+binder 1250:1250 <> i:118
+R1252:1252 Top.Modal_Notations <> :modal::'['_x_']'_x not
+R1254:1254 Top.Modal_Notations <> :modal::'['_x_']'_x not
+binder 1253:1253 <> i:119
+binder 1253:1253 <> i:120
+binder 1255:1257 <> psi:121
+binder 1255:1257 <> psi:122
+R1262:1262 Top.Modal_Notations <> :modal::'['_x_']'_x not
+R1264:1264 Top.Modal_Notations <> :modal::'['_x_']'_x not
+binder 1263:1263 <> i:123
+binder 1263:1263 <> i:124
+binder 1265:1265 <> p:125
+binder 1265:1265 <> p:126
+R1218:1219 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R1221:1225 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R1226:1228 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R1266:1268 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R1245:1248 Top.Modal_Notations <> :modal::x_'->'_x not
+R1229:1229 Top.Modal_Notations <> :modal::'['_x_']'_x not
 R1231:1231 Top.Modal_Notations <> :modal::'['_x_']'_x not
+binder 1230:1230 <> i:127
+binder 1230:1230 <> i:128
+R1232:1232 Top.Modal_Notations <> :modal::'('_x_')' not
+R1244:1244 Top.Modal_Notations <> :modal::'('_x_')' not
+R1239:1242 Top.Modal_Notations <> :modal::x_'->'_x not
 R1233:1233 Top.Modal_Notations <> :modal::'['_x_']'_x not
-binder 1232:1232 <> i:135
-binder 1232:1232 <> i:136
-R1234:1234 Top.Modal_Notations <> :modal::'['_x_']'_x not
-R1236:1236 Top.Modal_Notations <> :modal::'['_x_']'_x not
-binder 1235:1235 <> i:137
-binder 1235:1235 <> i:138
-binder 1237:1239 <> psi:139
-binder 1237:1239 <> psi:140
-R1244:1244 Top.Modal_Notations <> :modal::'['_x_']'_x not
-R1246:1246 Top.Modal_Notations <> :modal::'['_x_']'_x not
-binder 1245:1245 <> i:141
-binder 1245:1245 <> i:142
-binder 1247:1247 <> p:143
-binder 1247:1247 <> p:144
-R1283:1285 Top.Deductive_System <> axK constr
-R1269:1270 Top.Deductive_System <> Ax constr
-R1283:1285 Top.Deductive_System <> axK constr
-R1269:1270 Top.Deductive_System <> Ax constr
-R1360:1361 Top.Deductive_System <> :::x_';'_x_'|--'_x not
-R1363:1367 Top.Deductive_System <> :::x_';'_x_'|--'_x not
-R1368:1370 Top.Modal_Notations <> :::'[!'_x_'!]' not
-R1398:1400 Top.Modal_Notations <> :::'[!'_x_'!]' not
-R1377:1380 Top.Modal_Notations <> :modal::x_'->'_x not
-R1371:1371 Top.Modal_Notations <> :modal::'['_x_']'_x not
-R1373:1373 Top.Modal_Notations <> :modal::'['_x_']'_x not
-binder 1372:1372 <> i:145
-binder 1372:1372 <> i:146
-binder 1374:1376 <> psi:147
-binder 1374:1376 <> psi:148
-R1390:1393 Top.Modal_Notations <> :modal::x_'->'_x not
-R1381:1381 Top.Modal_Notations <> :modal::'['_x_']'_x not
-R1383:1383 Top.Modal_Notations <> :modal::'['_x_']'_x not
-binder 1382:1382 <> i:149
-binder 1382:1382 <> i:150
-R1384:1384 Top.Modal_Notations <> :modal::'['_x_']'_x not
-R1386:1386 Top.Modal_Notations <> :modal::'['_x_']'_x not
-binder 1385:1385 <> i:151
-binder 1385:1385 <> i:152
-binder 1387:1389 <> psi:153
-binder 1387:1389 <> psi:154
-R1394:1394 Top.Modal_Notations <> :modal::'['_x_']'_x not
-R1396:1396 Top.Modal_Notations <> :modal::'['_x_']'_x not
-binder 1395:1395 <> i:155
-binder 1395:1395 <> i:156
-binder 1397:1397 <> p:157
-binder 1397:1397 <> p:158
-R1360:1361 Top.Deductive_System <> :::x_';'_x_'|--'_x not
-R1363:1367 Top.Deductive_System <> :::x_';'_x_'|--'_x not
-R1368:1370 Top.Modal_Notations <> :::'[!'_x_'!]' not
-R1398:1400 Top.Modal_Notations <> :::'[!'_x_'!]' not
-R1377:1380 Top.Modal_Notations <> :modal::x_'->'_x not
-R1371:1371 Top.Modal_Notations <> :modal::'['_x_']'_x not
-R1373:1373 Top.Modal_Notations <> :modal::'['_x_']'_x not
-binder 1372:1372 <> i:159
-binder 1372:1372 <> i:160
-binder 1374:1376 <> psi:161
-binder 1374:1376 <> psi:162
-R1390:1393 Top.Modal_Notations <> :modal::x_'->'_x not
-R1381:1381 Top.Modal_Notations <> :modal::'['_x_']'_x not
-R1383:1383 Top.Modal_Notations <> :modal::'['_x_']'_x not
-binder 1382:1382 <> i:163
-binder 1382:1382 <> i:164
-R1384:1384 Top.Modal_Notations <> :modal::'['_x_']'_x not
-R1386:1386 Top.Modal_Notations <> :modal::'['_x_']'_x not
-binder 1385:1385 <> i:165
-binder 1385:1385 <> i:166
-binder 1387:1389 <> psi:167
-binder 1387:1389 <> psi:168
-R1394:1394 Top.Modal_Notations <> :modal::'['_x_']'_x not
-R1396:1396 Top.Modal_Notations <> :modal::'['_x_']'_x not
-binder 1395:1395 <> i:169
-binder 1395:1395 <> i:170
-binder 1397:1397 <> p:171
-binder 1397:1397 <> p:172
-R1419:1433 Top.Modal_Tactics <> modal_syllogism thm
-R1419:1433 Top.Modal_Tactics <> modal_syllogism thm
-R1481:1482 Top.Deductive_System <> :::x_';'_x_'|--'_x not
-R1484:1488 Top.Deductive_System <> :::x_';'_x_'|--'_x not
-R1489:1491 Top.Modal_Notations <> :::'[!'_x_'!]' not
-R1511:1513 Top.Modal_Notations <> :::'[!'_x_'!]' not
-R1498:1501 Top.Modal_Notations <> :modal::x_'->'_x not
-R1492:1492 Top.Modal_Notations <> :modal::'['_x_']'_x not
-R1494:1494 Top.Modal_Notations <> :modal::'['_x_']'_x not
-binder 1493:1493 <> i:173
-binder 1493:1493 <> i:174
-binder 1495:1497 <> psi:175
-binder 1495:1497 <> psi:176
-R1502:1502 Top.Modal_Notations <> :modal::'['_x_']'_x not
-R1504:1504 Top.Modal_Notations <> :modal::'['_x_']'_x not
-binder 1503:1503 <> i:177
-binder 1503:1503 <> i:178
-R1505:1505 Top.Modal_Notations <> :modal::'['_x_']'_x not
-R1507:1507 Top.Modal_Notations <> :modal::'['_x_']'_x not
-binder 1506:1506 <> i:179
-binder 1506:1506 <> i:180
-binder 1508:1510 <> psi:181
-binder 1508:1510 <> psi:182
-R1481:1482 Top.Deductive_System <> :::x_';'_x_'|--'_x not
-R1484:1488 Top.Deductive_System <> :::x_';'_x_'|--'_x not
-R1489:1491 Top.Modal_Notations <> :::'[!'_x_'!]' not
-R1511:1513 Top.Modal_Notations <> :::'[!'_x_'!]' not
-R1498:1501 Top.Modal_Notations <> :modal::x_'->'_x not
-R1492:1492 Top.Modal_Notations <> :modal::'['_x_']'_x not
-R1494:1494 Top.Modal_Notations <> :modal::'['_x_']'_x not
-binder 1493:1493 <> i:183
-binder 1493:1493 <> i:184
-binder 1495:1497 <> psi:185
-binder 1495:1497 <> psi:186
-R1502:1502 Top.Modal_Notations <> :modal::'['_x_']'_x not
-R1504:1504 Top.Modal_Notations <> :modal::'['_x_']'_x not
-binder 1503:1503 <> i:187
-binder 1503:1503 <> i:188
-R1505:1505 Top.Modal_Notations <> :modal::'['_x_']'_x not
-R1507:1507 Top.Modal_Notations <> :modal::'['_x_']'_x not
-binder 1506:1506 <> i:189
-binder 1506:1506 <> i:190
-binder 1508:1510 <> psi:191
-binder 1508:1510 <> psi:192
-R1531:1540 Top.Modal_Tactics <> modal_axK4 thm
-R1531:1540 Top.Modal_Tactics <> modal_axK4 thm
-R1587:1588 Top.Deductive_System <> :::x_';'_x_'|--'_x not
-R1590:1594 Top.Deductive_System <> :::x_';'_x_'|--'_x not
-R1595:1597 Top.Modal_Notations <> :::'[!'_x_'!]' not
-R1612:1614 Top.Modal_Notations <> :::'[!'_x_'!]' not
-R1604:1607 Top.Modal_Notations <> :modal::x_'->'_x not
-R1598:1598 Top.Modal_Notations <> :modal::'['_x_']'_x not
-R1600:1600 Top.Modal_Notations <> :modal::'['_x_']'_x not
-binder 1599:1599 <> i:193
-binder 1599:1599 <> i:194
-binder 1601:1603 <> psi:195
-binder 1601:1603 <> psi:196
-R1608:1608 Top.Modal_Notations <> :modal::'['_x_']'_x not
-R1610:1610 Top.Modal_Notations <> :modal::'['_x_']'_x not
-binder 1609:1609 <> i:197
-binder 1609:1609 <> i:198
-binder 1611:1611 <> p:199
-binder 1611:1611 <> p:200
-R1587:1588 Top.Deductive_System <> :::x_';'_x_'|--'_x not
-R1590:1594 Top.Deductive_System <> :::x_';'_x_'|--'_x not
-R1595:1597 Top.Modal_Notations <> :::'[!'_x_'!]' not
-R1612:1614 Top.Modal_Notations <> :::'[!'_x_'!]' not
-R1604:1607 Top.Modal_Notations <> :modal::x_'->'_x not
-R1598:1598 Top.Modal_Notations <> :modal::'['_x_']'_x not
-R1600:1600 Top.Modal_Notations <> :modal::'['_x_']'_x not
-binder 1599:1599 <> i:201
-binder 1599:1599 <> i:202
-binder 1601:1603 <> psi:203
-binder 1601:1603 <> psi:204
-R1608:1608 Top.Modal_Notations <> :modal::'['_x_']'_x not
-R1610:1610 Top.Modal_Notations <> :modal::'['_x_']'_x not
-binder 1609:1609 <> i:205
-binder 1609:1609 <> i:206
-binder 1611:1611 <> p:207
-binder 1611:1611 <> p:208
-R1633:1641 Top.Modal_Tactics <> modal_ax2 thm
-R1633:1641 Top.Modal_Tactics <> modal_ax2 thm
-R1690:1691 Top.Deductive_System <> :::x_';'_x_'|--'_x not
-R1693:1697 Top.Deductive_System <> :::x_';'_x_'|--'_x not
-R1698:1700 Top.Modal_Notations <> :::'[!'_x_'!]' not
-R1712:1714 Top.Modal_Notations <> :::'[!'_x_'!]' not
-R1707:1710 Top.Modal_Notations <> :modal::x_'->'_x not
-R1701:1701 Top.Modal_Notations <> :modal::'['_x_']'_x not
-R1703:1703 Top.Modal_Notations <> :modal::'['_x_']'_x not
-binder 1702:1702 <> i:209
-binder 1702:1702 <> i:210
-binder 1704:1706 <> psi:211
-binder 1704:1706 <> psi:212
-binder 1711:1711 <> p:213
-binder 1711:1711 <> p:214
-R1690:1691 Top.Deductive_System <> :::x_';'_x_'|--'_x not
-R1693:1697 Top.Deductive_System <> :::x_';'_x_'|--'_x not
-R1698:1700 Top.Modal_Notations <> :::'[!'_x_'!]' not
-R1712:1714 Top.Modal_Notations <> :::'[!'_x_'!]' not
-R1707:1710 Top.Modal_Notations <> :modal::x_'->'_x not
-R1701:1701 Top.Modal_Notations <> :modal::'['_x_']'_x not
-R1703:1703 Top.Modal_Notations <> :modal::'['_x_']'_x not
-binder 1702:1702 <> i:215
-binder 1702:1702 <> i:216
-binder 1704:1706 <> psi:217
-binder 1704:1706 <> psi:218
-binder 1711:1711 <> p:219
-binder 1711:1711 <> p:220
-R1734:1748 Top.Modal_Tactics <> modal_syllogism thm
-R1734:1748 Top.Modal_Tactics <> modal_syllogism thm
-R1797:1798 Top.Deductive_System <> :::x_';'_x_'|--'_x not
-R1800:1804 Top.Deductive_System <> :::x_';'_x_'|--'_x not
-R1805:1807 Top.Modal_Notations <> :::'[!'_x_'!]' not
-R1828:1830 Top.Modal_Notations <> :::'[!'_x_'!]' not
-R1821:1824 Top.Modal_Notations <> :modal::x_'->'_x not
-R1808:1808 Top.Modal_Notations <> :modal::'('_x_')' not
-R1820:1820 Top.Modal_Notations <> :modal::'('_x_')' not
-R1815:1818 Top.Modal_Notations <> :modal::x_'->'_x not
-R1809:1809 Top.Modal_Notations <> :modal::'['_x_']'_x not
-R1811:1811 Top.Modal_Notations <> :modal::'['_x_']'_x not
-binder 1810:1810 <> i:221
-binder 1810:1810 <> i:222
-binder 1812:1814 <> psi:223
-binder 1812:1814 <> psi:224
-binder 1819:1819 <> p:225
-binder 1819:1819 <> p:226
-binder 1825:1827 <> psi:227
-binder 1825:1827 <> psi:228
-R1797:1798 Top.Deductive_System <> :::x_';'_x_'|--'_x not
-R1800:1804 Top.Deductive_System <> :::x_';'_x_'|--'_x not
-R1805:1807 Top.Modal_Notations <> :::'[!'_x_'!]' not
-R1828:1830 Top.Modal_Notations <> :::'[!'_x_'!]' not
-R1821:1824 Top.Modal_Notations <> :modal::x_'->'_x not
-R1808:1808 Top.Modal_Notations <> :modal::'('_x_')' not
-R1820:1820 Top.Modal_Notations <> :modal::'('_x_')' not
-R1815:1818 Top.Modal_Notations <> :modal::x_'->'_x not
-R1809:1809 Top.Modal_Notations <> :modal::'['_x_']'_x not
-R1811:1811 Top.Modal_Notations <> :modal::'['_x_']'_x not
-binder 1810:1810 <> i:229
-binder 1810:1810 <> i:230
-binder 1812:1814 <> psi:231
-binder 1812:1814 <> psi:232
-binder 1819:1819 <> p:233
-binder 1819:1819 <> p:234
-binder 1825:1827 <> psi:235
-binder 1825:1827 <> psi:236
-R1849:1857 Top.Modal_Tactics <> modal_ax6 thm
-R1849:1857 Top.Modal_Tactics <> modal_ax6 thm
-R1911:1912 Top.Deductive_System <> :::x_';'_x_'|--'_x not
-R1914:1918 Top.Deductive_System <> :::x_';'_x_'|--'_x not
-R1911:1912 Top.Deductive_System <> :::x_';'_x_'|--'_x not
-R1914:1918 Top.Deductive_System <> :::x_';'_x_'|--'_x not
-R1941:1942 Top.Deductive_System <> Mp constr
-R1941:1942 Top.Deductive_System <> Mp constr
-R1990:1991 Top.Deductive_System <> :::x_';'_x_'|--'_x not
-R1993:1997 Top.Deductive_System <> :::x_';'_x_'|--'_x not
-R1998:2000 Top.Modal_Notations <> :::'[!'_x_'!]' not
-R2007:2009 Top.Modal_Notations <> :::'[!'_x_'!]' not
-R2001:2001 Top.Modal_Notations <> :modal::'['_x_']'_x not
-R2003:2003 Top.Modal_Notations <> :modal::'['_x_']'_x not
-binder 2002:2002 <> i:237
-binder 2002:2002 <> i:238
-binder 2004:2006 <> psi:239
-binder 2004:2006 <> psi:240
-R1990:1991 Top.Deductive_System <> :::x_';'_x_'|--'_x not
-R1993:1997 Top.Deductive_System <> :::x_';'_x_'|--'_x not
-R1998:2000 Top.Modal_Notations <> :::'[!'_x_'!]' not
-R2007:2009 Top.Modal_Notations <> :::'[!'_x_'!]' not
-R2001:2001 Top.Modal_Notations <> :modal::'['_x_']'_x not
-R2003:2003 Top.Modal_Notations <> :modal::'['_x_']'_x not
-binder 2002:2002 <> i:241
-binder 2002:2002 <> i:242
-binder 2004:2006 <> psi:243
-binder 2004:2006 <> psi:244
-R2028:2030 Top.Deductive_System <> Nec constr
-R2028:2030 Top.Deductive_System <> Nec constr
-R2075:2076 Top.Deductive_System <> Mp constr
-R2075:2076 Top.Deductive_System <> Mp constr
+R1235:1235 Top.Modal_Notations <> :modal::'['_x_']'_x not
+binder 1234:1234 <> i:129
+binder 1234:1234 <> i:130
+binder 1236:1238 <> psi:131
+binder 1236:1238 <> psi:132
+binder 1243:1243 <> p:133
+binder 1243:1243 <> p:134
+R1258:1261 Top.Modal_Notations <> :modal::x_'->'_x not
+R1249:1249 Top.Modal_Notations <> :modal::'['_x_']'_x not
+R1251:1251 Top.Modal_Notations <> :modal::'['_x_']'_x not
+binder 1250:1250 <> i:135
+binder 1250:1250 <> i:136
+R1252:1252 Top.Modal_Notations <> :modal::'['_x_']'_x not
+R1254:1254 Top.Modal_Notations <> :modal::'['_x_']'_x not
+binder 1253:1253 <> i:137
+binder 1253:1253 <> i:138
+binder 1255:1257 <> psi:139
+binder 1255:1257 <> psi:140
+R1262:1262 Top.Modal_Notations <> :modal::'['_x_']'_x not
+R1264:1264 Top.Modal_Notations <> :modal::'['_x_']'_x not
+binder 1263:1263 <> i:141
+binder 1263:1263 <> i:142
+binder 1265:1265 <> p:143
+binder 1265:1265 <> p:144
+R1301:1303 Top.Deductive_System <> axK constr
+R1287:1288 Top.Deductive_System <> Ax constr
+R1301:1303 Top.Deductive_System <> axK constr
+R1287:1288 Top.Deductive_System <> Ax constr
+R1378:1379 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R1381:1385 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R1386:1388 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R1416:1418 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R1395:1398 Top.Modal_Notations <> :modal::x_'->'_x not
+R1389:1389 Top.Modal_Notations <> :modal::'['_x_']'_x not
+R1391:1391 Top.Modal_Notations <> :modal::'['_x_']'_x not
+binder 1390:1390 <> i:145
+binder 1390:1390 <> i:146
+binder 1392:1394 <> psi:147
+binder 1392:1394 <> psi:148
+R1408:1411 Top.Modal_Notations <> :modal::x_'->'_x not
+R1399:1399 Top.Modal_Notations <> :modal::'['_x_']'_x not
+R1401:1401 Top.Modal_Notations <> :modal::'['_x_']'_x not
+binder 1400:1400 <> i:149
+binder 1400:1400 <> i:150
+R1402:1402 Top.Modal_Notations <> :modal::'['_x_']'_x not
+R1404:1404 Top.Modal_Notations <> :modal::'['_x_']'_x not
+binder 1403:1403 <> i:151
+binder 1403:1403 <> i:152
+binder 1405:1407 <> psi:153
+binder 1405:1407 <> psi:154
+R1412:1412 Top.Modal_Notations <> :modal::'['_x_']'_x not
+R1414:1414 Top.Modal_Notations <> :modal::'['_x_']'_x not
+binder 1413:1413 <> i:155
+binder 1413:1413 <> i:156
+binder 1415:1415 <> p:157
+binder 1415:1415 <> p:158
+R1378:1379 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R1381:1385 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R1386:1388 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R1416:1418 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R1395:1398 Top.Modal_Notations <> :modal::x_'->'_x not
+R1389:1389 Top.Modal_Notations <> :modal::'['_x_']'_x not
+R1391:1391 Top.Modal_Notations <> :modal::'['_x_']'_x not
+binder 1390:1390 <> i:159
+binder 1390:1390 <> i:160
+binder 1392:1394 <> psi:161
+binder 1392:1394 <> psi:162
+R1408:1411 Top.Modal_Notations <> :modal::x_'->'_x not
+R1399:1399 Top.Modal_Notations <> :modal::'['_x_']'_x not
+R1401:1401 Top.Modal_Notations <> :modal::'['_x_']'_x not
+binder 1400:1400 <> i:163
+binder 1400:1400 <> i:164
+R1402:1402 Top.Modal_Notations <> :modal::'['_x_']'_x not
+R1404:1404 Top.Modal_Notations <> :modal::'['_x_']'_x not
+binder 1403:1403 <> i:165
+binder 1403:1403 <> i:166
+binder 1405:1407 <> psi:167
+binder 1405:1407 <> psi:168
+R1412:1412 Top.Modal_Notations <> :modal::'['_x_']'_x not
+R1414:1414 Top.Modal_Notations <> :modal::'['_x_']'_x not
+binder 1413:1413 <> i:169
+binder 1413:1413 <> i:170
+binder 1415:1415 <> p:171
+binder 1415:1415 <> p:172
+R1437:1451 Top.Modal_Tactics <> modal_syllogism thm
+R1437:1451 Top.Modal_Tactics <> modal_syllogism thm
+R1499:1500 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R1502:1506 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R1507:1509 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R1529:1531 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R1516:1519 Top.Modal_Notations <> :modal::x_'->'_x not
+R1510:1510 Top.Modal_Notations <> :modal::'['_x_']'_x not
+R1512:1512 Top.Modal_Notations <> :modal::'['_x_']'_x not
+binder 1511:1511 <> i:173
+binder 1511:1511 <> i:174
+binder 1513:1515 <> psi:175
+binder 1513:1515 <> psi:176
+R1520:1520 Top.Modal_Notations <> :modal::'['_x_']'_x not
+R1522:1522 Top.Modal_Notations <> :modal::'['_x_']'_x not
+binder 1521:1521 <> i:177
+binder 1521:1521 <> i:178
+R1523:1523 Top.Modal_Notations <> :modal::'['_x_']'_x not
+R1525:1525 Top.Modal_Notations <> :modal::'['_x_']'_x not
+binder 1524:1524 <> i:179
+binder 1524:1524 <> i:180
+binder 1526:1528 <> psi:181
+binder 1526:1528 <> psi:182
+R1499:1500 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R1502:1506 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R1507:1509 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R1529:1531 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R1516:1519 Top.Modal_Notations <> :modal::x_'->'_x not
+R1510:1510 Top.Modal_Notations <> :modal::'['_x_']'_x not
+R1512:1512 Top.Modal_Notations <> :modal::'['_x_']'_x not
+binder 1511:1511 <> i:183
+binder 1511:1511 <> i:184
+binder 1513:1515 <> psi:185
+binder 1513:1515 <> psi:186
+R1520:1520 Top.Modal_Notations <> :modal::'['_x_']'_x not
+R1522:1522 Top.Modal_Notations <> :modal::'['_x_']'_x not
+binder 1521:1521 <> i:187
+binder 1521:1521 <> i:188
+R1523:1523 Top.Modal_Notations <> :modal::'['_x_']'_x not
+R1525:1525 Top.Modal_Notations <> :modal::'['_x_']'_x not
+binder 1524:1524 <> i:189
+binder 1524:1524 <> i:190
+binder 1526:1528 <> psi:191
+binder 1526:1528 <> psi:192
+R1549:1558 Top.Modal_Tactics <> modal_axK4 thm
+R1549:1558 Top.Modal_Tactics <> modal_axK4 thm
+R1605:1606 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R1608:1612 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R1613:1615 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R1630:1632 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R1622:1625 Top.Modal_Notations <> :modal::x_'->'_x not
+R1616:1616 Top.Modal_Notations <> :modal::'['_x_']'_x not
+R1618:1618 Top.Modal_Notations <> :modal::'['_x_']'_x not
+binder 1617:1617 <> i:193
+binder 1617:1617 <> i:194
+binder 1619:1621 <> psi:195
+binder 1619:1621 <> psi:196
+R1626:1626 Top.Modal_Notations <> :modal::'['_x_']'_x not
+R1628:1628 Top.Modal_Notations <> :modal::'['_x_']'_x not
+binder 1627:1627 <> i:197
+binder 1627:1627 <> i:198
+binder 1629:1629 <> p:199
+binder 1629:1629 <> p:200
+R1605:1606 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R1608:1612 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R1613:1615 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R1630:1632 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R1622:1625 Top.Modal_Notations <> :modal::x_'->'_x not
+R1616:1616 Top.Modal_Notations <> :modal::'['_x_']'_x not
+R1618:1618 Top.Modal_Notations <> :modal::'['_x_']'_x not
+binder 1617:1617 <> i:201
+binder 1617:1617 <> i:202
+binder 1619:1621 <> psi:203
+binder 1619:1621 <> psi:204
+R1626:1626 Top.Modal_Notations <> :modal::'['_x_']'_x not
+R1628:1628 Top.Modal_Notations <> :modal::'['_x_']'_x not
+binder 1627:1627 <> i:205
+binder 1627:1627 <> i:206
+binder 1629:1629 <> p:207
+binder 1629:1629 <> p:208
+R1651:1659 Top.Modal_Tactics <> modal_ax2 thm
+R1651:1659 Top.Modal_Tactics <> modal_ax2 thm
+R1708:1709 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R1711:1715 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R1716:1718 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R1730:1732 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R1725:1728 Top.Modal_Notations <> :modal::x_'->'_x not
+R1719:1719 Top.Modal_Notations <> :modal::'['_x_']'_x not
+R1721:1721 Top.Modal_Notations <> :modal::'['_x_']'_x not
+binder 1720:1720 <> i:209
+binder 1720:1720 <> i:210
+binder 1722:1724 <> psi:211
+binder 1722:1724 <> psi:212
+binder 1729:1729 <> p:213
+binder 1729:1729 <> p:214
+R1708:1709 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R1711:1715 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R1716:1718 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R1730:1732 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R1725:1728 Top.Modal_Notations <> :modal::x_'->'_x not
+R1719:1719 Top.Modal_Notations <> :modal::'['_x_']'_x not
+R1721:1721 Top.Modal_Notations <> :modal::'['_x_']'_x not
+binder 1720:1720 <> i:215
+binder 1720:1720 <> i:216
+binder 1722:1724 <> psi:217
+binder 1722:1724 <> psi:218
+binder 1729:1729 <> p:219
+binder 1729:1729 <> p:220
+R1752:1766 Top.Modal_Tactics <> modal_syllogism thm
+R1752:1766 Top.Modal_Tactics <> modal_syllogism thm
+R1815:1816 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R1818:1822 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R1823:1825 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R1846:1848 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R1839:1842 Top.Modal_Notations <> :modal::x_'->'_x not
+R1826:1826 Top.Modal_Notations <> :modal::'('_x_')' not
+R1838:1838 Top.Modal_Notations <> :modal::'('_x_')' not
+R1833:1836 Top.Modal_Notations <> :modal::x_'->'_x not
+R1827:1827 Top.Modal_Notations <> :modal::'['_x_']'_x not
+R1829:1829 Top.Modal_Notations <> :modal::'['_x_']'_x not
+binder 1828:1828 <> i:221
+binder 1828:1828 <> i:222
+binder 1830:1832 <> psi:223
+binder 1830:1832 <> psi:224
+binder 1837:1837 <> p:225
+binder 1837:1837 <> p:226
+binder 1843:1845 <> psi:227
+binder 1843:1845 <> psi:228
+R1815:1816 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R1818:1822 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R1823:1825 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R1846:1848 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R1839:1842 Top.Modal_Notations <> :modal::x_'->'_x not
+R1826:1826 Top.Modal_Notations <> :modal::'('_x_')' not
+R1838:1838 Top.Modal_Notations <> :modal::'('_x_')' not
+R1833:1836 Top.Modal_Notations <> :modal::x_'->'_x not
+R1827:1827 Top.Modal_Notations <> :modal::'['_x_']'_x not
+R1829:1829 Top.Modal_Notations <> :modal::'['_x_']'_x not
+binder 1828:1828 <> i:229
+binder 1828:1828 <> i:230
+binder 1830:1832 <> psi:231
+binder 1830:1832 <> psi:232
+binder 1837:1837 <> p:233
+binder 1837:1837 <> p:234
+binder 1843:1845 <> psi:235
+binder 1843:1845 <> psi:236
+R1867:1875 Top.Modal_Tactics <> modal_ax6 thm
+R1867:1875 Top.Modal_Tactics <> modal_ax6 thm
+R1929:1930 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R1932:1936 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R1929:1930 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R1932:1936 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R1959:1960 Top.Deductive_System <> Mp constr
+R1959:1960 Top.Deductive_System <> Mp constr
+R2008:2009 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R2011:2015 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R2016:2018 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R2025:2027 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R2019:2019 Top.Modal_Notations <> :modal::'['_x_']'_x not
+R2021:2021 Top.Modal_Notations <> :modal::'['_x_']'_x not
+binder 2020:2020 <> i:237
+binder 2020:2020 <> i:238
+binder 2022:2024 <> psi:239
+binder 2022:2024 <> psi:240
+R2008:2009 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R2011:2015 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R2016:2018 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R2025:2027 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R2019:2019 Top.Modal_Notations <> :modal::'['_x_']'_x not
+R2021:2021 Top.Modal_Notations <> :modal::'['_x_']'_x not
+binder 2020:2020 <> i:241
+binder 2020:2020 <> i:242
+binder 2022:2024 <> psi:243
+binder 2022:2024 <> psi:244
+R2046:2048 Top.Deductive_System <> Nec constr
+R2046:2048 Top.Deductive_System <> Nec constr
+R2093:2094 Top.Deductive_System <> Mp constr
+R2093:2094 Top.Deductive_System <> Mp constr
+R4071:4078 Top.Examples Examples <> sec

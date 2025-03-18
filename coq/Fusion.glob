@@ -12,18 +12,18 @@ R210:213 Coq.Init.Logic <> ::type_scope:x_'->'_x not
 R209:209 Top.Fusion <> A:1 var
 R214:214 Top.Fusion <> B:2 var
 sec 228:233 <> Fusion
-binder 265:266 <> I1:5
-binder 286:287 <> I2:6
+var  265:266 Fusion I1
+var  286:287 Fusion I2
 def 363:368 <> fusion
 R384:386 Coq.Init.Datatypes <> ::type_scope:x_'+'_x not
 R382:383 Top.Fusion <> Fusion.I1 var
 R387:388 Top.Fusion <> Fusion.I2 var
+var  452:453 Fusion X1
 R457:471 Top.Modal_Library <> modal_index_set class
 R473:474 Top.Fusion <> Fusion.I1 var
-binder 452:453 <> X1:7
+var  489:490 Fusion X2
 R494:508 Top.Modal_Library <> modal_index_set class
 R510:511 Top.Fusion <> Fusion.I2 var
-binder 489:490 <> X2:8
 inst 555:570 <> fusion_index_set
 R574:588 Top.Modal_Library <> modal_index_set class
 R590:595 Top.Fusion <> fusion def
@@ -670,14 +670,14 @@ R13842:13847 Top.Fusion <> Frame2 abbrev
 def 13872:13873 <> PF
 R13882:13885 Coq.Init.Logic <> ::type_scope:x_'->'_x not
 R13876:13881 Top.Fusion <> FrameF abbrev
-binder 13902:13902 <> F:28
+binder 13902:13902 <> F:30
 R13932:13935 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
 R13913:13914 Top.Fusion <> Fusion.P1 var
 R13917:13928 Top.Fusion <> split_frame1 thm
-R13930:13930 Top.Fusion <> F:28 var
+R13930:13930 Top.Fusion <> F:30 var
 R13936:13937 Top.Fusion <> Fusion.P2 var
 R13940:13951 Top.Fusion <> split_frame2 thm
-R13953:13953 Top.Fusion <> F:28 var
+R13953:13953 Top.Fusion <> F:30 var
 var 14050:14051 Fusion A1
 R14060:14063 Coq.Init.Logic <> ::type_scope:x_'->'_x not
 R14054:14059 Top.Fusion <> axiom1 abbrev
@@ -689,73 +689,73 @@ constr 14153:14166 <> fusion_axioms1
 constr 14222:14235 <> fusion_axioms2
 R14135:14138 Coq.Init.Logic <> ::type_scope:x_'->'_x not
 R14129:14134 Top.Fusion <> axiomF abbrev
-binder 14182:14182 <> p:33
+binder 14182:14182 <> p:37
 R14189:14192 Coq.Init.Logic <> ::type_scope:x_'->'_x not
 R14185:14186 Top.Fusion <> Fusion.A1 var
-R14188:14188 Top.Fusion <> p:33 var
-R14193:14205 Top.Fusion <> fusion_axioms:31 ind
+R14188:14188 Top.Fusion <> p:37 var
+R14193:14205 Top.Fusion <> fusion_axioms:35 ind
 R14208:14211 Top.Fusion <> lift meth
-R14213:14213 Top.Fusion <> p:33 var
-binder 14251:14251 <> p:34
+R14213:14213 Top.Fusion <> p:37 var
+binder 14251:14251 <> p:38
 R14258:14261 Coq.Init.Logic <> ::type_scope:x_'->'_x not
 R14254:14255 Top.Fusion <> Fusion.A2 var
-R14257:14257 Top.Fusion <> p:34 var
-R14262:14274 Top.Fusion <> fusion_axioms:31 ind
+R14257:14257 Top.Fusion <> p:38 var
+R14262:14274 Top.Fusion <> fusion_axioms:35 ind
 R14277:14280 Top.Fusion <> lift meth
-R14282:14282 Top.Fusion <> p:34 var
+R14282:14282 Top.Fusion <> p:38 var
 scheme 14114:14126 <> fusion_axioms_ind
 scheme 14114:14126 <> fusion_axioms_sind
 R14291:14296 Top.Fusion Fusion <> sec
 def 14406:14410 <> sound
-binder 14412:14412 <> I:35
+binder 14412:14412 <> I:39
 R14420:14434 Top.Modal_Library <> modal_index_set class
-R14436:14436 Top.Fusion <> I:35 var
-binder 14416:14416 <> X:36
-binder 14439:14439 <> P:37
-binder 14441:14441 <> A:38
-binder 14461:14461 <> G:39
-binder 14463:14463 <> p:40
+R14436:14436 Top.Fusion <> I:39 var
+binder 14416:14416 <> X:40
+binder 14439:14439 <> P:41
+binder 14441:14441 <> A:42
+binder 14461:14461 <> G:43
+binder 14463:14463 <> p:44
 R14468:14468 Coq.Init.Logic <> ::type_scope:x_'->'_x not
 R14479:14483 Coq.Init.Logic <> ::type_scope:x_'->'_x not
 R14470:14471 Top.Deductive_System <> :::x_';'_x_'|--'_x not
 R14473:14477 Top.Deductive_System <> :::x_';'_x_'|--'_x not
-R14469:14469 Top.Fusion <> A:38 var
-R14472:14472 Top.Fusion <> G:39 var
-R14478:14478 Top.Fusion <> p:40 var
+R14469:14469 Top.Fusion <> A:42 var
+R14472:14472 Top.Fusion <> G:43 var
+R14478:14478 Top.Fusion <> p:44 var
 R14484:14502 Top.Modal_Library <> entails_modal_class def
-R14506:14506 Top.Fusion <> G:39 var
-R14508:14508 Top.Fusion <> p:40 var
-R14504:14504 Top.Fusion <> P:37 var
+R14506:14506 Top.Fusion <> G:43 var
+R14508:14508 Top.Fusion <> p:44 var
+R14504:14504 Top.Fusion <> P:41 var
 prf 14571:14588 <> soundness_transfer
-binder 14600:14601 <> I1:41
+binder 14600:14601 <> I1:45
 R14610:14624 Top.Modal_Library <> modal_index_set class
-R14626:14627 Top.Fusion <> I1:41 var
-binder 14605:14606 <> X1:42
-binder 14630:14631 <> P1:43
-binder 14633:14634 <> A1:44
-binder 14646:14647 <> I2:45
+R14626:14627 Top.Fusion <> I1:45 var
+binder 14605:14606 <> X1:46
+binder 14630:14631 <> P1:47
+binder 14633:14634 <> A1:48
+binder 14646:14647 <> I2:49
 R14656:14670 Top.Modal_Library <> modal_index_set class
-R14672:14673 Top.Fusion <> I2:45 var
-binder 14651:14652 <> X2:46
-binder 14676:14677 <> P2:47
-binder 14679:14680 <> A2:48
+R14672:14673 Top.Fusion <> I2:49 var
+binder 14651:14652 <> X2:50
+binder 14676:14677 <> P2:51
+binder 14679:14680 <> A2:52
 R14699:14704 Coq.Init.Logic <> ::type_scope:x_'->'_x not
 R14685:14689 Top.Fusion <> sound def
-R14697:14698 Top.Fusion <> A1:44 var
-R14694:14695 Top.Fusion <> P1:43 var
-R14691:14692 Top.Fusion <> I1:41 var
+R14697:14698 Top.Fusion <> A1:48 var
+R14694:14695 Top.Fusion <> P1:47 var
+R14691:14692 Top.Fusion <> I1:45 var
 R14719:14724 Coq.Init.Logic <> ::type_scope:x_'->'_x not
 R14705:14709 Top.Fusion <> sound def
-R14717:14718 Top.Fusion <> A2:48 var
-R14714:14715 Top.Fusion <> P2:47 var
-R14711:14712 Top.Fusion <> I2:45 var
+R14717:14718 Top.Fusion <> A2:52 var
+R14714:14715 Top.Fusion <> P2:51 var
+R14711:14712 Top.Fusion <> I2:49 var
 R14725:14729 Top.Fusion <> sound def
 R14750:14762 Top.Fusion <> fusion_axioms ind
-R14767:14768 Top.Fusion <> A2:48 var
-R14764:14765 Top.Fusion <> A1:44 var
+R14767:14768 Top.Fusion <> A2:52 var
+R14764:14765 Top.Fusion <> A1:48 var
 R14739:14740 Top.Fusion <> PF def
-R14745:14746 Top.Fusion <> P2:47 var
-R14742:14743 Top.Fusion <> P1:43 var
+R14745:14746 Top.Fusion <> P2:51 var
+R14742:14743 Top.Fusion <> P1:47 var
 R14731:14736 Top.Fusion <> fusion def
 R15395:15421 Top.Fusion <> instantiate_lift_inversion1 thm
 R15395:15421 Top.Fusion <> instantiate_lift_inversion1 thm
@@ -810,7 +810,7 @@ R16880:16883 Coq.Init.Datatypes <> unit ind
 R16942:16942 Top.Modal_Library <> C meth
 R16942:16942 Top.Modal_Library <> C meth
 R16942:16942 Top.Modal_Library <> C meth
-binder 16944:16944 <> x:49
+binder 16944:16944 <> x:53
 R16949:16952 Coq.Init.Logic <> True ind
 def 17027:17029 <> idx
 R17032:17042 Top.Modal_Library <> modal_index rec
@@ -826,10 +826,10 @@ R17191:17193 Top.Fusion <> idx def
 def 17283:17283 <> P
 R17291:17294 Coq.Init.Logic <> ::type_scope:x_'->'_x not
 R17286:17290 Top.Modal_Library <> Frame rec
-binder 17311:17311 <> F:50
+binder 17311:17311 <> F:54
 R17316:17329 Top.Modal_Library <> preorder_frame def
 R17333:17335 Top.Fusion <> idx def
-R17331:17331 Top.Fusion <> F:50 var
+R17331:17331 Top.Fusion <> F:54 var
 def 17411:17442 <> Unnamed_thm
 R17420:17424 Top.Fusion <> sound def
 R17442:17442 Top.Fusion <> X def

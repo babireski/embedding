@@ -1,6 +1,7 @@
 Require Import List Modal_Library Modal_Notations Deductive_System Modal_Tactics Sets.
 Import ListNotations.
 
+Section Examples.
 Context `{X: modal_index_set}.
 
 Definition fixed_point A G i :=
@@ -129,3 +130,5 @@ Proof.
 Qed.
 
 *)
+
+End Examples.
