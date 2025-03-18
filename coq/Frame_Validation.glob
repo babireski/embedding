@@ -1,0 +1,2141 @@
+DIGEST 0e2c7f06b9fb4189f9db022682597903
+FTop.Frame_Validation
+R15:23 Coq.Logic.Decidable <> <> lib
+R41:49 Coq.Logic.Classical <> <> lib
+R67:79 Top.Modal_Library <> <> lib
+R81:95 Top.Modal_Notations <> <> lib
+R97:109 Top.Modal_Tactics <> <> lib
+R111:119 Coq.Logic.Classical <> <> lib
+R136:150 Top.Modal_Library <> modal_index_set class
+binder 133:133 <> X:2
+prf 163:192 <> reflexive_frame_implies_axiomT
+binder 204:204 <> f:3
+binder 206:206 <> p:4
+binder 208:210 <> idx:5
+R236:241 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R215:229 Top.Modal_Library <> reflexive_frame def
+R233:235 Top.Frame_Validation <> idx:5 var
+R231:231 Top.Frame_Validation <> f:3 var
+binder 249:249 <> v:6
+R262:265 Top.Modal_Notations <> :::x_'|='_x not
+R254:254 Top.Modal_Notations <> :::'['_x_'--'_x_']' not
+R256:259 Top.Modal_Notations <> :::'['_x_'--'_x_']' not
+R261:261 Top.Modal_Notations <> :::'['_x_'--'_x_']' not
+R255:255 Top.Frame_Validation <> f:3 var
+R260:260 Top.Frame_Validation <> v:6 var
+R266:268 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R280:282 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R275:278 Top.Modal_Notations <> :modal::x_'->'_x not
+R269:269 Top.Modal_Notations <> :modal::'['_x_']'_x not
+R273:273 Top.Modal_Notations <> :modal::'['_x_']'_x not
+binder 270:272 <> idx:7
+binder 270:272 <> idx:8
+binder 274:274 <> p:9
+binder 274:274 <> p:10
+binder 279:279 <> p:11
+binder 279:279 <> p:12
+R345:359 Top.Modal_Library <> reflexive_frame def
+prf 414:443 <> axiomT_implies_reflexive_frame
+binder 455:455 <> f:13
+binder 457:459 <> idx:14
+R464:464 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R506:512 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 472:472 <> v:15
+binder 474:474 <> p:16
+R485:488 Top.Modal_Notations <> :::x_'|='_x not
+R477:477 Top.Modal_Notations <> :::'['_x_'--'_x_']' not
+R479:482 Top.Modal_Notations <> :::'['_x_'--'_x_']' not
+R484:484 Top.Modal_Notations <> :::'['_x_'--'_x_']' not
+R478:478 Top.Frame_Validation <> f:13 var
+R483:483 Top.Frame_Validation <> v:15 var
+R489:491 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R503:505 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R498:501 Top.Modal_Notations <> :modal::x_'->'_x not
+R492:492 Top.Modal_Notations <> :modal::'['_x_']'_x not
+R496:496 Top.Modal_Notations <> :modal::'['_x_']'_x not
+binder 493:495 <> idx:17
+binder 493:495 <> idx:18
+binder 497:497 <> p:19
+binder 497:497 <> p:20
+binder 502:502 <> p:21
+binder 502:502 <> p:22
+R513:527 Top.Modal_Library <> reflexive_frame def
+R531:533 Top.Frame_Validation <> idx:14 var
+R529:529 Top.Frame_Validation <> f:13 var
+R567:580 Coq.Logic.Decidable <> contrapositive thm
+R567:580 Coq.Logic.Decidable <> contrapositive thm
+R593:599 Coq.Logic.Classical_Prop <> classic prfax
+R593:599 Coq.Logic.Classical_Prop <> classic prfax
+R623:637 Top.Modal_Library <> reflexive_frame def
+R655:668 Coq.Logic.Classical_Pred_Type <> not_all_ex_not thm
+R655:668 Coq.Logic.Classical_Pred_Type <> not_all_ex_not thm
+R706:719 Coq.Logic.Classical_Pred_Type <> ex_not_not_all thm
+R706:719 Coq.Logic.Classical_Pred_Type <> ex_not_not_all thm
+binder 740:740 <> x:23
+R745:745 Top.Modal_Library <> R proj
+R756:756 Top.Frame_Validation <> x:23 var
+binder 740:740 <> x:24
+R745:745 Top.Modal_Library <> R proj
+R756:756 Top.Frame_Validation <> x:24 var
+R770:783 Coq.Logic.Classical_Pred_Type <> ex_not_not_all thm
+R770:783 Coq.Logic.Classical_Pred_Type <> ex_not_not_all thm
+R797:799 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R802:804 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R800:800 Top.Modal_Notations <> :modal::'#'_x not
+R797:799 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R802:804 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R800:800 Top.Modal_Notations <> :modal::'#'_x not
+R829:842 Top.Modal_Library <> validate_model def
+prf 938:968 <> transitive_frame_implies_axiom4
+binder 980:980 <> f:25
+binder 982:984 <> idx:26
+R1011:1016 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R989:1004 Top.Modal_Library <> transitive_frame def
+R1008:1010 Top.Frame_Validation <> idx:26 var
+R1006:1006 Top.Frame_Validation <> f:25 var
+binder 1024:1024 <> v:27
+binder 1026:1026 <> p:28
+R1039:1042 Top.Modal_Notations <> :::x_'|='_x not
+R1031:1031 Top.Modal_Notations <> :::'['_x_'--'_x_']' not
+R1033:1036 Top.Modal_Notations <> :::'['_x_'--'_x_']' not
+R1038:1038 Top.Modal_Notations <> :::'['_x_'--'_x_']' not
+R1032:1032 Top.Frame_Validation <> f:25 var
+R1037:1037 Top.Frame_Validation <> v:27 var
+R1043:1045 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R1067:1069 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R1052:1055 Top.Modal_Notations <> :modal::x_'->'_x not
+R1046:1046 Top.Modal_Notations <> :modal::'['_x_']'_x not
+R1050:1050 Top.Modal_Notations <> :modal::'['_x_']'_x not
+binder 1047:1049 <> idx:29
+binder 1047:1049 <> idx:30
+binder 1051:1051 <> p:31
+binder 1051:1051 <> p:32
+R1056:1056 Top.Modal_Notations <> :modal::'['_x_']'_x not
+R1060:1060 Top.Modal_Notations <> :modal::'['_x_']'_x not
+binder 1057:1059 <> idx:33
+binder 1057:1059 <> idx:34
+R1061:1061 Top.Modal_Notations <> :modal::'['_x_']'_x not
+R1065:1065 Top.Modal_Notations <> :modal::'['_x_']'_x not
+binder 1062:1064 <> idx:35
+binder 1062:1064 <> idx:36
+binder 1066:1066 <> p:37
+binder 1066:1066 <> p:38
+R1174:1189 Top.Modal_Library <> transitive_frame def
+prf 1281:1311 <> axiom4_implies_transitive_frame
+binder 1323:1323 <> f:39
+binder 1325:1327 <> idx:40
+R1332:1332 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1384:1390 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 1340:1340 <> v:41
+binder 1342:1342 <> p:42
+R1353:1356 Top.Modal_Notations <> :::x_'|='_x not
+R1345:1345 Top.Modal_Notations <> :::'['_x_'--'_x_']' not
+R1347:1350 Top.Modal_Notations <> :::'['_x_'--'_x_']' not
+R1352:1352 Top.Modal_Notations <> :::'['_x_'--'_x_']' not
+R1346:1346 Top.Frame_Validation <> f:39 var
+R1351:1351 Top.Frame_Validation <> v:41 var
+R1357:1359 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R1381:1383 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R1366:1369 Top.Modal_Notations <> :modal::x_'->'_x not
+R1360:1360 Top.Modal_Notations <> :modal::'['_x_']'_x not
+R1364:1364 Top.Modal_Notations <> :modal::'['_x_']'_x not
+binder 1361:1363 <> idx:43
+binder 1361:1363 <> idx:44
+binder 1365:1365 <> p:45
+binder 1365:1365 <> p:46
+R1370:1370 Top.Modal_Notations <> :modal::'['_x_']'_x not
+R1374:1374 Top.Modal_Notations <> :modal::'['_x_']'_x not
+binder 1371:1373 <> idx:47
+binder 1371:1373 <> idx:48
+R1375:1375 Top.Modal_Notations <> :modal::'['_x_']'_x not
+R1379:1379 Top.Modal_Notations <> :modal::'['_x_']'_x not
+binder 1376:1378 <> idx:49
+binder 1376:1378 <> idx:50
+binder 1380:1380 <> p:51
+binder 1380:1380 <> p:52
+R1391:1406 Top.Modal_Library <> transitive_frame def
+R1410:1412 Top.Frame_Validation <> idx:40 var
+R1408:1408 Top.Frame_Validation <> f:39 var
+R1446:1459 Coq.Logic.Decidable <> contrapositive thm
+R1446:1459 Coq.Logic.Decidable <> contrapositive thm
+R1472:1478 Coq.Logic.Classical_Prop <> classic prfax
+R1472:1478 Coq.Logic.Classical_Prop <> classic prfax
+R1502:1517 Top.Modal_Library <> transitive_frame def
+R1535:1548 Coq.Logic.Classical_Pred_Type <> not_all_ex_not thm
+R1586:1599 Coq.Logic.Classical_Pred_Type <> not_all_ex_not thm
+R1637:1650 Coq.Logic.Classical_Pred_Type <> not_all_ex_not thm
+R1535:1548 Coq.Logic.Classical_Pred_Type <> not_all_ex_not thm
+R1586:1599 Coq.Logic.Classical_Pred_Type <> not_all_ex_not thm
+R1637:1650 Coq.Logic.Classical_Pred_Type <> not_all_ex_not thm
+R1724:1727 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R1711:1711 Top.Modal_Library <> R proj
+R1728:1728 Top.Modal_Library <> R proj
+R1688:1699 Coq.Logic.Classical_Prop <> imply_to_and thm
+R1724:1727 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R1711:1711 Top.Modal_Library <> R proj
+R1728:1728 Top.Modal_Library <> R proj
+R1688:1699 Coq.Logic.Classical_Prop <> imply_to_and thm
+R1810:1823 Coq.Logic.Classical_Pred_Type <> ex_not_not_all thm
+R1810:1823 Coq.Logic.Classical_Pred_Type <> ex_not_not_all thm
+binder 1844:1844 <> x:53
+R1849:1849 Top.Modal_Library <> R proj
+R1860:1860 Top.Frame_Validation <> x:53 var
+binder 1844:1844 <> x:54
+R1849:1849 Top.Modal_Library <> R proj
+R1860:1860 Top.Frame_Validation <> x:54 var
+R1874:1887 Coq.Logic.Classical_Pred_Type <> ex_not_not_all thm
+R1874:1887 Coq.Logic.Classical_Pred_Type <> ex_not_not_all thm
+R1901:1903 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R1906:1908 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R1904:1904 Top.Modal_Notations <> :modal::'#'_x not
+R1901:1903 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R1906:1908 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R1904:1904 Top.Modal_Notations <> :modal::'#'_x not
+R1932:1945 Top.Modal_Library <> validate_model def
+prf 2072:2101 <> symmetric_frame_implies_axiomB
+binder 2113:2113 <> f:55
+binder 2115:2117 <> idx:56
+R2143:2148 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2122:2136 Top.Modal_Library <> symmetric_frame def
+R2140:2142 Top.Frame_Validation <> idx:56 var
+R2138:2138 Top.Frame_Validation <> f:55 var
+binder 2156:2156 <> v:57
+binder 2158:2158 <> p:58
+R2171:2174 Top.Modal_Notations <> :::x_'|='_x not
+R2163:2163 Top.Modal_Notations <> :::'['_x_'--'_x_']' not
+R2165:2168 Top.Modal_Notations <> :::'['_x_'--'_x_']' not
+R2170:2170 Top.Modal_Notations <> :::'['_x_'--'_x_']' not
+R2164:2164 Top.Frame_Validation <> f:55 var
+R2169:2169 Top.Frame_Validation <> v:57 var
+R2175:2177 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R2194:2196 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R2179:2182 Top.Modal_Notations <> :modal::x_'->'_x not
+binder 2178:2178 <> p:59
+binder 2178:2178 <> p:60
+R2183:2183 Top.Modal_Notations <> :modal::'['_x_']'_x not
+R2187:2187 Top.Modal_Notations <> :modal::'['_x_']'_x not
+binder 2184:2186 <> idx:61
+binder 2184:2186 <> idx:62
+R2188:2188 Top.Modal_Notations <> :modal::'<'_x_'>'_x not
+R2192:2192 Top.Modal_Notations <> :modal::'<'_x_'>'_x not
+binder 2189:2191 <> idx:63
+binder 2189:2191 <> idx:64
+binder 2193:2193 <> p:65
+binder 2193:2193 <> p:66
+R2281:2295 Top.Modal_Library <> symmetric_frame def
+prf 2362:2391 <> axiomB_implies_symmetric_frame
+binder 2403:2403 <> f:67
+binder 2405:2407 <> idx:68
+R2412:2412 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2459:2465 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 2420:2420 <> v:69
+binder 2422:2422 <> p:70
+R2433:2436 Top.Modal_Notations <> :::x_'|='_x not
+R2425:2425 Top.Modal_Notations <> :::'['_x_'--'_x_']' not
+R2427:2430 Top.Modal_Notations <> :::'['_x_'--'_x_']' not
+R2432:2432 Top.Modal_Notations <> :::'['_x_'--'_x_']' not
+R2426:2426 Top.Frame_Validation <> f:67 var
+R2431:2431 Top.Frame_Validation <> v:69 var
+R2437:2439 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R2456:2458 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R2441:2444 Top.Modal_Notations <> :modal::x_'->'_x not
+binder 2440:2440 <> p:71
+binder 2440:2440 <> p:72
+R2445:2445 Top.Modal_Notations <> :modal::'['_x_']'_x not
+R2449:2449 Top.Modal_Notations <> :modal::'['_x_']'_x not
+binder 2446:2448 <> idx:73
+binder 2446:2448 <> idx:74
+R2450:2450 Top.Modal_Notations <> :modal::'<'_x_'>'_x not
+R2454:2454 Top.Modal_Notations <> :modal::'<'_x_'>'_x not
+binder 2451:2453 <> idx:75
+binder 2451:2453 <> idx:76
+binder 2455:2455 <> p:77
+binder 2455:2455 <> p:78
+R2466:2480 Top.Modal_Library <> symmetric_frame def
+R2484:2486 Top.Frame_Validation <> idx:68 var
+R2482:2482 Top.Frame_Validation <> f:67 var
+R2520:2533 Coq.Logic.Decidable <> contrapositive thm
+R2520:2533 Coq.Logic.Decidable <> contrapositive thm
+R2546:2552 Coq.Logic.Classical_Prop <> classic prfax
+R2546:2552 Coq.Logic.Classical_Prop <> classic prfax
+R2576:2590 Top.Modal_Library <> symmetric_frame def
+R2608:2621 Coq.Logic.Classical_Pred_Type <> not_all_ex_not thm
+R2659:2672 Coq.Logic.Classical_Pred_Type <> not_all_ex_not thm
+R2608:2621 Coq.Logic.Classical_Pred_Type <> not_all_ex_not thm
+R2659:2672 Coq.Logic.Classical_Pred_Type <> not_all_ex_not thm
+R2710:2721 Coq.Logic.Classical_Prop <> imply_to_and thm
+R2710:2721 Coq.Logic.Classical_Prop <> imply_to_and thm
+R2762:2775 Coq.Logic.Classical_Pred_Type <> ex_not_not_all thm
+R2762:2775 Coq.Logic.Classical_Pred_Type <> ex_not_not_all thm
+binder 2796:2796 <> x:79
+R2801:2802 Coq.Init.Logic <> ::type_scope:'~'_x not
+R2803:2803 Top.Modal_Library <> R proj
+R2814:2814 Top.Frame_Validation <> x:79 var
+binder 2796:2796 <> x:80
+R2801:2802 Coq.Init.Logic <> ::type_scope:'~'_x not
+R2803:2803 Top.Modal_Library <> R proj
+R2814:2814 Top.Frame_Validation <> x:80 var
+R2828:2841 Coq.Logic.Classical_Pred_Type <> ex_not_not_all thm
+R2828:2841 Coq.Logic.Classical_Pred_Type <> ex_not_not_all thm
+R2855:2857 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R2860:2862 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R2858:2858 Top.Modal_Notations <> :modal::'#'_x not
+R2855:2857 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R2860:2862 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R2858:2858 Top.Modal_Notations <> :modal::'#'_x not
+R2886:2899 Top.Modal_Library <> validate_model def
+prf 3031:3060 <> euclidean_frame_implies_axiom5
+binder 3072:3072 <> f:81
+binder 3074:3076 <> idx:82
+R3102:3107 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3081:3095 Top.Modal_Library <> euclidian_frame def
+R3099:3101 Top.Frame_Validation <> idx:82 var
+R3097:3097 Top.Frame_Validation <> f:81 var
+binder 3115:3115 <> v:83
+binder 3117:3117 <> p:84
+R3130:3133 Top.Modal_Notations <> :::x_'|='_x not
+R3122:3122 Top.Modal_Notations <> :::'['_x_'--'_x_']' not
+R3124:3127 Top.Modal_Notations <> :::'['_x_'--'_x_']' not
+R3129:3129 Top.Modal_Notations <> :::'['_x_'--'_x_']' not
+R3123:3123 Top.Frame_Validation <> f:81 var
+R3128:3128 Top.Frame_Validation <> v:83 var
+R3134:3136 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R3158:3160 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R3143:3146 Top.Modal_Notations <> :modal::x_'->'_x not
+R3137:3137 Top.Modal_Notations <> :modal::'<'_x_'>'_x not
+R3141:3141 Top.Modal_Notations <> :modal::'<'_x_'>'_x not
+binder 3138:3140 <> idx:85
+binder 3138:3140 <> idx:86
+binder 3142:3142 <> p:87
+binder 3142:3142 <> p:88
+R3147:3147 Top.Modal_Notations <> :modal::'['_x_']'_x not
+R3151:3151 Top.Modal_Notations <> :modal::'['_x_']'_x not
+binder 3148:3150 <> idx:89
+binder 3148:3150 <> idx:90
+R3152:3152 Top.Modal_Notations <> :modal::'<'_x_'>'_x not
+R3156:3156 Top.Modal_Notations <> :modal::'<'_x_'>'_x not
+binder 3153:3155 <> idx:91
+binder 3153:3155 <> idx:92
+binder 3157:3157 <> p:93
+binder 3157:3157 <> p:94
+R3232:3246 Top.Modal_Library <> euclidian_frame def
+prf 3363:3392 <> axiom5_implies_euclidean_frame
+binder 3404:3404 <> f:95
+binder 3406:3408 <> idx:96
+R3413:3413 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3465:3471 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 3421:3421 <> v:97
+binder 3423:3423 <> p:98
+R3434:3437 Top.Modal_Notations <> :::x_'|='_x not
+R3426:3426 Top.Modal_Notations <> :::'['_x_'--'_x_']' not
+R3428:3431 Top.Modal_Notations <> :::'['_x_'--'_x_']' not
+R3433:3433 Top.Modal_Notations <> :::'['_x_'--'_x_']' not
+R3427:3427 Top.Frame_Validation <> f:95 var
+R3432:3432 Top.Frame_Validation <> v:97 var
+R3438:3440 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R3462:3464 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R3447:3450 Top.Modal_Notations <> :modal::x_'->'_x not
+R3441:3441 Top.Modal_Notations <> :modal::'<'_x_'>'_x not
+R3445:3445 Top.Modal_Notations <> :modal::'<'_x_'>'_x not
+binder 3442:3444 <> idx:99
+binder 3442:3444 <> idx:100
+binder 3446:3446 <> p:101
+binder 3446:3446 <> p:102
+R3451:3451 Top.Modal_Notations <> :modal::'['_x_']'_x not
+R3455:3455 Top.Modal_Notations <> :modal::'['_x_']'_x not
+binder 3452:3454 <> idx:103
+binder 3452:3454 <> idx:104
+R3456:3456 Top.Modal_Notations <> :modal::'<'_x_'>'_x not
+R3460:3460 Top.Modal_Notations <> :modal::'<'_x_'>'_x not
+binder 3457:3459 <> idx:105
+binder 3457:3459 <> idx:106
+binder 3461:3461 <> p:107
+binder 3461:3461 <> p:108
+R3472:3486 Top.Modal_Library <> euclidian_frame def
+R3490:3492 Top.Frame_Validation <> idx:96 var
+R3488:3488 Top.Frame_Validation <> f:95 var
+R3526:3539 Coq.Logic.Decidable <> contrapositive thm
+R3526:3539 Coq.Logic.Decidable <> contrapositive thm
+R3552:3558 Coq.Logic.Classical_Prop <> classic prfax
+R3552:3558 Coq.Logic.Classical_Prop <> classic prfax
+R3582:3596 Top.Modal_Library <> euclidian_frame def
+R3614:3627 Coq.Logic.Classical_Pred_Type <> not_all_ex_not thm
+R3665:3678 Coq.Logic.Classical_Pred_Type <> not_all_ex_not thm
+R3716:3729 Coq.Logic.Classical_Pred_Type <> not_all_ex_not thm
+R3614:3627 Coq.Logic.Classical_Pred_Type <> not_all_ex_not thm
+R3665:3678 Coq.Logic.Classical_Pred_Type <> not_all_ex_not thm
+R3716:3729 Coq.Logic.Classical_Pred_Type <> not_all_ex_not thm
+R3804:3807 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R3791:3791 Top.Modal_Library <> R proj
+R3808:3808 Top.Modal_Library <> R proj
+R3767:3778 Coq.Logic.Classical_Prop <> imply_to_and thm
+R3804:3807 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R3791:3791 Top.Modal_Library <> R proj
+R3808:3808 Top.Modal_Library <> R proj
+R3767:3778 Coq.Logic.Classical_Prop <> imply_to_and thm
+R3890:3903 Coq.Logic.Classical_Pred_Type <> ex_not_not_all thm
+R3890:3903 Coq.Logic.Classical_Pred_Type <> ex_not_not_all thm
+binder 3924:3924 <> x:109
+R3930:3931 Coq.Init.Logic <> ::type_scope:'~'_x not
+R3932:3932 Top.Modal_Library <> R proj
+R3943:3943 Top.Frame_Validation <> x:109 var
+binder 3924:3924 <> x:110
+R3930:3931 Coq.Init.Logic <> ::type_scope:'~'_x not
+R3932:3932 Top.Modal_Library <> R proj
+R3943:3943 Top.Frame_Validation <> x:110 var
+R3957:3970 Coq.Logic.Classical_Pred_Type <> ex_not_not_all thm
+R3957:3970 Coq.Logic.Classical_Pred_Type <> ex_not_not_all thm
+R3984:3986 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R3989:3991 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R3987:3987 Top.Modal_Notations <> :modal::'#'_x not
+R3984:3986 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R3989:3991 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R3987:3987 Top.Modal_Notations <> :modal::'#'_x not
+R4015:4028 Top.Modal_Library <> validate_model def
+prf 4159:4185 <> serial_frame_implies_axiomD
+binder 4197:4197 <> f:111
+binder 4199:4201 <> idx:112
+R4224:4229 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4206:4217 Top.Modal_Library <> serial_frame def
+R4221:4223 Top.Frame_Validation <> idx:112 var
+R4219:4219 Top.Frame_Validation <> f:111 var
+binder 4237:4237 <> v:113
+binder 4239:4239 <> p:114
+R4252:4255 Top.Modal_Notations <> :::x_'|='_x not
+R4244:4244 Top.Modal_Notations <> :::'['_x_'--'_x_']' not
+R4246:4249 Top.Modal_Notations <> :::'['_x_'--'_x_']' not
+R4251:4251 Top.Modal_Notations <> :::'['_x_'--'_x_']' not
+R4245:4245 Top.Frame_Validation <> f:111 var
+R4250:4250 Top.Frame_Validation <> v:113 var
+R4256:4258 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R4275:4277 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R4265:4268 Top.Modal_Notations <> :modal::x_'->'_x not
+R4259:4259 Top.Modal_Notations <> :modal::'['_x_']'_x not
+R4263:4263 Top.Modal_Notations <> :modal::'['_x_']'_x not
+binder 4260:4262 <> idx:115
+binder 4260:4262 <> idx:116
+binder 4264:4264 <> p:117
+binder 4264:4264 <> p:118
+R4269:4269 Top.Modal_Notations <> :modal::'<'_x_'>'_x not
+R4273:4273 Top.Modal_Notations <> :modal::'<'_x_'>'_x not
+binder 4270:4272 <> idx:119
+binder 4270:4272 <> idx:120
+binder 4274:4274 <> p:121
+binder 4274:4274 <> p:122
+R4324:4335 Top.Modal_Library <> serial_frame def
+prf 4462:4488 <> axiomD_implies_serial_frame
+binder 4501:4501 <> f:123
+binder 4503:4505 <> idx:124
+R4510:4510 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4557:4563 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 4518:4518 <> v:125
+binder 4520:4520 <> p:126
+R4531:4534 Top.Modal_Notations <> :::x_'|='_x not
+R4523:4523 Top.Modal_Notations <> :::'['_x_'--'_x_']' not
+R4525:4528 Top.Modal_Notations <> :::'['_x_'--'_x_']' not
+R4530:4530 Top.Modal_Notations <> :::'['_x_'--'_x_']' not
+R4524:4524 Top.Frame_Validation <> f:123 var
+R4529:4529 Top.Frame_Validation <> v:125 var
+R4535:4537 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R4554:4556 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R4544:4547 Top.Modal_Notations <> :modal::x_'->'_x not
+R4538:4538 Top.Modal_Notations <> :modal::'['_x_']'_x not
+R4542:4542 Top.Modal_Notations <> :modal::'['_x_']'_x not
+binder 4539:4541 <> idx:127
+binder 4539:4541 <> idx:128
+binder 4543:4543 <> p:129
+binder 4543:4543 <> p:130
+R4548:4548 Top.Modal_Notations <> :modal::'<'_x_'>'_x not
+R4552:4552 Top.Modal_Notations <> :modal::'<'_x_'>'_x not
+binder 4549:4551 <> idx:131
+binder 4549:4551 <> idx:132
+binder 4553:4553 <> p:133
+binder 4553:4553 <> p:134
+R4564:4575 Top.Modal_Library <> serial_frame def
+R4579:4581 Top.Frame_Validation <> idx:124 var
+R4577:4577 Top.Frame_Validation <> f:123 var
+R4615:4628 Coq.Logic.Decidable <> contrapositive thm
+R4615:4628 Coq.Logic.Decidable <> contrapositive thm
+R4641:4647 Coq.Logic.Classical_Prop <> classic prfax
+R4641:4647 Coq.Logic.Classical_Prop <> classic prfax
+R4675:4686 Top.Modal_Library <> serial_frame def
+R4704:4717 Coq.Logic.Classical_Pred_Type <> not_all_ex_not thm
+R4704:4717 Coq.Logic.Classical_Pred_Type <> not_all_ex_not thm
+R4755:4768 Coq.Logic.Classical_Pred_Type <> ex_not_not_all thm
+R4755:4768 Coq.Logic.Classical_Pred_Type <> ex_not_not_all thm
+binder 4789:4789 <> x:135
+R4794:4795 Coq.Init.Logic <> ::type_scope:'~'_x not
+R4796:4796 Top.Modal_Library <> R proj
+R4807:4807 Top.Frame_Validation <> x:135 var
+binder 4789:4789 <> x:136
+R4794:4795 Coq.Init.Logic <> ::type_scope:'~'_x not
+R4796:4796 Top.Modal_Library <> R proj
+R4807:4807 Top.Frame_Validation <> x:136 var
+R4821:4834 Coq.Logic.Classical_Pred_Type <> ex_not_not_all thm
+R4821:4834 Coq.Logic.Classical_Pred_Type <> ex_not_not_all thm
+R4848:4850 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R4853:4855 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R4851:4851 Top.Modal_Notations <> :modal::'#'_x not
+R4848:4850 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R4853:4855 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R4851:4851 Top.Modal_Notations <> :modal::'#'_x not
+R4880:4893 Top.Modal_Library <> validate_model def
+prf 5033:5062 <> functional_frame_implies_axiom
+binder 5074:5074 <> f:137
+binder 5076:5078 <> idx:138
+R5105:5110 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5083:5098 Top.Modal_Library <> functional_frame def
+R5102:5104 Top.Frame_Validation <> idx:138 var
+R5100:5100 Top.Frame_Validation <> f:137 var
+binder 5118:5118 <> v:139
+binder 5120:5120 <> p:140
+R5133:5136 Top.Modal_Notations <> :::x_'|='_x not
+R5125:5125 Top.Modal_Notations <> :::'['_x_'--'_x_']' not
+R5127:5130 Top.Modal_Notations <> :::'['_x_'--'_x_']' not
+R5132:5132 Top.Modal_Notations <> :::'['_x_'--'_x_']' not
+R5126:5126 Top.Frame_Validation <> f:137 var
+R5131:5131 Top.Frame_Validation <> v:139 var
+R5137:5139 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R5156:5158 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R5146:5149 Top.Modal_Notations <> :modal::x_'->'_x not
+R5140:5140 Top.Modal_Notations <> :modal::'<'_x_'>'_x not
+R5144:5144 Top.Modal_Notations <> :modal::'<'_x_'>'_x not
+binder 5141:5143 <> idx:141
+binder 5141:5143 <> idx:142
+binder 5145:5145 <> p:143
+binder 5145:5145 <> p:144
+R5150:5150 Top.Modal_Notations <> :modal::'['_x_']'_x not
+R5154:5154 Top.Modal_Notations <> :modal::'['_x_']'_x not
+binder 5151:5153 <> idx:145
+binder 5151:5153 <> idx:146
+binder 5155:5155 <> p:147
+binder 5155:5155 <> p:148
+R5211:5226 Top.Modal_Library <> functional_frame def
+R5302:5305 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R5289:5289 Top.Modal_Library <> R proj
+R5306:5306 Top.Modal_Library <> R proj
+R5302:5305 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R5289:5289 Top.Modal_Library <> R proj
+R5306:5306 Top.Modal_Library <> R proj
+prf 5386:5415 <> axiom_implies_functional_frame
+binder 5427:5427 <> f:149
+binder 5429:5431 <> idx:150
+R5436:5436 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5483:5489 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 5444:5444 <> v:151
+binder 5446:5446 <> p:152
+R5457:5460 Top.Modal_Notations <> :::x_'|='_x not
+R5449:5449 Top.Modal_Notations <> :::'['_x_'--'_x_']' not
+R5451:5454 Top.Modal_Notations <> :::'['_x_'--'_x_']' not
+R5456:5456 Top.Modal_Notations <> :::'['_x_'--'_x_']' not
+R5450:5450 Top.Frame_Validation <> f:149 var
+R5455:5455 Top.Frame_Validation <> v:151 var
+R5461:5463 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R5480:5482 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R5470:5473 Top.Modal_Notations <> :modal::x_'->'_x not
+R5464:5464 Top.Modal_Notations <> :modal::'<'_x_'>'_x not
+R5468:5468 Top.Modal_Notations <> :modal::'<'_x_'>'_x not
+binder 5465:5467 <> idx:153
+binder 5465:5467 <> idx:154
+binder 5469:5469 <> p:155
+binder 5469:5469 <> p:156
+R5474:5474 Top.Modal_Notations <> :modal::'['_x_']'_x not
+R5478:5478 Top.Modal_Notations <> :modal::'['_x_']'_x not
+binder 5475:5477 <> idx:157
+binder 5475:5477 <> idx:158
+binder 5479:5479 <> p:159
+binder 5479:5479 <> p:160
+R5490:5505 Top.Modal_Library <> functional_frame def
+R5509:5511 Top.Frame_Validation <> idx:150 var
+R5507:5507 Top.Frame_Validation <> f:149 var
+R5545:5558 Coq.Logic.Decidable <> contrapositive thm
+R5545:5558 Coq.Logic.Decidable <> contrapositive thm
+R5571:5577 Coq.Logic.Classical_Prop <> classic prfax
+R5571:5577 Coq.Logic.Classical_Prop <> classic prfax
+R5601:5616 Top.Modal_Library <> functional_frame def
+R5634:5647 Coq.Logic.Classical_Pred_Type <> not_all_ex_not thm
+R5685:5698 Coq.Logic.Classical_Pred_Type <> not_all_ex_not thm
+R5736:5749 Coq.Logic.Classical_Pred_Type <> not_all_ex_not thm
+R5634:5647 Coq.Logic.Classical_Pred_Type <> not_all_ex_not thm
+R5685:5698 Coq.Logic.Classical_Pred_Type <> not_all_ex_not thm
+R5736:5749 Coq.Logic.Classical_Pred_Type <> not_all_ex_not thm
+R5824:5827 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R5811:5811 Top.Modal_Library <> R proj
+R5828:5828 Top.Modal_Library <> R proj
+R5787:5798 Coq.Logic.Classical_Prop <> imply_to_and thm
+R5824:5827 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R5811:5811 Top.Modal_Library <> R proj
+R5828:5828 Top.Modal_Library <> R proj
+R5787:5798 Coq.Logic.Classical_Prop <> imply_to_and thm
+R5910:5923 Coq.Logic.Classical_Pred_Type <> ex_not_not_all thm
+R5910:5923 Coq.Logic.Classical_Pred_Type <> ex_not_not_all thm
+binder 5944:5944 <> x:161
+R5961:5964 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R5949:5949 Top.Modal_Library <> R proj
+R5960:5960 Top.Frame_Validation <> x:161 var
+R5966:5969 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R5965:5965 Top.Frame_Validation <> x:161 var
+binder 5944:5944 <> x:162
+R5961:5964 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R5949:5949 Top.Modal_Library <> R proj
+R5960:5960 Top.Frame_Validation <> x:162 var
+R5966:5969 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R5965:5965 Top.Frame_Validation <> x:162 var
+R5985:5998 Coq.Logic.Classical_Pred_Type <> ex_not_not_all thm
+R5985:5998 Coq.Logic.Classical_Pred_Type <> ex_not_not_all thm
+R6012:6014 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R6017:6019 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R6015:6015 Top.Modal_Notations <> :modal::'#'_x not
+R6012:6014 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R6017:6019 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R6015:6015 Top.Modal_Notations <> :modal::'#'_x not
+R6043:6056 Top.Modal_Library <> validate_model def
+prf 6197:6221 <> dense_frame_implies_axiom
+binder 6233:6233 <> f:163
+binder 6235:6237 <> idx:164
+R6259:6264 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6242:6252 Top.Modal_Library <> dense_frame def
+R6256:6258 Top.Frame_Validation <> idx:164 var
+R6254:6254 Top.Frame_Validation <> f:163 var
+binder 6272:6272 <> v:165
+binder 6274:6274 <> p:166
+R6287:6290 Top.Modal_Notations <> :::x_'|='_x not
+R6279:6279 Top.Modal_Notations <> :::'['_x_'--'_x_']' not
+R6281:6284 Top.Modal_Notations <> :::'['_x_'--'_x_']' not
+R6286:6286 Top.Modal_Notations <> :::'['_x_'--'_x_']' not
+R6280:6280 Top.Frame_Validation <> f:163 var
+R6285:6285 Top.Frame_Validation <> v:165 var
+R6291:6293 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R6315:6317 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R6305:6308 Top.Modal_Notations <> :modal::x_'->'_x not
+R6294:6294 Top.Modal_Notations <> :modal::'['_x_']'_x not
+R6298:6298 Top.Modal_Notations <> :modal::'['_x_']'_x not
+binder 6295:6297 <> idx:167
+binder 6295:6297 <> idx:168
+R6299:6299 Top.Modal_Notations <> :modal::'['_x_']'_x not
+R6303:6303 Top.Modal_Notations <> :modal::'['_x_']'_x not
+binder 6300:6302 <> idx:169
+binder 6300:6302 <> idx:170
+binder 6304:6304 <> p:171
+binder 6304:6304 <> p:172
+R6309:6309 Top.Modal_Notations <> :modal::'['_x_']'_x not
+R6313:6313 Top.Modal_Notations <> :modal::'['_x_']'_x not
+binder 6310:6312 <> idx:173
+binder 6310:6312 <> idx:174
+binder 6314:6314 <> p:175
+binder 6314:6314 <> p:176
+R6370:6380 Top.Modal_Library <> dense_frame def
+prf 6530:6554 <> axiom_implies_dense_frame
+binder 6566:6566 <> f:177
+binder 6568:6570 <> idx:178
+R6575:6575 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6627:6633 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 6583:6583 <> v:179
+binder 6585:6585 <> p:180
+R6596:6599 Top.Modal_Notations <> :::x_'|='_x not
+R6588:6588 Top.Modal_Notations <> :::'['_x_'--'_x_']' not
+R6590:6593 Top.Modal_Notations <> :::'['_x_'--'_x_']' not
+R6595:6595 Top.Modal_Notations <> :::'['_x_'--'_x_']' not
+R6589:6589 Top.Frame_Validation <> f:177 var
+R6594:6594 Top.Frame_Validation <> v:179 var
+R6600:6602 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R6624:6626 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R6614:6617 Top.Modal_Notations <> :modal::x_'->'_x not
+R6603:6603 Top.Modal_Notations <> :modal::'['_x_']'_x not
+R6607:6607 Top.Modal_Notations <> :modal::'['_x_']'_x not
+binder 6604:6606 <> idx:181
+binder 6604:6606 <> idx:182
+R6608:6608 Top.Modal_Notations <> :modal::'['_x_']'_x not
+R6612:6612 Top.Modal_Notations <> :modal::'['_x_']'_x not
+binder 6609:6611 <> idx:183
+binder 6609:6611 <> idx:184
+binder 6613:6613 <> p:185
+binder 6613:6613 <> p:186
+R6618:6618 Top.Modal_Notations <> :modal::'['_x_']'_x not
+R6622:6622 Top.Modal_Notations <> :modal::'['_x_']'_x not
+binder 6619:6621 <> idx:187
+binder 6619:6621 <> idx:188
+binder 6623:6623 <> p:189
+binder 6623:6623 <> p:190
+R6634:6644 Top.Modal_Library <> dense_frame def
+R6648:6650 Top.Frame_Validation <> idx:178 var
+R6646:6646 Top.Frame_Validation <> f:177 var
+R6684:6697 Coq.Logic.Decidable <> contrapositive thm
+R6684:6697 Coq.Logic.Decidable <> contrapositive thm
+R6710:6716 Coq.Logic.Classical_Prop <> classic prfax
+R6710:6716 Coq.Logic.Classical_Prop <> classic prfax
+R6740:6750 Top.Modal_Library <> dense_frame def
+R6768:6781 Coq.Logic.Classical_Pred_Type <> not_all_ex_not thm
+R6819:6832 Coq.Logic.Classical_Pred_Type <> not_all_ex_not thm
+R6768:6781 Coq.Logic.Classical_Pred_Type <> not_all_ex_not thm
+R6819:6832 Coq.Logic.Classical_Pred_Type <> not_all_ex_not thm
+R6870:6883 Coq.Logic.Classical_Pred_Type <> ex_not_not_all thm
+R6870:6883 Coq.Logic.Classical_Pred_Type <> ex_not_not_all thm
+binder 6904:6904 <> x:191
+R6909:6915 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R6917:6918 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 6916:6916 <> y:192
+R6931:6934 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R6919:6919 Top.Modal_Library <> R proj
+R6930:6930 Top.Frame_Validation <> y:192 var
+R6935:6935 Top.Modal_Library <> R proj
+R6943:6943 Top.Frame_Validation <> y:192 var
+R6945:6945 Top.Frame_Validation <> x:191 var
+binder 6904:6904 <> x:193
+R6909:6915 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R6917:6918 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 6916:6916 <> y:194
+R6931:6934 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R6919:6919 Top.Modal_Library <> R proj
+R6930:6930 Top.Frame_Validation <> y:194 var
+R6935:6935 Top.Modal_Library <> R proj
+R6943:6943 Top.Frame_Validation <> y:194 var
+R6945:6945 Top.Frame_Validation <> x:193 var
+R6959:6972 Coq.Logic.Classical_Pred_Type <> ex_not_not_all thm
+R6959:6972 Coq.Logic.Classical_Pred_Type <> ex_not_not_all thm
+R6986:6988 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R6991:6993 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R6989:6989 Top.Modal_Notations <> :modal::'#'_x not
+R6986:6988 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R6991:6993 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R6989:6989 Top.Modal_Notations <> :modal::'#'_x not
+R7018:7031 Top.Modal_Library <> validate_model def
+R7160:7173 Coq.Logic.Classical_Pred_Type <> not_ex_all_not thm
+R7160:7173 Coq.Logic.Classical_Pred_Type <> not_ex_all_not thm
+R7193:7204 Coq.Logic.Classical_Prop <> imply_to_and thm
+R7193:7204 Coq.Logic.Classical_Prop <> imply_to_and thm
+R7256:7269 Coq.Logic.Classical_Pred_Type <> not_ex_all_not thm
+R7256:7269 Coq.Logic.Classical_Pred_Type <> not_ex_all_not thm
+R7289:7300 Coq.Logic.Classical_Prop <> imply_to_and thm
+R7336:7345 Coq.Logic.Classical_Prop <> not_and_or thm
+R7289:7300 Coq.Logic.Classical_Prop <> imply_to_and thm
+R7336:7345 Coq.Logic.Classical_Prop <> not_and_or thm
+prf 7546:7575 <> convergent_frame_implies_axiom
+binder 7587:7587 <> f:195
+binder 7589:7591 <> idx:196
+R7618:7623 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7596:7611 Top.Modal_Library <> convergent_frame def
+R7615:7617 Top.Frame_Validation <> idx:196 var
+R7613:7613 Top.Frame_Validation <> f:195 var
+binder 7631:7631 <> v:197
+binder 7633:7633 <> p:198
+R7646:7649 Top.Modal_Notations <> :::x_'|='_x not
+R7638:7638 Top.Modal_Notations <> :::'['_x_'--'_x_']' not
+R7640:7643 Top.Modal_Notations <> :::'['_x_'--'_x_']' not
+R7645:7645 Top.Modal_Notations <> :::'['_x_'--'_x_']' not
+R7639:7639 Top.Frame_Validation <> f:195 var
+R7644:7644 Top.Frame_Validation <> v:197 var
+R7650:7652 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R7680:7682 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R7664:7667 Top.Modal_Notations <> :modal::x_'->'_x not
+R7653:7653 Top.Modal_Notations <> :modal::'<'_x_'>'_x not
+R7657:7657 Top.Modal_Notations <> :modal::'<'_x_'>'_x not
+binder 7654:7656 <> idx:199
+binder 7654:7656 <> idx:200
+R7658:7658 Top.Modal_Notations <> :modal::'['_x_']'_x not
+R7662:7662 Top.Modal_Notations <> :modal::'['_x_']'_x not
+binder 7659:7661 <> idx:201
+binder 7659:7661 <> idx:202
+binder 7663:7663 <> p:203
+binder 7663:7663 <> p:204
+R7668:7668 Top.Modal_Notations <> :modal::'['_x_']'_x not
+R7672:7672 Top.Modal_Notations <> :modal::'['_x_']'_x not
+binder 7669:7671 <> idx:205
+binder 7669:7671 <> idx:206
+R7673:7673 Top.Modal_Notations <> :modal::'<'_x_'>'_x not
+R7677:7678 Top.Modal_Notations <> :modal::'<'_x_'>'_x not
+binder 7674:7676 <> idx:207
+binder 7674:7676 <> idx:208
+binder 7679:7679 <> p:209
+binder 7679:7679 <> p:210
+R7735:7750 Top.Modal_Library <> convergent_frame def
+prf 7928:7957 <> axiom_implies_convergent_frame
+binder 7969:7969 <> f:211
+binder 7971:7973 <> idx:212
+R7978:7978 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8036:8042 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 7986:7986 <> v:213
+binder 7988:7988 <> p:214
+R7999:8002 Top.Modal_Notations <> :::x_'|='_x not
+R7991:7991 Top.Modal_Notations <> :::'['_x_'--'_x_']' not
+R7993:7996 Top.Modal_Notations <> :::'['_x_'--'_x_']' not
+R7998:7998 Top.Modal_Notations <> :::'['_x_'--'_x_']' not
+R7992:7992 Top.Frame_Validation <> f:211 var
+R7997:7997 Top.Frame_Validation <> v:213 var
+R8003:8005 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R8033:8035 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R8017:8020 Top.Modal_Notations <> :modal::x_'->'_x not
+R8006:8006 Top.Modal_Notations <> :modal::'<'_x_'>'_x not
+R8010:8010 Top.Modal_Notations <> :modal::'<'_x_'>'_x not
+binder 8007:8009 <> idx:215
+binder 8007:8009 <> idx:216
+R8011:8011 Top.Modal_Notations <> :modal::'['_x_']'_x not
+R8015:8015 Top.Modal_Notations <> :modal::'['_x_']'_x not
+binder 8012:8014 <> idx:217
+binder 8012:8014 <> idx:218
+binder 8016:8016 <> p:219
+binder 8016:8016 <> p:220
+R8021:8021 Top.Modal_Notations <> :modal::'['_x_']'_x not
+R8025:8025 Top.Modal_Notations <> :modal::'['_x_']'_x not
+binder 8022:8024 <> idx:221
+binder 8022:8024 <> idx:222
+R8026:8026 Top.Modal_Notations <> :modal::'<'_x_'>'_x not
+R8030:8031 Top.Modal_Notations <> :modal::'<'_x_'>'_x not
+binder 8027:8029 <> idx:223
+binder 8027:8029 <> idx:224
+binder 8032:8032 <> p:225
+binder 8032:8032 <> p:226
+R8043:8058 Top.Modal_Library <> convergent_frame def
+R8062:8064 Top.Frame_Validation <> idx:212 var
+R8060:8060 Top.Frame_Validation <> f:211 var
+R8098:8111 Coq.Logic.Decidable <> contrapositive thm
+R8098:8111 Coq.Logic.Decidable <> contrapositive thm
+R8124:8130 Coq.Logic.Classical_Prop <> classic prfax
+R8124:8130 Coq.Logic.Classical_Prop <> classic prfax
+R8154:8169 Top.Modal_Library <> convergent_frame def
+R8187:8200 Coq.Logic.Classical_Pred_Type <> not_all_ex_not thm
+R8238:8251 Coq.Logic.Classical_Pred_Type <> not_all_ex_not thm
+R8289:8302 Coq.Logic.Classical_Pred_Type <> not_all_ex_not thm
+R8187:8200 Coq.Logic.Classical_Pred_Type <> not_all_ex_not thm
+R8238:8251 Coq.Logic.Classical_Pred_Type <> not_all_ex_not thm
+R8289:8302 Coq.Logic.Classical_Pred_Type <> not_all_ex_not thm
+R8340:8353 Coq.Logic.Classical_Pred_Type <> ex_not_not_all thm
+R8340:8353 Coq.Logic.Classical_Pred_Type <> ex_not_not_all thm
+binder 8374:8374 <> x:227
+R8379:8380 Coq.Init.Logic <> ::type_scope:'~'_x not
+R8381:8381 Top.Modal_Library <> R proj
+R8392:8392 Top.Frame_Validation <> x:227 var
+binder 8374:8374 <> x:228
+R8379:8380 Coq.Init.Logic <> ::type_scope:'~'_x not
+R8381:8381 Top.Modal_Library <> R proj
+R8392:8392 Top.Frame_Validation <> x:228 var
+R8406:8419 Coq.Logic.Classical_Pred_Type <> ex_not_not_all thm
+R8406:8419 Coq.Logic.Classical_Pred_Type <> ex_not_not_all thm
+R8433:8435 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R8438:8440 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R8436:8436 Top.Modal_Notations <> :modal::'#'_x not
+R8433:8435 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R8438:8440 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R8436:8436 Top.Modal_Notations <> :modal::'#'_x not
+R8465:8478 Top.Modal_Library <> validate_model def
+R8566:8579 Coq.Logic.Classical_Pred_Type <> not_ex_all_not thm
+R8566:8579 Coq.Logic.Classical_Pred_Type <> not_ex_all_not thm
+R8616:8627 Coq.Logic.Classical_Prop <> imply_to_and thm
+R8616:8627 Coq.Logic.Classical_Prop <> imply_to_and thm
+R8754:8767 Coq.Logic.Classical_Pred_Type <> not_ex_all_not thm
+R8754:8767 Coq.Logic.Classical_Pred_Type <> not_ex_all_not thm
+R8804:8815 Coq.Logic.Classical_Prop <> imply_to_and thm
+R8804:8815 Coq.Logic.Classical_Prop <> imply_to_and thm
+R8900:8909 Coq.Logic.Classical_Prop <> not_and_or thm
+R8900:8909 Coq.Logic.Classical_Prop <> not_and_or thm
+R8950:8963 Coq.Logic.Classical_Pred_Type <> not_ex_all_not thm
+R8950:8963 Coq.Logic.Classical_Pred_Type <> not_ex_all_not thm
+R8998:9009 Coq.Logic.Classical_Prop <> imply_to_and thm
+R8998:9009 Coq.Logic.Classical_Prop <> imply_to_and thm
+prf 9153:9168 <> modal_double_neg
+binder 9181:9181 <> M:229
+binder 9183:9183 <> w:230
+binder 9185:9185 <> p:231
+R9188:9188 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9209:9214 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9226:9226 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9190:9192 Top.Modal_Notations <> :::x_''''_x_'||-'_x not
+R9194:9198 Top.Modal_Notations <> :::x_''''_x_'||-'_x not
+R9189:9189 Top.Frame_Validation <> M:229 var
+R9193:9193 Top.Frame_Validation <> w:230 var
+R9199:9201 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R9206:9208 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R9202:9202 Top.Modal_Notations <> :modal::'~'_x not
+R9203:9204 Top.Modal_Notations <> :modal::'~'_x not
+binder 9205:9205 <> p:232
+binder 9205:9205 <> p:233
+R9216:9218 Top.Modal_Notations <> :::x_''''_x_'||-'_x not
+R9220:9224 Top.Modal_Notations <> :::x_''''_x_'||-'_x not
+R9215:9215 Top.Frame_Validation <> M:229 var
+R9219:9219 Top.Frame_Validation <> w:230 var
+R9225:9225 Top.Frame_Validation <> p:231 var
+R9272:9275 Coq.Logic.Classical_Prop <> NNPP thm
+R9272:9275 Coq.Logic.Classical_Prop <> NNPP thm
+prf 9301:9312 <> modal_contra
+binder 9325:9325 <> M:234
+binder 9327:9327 <> p:235
+binder 9329:9329 <> q:236
+R9334:9334 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9356:9361 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9379:9379 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9336:9339 Top.Modal_Notations <> :::x_'|='_x not
+R9335:9335 Top.Frame_Validation <> M:234 var
+R9340:9342 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R9353:9355 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R9346:9349 Top.Modal_Notations <> :modal::x_'->'_x not
+R9343:9344 Top.Modal_Notations <> :modal::'~'_x not
+binder 9345:9345 <> p:237
+binder 9345:9345 <> p:238
+R9350:9351 Top.Modal_Notations <> :modal::'~'_x not
+binder 9352:9352 <> q:239
+binder 9352:9352 <> q:240
+R9363:9366 Top.Modal_Notations <> :::x_'|='_x not
+R9362:9362 Top.Frame_Validation <> M:234 var
+R9367:9369 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R9376:9378 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R9371:9374 Top.Modal_Notations <> :modal::x_'->'_x not
+binder 9370:9370 <> q:241
+binder 9370:9370 <> q:242
+binder 9375:9375 <> p:243
+binder 9375:9375 <> p:244
+R9422:9435 Top.Modal_Library <> validate_model def
+R9463:9478 Top.Frame_Validation <> modal_double_neg thm
+R9463:9478 Top.Frame_Validation <> modal_double_neg thm
+prf 9538:9569 <> noetherian_frame_implies_axiomGL
+binder 9581:9581 <> f:245
+binder 9583:9585 <> idx:246
+R9612:9617 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9590:9605 Top.Modal_Library <> noetherian_frame def
+R9609:9611 Top.Frame_Validation <> idx:246 var
+R9607:9607 Top.Frame_Validation <> f:245 var
+binder 9625:9625 <> v:247
+binder 9627:9627 <> p:248
+R9640:9643 Top.Modal_Notations <> :::x_'|='_x not
+R9632:9632 Top.Modal_Notations <> :::'['_x_'--'_x_']' not
+R9634:9637 Top.Modal_Notations <> :::'['_x_'--'_x_']' not
+R9639:9639 Top.Modal_Notations <> :::'['_x_'--'_x_']' not
+R9633:9633 Top.Frame_Validation <> f:245 var
+R9638:9638 Top.Frame_Validation <> v:247 var
+R9644:9646 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R9675:9677 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R9665:9668 Top.Modal_Notations <> :modal::x_'->'_x not
+R9647:9647 Top.Modal_Notations <> :modal::'['_x_']'_x not
+R9651:9651 Top.Modal_Notations <> :modal::'['_x_']'_x not
+binder 9648:9650 <> idx:249
+binder 9648:9650 <> idx:250
+R9652:9652 Top.Modal_Notations <> :modal::'('_x_')' not
+R9664:9664 Top.Modal_Notations <> :modal::'('_x_')' not
+R9659:9662 Top.Modal_Notations <> :modal::x_'->'_x not
+R9653:9653 Top.Modal_Notations <> :modal::'['_x_']'_x not
+R9657:9657 Top.Modal_Notations <> :modal::'['_x_']'_x not
+binder 9654:9656 <> idx:251
+binder 9654:9656 <> idx:252
+binder 9658:9658 <> p:253
+binder 9658:9658 <> p:254
+binder 9663:9663 <> p:255
+binder 9663:9663 <> p:256
+R9669:9669 Top.Modal_Notations <> :modal::'['_x_']'_x not
+R9673:9673 Top.Modal_Notations <> :modal::'['_x_']'_x not
+binder 9670:9672 <> idx:257
+binder 9670:9672 <> idx:258
+binder 9674:9674 <> p:259
+binder 9674:9674 <> p:260
+R9717:9728 Top.Frame_Validation <> modal_contra thm
+R9717:9728 Top.Frame_Validation <> modal_contra thm
+R9770:9783 Coq.Logic.Classical_Pred_Type <> not_all_ex_not thm
+R9824:9835 Coq.Logic.Classical_Prop <> imply_to_and thm
+R9770:9783 Coq.Logic.Classical_Pred_Type <> not_all_ex_not thm
+R9824:9835 Coq.Logic.Classical_Prop <> imply_to_and thm
+binder 9884:9885 <> w1:261
+R9902:9906 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R9934:9934 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R9890:9890 Top.Modal_Library <> R proj
+R9900:9901 Top.Frame_Validation <> w1:261 var
+R9915:9917 Top.Modal_Notations <> :::x_''''_x_'||-'_x not
+R9920:9924 Top.Modal_Notations <> :::x_''''_x_'||-'_x not
+R9907:9907 Top.Modal_Notations <> :::'['_x_'--'_x_']' not
+R9909:9912 Top.Modal_Notations <> :::'['_x_'--'_x_']' not
+R9914:9914 Top.Modal_Notations <> :::'['_x_'--'_x_']' not
+R9918:9919 Top.Frame_Validation <> w1:261 var
+R9925:9927 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R9931:9933 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R9928:9929 Top.Modal_Notations <> :modal::'~'_x not
+binder 9930:9930 <> p:262
+binder 9930:9930 <> p:263
+binder 9884:9885 <> w1:264
+R9902:9906 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R9934:9934 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R9890:9890 Top.Modal_Library <> R proj
+R9900:9901 Top.Frame_Validation <> w1:264 var
+R9915:9917 Top.Modal_Notations <> :::x_''''_x_'||-'_x not
+R9920:9924 Top.Modal_Notations <> :::x_''''_x_'||-'_x not
+R9907:9907 Top.Modal_Notations <> :::'['_x_'--'_x_']' not
+R9909:9912 Top.Modal_Notations <> :::'['_x_'--'_x_']' not
+R9914:9914 Top.Modal_Notations <> :::'['_x_'--'_x_']' not
+R9918:9919 Top.Frame_Validation <> w1:264 var
+R9925:9927 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R9931:9933 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R9928:9929 Top.Modal_Notations <> :modal::'~'_x not
+binder 9930:9930 <> p:265
+binder 9930:9930 <> p:266
+R10090:10103 Coq.Logic.Classical_Pred_Type <> ex_not_not_all thm
+R10090:10103 Coq.Logic.Classical_Pred_Type <> ex_not_not_all thm
+R10211:10213 Top.Modal_Notations <> :::x_''''_x_'||-'_x not
+R10216:10220 Top.Modal_Notations <> :::x_''''_x_'||-'_x not
+R10204:10204 Top.Modal_Notations <> :::'['_x_'--'_x_']' not
+R10206:10208 Top.Modal_Notations <> :::'['_x_'--'_x_']' not
+R10210:10210 Top.Modal_Notations <> :::'['_x_'--'_x_']' not
+R10221:10223 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R10236:10238 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R10231:10234 Top.Modal_Notations <> :modal::x_'->'_x not
+R10224:10224 Top.Modal_Notations <> :modal::'['_x_']'_x not
+R10228:10229 Top.Modal_Notations <> :modal::'['_x_']'_x not
+binder 10225:10227 <> idx:267
+binder 10225:10227 <> idx:268
+binder 10230:10230 <> p:269
+binder 10230:10230 <> p:270
+binder 10235:10235 <> p:271
+binder 10235:10235 <> p:272
+R10300:10302 Top.Modal_Notations <> :::x_''''_x_'||-'_x not
+R10305:10309 Top.Modal_Notations <> :::x_''''_x_'||-'_x not
+R10293:10293 Top.Modal_Notations <> :::'['_x_'--'_x_']' not
+R10295:10297 Top.Modal_Notations <> :::'['_x_'--'_x_']' not
+R10299:10299 Top.Modal_Notations <> :::'['_x_'--'_x_']' not
+R10310:10312 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R10322:10324 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R10313:10314 Top.Modal_Notations <> :modal::'~'_x not
+R10315:10315 Top.Modal_Notations <> :modal::'['_x_']'_x not
+R10319:10320 Top.Modal_Notations <> :modal::'['_x_']'_x not
+binder 10316:10318 <> idx:273
+binder 10316:10318 <> idx:274
+binder 10321:10321 <> p:275
+binder 10321:10321 <> p:276
+R10211:10213 Top.Modal_Notations <> :::x_''''_x_'||-'_x not
+R10216:10220 Top.Modal_Notations <> :::x_''''_x_'||-'_x not
+R10204:10204 Top.Modal_Notations <> :::'['_x_'--'_x_']' not
+R10206:10208 Top.Modal_Notations <> :::'['_x_'--'_x_']' not
+R10210:10210 Top.Modal_Notations <> :::'['_x_'--'_x_']' not
+R10221:10223 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R10236:10238 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R10231:10234 Top.Modal_Notations <> :modal::x_'->'_x not
+R10224:10224 Top.Modal_Notations <> :modal::'['_x_']'_x not
+R10228:10229 Top.Modal_Notations <> :modal::'['_x_']'_x not
+binder 10225:10227 <> idx:277
+binder 10225:10227 <> idx:278
+binder 10230:10230 <> p:279
+binder 10230:10230 <> p:280
+binder 10235:10235 <> p:281
+binder 10235:10235 <> p:282
+R10300:10302 Top.Modal_Notations <> :::x_''''_x_'||-'_x not
+R10305:10309 Top.Modal_Notations <> :::x_''''_x_'||-'_x not
+R10293:10293 Top.Modal_Notations <> :::'['_x_'--'_x_']' not
+R10295:10297 Top.Modal_Notations <> :::'['_x_'--'_x_']' not
+R10299:10299 Top.Modal_Notations <> :::'['_x_'--'_x_']' not
+R10310:10312 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R10322:10324 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R10313:10314 Top.Modal_Notations <> :modal::'~'_x not
+R10315:10315 Top.Modal_Notations <> :modal::'['_x_']'_x not
+R10319:10320 Top.Modal_Notations <> :modal::'['_x_']'_x not
+binder 10316:10318 <> idx:283
+binder 10316:10318 <> idx:284
+binder 10321:10321 <> p:285
+binder 10321:10321 <> p:286
+R10395:10408 Coq.Logic.Classical_Pred_Type <> not_all_ex_not thm
+R10451:10462 Coq.Logic.Classical_Prop <> imply_to_and thm
+R10395:10408 Coq.Logic.Classical_Pred_Type <> not_all_ex_not thm
+R10451:10462 Coq.Logic.Classical_Prop <> imply_to_and thm
+R10486:10486 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10524:10529 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10574:10574 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10500:10503 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R10487:10487 Top.Modal_Library <> R proj
+R10504:10505 Coq.Init.Logic <> ::type_scope:'~'_x not
+R10523:10523 Coq.Init.Logic <> ::type_scope:'~'_x not
+R10512:10514 Top.Modal_Notations <> :::x_''''_x_'||-'_x not
+R10517:10521 Top.Modal_Notations <> :::x_''''_x_'||-'_x not
+R10506:10506 Top.Modal_Notations <> :::'['_x_'--'_x_']' not
+R10508:10509 Top.Modal_Notations <> :::'['_x_'--'_x_']' not
+R10511:10511 Top.Modal_Notations <> :::'['_x_'--'_x_']' not
+R10543:10547 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R10573:10573 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R10530:10530 Top.Modal_Library <> R proj
+R10554:10556 Top.Modal_Notations <> :::x_''''_x_'||-'_x not
+R10559:10563 Top.Modal_Notations <> :::x_''''_x_'||-'_x not
+R10548:10548 Top.Modal_Notations <> :::'['_x_'--'_x_']' not
+R10550:10551 Top.Modal_Notations <> :::'['_x_'--'_x_']' not
+R10553:10553 Top.Modal_Notations <> :::'['_x_'--'_x_']' not
+R10564:10566 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R10570:10572 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R10567:10568 Top.Modal_Notations <> :modal::'~'_x not
+binder 10569:10569 <> p:287
+binder 10569:10569 <> p:288
+R10486:10486 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10524:10529 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10574:10574 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10500:10503 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R10487:10487 Top.Modal_Library <> R proj
+R10504:10505 Coq.Init.Logic <> ::type_scope:'~'_x not
+R10523:10523 Coq.Init.Logic <> ::type_scope:'~'_x not
+R10512:10514 Top.Modal_Notations <> :::x_''''_x_'||-'_x not
+R10517:10521 Top.Modal_Notations <> :::x_''''_x_'||-'_x not
+R10506:10506 Top.Modal_Notations <> :::'['_x_'--'_x_']' not
+R10508:10509 Top.Modal_Notations <> :::'['_x_'--'_x_']' not
+R10511:10511 Top.Modal_Notations <> :::'['_x_'--'_x_']' not
+R10543:10547 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R10573:10573 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R10530:10530 Top.Modal_Library <> R proj
+R10554:10556 Top.Modal_Notations <> :::x_''''_x_'||-'_x not
+R10559:10563 Top.Modal_Notations <> :::x_''''_x_'||-'_x not
+R10548:10548 Top.Modal_Notations <> :::'['_x_'--'_x_']' not
+R10550:10551 Top.Modal_Notations <> :::'['_x_'--'_x_']' not
+R10553:10553 Top.Modal_Notations <> :::'['_x_'--'_x_']' not
+R10564:10566 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R10570:10572 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R10567:10568 Top.Modal_Notations <> :modal::'~'_x not
+binder 10569:10569 <> p:289
+binder 10569:10569 <> p:290
+R10633:10633 Top.Modal_Library <> R proj
+R10633:10633 Top.Modal_Library <> R proj
+R10740:10744 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R10770:10770 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R10728:10728 Top.Modal_Library <> R proj
+R10751:10753 Top.Modal_Notations <> :::x_''''_x_'||-'_x not
+R10756:10760 Top.Modal_Notations <> :::x_''''_x_'||-'_x not
+R10745:10745 Top.Modal_Notations <> :::'['_x_'--'_x_']' not
+R10747:10748 Top.Modal_Notations <> :::'['_x_'--'_x_']' not
+R10750:10750 Top.Modal_Notations <> :::'['_x_'--'_x_']' not
+R10761:10763 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R10767:10769 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R10764:10765 Top.Modal_Notations <> :modal::'~'_x not
+binder 10766:10766 <> p:291
+binder 10766:10766 <> p:292
+R10740:10744 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R10770:10770 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R10728:10728 Top.Modal_Library <> R proj
+R10751:10753 Top.Modal_Notations <> :::x_''''_x_'||-'_x not
+R10756:10760 Top.Modal_Notations <> :::x_''''_x_'||-'_x not
+R10745:10745 Top.Modal_Notations <> :::'['_x_'--'_x_']' not
+R10747:10748 Top.Modal_Notations <> :::'['_x_'--'_x_']' not
+R10750:10750 Top.Modal_Notations <> :::'['_x_'--'_x_']' not
+R10761:10763 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R10767:10769 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R10764:10765 Top.Modal_Notations <> :modal::'~'_x not
+binder 10766:10766 <> p:293
+binder 10766:10766 <> p:294
+prf 10894:10905 <> GL_implies_4
+binder 10917:10917 <> M:295
+binder 10919:10921 <> idx:296
+R10926:10926 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10976:10983 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11026:11026 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 10934:10934 <> q:297
+R10938:10941 Top.Modal_Notations <> :::x_'|='_x not
+R10937:10937 Top.Frame_Validation <> M:295 var
+R10942:10944 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R10973:10975 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R10963:10966 Top.Modal_Notations <> :modal::x_'->'_x not
+R10945:10945 Top.Modal_Notations <> :modal::'['_x_']'_x not
+R10949:10949 Top.Modal_Notations <> :modal::'['_x_']'_x not
+binder 10946:10948 <> idx:298
+binder 10946:10948 <> idx:299
+R10950:10950 Top.Modal_Notations <> :modal::'('_x_')' not
+R10962:10962 Top.Modal_Notations <> :modal::'('_x_')' not
+R10957:10960 Top.Modal_Notations <> :modal::x_'->'_x not
+R10951:10951 Top.Modal_Notations <> :modal::'['_x_']'_x not
+R10955:10955 Top.Modal_Notations <> :modal::'['_x_']'_x not
+binder 10952:10954 <> idx:300
+binder 10952:10954 <> idx:301
+binder 10956:10956 <> q:302
+binder 10956:10956 <> q:303
+binder 10961:10961 <> q:304
+binder 10961:10961 <> q:305
+R10967:10967 Top.Modal_Notations <> :modal::'['_x_']'_x not
+R10971:10971 Top.Modal_Notations <> :modal::'['_x_']'_x not
+binder 10968:10970 <> idx:306
+binder 10968:10970 <> idx:307
+binder 10972:10972 <> q:308
+binder 10972:10972 <> q:309
+binder 10991:10991 <> p:310
+R10995:10998 Top.Modal_Notations <> :::x_'|='_x not
+R10994:10994 Top.Frame_Validation <> M:295 var
+R10999:11001 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R11023:11025 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R11008:11011 Top.Modal_Notations <> :modal::x_'->'_x not
+R11002:11002 Top.Modal_Notations <> :modal::'['_x_']'_x not
+R11006:11006 Top.Modal_Notations <> :modal::'['_x_']'_x not
+binder 11003:11005 <> idx:311
+binder 11003:11005 <> idx:312
+binder 11007:11007 <> p:313
+binder 11007:11007 <> p:314
+R11012:11012 Top.Modal_Notations <> :modal::'['_x_']'_x not
+R11016:11016 Top.Modal_Notations <> :modal::'['_x_']'_x not
+binder 11013:11015 <> idx:315
+binder 11013:11015 <> idx:316
+R11017:11017 Top.Modal_Notations <> :modal::'['_x_']'_x not
+R11021:11021 Top.Modal_Notations <> :modal::'['_x_']'_x not
+binder 11018:11020 <> idx:317
+binder 11018:11020 <> idx:318
+binder 11022:11022 <> p:319
+binder 11022:11022 <> p:320
+binder 11137:11137 <> x:321
+binder 11139:11139 <> y:322
+binder 11141:11141 <> z:323
+R11145:11148 Top.Modal_Notations <> :::x_'|='_x not
+R11149:11151 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R11179:11181 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R11153:11156 Top.Modal_Notations <> :modal::x_'->'_x not
+binder 11152:11152 <> x:324
+binder 11152:11152 <> x:325
+R11157:11157 Top.Modal_Notations <> :modal::'('_x_')' not
+R11178:11178 Top.Modal_Notations <> :modal::'('_x_')' not
+R11166:11169 Top.Modal_Notations <> :modal::x_'->'_x not
+R11158:11158 Top.Modal_Notations <> :modal::'('_x_')' not
+R11165:11165 Top.Modal_Notations <> :modal::'('_x_')' not
+R11160:11163 Top.Modal_Notations <> :modal::x_'/\'_x not
+binder 11159:11159 <> y:326
+binder 11159:11159 <> y:327
+binder 11164:11164 <> z:328
+binder 11164:11164 <> z:329
+R11170:11170 Top.Modal_Notations <> :modal::'('_x_')' not
+R11177:11177 Top.Modal_Notations <> :modal::'('_x_')' not
+R11172:11175 Top.Modal_Notations <> :modal::x_'/\'_x not
+binder 11171:11171 <> z:330
+binder 11171:11171 <> z:331
+binder 11176:11176 <> x:332
+binder 11176:11176 <> x:333
+binder 11137:11137 <> x:334
+binder 11139:11139 <> y:335
+binder 11141:11141 <> z:336
+R11145:11148 Top.Modal_Notations <> :::x_'|='_x not
+R11149:11151 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R11179:11181 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R11153:11156 Top.Modal_Notations <> :modal::x_'->'_x not
+binder 11152:11152 <> x:337
+binder 11152:11152 <> x:338
+R11157:11157 Top.Modal_Notations <> :modal::'('_x_')' not
+R11178:11178 Top.Modal_Notations <> :modal::'('_x_')' not
+R11166:11169 Top.Modal_Notations <> :modal::x_'->'_x not
+R11158:11158 Top.Modal_Notations <> :modal::'('_x_')' not
+R11165:11165 Top.Modal_Notations <> :modal::'('_x_')' not
+R11160:11163 Top.Modal_Notations <> :modal::x_'/\'_x not
+binder 11159:11159 <> y:339
+binder 11159:11159 <> y:340
+binder 11164:11164 <> z:341
+binder 11164:11164 <> z:342
+R11170:11170 Top.Modal_Notations <> :modal::'('_x_')' not
+R11177:11177 Top.Modal_Notations <> :modal::'('_x_')' not
+R11172:11175 Top.Modal_Notations <> :modal::x_'/\'_x not
+binder 11171:11171 <> z:343
+binder 11171:11171 <> z:344
+binder 11176:11176 <> x:345
+binder 11176:11176 <> x:346
+binder 11321:11321 <> x:347
+R11325:11328 Top.Modal_Notations <> :::x_'|='_x not
+R11329:11331 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R11374:11376 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R11333:11336 Top.Modal_Notations <> :modal::x_'->'_x not
+binder 11332:11332 <> x:348
+binder 11332:11332 <> x:349
+R11337:11337 Top.Modal_Notations <> :modal::'('_x_')' not
+R11373:11373 Top.Modal_Notations <> :modal::'('_x_')' not
+R11356:11359 Top.Modal_Notations <> :modal::x_'->'_x not
+R11338:11338 Top.Modal_Notations <> :modal::'['_x_']'_x not
+R11342:11342 Top.Modal_Notations <> :modal::'['_x_']'_x not
+binder 11339:11341 <> idx:350
+binder 11339:11341 <> idx:351
+R11343:11343 Top.Modal_Notations <> :modal::'('_x_')' not
+R11355:11355 Top.Modal_Notations <> :modal::'('_x_')' not
+R11350:11353 Top.Modal_Notations <> :modal::x_'/\'_x not
+R11344:11344 Top.Modal_Notations <> :modal::'['_x_']'_x not
+R11348:11348 Top.Modal_Notations <> :modal::'['_x_']'_x not
+binder 11345:11347 <> idx:352
+binder 11345:11347 <> idx:353
+binder 11349:11349 <> x:354
+binder 11349:11349 <> x:355
+binder 11354:11354 <> x:356
+binder 11354:11354 <> x:357
+R11360:11360 Top.Modal_Notations <> :modal::'('_x_')' not
+R11372:11372 Top.Modal_Notations <> :modal::'('_x_')' not
+R11367:11370 Top.Modal_Notations <> :modal::x_'/\'_x not
+R11361:11361 Top.Modal_Notations <> :modal::'['_x_']'_x not
+R11365:11365 Top.Modal_Notations <> :modal::'['_x_']'_x not
+binder 11362:11364 <> idx:358
+binder 11362:11364 <> idx:359
+binder 11366:11366 <> x:360
+binder 11366:11366 <> x:361
+binder 11371:11371 <> x:362
+binder 11371:11371 <> x:363
+binder 11321:11321 <> x:364
+R11325:11328 Top.Modal_Notations <> :::x_'|='_x not
+R11329:11331 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R11374:11376 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R11333:11336 Top.Modal_Notations <> :modal::x_'->'_x not
+binder 11332:11332 <> x:365
+binder 11332:11332 <> x:366
+R11337:11337 Top.Modal_Notations <> :modal::'('_x_')' not
+R11373:11373 Top.Modal_Notations <> :modal::'('_x_')' not
+R11356:11359 Top.Modal_Notations <> :modal::x_'->'_x not
+R11338:11338 Top.Modal_Notations <> :modal::'['_x_']'_x not
+R11342:11342 Top.Modal_Notations <> :modal::'['_x_']'_x not
+binder 11339:11341 <> idx:367
+binder 11339:11341 <> idx:368
+R11343:11343 Top.Modal_Notations <> :modal::'('_x_')' not
+R11355:11355 Top.Modal_Notations <> :modal::'('_x_')' not
+R11350:11353 Top.Modal_Notations <> :modal::x_'/\'_x not
+R11344:11344 Top.Modal_Notations <> :modal::'['_x_']'_x not
+R11348:11348 Top.Modal_Notations <> :modal::'['_x_']'_x not
+binder 11345:11347 <> idx:369
+binder 11345:11347 <> idx:370
+binder 11349:11349 <> x:371
+binder 11349:11349 <> x:372
+binder 11354:11354 <> x:373
+binder 11354:11354 <> x:374
+R11360:11360 Top.Modal_Notations <> :modal::'('_x_')' not
+R11372:11372 Top.Modal_Notations <> :modal::'('_x_')' not
+R11367:11370 Top.Modal_Notations <> :modal::x_'/\'_x not
+R11361:11361 Top.Modal_Notations <> :modal::'['_x_']'_x not
+R11365:11365 Top.Modal_Notations <> :modal::'['_x_']'_x not
+binder 11362:11364 <> idx:375
+binder 11362:11364 <> idx:376
+binder 11366:11366 <> x:377
+binder 11366:11366 <> x:378
+binder 11371:11371 <> x:379
+binder 11371:11371 <> x:380
+binder 11534:11534 <> x:381
+binder 11536:11536 <> y:382
+R11539:11539 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11557:11562 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11590:11590 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11541:11544 Top.Modal_Notations <> :::x_'|='_x not
+R11545:11547 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R11554:11556 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R11549:11552 Top.Modal_Notations <> :modal::x_'->'_x not
+binder 11548:11548 <> x:383
+binder 11548:11548 <> x:384
+binder 11553:11553 <> y:385
+binder 11553:11553 <> y:386
+R11564:11567 Top.Modal_Notations <> :::x_'|='_x not
+R11568:11570 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R11587:11589 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R11577:11580 Top.Modal_Notations <> :modal::x_'->'_x not
+R11571:11571 Top.Modal_Notations <> :modal::'['_x_']'_x not
+R11575:11575 Top.Modal_Notations <> :modal::'['_x_']'_x not
+binder 11572:11574 <> idx:387
+binder 11572:11574 <> idx:388
+binder 11576:11576 <> x:389
+binder 11576:11576 <> x:390
+R11581:11581 Top.Modal_Notations <> :modal::'['_x_']'_x not
+R11585:11585 Top.Modal_Notations <> :modal::'['_x_']'_x not
+binder 11582:11584 <> idx:391
+binder 11582:11584 <> idx:392
+binder 11586:11586 <> y:393
+binder 11586:11586 <> y:394
+binder 11534:11534 <> x:395
+binder 11536:11536 <> y:396
+R11539:11539 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11557:11562 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11590:11590 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11541:11544 Top.Modal_Notations <> :::x_'|='_x not
+R11545:11547 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R11554:11556 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R11549:11552 Top.Modal_Notations <> :modal::x_'->'_x not
+binder 11548:11548 <> x:397
+binder 11548:11548 <> x:398
+binder 11553:11553 <> y:399
+binder 11553:11553 <> y:400
+R11564:11567 Top.Modal_Notations <> :::x_'|='_x not
+R11568:11570 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R11587:11589 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R11577:11580 Top.Modal_Notations <> :modal::x_'->'_x not
+R11571:11571 Top.Modal_Notations <> :modal::'['_x_']'_x not
+R11575:11575 Top.Modal_Notations <> :modal::'['_x_']'_x not
+binder 11572:11574 <> idx:401
+binder 11572:11574 <> idx:402
+binder 11576:11576 <> x:403
+binder 11576:11576 <> x:404
+R11581:11581 Top.Modal_Notations <> :modal::'['_x_']'_x not
+R11585:11585 Top.Modal_Notations <> :modal::'['_x_']'_x not
+binder 11582:11584 <> idx:405
+binder 11582:11584 <> idx:406
+binder 11586:11586 <> y:407
+binder 11586:11586 <> y:408
+binder 11731:11731 <> x:409
+R11736:11739 Top.Modal_Notations <> :::x_'|='_x not
+R11740:11742 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R11764:11766 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R11754:11757 Top.Modal_Notations <> :modal::x_'->'_x not
+R11749:11752 Top.Modal_Notations <> :modal::x_'/\'_x not
+R11743:11743 Top.Modal_Notations <> :modal::'['_x_']'_x not
+R11747:11747 Top.Modal_Notations <> :modal::'['_x_']'_x not
+binder 11744:11746 <> idx:410
+binder 11744:11746 <> idx:411
+binder 11748:11748 <> x:412
+binder 11748:11748 <> x:413
+binder 11753:11753 <> x:414
+binder 11753:11753 <> x:415
+R11758:11758 Top.Modal_Notations <> :modal::'['_x_']'_x not
+R11762:11762 Top.Modal_Notations <> :modal::'['_x_']'_x not
+binder 11759:11761 <> idx:416
+binder 11759:11761 <> idx:417
+binder 11763:11763 <> x:418
+binder 11763:11763 <> x:419
+binder 11731:11731 <> x:420
+R11736:11739 Top.Modal_Notations <> :::x_'|='_x not
+R11740:11742 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R11764:11766 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R11754:11757 Top.Modal_Notations <> :modal::x_'->'_x not
+R11749:11752 Top.Modal_Notations <> :modal::x_'/\'_x not
+R11743:11743 Top.Modal_Notations <> :modal::'['_x_']'_x not
+R11747:11747 Top.Modal_Notations <> :modal::'['_x_']'_x not
+binder 11744:11746 <> idx:421
+binder 11744:11746 <> idx:422
+binder 11748:11748 <> x:423
+binder 11748:11748 <> x:424
+binder 11753:11753 <> x:425
+binder 11753:11753 <> x:426
+R11758:11758 Top.Modal_Notations <> :modal::'['_x_']'_x not
+R11762:11762 Top.Modal_Notations <> :modal::'['_x_']'_x not
+binder 11759:11761 <> idx:427
+binder 11759:11761 <> idx:428
+binder 11763:11763 <> x:429
+binder 11763:11763 <> x:430
+R11865:11868 Top.Modal_Notations <> :::x_'|='_x not
+R11869:11871 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R11919:11921 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R11873:11876 Top.Modal_Notations <> :modal::x_'->'_x not
+binder 11872:11872 <> p:431
+binder 11872:11872 <> p:432
+R11877:11877 Top.Modal_Notations <> :modal::'('_x_')' not
+R11918:11918 Top.Modal_Notations <> :modal::'('_x_')' not
+R11901:11904 Top.Modal_Notations <> :modal::x_'->'_x not
+R11878:11878 Top.Modal_Notations <> :modal::'('_x_')' not
+R11900:11900 Top.Modal_Notations <> :modal::'('_x_')' not
+R11890:11893 Top.Modal_Notations <> :modal::x_'/\'_x not
+R11879:11879 Top.Modal_Notations <> :modal::'['_x_']'_x not
+R11883:11883 Top.Modal_Notations <> :modal::'['_x_']'_x not
+binder 11880:11882 <> idx:433
+binder 11880:11882 <> idx:434
+R11884:11884 Top.Modal_Notations <> :modal::'['_x_']'_x not
+R11888:11888 Top.Modal_Notations <> :modal::'['_x_']'_x not
+binder 11885:11887 <> idx:435
+binder 11885:11887 <> idx:436
+binder 11889:11889 <> p:437
+binder 11889:11889 <> p:438
+R11894:11894 Top.Modal_Notations <> :modal::'['_x_']'_x not
+R11898:11898 Top.Modal_Notations <> :modal::'['_x_']'_x not
+binder 11895:11897 <> idx:439
+binder 11895:11897 <> idx:440
+binder 11899:11899 <> p:441
+binder 11899:11899 <> p:442
+R11905:11905 Top.Modal_Notations <> :modal::'('_x_')' not
+R11917:11917 Top.Modal_Notations <> :modal::'('_x_')' not
+R11912:11915 Top.Modal_Notations <> :modal::x_'/\'_x not
+R11906:11906 Top.Modal_Notations <> :modal::'['_x_']'_x not
+R11910:11910 Top.Modal_Notations <> :modal::'['_x_']'_x not
+binder 11907:11909 <> idx:443
+binder 11907:11909 <> idx:444
+binder 11911:11911 <> p:445
+binder 11911:11911 <> p:446
+binder 11916:11916 <> p:447
+binder 11916:11916 <> p:448
+R11952:11954 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R11956:11958 Top.Modal_Notations <> :::'[!'_x_'!]' not
+binder 11955:11955 <> p:449
+binder 11955:11955 <> p:450
+R11967:11969 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R11981:11983 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R11970:11970 Top.Modal_Notations <> :modal::'['_x_']'_x not
+R11974:11974 Top.Modal_Notations <> :modal::'['_x_']'_x not
+binder 11971:11973 <> idx:451
+binder 11971:11973 <> idx:452
+R11975:11975 Top.Modal_Notations <> :modal::'['_x_']'_x not
+R11979:11979 Top.Modal_Notations <> :modal::'['_x_']'_x not
+binder 11976:11978 <> idx:453
+binder 11976:11978 <> idx:454
+binder 11980:11980 <> p:455
+binder 11980:11980 <> p:456
+R11992:11993 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R12000:12001 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R11994:11994 Top.Modal_Notations <> :modal::'['_x_']'_x not
+R11998:11998 Top.Modal_Notations <> :modal::'['_x_']'_x not
+binder 11995:11997 <> idx:457
+binder 11995:11997 <> idx:458
+binder 11999:11999 <> p:459
+binder 11999:11999 <> p:460
+R11865:11868 Top.Modal_Notations <> :::x_'|='_x not
+R11869:11871 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R11919:11921 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R11873:11876 Top.Modal_Notations <> :modal::x_'->'_x not
+binder 11872:11872 <> p:461
+binder 11872:11872 <> p:462
+R11877:11877 Top.Modal_Notations <> :modal::'('_x_')' not
+R11918:11918 Top.Modal_Notations <> :modal::'('_x_')' not
+R11901:11904 Top.Modal_Notations <> :modal::x_'->'_x not
+R11878:11878 Top.Modal_Notations <> :modal::'('_x_')' not
+R11900:11900 Top.Modal_Notations <> :modal::'('_x_')' not
+R11890:11893 Top.Modal_Notations <> :modal::x_'/\'_x not
+R11879:11879 Top.Modal_Notations <> :modal::'['_x_']'_x not
+R11883:11883 Top.Modal_Notations <> :modal::'['_x_']'_x not
+binder 11880:11882 <> idx:463
+binder 11880:11882 <> idx:464
+R11884:11884 Top.Modal_Notations <> :modal::'['_x_']'_x not
+R11888:11888 Top.Modal_Notations <> :modal::'['_x_']'_x not
+binder 11885:11887 <> idx:465
+binder 11885:11887 <> idx:466
+binder 11889:11889 <> p:467
+binder 11889:11889 <> p:468
+R11894:11894 Top.Modal_Notations <> :modal::'['_x_']'_x not
+R11898:11898 Top.Modal_Notations <> :modal::'['_x_']'_x not
+binder 11895:11897 <> idx:469
+binder 11895:11897 <> idx:470
+binder 11899:11899 <> p:471
+binder 11899:11899 <> p:472
+R11905:11905 Top.Modal_Notations <> :modal::'('_x_')' not
+R11917:11917 Top.Modal_Notations <> :modal::'('_x_')' not
+R11912:11915 Top.Modal_Notations <> :modal::x_'/\'_x not
+R11906:11906 Top.Modal_Notations <> :modal::'['_x_']'_x not
+R11910:11910 Top.Modal_Notations <> :modal::'['_x_']'_x not
+binder 11907:11909 <> idx:473
+binder 11907:11909 <> idx:474
+binder 11911:11911 <> p:475
+binder 11911:11911 <> p:476
+binder 11916:11916 <> p:477
+binder 11916:11916 <> p:478
+R11952:11954 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R11956:11958 Top.Modal_Notations <> :::'[!'_x_'!]' not
+binder 11955:11955 <> p:479
+binder 11955:11955 <> p:480
+R11967:11969 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R11981:11983 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R11970:11970 Top.Modal_Notations <> :modal::'['_x_']'_x not
+R11974:11974 Top.Modal_Notations <> :modal::'['_x_']'_x not
+binder 11971:11973 <> idx:481
+binder 11971:11973 <> idx:482
+R11975:11975 Top.Modal_Notations <> :modal::'['_x_']'_x not
+R11979:11979 Top.Modal_Notations <> :modal::'['_x_']'_x not
+binder 11976:11978 <> idx:483
+binder 11976:11978 <> idx:484
+binder 11980:11980 <> p:485
+binder 11980:11980 <> p:486
+R11992:11993 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R12000:12001 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R11994:11994 Top.Modal_Notations <> :modal::'['_x_']'_x not
+R11998:11998 Top.Modal_Notations <> :modal::'['_x_']'_x not
+binder 11995:11997 <> idx:487
+binder 11995:11997 <> idx:488
+binder 11999:11999 <> p:489
+binder 11999:11999 <> p:490
+R12073:12076 Top.Modal_Notations <> :::x_'|='_x not
+R12077:12079 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R12122:12124 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R12081:12084 Top.Modal_Notations <> :modal::x_'->'_x not
+binder 12080:12080 <> p:491
+binder 12080:12080 <> p:492
+R12085:12085 Top.Modal_Notations <> :modal::'('_x_')' not
+R12121:12121 Top.Modal_Notations <> :modal::'('_x_')' not
+R12104:12107 Top.Modal_Notations <> :modal::x_'->'_x not
+R12086:12086 Top.Modal_Notations <> :modal::'['_x_']'_x not
+R12090:12090 Top.Modal_Notations <> :modal::'['_x_']'_x not
+binder 12087:12089 <> idx:493
+binder 12087:12089 <> idx:494
+R12091:12091 Top.Modal_Notations <> :modal::'('_x_')' not
+R12103:12103 Top.Modal_Notations <> :modal::'('_x_')' not
+R12098:12101 Top.Modal_Notations <> :modal::x_'/\'_x not
+R12092:12092 Top.Modal_Notations <> :modal::'['_x_']'_x not
+R12096:12096 Top.Modal_Notations <> :modal::'['_x_']'_x not
+binder 12093:12095 <> idx:495
+binder 12093:12095 <> idx:496
+binder 12097:12097 <> p:497
+binder 12097:12097 <> p:498
+binder 12102:12102 <> p:499
+binder 12102:12102 <> p:500
+R12108:12108 Top.Modal_Notations <> :modal::'('_x_')' not
+R12120:12120 Top.Modal_Notations <> :modal::'('_x_')' not
+R12115:12118 Top.Modal_Notations <> :modal::x_'/\'_x not
+R12109:12109 Top.Modal_Notations <> :modal::'['_x_']'_x not
+R12113:12113 Top.Modal_Notations <> :modal::'['_x_']'_x not
+binder 12110:12112 <> idx:501
+binder 12110:12112 <> idx:502
+binder 12114:12114 <> p:503
+binder 12114:12114 <> p:504
+binder 12119:12119 <> p:505
+binder 12119:12119 <> p:506
+R12073:12076 Top.Modal_Notations <> :::x_'|='_x not
+R12077:12079 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R12122:12124 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R12081:12084 Top.Modal_Notations <> :modal::x_'->'_x not
+binder 12080:12080 <> p:507
+binder 12080:12080 <> p:508
+R12085:12085 Top.Modal_Notations <> :modal::'('_x_')' not
+R12121:12121 Top.Modal_Notations <> :modal::'('_x_')' not
+R12104:12107 Top.Modal_Notations <> :modal::x_'->'_x not
+R12086:12086 Top.Modal_Notations <> :modal::'['_x_']'_x not
+R12090:12090 Top.Modal_Notations <> :modal::'['_x_']'_x not
+binder 12087:12089 <> idx:509
+binder 12087:12089 <> idx:510
+R12091:12091 Top.Modal_Notations <> :modal::'('_x_')' not
+R12103:12103 Top.Modal_Notations <> :modal::'('_x_')' not
+R12098:12101 Top.Modal_Notations <> :modal::x_'/\'_x not
+R12092:12092 Top.Modal_Notations <> :modal::'['_x_']'_x not
+R12096:12096 Top.Modal_Notations <> :modal::'['_x_']'_x not
+binder 12093:12095 <> idx:511
+binder 12093:12095 <> idx:512
+binder 12097:12097 <> p:513
+binder 12097:12097 <> p:514
+binder 12102:12102 <> p:515
+binder 12102:12102 <> p:516
+R12108:12108 Top.Modal_Notations <> :modal::'('_x_')' not
+R12120:12120 Top.Modal_Notations <> :modal::'('_x_')' not
+R12115:12118 Top.Modal_Notations <> :modal::x_'/\'_x not
+R12109:12109 Top.Modal_Notations <> :modal::'['_x_']'_x not
+R12113:12113 Top.Modal_Notations <> :modal::'['_x_']'_x not
+binder 12110:12112 <> idx:517
+binder 12110:12112 <> idx:518
+binder 12114:12114 <> p:519
+binder 12114:12114 <> p:520
+binder 12119:12119 <> p:521
+binder 12119:12119 <> p:522
+R12222:12225 Top.Modal_Notations <> :::x_'|='_x not
+R12226:12228 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R12283:12285 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R12235:12238 Top.Modal_Notations <> :modal::x_'->'_x not
+R12229:12229 Top.Modal_Notations <> :modal::'['_x_']'_x not
+R12233:12233 Top.Modal_Notations <> :modal::'['_x_']'_x not
+binder 12230:12232 <> idx:523
+binder 12230:12232 <> idx:524
+binder 12234:12234 <> p:525
+binder 12234:12234 <> p:526
+R12239:12239 Top.Modal_Notations <> :modal::'['_x_']'_x not
+R12243:12243 Top.Modal_Notations <> :modal::'['_x_']'_x not
+binder 12240:12242 <> idx:527
+binder 12240:12242 <> idx:528
+R12244:12244 Top.Modal_Notations <> :modal::'('_x_')' not
+R12282:12282 Top.Modal_Notations <> :modal::'('_x_')' not
+R12245:12245 Top.Modal_Notations <> :modal::'('_x_')' not
+R12281:12281 Top.Modal_Notations <> :modal::'('_x_')' not
+R12264:12267 Top.Modal_Notations <> :modal::x_'->'_x not
+R12246:12246 Top.Modal_Notations <> :modal::'['_x_']'_x not
+R12250:12250 Top.Modal_Notations <> :modal::'['_x_']'_x not
+binder 12247:12249 <> idx:529
+binder 12247:12249 <> idx:530
+R12251:12251 Top.Modal_Notations <> :modal::'('_x_')' not
+R12263:12263 Top.Modal_Notations <> :modal::'('_x_')' not
+R12258:12261 Top.Modal_Notations <> :modal::x_'/\'_x not
+R12252:12252 Top.Modal_Notations <> :modal::'['_x_']'_x not
+R12256:12256 Top.Modal_Notations <> :modal::'['_x_']'_x not
+binder 12253:12255 <> idx:531
+binder 12253:12255 <> idx:532
+binder 12257:12257 <> p:533
+binder 12257:12257 <> p:534
+binder 12262:12262 <> p:535
+binder 12262:12262 <> p:536
+R12268:12268 Top.Modal_Notations <> :modal::'('_x_')' not
+R12280:12280 Top.Modal_Notations <> :modal::'('_x_')' not
+R12275:12278 Top.Modal_Notations <> :modal::x_'/\'_x not
+R12269:12269 Top.Modal_Notations <> :modal::'['_x_']'_x not
+R12273:12273 Top.Modal_Notations <> :modal::'['_x_']'_x not
+binder 12270:12272 <> idx:537
+binder 12270:12272 <> idx:538
+binder 12274:12274 <> p:539
+binder 12274:12274 <> p:540
+binder 12279:12279 <> p:541
+binder 12279:12279 <> p:542
+R12222:12225 Top.Modal_Notations <> :::x_'|='_x not
+R12226:12228 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R12283:12285 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R12235:12238 Top.Modal_Notations <> :modal::x_'->'_x not
+R12229:12229 Top.Modal_Notations <> :modal::'['_x_']'_x not
+R12233:12233 Top.Modal_Notations <> :modal::'['_x_']'_x not
+binder 12230:12232 <> idx:543
+binder 12230:12232 <> idx:544
+binder 12234:12234 <> p:545
+binder 12234:12234 <> p:546
+R12239:12239 Top.Modal_Notations <> :modal::'['_x_']'_x not
+R12243:12243 Top.Modal_Notations <> :modal::'['_x_']'_x not
+binder 12240:12242 <> idx:547
+binder 12240:12242 <> idx:548
+R12244:12244 Top.Modal_Notations <> :modal::'('_x_')' not
+R12282:12282 Top.Modal_Notations <> :modal::'('_x_')' not
+R12245:12245 Top.Modal_Notations <> :modal::'('_x_')' not
+R12281:12281 Top.Modal_Notations <> :modal::'('_x_')' not
+R12264:12267 Top.Modal_Notations <> :modal::x_'->'_x not
+R12246:12246 Top.Modal_Notations <> :modal::'['_x_']'_x not
+R12250:12250 Top.Modal_Notations <> :modal::'['_x_']'_x not
+binder 12247:12249 <> idx:549
+binder 12247:12249 <> idx:550
+R12251:12251 Top.Modal_Notations <> :modal::'('_x_')' not
+R12263:12263 Top.Modal_Notations <> :modal::'('_x_')' not
+R12258:12261 Top.Modal_Notations <> :modal::x_'/\'_x not
+R12252:12252 Top.Modal_Notations <> :modal::'['_x_']'_x not
+R12256:12256 Top.Modal_Notations <> :modal::'['_x_']'_x not
+binder 12253:12255 <> idx:551
+binder 12253:12255 <> idx:552
+binder 12257:12257 <> p:553
+binder 12257:12257 <> p:554
+binder 12262:12262 <> p:555
+binder 12262:12262 <> p:556
+R12268:12268 Top.Modal_Notations <> :modal::'('_x_')' not
+R12280:12280 Top.Modal_Notations <> :modal::'('_x_')' not
+R12275:12278 Top.Modal_Notations <> :modal::x_'/\'_x not
+R12269:12269 Top.Modal_Notations <> :modal::'['_x_']'_x not
+R12273:12273 Top.Modal_Notations <> :modal::'['_x_']'_x not
+binder 12270:12272 <> idx:557
+binder 12270:12272 <> idx:558
+binder 12274:12274 <> p:559
+binder 12274:12274 <> p:560
+binder 12279:12279 <> p:561
+binder 12279:12279 <> p:562
+R12386:12389 Top.Modal_Notations <> :::x_'|='_x not
+R12390:12392 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R12457:12459 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R12435:12438 Top.Modal_Notations <> :modal::x_'->'_x not
+R12393:12393 Top.Modal_Notations <> :modal::'['_x_']'_x not
+R12397:12397 Top.Modal_Notations <> :modal::'['_x_']'_x not
+binder 12394:12396 <> idx:563
+binder 12394:12396 <> idx:564
+R12398:12398 Top.Modal_Notations <> :modal::'('_x_')' not
+R12434:12434 Top.Modal_Notations <> :modal::'('_x_')' not
+R12417:12420 Top.Modal_Notations <> :modal::x_'->'_x not
+R12399:12399 Top.Modal_Notations <> :modal::'['_x_']'_x not
+R12403:12403 Top.Modal_Notations <> :modal::'['_x_']'_x not
+binder 12400:12402 <> idx:565
+binder 12400:12402 <> idx:566
+R12404:12404 Top.Modal_Notations <> :modal::'('_x_')' not
+R12416:12416 Top.Modal_Notations <> :modal::'('_x_')' not
+R12411:12414 Top.Modal_Notations <> :modal::x_'/\'_x not
+R12405:12405 Top.Modal_Notations <> :modal::'['_x_']'_x not
+R12409:12409 Top.Modal_Notations <> :modal::'['_x_']'_x not
+binder 12406:12408 <> idx:567
+binder 12406:12408 <> idx:568
+binder 12410:12410 <> p:569
+binder 12410:12410 <> p:570
+binder 12415:12415 <> p:571
+binder 12415:12415 <> p:572
+R12421:12421 Top.Modal_Notations <> :modal::'('_x_')' not
+R12433:12433 Top.Modal_Notations <> :modal::'('_x_')' not
+R12428:12431 Top.Modal_Notations <> :modal::x_'/\'_x not
+R12422:12422 Top.Modal_Notations <> :modal::'['_x_']'_x not
+R12426:12426 Top.Modal_Notations <> :modal::'['_x_']'_x not
+binder 12423:12425 <> idx:573
+binder 12423:12425 <> idx:574
+binder 12427:12427 <> p:575
+binder 12427:12427 <> p:576
+binder 12432:12432 <> p:577
+binder 12432:12432 <> p:578
+R12439:12439 Top.Modal_Notations <> :modal::'['_x_']'_x not
+R12443:12443 Top.Modal_Notations <> :modal::'['_x_']'_x not
+binder 12440:12442 <> idx:579
+binder 12440:12442 <> idx:580
+R12444:12444 Top.Modal_Notations <> :modal::'('_x_')' not
+R12456:12456 Top.Modal_Notations <> :modal::'('_x_')' not
+R12451:12454 Top.Modal_Notations <> :modal::x_'/\'_x not
+R12445:12445 Top.Modal_Notations <> :modal::'['_x_']'_x not
+R12449:12449 Top.Modal_Notations <> :modal::'['_x_']'_x not
+binder 12446:12448 <> idx:581
+binder 12446:12448 <> idx:582
+binder 12450:12450 <> p:583
+binder 12450:12450 <> p:584
+binder 12455:12455 <> p:585
+binder 12455:12455 <> p:586
+R12489:12491 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R12503:12505 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R12498:12501 Top.Modal_Notations <> :modal::x_'/\'_x not
+R12492:12492 Top.Modal_Notations <> :modal::'['_x_']'_x not
+R12496:12496 Top.Modal_Notations <> :modal::'['_x_']'_x not
+binder 12493:12495 <> idx:587
+binder 12493:12495 <> idx:588
+binder 12497:12497 <> p:589
+binder 12497:12497 <> p:590
+binder 12502:12502 <> p:591
+binder 12502:12502 <> p:592
+R12386:12389 Top.Modal_Notations <> :::x_'|='_x not
+R12390:12392 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R12457:12459 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R12435:12438 Top.Modal_Notations <> :modal::x_'->'_x not
+R12393:12393 Top.Modal_Notations <> :modal::'['_x_']'_x not
+R12397:12397 Top.Modal_Notations <> :modal::'['_x_']'_x not
+binder 12394:12396 <> idx:593
+binder 12394:12396 <> idx:594
+R12398:12398 Top.Modal_Notations <> :modal::'('_x_')' not
+R12434:12434 Top.Modal_Notations <> :modal::'('_x_')' not
+R12417:12420 Top.Modal_Notations <> :modal::x_'->'_x not
+R12399:12399 Top.Modal_Notations <> :modal::'['_x_']'_x not
+R12403:12403 Top.Modal_Notations <> :modal::'['_x_']'_x not
+binder 12400:12402 <> idx:595
+binder 12400:12402 <> idx:596
+R12404:12404 Top.Modal_Notations <> :modal::'('_x_')' not
+R12416:12416 Top.Modal_Notations <> :modal::'('_x_')' not
+R12411:12414 Top.Modal_Notations <> :modal::x_'/\'_x not
+R12405:12405 Top.Modal_Notations <> :modal::'['_x_']'_x not
+R12409:12409 Top.Modal_Notations <> :modal::'['_x_']'_x not
+binder 12406:12408 <> idx:597
+binder 12406:12408 <> idx:598
+binder 12410:12410 <> p:599
+binder 12410:12410 <> p:600
+binder 12415:12415 <> p:601
+binder 12415:12415 <> p:602
+R12421:12421 Top.Modal_Notations <> :modal::'('_x_')' not
+R12433:12433 Top.Modal_Notations <> :modal::'('_x_')' not
+R12428:12431 Top.Modal_Notations <> :modal::x_'/\'_x not
+R12422:12422 Top.Modal_Notations <> :modal::'['_x_']'_x not
+R12426:12426 Top.Modal_Notations <> :modal::'['_x_']'_x not
+binder 12423:12425 <> idx:603
+binder 12423:12425 <> idx:604
+binder 12427:12427 <> p:605
+binder 12427:12427 <> p:606
+binder 12432:12432 <> p:607
+binder 12432:12432 <> p:608
+R12439:12439 Top.Modal_Notations <> :modal::'['_x_']'_x not
+R12443:12443 Top.Modal_Notations <> :modal::'['_x_']'_x not
+binder 12440:12442 <> idx:609
+binder 12440:12442 <> idx:610
+R12444:12444 Top.Modal_Notations <> :modal::'('_x_')' not
+R12456:12456 Top.Modal_Notations <> :modal::'('_x_')' not
+R12451:12454 Top.Modal_Notations <> :modal::x_'/\'_x not
+R12445:12445 Top.Modal_Notations <> :modal::'['_x_']'_x not
+R12449:12449 Top.Modal_Notations <> :modal::'['_x_']'_x not
+binder 12446:12448 <> idx:611
+binder 12446:12448 <> idx:612
+binder 12450:12450 <> p:613
+binder 12450:12450 <> p:614
+binder 12455:12455 <> p:615
+binder 12455:12455 <> p:616
+R12489:12491 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R12503:12505 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R12498:12501 Top.Modal_Notations <> :modal::x_'/\'_x not
+R12492:12492 Top.Modal_Notations <> :modal::'['_x_']'_x not
+R12496:12496 Top.Modal_Notations <> :modal::'['_x_']'_x not
+binder 12493:12495 <> idx:617
+binder 12493:12495 <> idx:618
+binder 12497:12497 <> p:619
+binder 12497:12497 <> p:620
+binder 12502:12502 <> p:621
+binder 12502:12502 <> p:622
+R12630:12633 Top.Modal_Notations <> :::x_'|='_x not
+R12634:12636 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R12665:12667 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R12643:12646 Top.Modal_Notations <> :modal::x_'->'_x not
+R12637:12637 Top.Modal_Notations <> :modal::'['_x_']'_x not
+R12641:12641 Top.Modal_Notations <> :modal::'['_x_']'_x not
+binder 12638:12640 <> idx:623
+binder 12638:12640 <> idx:624
+binder 12642:12642 <> p:625
+binder 12642:12642 <> p:626
+R12647:12647 Top.Modal_Notations <> :modal::'['_x_']'_x not
+R12651:12651 Top.Modal_Notations <> :modal::'['_x_']'_x not
+binder 12648:12650 <> idx:627
+binder 12648:12650 <> idx:628
+R12652:12652 Top.Modal_Notations <> :modal::'('_x_')' not
+R12664:12664 Top.Modal_Notations <> :modal::'('_x_')' not
+R12659:12662 Top.Modal_Notations <> :modal::x_'/\'_x not
+R12653:12653 Top.Modal_Notations <> :modal::'['_x_']'_x not
+R12657:12657 Top.Modal_Notations <> :modal::'['_x_']'_x not
+binder 12654:12656 <> idx:629
+binder 12654:12656 <> idx:630
+binder 12658:12658 <> p:631
+binder 12658:12658 <> p:632
+binder 12663:12663 <> p:633
+binder 12663:12663 <> p:634
+R12685:12707 Top.Modal_Tactics <> modal_impl_transitivity thm
+R12630:12633 Top.Modal_Notations <> :::x_'|='_x not
+R12634:12636 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R12665:12667 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R12643:12646 Top.Modal_Notations <> :modal::x_'->'_x not
+R12637:12637 Top.Modal_Notations <> :modal::'['_x_']'_x not
+R12641:12641 Top.Modal_Notations <> :modal::'['_x_']'_x not
+binder 12638:12640 <> idx:635
+binder 12638:12640 <> idx:636
+binder 12642:12642 <> p:637
+binder 12642:12642 <> p:638
+R12647:12647 Top.Modal_Notations <> :modal::'['_x_']'_x not
+R12651:12651 Top.Modal_Notations <> :modal::'['_x_']'_x not
+binder 12648:12650 <> idx:639
+binder 12648:12650 <> idx:640
+R12652:12652 Top.Modal_Notations <> :modal::'('_x_')' not
+R12664:12664 Top.Modal_Notations <> :modal::'('_x_')' not
+R12659:12662 Top.Modal_Notations <> :modal::x_'/\'_x not
+R12653:12653 Top.Modal_Notations <> :modal::'['_x_']'_x not
+R12657:12657 Top.Modal_Notations <> :modal::'['_x_']'_x not
+binder 12654:12656 <> idx:641
+binder 12654:12656 <> idx:642
+binder 12658:12658 <> p:643
+binder 12658:12658 <> p:644
+binder 12663:12663 <> p:645
+binder 12663:12663 <> p:646
+R12685:12707 Top.Modal_Tactics <> modal_impl_transitivity thm
+R12822:12825 Top.Modal_Notations <> :::x_'|='_x not
+R12826:12828 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R12850:12852 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R12840:12843 Top.Modal_Notations <> :modal::x_'->'_x not
+R12835:12838 Top.Modal_Notations <> :modal::x_'/\'_x not
+R12829:12829 Top.Modal_Notations <> :modal::'['_x_']'_x not
+R12833:12833 Top.Modal_Notations <> :modal::'['_x_']'_x not
+binder 12830:12832 <> idx:647
+binder 12830:12832 <> idx:648
+binder 12834:12834 <> p:649
+binder 12834:12834 <> p:650
+binder 12839:12839 <> p:651
+binder 12839:12839 <> p:652
+R12844:12844 Top.Modal_Notations <> :modal::'['_x_']'_x not
+R12848:12848 Top.Modal_Notations <> :modal::'['_x_']'_x not
+binder 12845:12847 <> idx:653
+binder 12845:12847 <> idx:654
+binder 12849:12849 <> p:655
+binder 12849:12849 <> p:656
+R12822:12825 Top.Modal_Notations <> :::x_'|='_x not
+R12826:12828 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R12850:12852 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R12840:12843 Top.Modal_Notations <> :modal::x_'->'_x not
+R12835:12838 Top.Modal_Notations <> :modal::x_'/\'_x not
+R12829:12829 Top.Modal_Notations <> :modal::'['_x_']'_x not
+R12833:12833 Top.Modal_Notations <> :modal::'['_x_']'_x not
+binder 12830:12832 <> idx:657
+binder 12830:12832 <> idx:658
+binder 12834:12834 <> p:659
+binder 12834:12834 <> p:660
+binder 12839:12839 <> p:661
+binder 12839:12839 <> p:662
+R12844:12844 Top.Modal_Notations <> :modal::'['_x_']'_x not
+R12848:12848 Top.Modal_Notations <> :modal::'['_x_']'_x not
+binder 12845:12847 <> idx:663
+binder 12845:12847 <> idx:664
+binder 12849:12849 <> p:665
+binder 12849:12849 <> p:666
+R12957:12960 Top.Modal_Notations <> :::x_'|='_x not
+R12961:12963 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R12997:12999 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R12982:12985 Top.Modal_Notations <> :modal::x_'->'_x not
+R12964:12964 Top.Modal_Notations <> :modal::'['_x_']'_x not
+R12968:12968 Top.Modal_Notations <> :modal::'['_x_']'_x not
+binder 12965:12967 <> idx:667
+binder 12965:12967 <> idx:668
+R12969:12969 Top.Modal_Notations <> :modal::'('_x_')' not
+R12981:12981 Top.Modal_Notations <> :modal::'('_x_')' not
+R12976:12979 Top.Modal_Notations <> :modal::x_'/\'_x not
+R12970:12970 Top.Modal_Notations <> :modal::'['_x_']'_x not
+R12974:12974 Top.Modal_Notations <> :modal::'['_x_']'_x not
+binder 12971:12973 <> idx:669
+binder 12971:12973 <> idx:670
+binder 12975:12975 <> p:671
+binder 12975:12975 <> p:672
+binder 12980:12980 <> p:673
+binder 12980:12980 <> p:674
+R12986:12986 Top.Modal_Notations <> :modal::'['_x_']'_x not
+R12990:12990 Top.Modal_Notations <> :modal::'['_x_']'_x not
+binder 12987:12989 <> idx:675
+binder 12987:12989 <> idx:676
+R12991:12991 Top.Modal_Notations <> :modal::'['_x_']'_x not
+R12995:12995 Top.Modal_Notations <> :modal::'['_x_']'_x not
+binder 12992:12994 <> idx:677
+binder 12992:12994 <> idx:678
+binder 12996:12996 <> p:679
+binder 12996:12996 <> p:680
+R12957:12960 Top.Modal_Notations <> :::x_'|='_x not
+R12961:12963 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R12997:12999 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R12982:12985 Top.Modal_Notations <> :modal::x_'->'_x not
+R12964:12964 Top.Modal_Notations <> :modal::'['_x_']'_x not
+R12968:12968 Top.Modal_Notations <> :modal::'['_x_']'_x not
+binder 12965:12967 <> idx:681
+binder 12965:12967 <> idx:682
+R12969:12969 Top.Modal_Notations <> :modal::'('_x_')' not
+R12981:12981 Top.Modal_Notations <> :modal::'('_x_')' not
+R12976:12979 Top.Modal_Notations <> :modal::x_'/\'_x not
+R12970:12970 Top.Modal_Notations <> :modal::'['_x_']'_x not
+R12974:12974 Top.Modal_Notations <> :modal::'['_x_']'_x not
+binder 12971:12973 <> idx:683
+binder 12971:12973 <> idx:684
+binder 12975:12975 <> p:685
+binder 12975:12975 <> p:686
+binder 12980:12980 <> p:687
+binder 12980:12980 <> p:688
+R12986:12986 Top.Modal_Notations <> :modal::'['_x_']'_x not
+R12990:12990 Top.Modal_Notations <> :modal::'['_x_']'_x not
+binder 12987:12989 <> idx:689
+binder 12987:12989 <> idx:690
+R12991:12991 Top.Modal_Notations <> :modal::'['_x_']'_x not
+R12995:12995 Top.Modal_Notations <> :modal::'['_x_']'_x not
+binder 12992:12994 <> idx:691
+binder 12992:12994 <> idx:692
+binder 12996:12996 <> p:693
+binder 12996:12996 <> p:694
+R13138:13141 Top.Modal_Notations <> :::x_'|='_x not
+R13142:13144 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R13166:13168 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R13151:13154 Top.Modal_Notations <> :modal::x_'->'_x not
+R13145:13145 Top.Modal_Notations <> :modal::'['_x_']'_x not
+R13149:13149 Top.Modal_Notations <> :modal::'['_x_']'_x not
+binder 13146:13148 <> idx:695
+binder 13146:13148 <> idx:696
+binder 13150:13150 <> p:697
+binder 13150:13150 <> p:698
+R13155:13155 Top.Modal_Notations <> :modal::'['_x_']'_x not
+R13159:13159 Top.Modal_Notations <> :modal::'['_x_']'_x not
+binder 13156:13158 <> idx:699
+binder 13156:13158 <> idx:700
+R13160:13160 Top.Modal_Notations <> :modal::'['_x_']'_x not
+R13164:13164 Top.Modal_Notations <> :modal::'['_x_']'_x not
+binder 13161:13163 <> idx:701
+binder 13161:13163 <> idx:702
+binder 13165:13165 <> p:703
+binder 13165:13165 <> p:704
+R13186:13208 Top.Modal_Tactics <> modal_impl_transitivity thm
+R13138:13141 Top.Modal_Notations <> :::x_'|='_x not
+R13142:13144 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R13166:13168 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R13151:13154 Top.Modal_Notations <> :modal::x_'->'_x not
+R13145:13145 Top.Modal_Notations <> :modal::'['_x_']'_x not
+R13149:13149 Top.Modal_Notations <> :modal::'['_x_']'_x not
+binder 13146:13148 <> idx:705
+binder 13146:13148 <> idx:706
+binder 13150:13150 <> p:707
+binder 13150:13150 <> p:708
+R13155:13155 Top.Modal_Notations <> :modal::'['_x_']'_x not
+R13159:13159 Top.Modal_Notations <> :modal::'['_x_']'_x not
+binder 13156:13158 <> idx:709
+binder 13156:13158 <> idx:710
+R13160:13160 Top.Modal_Notations <> :modal::'['_x_']'_x not
+R13164:13164 Top.Modal_Notations <> :modal::'['_x_']'_x not
+binder 13161:13163 <> idx:711
+binder 13161:13163 <> idx:712
+binder 13165:13165 <> p:713
+binder 13165:13165 <> p:714
+R13186:13208 Top.Modal_Tactics <> modal_impl_transitivity thm
+prf 13309:13340 <> axiomGL_implies_noetherian_frame
+binder 13352:13352 <> f:715
+binder 13354:13356 <> idx:716
+R13361:13361 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13420:13426 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 13369:13369 <> v:717
+binder 13371:13371 <> p:718
+R13382:13385 Top.Modal_Notations <> :::x_'|='_x not
+R13374:13374 Top.Modal_Notations <> :::'['_x_'--'_x_']' not
+R13376:13379 Top.Modal_Notations <> :::'['_x_'--'_x_']' not
+R13381:13381 Top.Modal_Notations <> :::'['_x_'--'_x_']' not
+R13375:13375 Top.Frame_Validation <> f:715 var
+R13380:13380 Top.Frame_Validation <> v:717 var
+R13386:13388 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R13417:13419 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R13407:13410 Top.Modal_Notations <> :modal::x_'->'_x not
+R13389:13389 Top.Modal_Notations <> :modal::'['_x_']'_x not
+R13393:13393 Top.Modal_Notations <> :modal::'['_x_']'_x not
+binder 13390:13392 <> idx:719
+binder 13390:13392 <> idx:720
+R13394:13394 Top.Modal_Notations <> :modal::'('_x_')' not
+R13406:13406 Top.Modal_Notations <> :modal::'('_x_')' not
+R13401:13404 Top.Modal_Notations <> :modal::x_'->'_x not
+R13395:13395 Top.Modal_Notations <> :modal::'['_x_']'_x not
+R13399:13399 Top.Modal_Notations <> :modal::'['_x_']'_x not
+binder 13396:13398 <> idx:721
+binder 13396:13398 <> idx:722
+binder 13400:13400 <> p:723
+binder 13400:13400 <> p:724
+binder 13405:13405 <> p:725
+binder 13405:13405 <> p:726
+R13411:13411 Top.Modal_Notations <> :modal::'['_x_']'_x not
+R13415:13415 Top.Modal_Notations <> :modal::'['_x_']'_x not
+binder 13412:13414 <> idx:727
+binder 13412:13414 <> idx:728
+binder 13416:13416 <> p:729
+binder 13416:13416 <> p:730
+R13427:13442 Top.Modal_Library <> noetherian_frame def
+R13446:13448 Top.Frame_Validation <> idx:716 var
+R13444:13444 Top.Frame_Validation <> f:715 var
+R13485:13500 Top.Modal_Library <> noetherian_frame def
+R13520:13550 Top.Frame_Validation <> axiom4_implies_transitive_frame thm
+R13572:13583 Top.Frame_Validation <> GL_implies_4 thm
+R13520:13550 Top.Frame_Validation <> axiom4_implies_transitive_frame thm
+R13572:13583 Top.Frame_Validation <> GL_implies_4 thm
+R13633:13646 Coq.Logic.Decidable <> contrapositive thm
+R13633:13646 Coq.Logic.Decidable <> contrapositive thm
+R13661:13667 Coq.Logic.Classical_Prop <> classic prfax
+R13661:13667 Coq.Logic.Classical_Prop <> classic prfax
+R13699:13727 Top.Modal_Library <> conversely_well_founded_frame def
+R13747:13760 Coq.Logic.Classical_Pred_Type <> not_all_ex_not thm
+R13799:13810 Coq.Logic.Classical_Prop <> imply_to_and thm
+R13747:13760 Coq.Logic.Classical_Pred_Type <> not_all_ex_not thm
+R13799:13810 Coq.Logic.Classical_Prop <> imply_to_and thm
+binder 13865:13865 <> w:731
+R13871:13874 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13870:13870 Top.Frame_Validation <> w:731 var
+R13875:13881 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R13884:13885 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 13882:13883 <> w':732
+R13886:13888 Coq.Init.Logic <> ::type_scope:'~'_x not
+R13911:13911 Coq.Init.Logic <> ::type_scope:'~'_x not
+R13893:13896 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13891:13892 Top.Frame_Validation <> w':732 var
+R13897:13898 Coq.Init.Logic <> ::type_scope:'~'_x not
+R13899:13899 Top.Modal_Library <> R proj
+R13907:13907 Top.Frame_Validation <> w:731 var
+R13909:13910 Top.Frame_Validation <> w':732 var
+binder 13865:13865 <> w:733
+R13871:13874 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13870:13870 Top.Frame_Validation <> w:733 var
+R13875:13881 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R13884:13885 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 13882:13883 <> w':734
+R13886:13888 Coq.Init.Logic <> ::type_scope:'~'_x not
+R13911:13911 Coq.Init.Logic <> ::type_scope:'~'_x not
+R13893:13896 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13891:13892 Top.Frame_Validation <> w':734 var
+R13897:13898 Coq.Init.Logic <> ::type_scope:'~'_x not
+R13899:13899 Top.Modal_Library <> R proj
+R13907:13907 Top.Frame_Validation <> w:733 var
+R13909:13910 Top.Frame_Validation <> w':734 var
+R13951:13964 Coq.Logic.Classical_Pred_Type <> not_ex_all_not thm
+R13999:14008 Coq.Logic.Classical_Prop <> not_and_or thm
+R13951:13964 Coq.Logic.Classical_Pred_Type <> not_ex_all_not thm
+R13999:14008 Coq.Logic.Classical_Prop <> not_and_or thm
+R14061:14074 Coq.Logic.Classical_Pred_Type <> not_all_ex_not thm
+R14061:14074 Coq.Logic.Classical_Pred_Type <> not_all_ex_not thm
+R14179:14192 Coq.Logic.Classical_Pred_Type <> not_ex_all_not thm
+R14179:14192 Coq.Logic.Classical_Pred_Type <> not_ex_all_not thm
+R14226:14235 Coq.Logic.Classical_Prop <> not_and_or thm
+R14226:14235 Coq.Logic.Classical_Prop <> not_and_or thm
+R14288:14301 Coq.Logic.Classical_Pred_Type <> not_all_ex_not thm
+R14353:14364 Coq.Logic.Classical_Prop <> imply_to_and thm
+R14410:14413 Coq.Logic.Classical_Prop <> NNPP thm
+R14288:14301 Coq.Logic.Classical_Pred_Type <> not_all_ex_not thm
+R14353:14364 Coq.Logic.Classical_Prop <> imply_to_and thm
+R14410:14413 Coq.Logic.Classical_Prop <> NNPP thm
+R14435:14448 Coq.Logic.Classical_Pred_Type <> ex_not_not_all thm
+binder 14473:14473 <> x:735
+R14478:14479 Coq.Init.Logic <> ::type_scope:'~'_x not
+R14482:14482 Top.Frame_Validation <> x:735 var
+R14500:14513 Coq.Logic.Classical_Pred_Type <> ex_not_not_all thm
+R14531:14533 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R14536:14538 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R14534:14534 Top.Modal_Notations <> :modal::'#'_x not
+R14435:14448 Coq.Logic.Classical_Pred_Type <> ex_not_not_all thm
+binder 14473:14473 <> x:736
+R14478:14479 Coq.Init.Logic <> ::type_scope:'~'_x not
+R14482:14482 Top.Frame_Validation <> x:736 var
+R14500:14513 Coq.Logic.Classical_Pred_Type <> ex_not_not_all thm
+R14531:14533 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R14536:14538 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R14534:14534 Top.Modal_Notations <> :modal::'#'_x not
+R14567:14580 Top.Modal_Library <> validate_model def
+R14622:14624 Coq.Init.Logic <> ::type_scope:'~'_x not
+R14670:14670 Coq.Init.Logic <> ::type_scope:'~'_x not
+R14648:14650 Top.Modal_Notations <> :::x_''''_x_'||-'_x not
+R14652:14656 Top.Modal_Notations <> :::x_''''_x_'||-'_x not
+R14625:14625 Top.Modal_Notations <> :::'['_x_'--'_x_']' not
+R14627:14629 Top.Modal_Notations <> :::'['_x_'--'_x_']' not
+R14646:14647 Top.Modal_Notations <> :::'['_x_'--'_x_']' not
+binder 14636:14636 <> x:737
+R14641:14642 Coq.Init.Logic <> ::type_scope:'~'_x not
+R14645:14645 Top.Frame_Validation <> x:737 var
+R14657:14659 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R14667:14669 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R14660:14660 Top.Modal_Notations <> :modal::'['_x_']'_x not
+R14664:14664 Top.Modal_Notations <> :modal::'['_x_']'_x not
+binder 14661:14663 <> idx:738
+binder 14661:14663 <> idx:739
+R14665:14665 Top.Modal_Notations <> :modal::'#'_x not
+R14622:14624 Coq.Init.Logic <> ::type_scope:'~'_x not
+R14670:14670 Coq.Init.Logic <> ::type_scope:'~'_x not
+R14648:14650 Top.Modal_Notations <> :::x_''''_x_'||-'_x not
+R14652:14656 Top.Modal_Notations <> :::x_''''_x_'||-'_x not
+R14625:14625 Top.Modal_Notations <> :::'['_x_'--'_x_']' not
+R14627:14629 Top.Modal_Notations <> :::'['_x_'--'_x_']' not
+R14646:14647 Top.Modal_Notations <> :::'['_x_'--'_x_']' not
+binder 14636:14636 <> x:740
+R14641:14642 Coq.Init.Logic <> ::type_scope:'~'_x not
+R14645:14645 Top.Frame_Validation <> x:740 var
+R14657:14659 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R14667:14669 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R14660:14660 Top.Modal_Notations <> :modal::'['_x_']'_x not
+R14664:14664 Top.Modal_Notations <> :modal::'['_x_']'_x not
+binder 14661:14663 <> idx:741
+binder 14661:14663 <> idx:742
+R14665:14665 Top.Modal_Notations <> :modal::'#'_x not
+R14899:14910 Coq.Logic.Classical_Prop <> imply_to_and thm
+R14899:14910 Coq.Logic.Classical_Prop <> imply_to_and thm
+R14957:14960 Coq.Logic.Classical_Prop <> NNPP thm
+R14957:14960 Coq.Logic.Classical_Prop <> NNPP thm

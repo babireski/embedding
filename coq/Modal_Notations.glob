@@ -1,0 +1,37 @@
+DIGEST 95cfde7919a961b2da8e14cf1cceb811
+FTop.Modal_Notations
+R15:27 Top.Modal_Library <> <> lib
+R29:32 Coq.Lists.List <> <> lib
+R43:55 Coq.Lists.List ListNotations <> mod
+not 173:173 <> :modal::x
+not 232:232 <> :modal::'('_x_')'
+not 290:290 <> :::'[!'_x_'!]'
+R395:401 Top.Modal_Library <> Implies constr
+not 378:378 <> :modal::x_'->'_x
+R487:489 Top.Modal_Library <> And constr
+R492:498 Top.Modal_Library <> Implies constr
+R506:512 Top.Modal_Library <> Implies constr
+not 469:469 <> :modal::x_'<->'_x
+R602:603 Top.Modal_Library <> Or constr
+not 585:585 <> :modal::x_'\/'_x
+R687:689 Top.Modal_Library <> And constr
+not 670:670 <> :modal::x_'/\'_x
+not 809:809 <> :modal::x_x
+R898:900 Top.Modal_Library <> Neg constr
+not 886:886 <> :modal::'~'_x
+R1201:1203 Top.Modal_Library <> Box constr
+not 1185:1185 <> :modal::'['_x_']'_x
+R1306:1308 Top.Modal_Library <> Dia constr
+not 1290:1290 <> :modal::'<'_x_'>'_x
+R1407:1409 Top.Modal_Library <> Lit constr
+not 1395:1395 <> :modal::'#'_x
+R1530:1540 Top.Modal_Library <> Build_Model constr
+not 1513:1513 <> :::'['_x_'--'_x_']'
+R1574:1586 Top.Modal_Library <> entails_modal def
+not 1558:1558 <> :::x_'||='_x
+R1655:1668 Top.Modal_Library <> validate_model def
+not 1641:1641 <> :::x_'|='_x
+R1741:1751 Top.Modal_Library <> equivalence def
+not 1725:1725 <> :::x_'=|='_x
+R1825:1838 Top.Modal_Library <> fun_validation def
+not 1806:1806 <> :::x_''''_x_'||-'_x

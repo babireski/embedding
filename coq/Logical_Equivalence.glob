@@ -1,0 +1,150 @@
+DIGEST e2b03581d7084da733e274fea637d3ff
+FTop.Logical_Equivalence
+R15:18 Top.Sets <> <> lib
+R20:32 Top.Modal_Library <> <> lib
+R34:48 Top.Modal_Notations <> <> lib
+R50:58 Coq.Logic.Classical <> <> lib
+R60:63 Coq.Lists.List <> <> lib
+R80:94 Top.Modal_Library <> modal_index_set class
+binder 77:77 <> X:2
+prf 105:121 <> singleton_formula
+binder 133:133 <> M:3
+binder 135:135 <> p:4
+R168:171 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R140:151 Top.Modal_Library <> theory_modal def
+R153:153 Top.Logical_Equivalence <> M:3 var
+R156:164 Top.Sets <> Singleton ind
+R166:166 Top.Logical_Equivalence <> p:4 var
+R173:176 Top.Modal_Notations <> :::x_'|='_x not
+R172:172 Top.Logical_Equivalence <> M:3 var
+R177:177 Top.Logical_Equivalence <> p:4 var
+prf 237:255 <> implies_to_or_modal
+binder 267:268 <> φ:5
+binder 270:271 <> ψ:6
+R290:294 Top.Modal_Notations <> :::x_'=|='_x not
+R276:278 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R287:289 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R281:284 Top.Modal_Notations <> :modal::x_'->'_x not
+binder 279:280 <> φ:7
+binder 279:280 <> φ:8
+binder 285:286 <> ψ:9
+binder 285:286 <> ψ:10
+R295:297 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R307:309 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R301:304 Top.Modal_Notations <> :modal::x_'\/'_x not
+R298:298 Top.Modal_Notations <> :modal::'~'_x not
+binder 299:300 <> φ:11
+binder 299:300 <> φ:12
+binder 305:306 <> ψ:13
+binder 305:306 <> ψ:14
+R339:351 Top.Modal_Library <> entails_modal def
+R354:360 Top.Modal_Library <> entails def
+R363:376 Top.Modal_Library <> validate_model def
+R419:435 Top.Logical_Equivalence <> singleton_formula thm
+R419:435 Top.Logical_Equivalence <> singleton_formula thm
+R471:473 Top.Modal_Notations <> :::x_''''_x_'||-'_x not
+R475:479 Top.Modal_Notations <> :::x_''''_x_'||-'_x not
+R456:462 Coq.Logic.Classical_Prop <> classic prfax
+R471:473 Top.Modal_Notations <> :::x_''''_x_'||-'_x not
+R475:479 Top.Modal_Notations <> :::x_''''_x_'||-'_x not
+R456:462 Coq.Logic.Classical_Prop <> classic prfax
+R508:520 Top.Modal_Library <> entails_modal def
+R523:529 Top.Modal_Library <> entails def
+R571:587 Top.Logical_Equivalence <> singleton_formula thm
+R571:587 Top.Logical_Equivalence <> singleton_formula thm
+prf 749:764 <> double_neg_modal
+binder 776:777 <> φ:15
+R792:796 Top.Modal_Notations <> :::x_'=|='_x not
+R782:784 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R789:791 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R785:785 Top.Modal_Notations <> :modal::'~'_x not
+R786:786 Top.Modal_Notations <> :modal::'~'_x not
+binder 787:788 <> φ:16
+binder 787:788 <> φ:17
+R797:798 Top.Logical_Equivalence <> φ:15 var
+R828:840 Top.Modal_Library <> entails_modal def
+R843:849 Top.Modal_Library <> entails def
+R852:865 Top.Modal_Library <> validate_model def
+R886:902 Top.Logical_Equivalence <> singleton_formula thm
+R886:902 Top.Logical_Equivalence <> singleton_formula thm
+R954:957 Coq.Logic.Classical_Prop <> NNPP thm
+R954:957 Coq.Logic.Classical_Prop <> NNPP thm
+R977:989 Top.Modal_Library <> entails_modal def
+R992:998 Top.Modal_Library <> entails def
+R1001:1014 Top.Modal_Library <> validate_model def
+R1046:1062 Top.Logical_Equivalence <> singleton_formula thm
+R1046:1062 Top.Logical_Equivalence <> singleton_formula thm
+R1084:1090 Coq.Logic.Classical_Prop <> classic prfax
+R1121:1124 Coq.Logic.Classical_Prop <> NNPP thm
+R1121:1124 Coq.Logic.Classical_Prop <> NNPP thm
+prf 1169:1188 <> and_to_implies_modal
+binder 1200:1201 <> φ:18
+binder 1203:1204 <> ψ:19
+R1223:1227 Top.Modal_Notations <> :::x_'=|='_x not
+R1209:1211 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R1220:1222 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R1214:1217 Top.Modal_Notations <> :modal::x_'/\'_x not
+binder 1212:1213 <> φ:20
+binder 1212:1213 <> φ:21
+binder 1218:1219 <> ψ:22
+binder 1218:1219 <> ψ:23
+R1228:1230 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R1243:1245 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R1231:1231 Top.Modal_Notations <> :modal::'~'_x not
+R1232:1232 Top.Modal_Notations <> :modal::'('_x_')' not
+R1242:1242 Top.Modal_Notations <> :modal::'('_x_')' not
+R1235:1238 Top.Modal_Notations <> :modal::x_'->'_x not
+binder 1233:1234 <> φ:24
+binder 1233:1234 <> φ:25
+R1239:1239 Top.Modal_Notations <> :modal::'~'_x not
+binder 1240:1241 <> ψ:26
+binder 1240:1241 <> ψ:27
+R1275:1287 Top.Modal_Library <> entails_modal def
+R1290:1296 Top.Modal_Library <> entails def
+R1299:1312 Top.Modal_Library <> validate_model def
+R1350:1363 Top.Modal_Library <> validate_model def
+R1397:1413 Top.Logical_Equivalence <> singleton_formula thm
+R1397:1413 Top.Logical_Equivalence <> singleton_formula thm
+R1432:1434 Coq.Init.Logic <> not def
+R1538:1550 Top.Modal_Library <> entails_modal def
+R1553:1559 Top.Modal_Library <> entails def
+R1597:1610 Top.Modal_Library <> validate_model def
+R1652:1668 Top.Logical_Equivalence <> singleton_formula thm
+R1652:1668 Top.Logical_Equivalence <> singleton_formula thm
+R1737:1743 Coq.Logic.Classical_Prop <> classic prfax
+R1817:1823 Coq.Logic.Classical_Prop <> classic prfax
+prf 1878:1897 <> diamond_to_box_modal
+binder 1909:1910 <> φ:28
+binder 1912:1914 <> idx:29
+R1932:1936 Top.Modal_Notations <> :::x_'=|='_x not
+R1919:1921 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R1929:1931 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R1922:1922 Top.Modal_Notations <> :modal::'<'_x_'>'_x not
+R1926:1926 Top.Modal_Notations <> :modal::'<'_x_'>'_x not
+binder 1923:1925 <> idx:30
+binder 1923:1925 <> idx:31
+binder 1927:1928 <> φ:32
+binder 1927:1928 <> φ:33
+R1937:1939 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R1949:1951 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R1940:1940 Top.Modal_Notations <> :modal::'~'_x not
+R1941:1941 Top.Modal_Notations <> :modal::'['_x_']'_x not
+R1945:1945 Top.Modal_Notations <> :modal::'['_x_']'_x not
+binder 1942:1944 <> idx:34
+binder 1942:1944 <> idx:35
+R1946:1946 Top.Modal_Notations <> :modal::'~'_x not
+binder 1947:1948 <> φ:36
+binder 1947:1948 <> φ:37
+R1981:1993 Top.Modal_Library <> entails_modal def
+R1996:2002 Top.Modal_Library <> entails def
+R2005:2018 Top.Modal_Library <> validate_model def
+R2060:2076 Top.Logical_Equivalence <> singleton_formula thm
+R2060:2076 Top.Logical_Equivalence <> singleton_formula thm
+R2132:2138 Coq.Logic.Classical_Prop <> classic prfax
+R2198:2210 Top.Modal_Library <> entails_modal def
+R2213:2219 Top.Modal_Library <> entails def
+R2254:2267 Top.Modal_Library <> validate_model def
+R2302:2304 Coq.Init.Logic <> not def
+R2334:2350 Top.Logical_Equivalence <> singleton_formula thm
+R2334:2350 Top.Logical_Equivalence <> singleton_formula thm
+R2406:2412 Coq.Logic.Classical_Prop <> classic prfax

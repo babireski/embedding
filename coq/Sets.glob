@@ -1,0 +1,78 @@
+DIGEST 5e4dd8a7ff8d5308253b6ab651fde808
+FTop.Sets
+R15:18 Coq.Lists.List <> <> lib
+ind 32:40 <> Singleton
+constr 71:82 <> Singleton_mk
+binder 43:43 <> T:1
+R50:50 Top.Sets <> T:1 var
+binder 47:47 <> t:2
+R55:58 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R85:93 Top.Sets <> Singleton:3 ind
+R97:97 Top.Sets <> t:2 var
+R95:95 Top.Sets <> t:2 var
+scheme 32:40 <> Singleton_rect
+scheme 32:40 <> Singleton_ind
+scheme 32:40 <> Singleton_rec
+scheme 32:40 <> Singleton_sind
+def 112:116 <> Union
+binder 119:119 <> T:5
+R129:132 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R128:128 Top.Sets <> T:5 var
+binder 123:123 <> A:6
+binder 125:125 <> B:7
+R141:144 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R140:140 Top.Sets <> T:5 var
+binder 159:159 <> t:8
+R167:170 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R164:164 Top.Sets <> A:6 var
+R166:166 Top.Sets <> t:8 var
+R171:171 Top.Sets <> B:7 var
+R173:173 Top.Sets <> t:8 var
+def 188:194 <> UnionOf
+binder 197:197 <> I:9
+binder 199:199 <> T:10
+R207:210 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R206:206 Top.Sets <> I:9 var
+R212:215 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R211:211 Top.Sets <> T:10 var
+binder 203:203 <> A:11
+R224:227 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R223:223 Top.Sets <> T:10 var
+binder 242:242 <> t:12
+R251:257 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R259:260 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 258:258 <> i:13
+R261:261 Top.Sets <> A:11 var
+R265:265 Top.Sets <> t:12 var
+R263:263 Top.Sets <> i:13 var
+def 280:285 <> Subset
+binder 288:288 <> T:14
+R298:301 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R297:297 Top.Sets <> T:14 var
+binder 292:292 <> A:15
+binder 294:294 <> B:16
+R329:329 Top.Sets <> T:14 var
+binder 326:326 <> t:17
+R337:340 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R334:334 Top.Sets <> A:15 var
+R336:336 Top.Sets <> t:17 var
+R341:341 Top.Sets <> B:16 var
+R343:343 Top.Sets <> t:17 var
+def 358:362 <> Empty
+binder 365:365 <> T:18
+R372:372 Top.Sets <> T:18 var
+binder 369:369 <> t:19
+R386:390 Coq.Init.Logic <> False ind
+abbrev 403:408 <> Extend
+R420:424 Top.Sets <> Union def
+R427:435 Top.Sets <> Singleton ind
+def 456:458 <> Fin
+binder 461:461 <> T:20
+R469:472 Coq.Init.Datatypes <> list ind
+R474:474 Top.Sets <> T:20 var
+binder 465:466 <> ps:21
+R481:481 Top.Sets <> T:20 var
+binder 478:478 <> q:22
+R495:496 Coq.Lists.List <> In def
+R500:501 Top.Sets <> ps:21 var
+R498:498 Top.Sets <> q:22 var

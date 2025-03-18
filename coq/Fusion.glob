@@ -1,0 +1,850 @@
+DIGEST 8d165c5983743e81ac87c057a1eefa4b
+FTop.Fusion
+R15:22 Coq.Program.Equality <> <> lib
+R40:52 Top.Modal_Library <> <> lib
+R54:69 Top.Deductive_System <> <> lib
+R71:74 Top.Sets <> <> lib
+rec 168:176 <> lift_conv
+proj 203:206 <> lift
+binder 179:179 <> A:1
+binder 181:181 <> B:2
+R210:213 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R209:209 Top.Fusion <> A:1 var
+R214:214 Top.Fusion <> B:2 var
+sec 228:233 <> Fusion
+binder 265:266 <> I1:5
+binder 286:287 <> I2:6
+def 363:368 <> fusion
+R384:386 Coq.Init.Datatypes <> ::type_scope:x_'+'_x not
+R382:383 Top.Fusion <> Fusion.I1 var
+R387:388 Top.Fusion <> Fusion.I2 var
+R457:471 Top.Modal_Library <> modal_index_set class
+R473:474 Top.Fusion <> Fusion.I1 var
+binder 452:453 <> X1:7
+R494:508 Top.Modal_Library <> modal_index_set class
+R510:511 Top.Fusion <> Fusion.I2 var
+binder 489:490 <> X2:8
+inst 555:570 <> fusion_index_set
+R574:588 Top.Modal_Library <> modal_index_set class
+R590:595 Top.Fusion <> fusion def
+R607:607 Top.Modal_Library <> C meth
+R607:607 Top.Modal_Library <> C meth
+R607:607 Top.Modal_Library <> C meth
+binder 609:609 <> i:9
+R626:626 Top.Fusion <> i:9 var
+R641:643 Coq.Init.Datatypes <> inl constr
+R651:651 Top.Modal_Library <> C meth
+R653:654 Top.Fusion <> Fusion.I1 var
+R656:657 Top.Fusion <> Fusion.X1 var
+R669:671 Coq.Init.Datatypes <> inr constr
+R679:679 Top.Modal_Library <> C meth
+R681:682 Top.Fusion <> Fusion.I2 var
+R684:685 Top.Fusion <> Fusion.X2 var
+abbrev 833:844 <> modal_index1
+R851:861 Top.Modal_Library <> modal_index rec
+R863:864 Top.Fusion <> Fusion.I1 var
+R866:867 Top.Fusion <> Fusion.X1 var
+abbrev 888:899 <> modal_index2
+R906:916 Top.Modal_Library <> modal_index rec
+R918:919 Top.Fusion <> Fusion.I2 var
+R921:922 Top.Fusion <> Fusion.X2 var
+abbrev 943:954 <> modal_indexF
+R961:971 Top.Modal_Library <> modal_index rec
+R973:978 Top.Fusion <> fusion def
+R980:995 Top.Fusion <> fusion_index_set inst
+abbrev 1092:1099 <> formula1
+R1106:1112 Top.Modal_Library <> formula ind
+R1114:1115 Top.Fusion <> Fusion.I1 var
+R1117:1118 Top.Fusion <> Fusion.X1 var
+abbrev 1139:1146 <> formula2
+R1153:1159 Top.Modal_Library <> formula ind
+R1161:1162 Top.Fusion <> Fusion.I2 var
+R1164:1165 Top.Fusion <> Fusion.X2 var
+abbrev 1186:1193 <> formulaF
+R1200:1206 Top.Modal_Library <> formula ind
+R1208:1213 Top.Fusion <> fusion def
+R1215:1230 Top.Fusion <> fusion_index_set inst
+abbrev 1325:1330 <> Frame1
+R1337:1341 Top.Modal_Library <> Frame rec
+R1343:1344 Top.Fusion <> Fusion.I1 var
+R1346:1347 Top.Fusion <> Fusion.X1 var
+abbrev 1368:1373 <> Frame2
+R1380:1384 Top.Modal_Library <> Frame rec
+R1386:1387 Top.Fusion <> Fusion.I2 var
+R1389:1390 Top.Fusion <> Fusion.X2 var
+abbrev 1411:1416 <> FrameF
+R1423:1427 Top.Modal_Library <> Frame rec
+R1429:1434 Top.Fusion <> fusion def
+R1436:1451 Top.Fusion <> fusion_index_set inst
+abbrev 1546:1551 <> Model1
+R1558:1562 Top.Modal_Library <> Model rec
+R1564:1565 Top.Fusion <> Fusion.I1 var
+R1567:1568 Top.Fusion <> Fusion.X1 var
+abbrev 1589:1594 <> Model2
+R1601:1605 Top.Modal_Library <> Model rec
+R1607:1608 Top.Fusion <> Fusion.I2 var
+R1610:1611 Top.Fusion <> Fusion.X2 var
+abbrev 1632:1637 <> ModelF
+R1644:1648 Top.Modal_Library <> Model rec
+R1650:1655 Top.Fusion <> fusion def
+R1657:1672 Top.Fusion <> fusion_index_set inst
+abbrev 1771:1776 <> axiom1
+R1783:1787 Top.Deductive_System <> axiom ind
+R1789:1790 Top.Fusion <> Fusion.I1 var
+R1792:1793 Top.Fusion <> Fusion.X1 var
+abbrev 1814:1819 <> axiom2
+R1826:1830 Top.Deductive_System <> axiom ind
+R1832:1833 Top.Fusion <> Fusion.I2 var
+R1835:1836 Top.Fusion <> Fusion.X2 var
+abbrev 1857:1862 <> axiomF
+R1869:1873 Top.Deductive_System <> axiom ind
+R1875:1880 Top.Fusion <> fusion def
+R1882:1897 Top.Fusion <> fusion_index_set inst
+def 1958:1968 <> join_frames
+R1975:1980 Top.Fusion <> Frame1 abbrev
+binder 1971:1972 <> f1:11
+R1988:1993 Top.Fusion <> Frame2 abbrev
+binder 1984:1985 <> f2:12
+R2004:2006 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2000:2000 Top.Modal_Library <> W proj
+R2002:2003 Top.Fusion <> f2:12 var
+R2007:2007 Top.Modal_Library <> W proj
+R2009:2010 Top.Fusion <> f1:11 var
+binder 1997:1997 <> H:13
+R2014:2019 Top.Fusion <> FrameF abbrev
+R2055:2055 Top.Modal_Library <> W proj
+R2055:2055 Top.Modal_Library <> W proj
+R2118:2118 Top.Modal_Library <> R proj
+R2124:2140 Top.Modal_Library <> Build_modal_index constr
+R2118:2118 Top.Modal_Library <> R proj
+R2124:2140 Top.Modal_Library <> Build_modal_index constr
+R2204:2204 Top.Modal_Library <> R proj
+R2210:2226 Top.Modal_Library <> Build_modal_index constr
+R2204:2204 Top.Modal_Library <> R proj
+R2210:2226 Top.Modal_Library <> Build_modal_index constr
+inst 2357:2367 <> index_lift1
+R2370:2378 Top.Fusion <> lift_conv class
+R2380:2391 Top.Fusion <> modal_index1 abbrev
+R2393:2404 Top.Fusion <> modal_indexF abbrev
+R2510:2512 Coq.Init.Datatypes <> inl constr
+R2510:2512 Coq.Init.Datatypes <> inl constr
+inst 2566:2576 <> index_lift2
+R2579:2587 Top.Fusion <> lift_conv class
+R2589:2600 Top.Fusion <> modal_index2 abbrev
+R2602:2613 Top.Fusion <> modal_indexF abbrev
+R2719:2721 Coq.Init.Datatypes <> inr constr
+R2719:2721 Coq.Init.Datatypes <> inr constr
+inst 2861:2873 <> formula_lift1
+R2876:2884 Top.Fusion <> lift_conv class
+R2886:2893 Top.Fusion <> formula1 abbrev
+R2895:2902 Top.Fusion <> formulaF abbrev
+R3072:3075 Top.Fusion <> lift meth
+R3072:3075 Top.Fusion <> lift meth
+R3142:3145 Top.Fusion <> lift meth
+R3142:3145 Top.Fusion <> lift meth
+inst 3418:3430 <> formula_lift2
+R3433:3441 Top.Fusion <> lift_conv class
+R3443:3450 Top.Fusion <> formula2 abbrev
+R3452:3459 Top.Fusion <> formulaF abbrev
+R3629:3632 Top.Fusion <> lift meth
+R3629:3632 Top.Fusion <> lift meth
+R3699:3702 Top.Fusion <> lift meth
+R3699:3702 Top.Fusion <> lift meth
+R4155:4162 Top.Fusion <> formulaF abbrev
+R4155:4162 Top.Fusion <> formulaF abbrev
+R4180:4183 Top.Fusion <> lift meth
+inst 4350:4360 <> axiom_lift1
+R4363:4371 Top.Fusion <> lift_conv class
+R4373:4378 Top.Fusion <> axiom1 abbrev
+R4380:4385 Top.Fusion <> axiomF abbrev
+R4474:4477 Top.Fusion <> lift meth
+R4474:4477 Top.Fusion <> lift meth
+R4498:4501 Top.Fusion <> lift meth
+R4498:4501 Top.Fusion <> lift meth
+R4544:4547 Top.Fusion <> lift meth
+R4544:4547 Top.Fusion <> lift meth
+R4568:4571 Top.Fusion <> lift meth
+R4568:4571 Top.Fusion <> lift meth
+R4593:4596 Top.Fusion <> lift meth
+R4593:4596 Top.Fusion <> lift meth
+R4639:4642 Top.Fusion <> lift meth
+R4639:4642 Top.Fusion <> lift meth
+R4663:4666 Top.Fusion <> lift meth
+R4663:4666 Top.Fusion <> lift meth
+R4709:4712 Top.Fusion <> lift meth
+R4709:4712 Top.Fusion <> lift meth
+R4733:4736 Top.Fusion <> lift meth
+R4733:4736 Top.Fusion <> lift meth
+R4779:4782 Top.Fusion <> lift meth
+R4779:4782 Top.Fusion <> lift meth
+R4803:4806 Top.Fusion <> lift meth
+R4803:4806 Top.Fusion <> lift meth
+R4849:4852 Top.Fusion <> lift meth
+R4849:4852 Top.Fusion <> lift meth
+R4873:4876 Top.Fusion <> lift meth
+R4873:4876 Top.Fusion <> lift meth
+R4919:4922 Top.Fusion <> lift meth
+R4919:4922 Top.Fusion <> lift meth
+R4943:4946 Top.Fusion <> lift meth
+R4943:4946 Top.Fusion <> lift meth
+R4989:4992 Top.Fusion <> lift meth
+R4989:4992 Top.Fusion <> lift meth
+R5013:5016 Top.Fusion <> lift meth
+R5013:5016 Top.Fusion <> lift meth
+R5059:5062 Top.Fusion <> lift meth
+R5059:5062 Top.Fusion <> lift meth
+R5083:5086 Top.Fusion <> lift meth
+R5083:5086 Top.Fusion <> lift meth
+R5108:5111 Top.Fusion <> lift meth
+R5108:5111 Top.Fusion <> lift meth
+R5153:5156 Top.Fusion <> lift meth
+R5153:5156 Top.Fusion <> lift meth
+R5199:5202 Top.Fusion <> lift meth
+R5199:5202 Top.Fusion <> lift meth
+R5223:5226 Top.Fusion <> lift meth
+R5223:5226 Top.Fusion <> lift meth
+R5247:5250 Top.Fusion <> lift meth
+R5247:5250 Top.Fusion <> lift meth
+R5294:5297 Top.Fusion <> lift meth
+R5294:5297 Top.Fusion <> lift meth
+R5318:5321 Top.Fusion <> lift meth
+R5318:5321 Top.Fusion <> lift meth
+R5364:5367 Top.Fusion <> lift meth
+R5364:5367 Top.Fusion <> lift meth
+R5388:5391 Top.Fusion <> lift meth
+R5388:5391 Top.Fusion <> lift meth
+R5434:5437 Top.Fusion <> lift meth
+R5434:5437 Top.Fusion <> lift meth
+R5458:5461 Top.Fusion <> lift meth
+R5458:5461 Top.Fusion <> lift meth
+R5504:5507 Top.Fusion <> lift meth
+R5504:5507 Top.Fusion <> lift meth
+R5528:5531 Top.Fusion <> lift meth
+R5528:5531 Top.Fusion <> lift meth
+R5574:5577 Top.Fusion <> lift meth
+R5574:5577 Top.Fusion <> lift meth
+R5598:5601 Top.Fusion <> lift meth
+R5598:5601 Top.Fusion <> lift meth
+R5644:5647 Top.Fusion <> lift meth
+R5644:5647 Top.Fusion <> lift meth
+R5668:5671 Top.Fusion <> lift meth
+R5668:5671 Top.Fusion <> lift meth
+R5714:5717 Top.Fusion <> lift meth
+R5714:5717 Top.Fusion <> lift meth
+R5738:5741 Top.Fusion <> lift meth
+R5738:5741 Top.Fusion <> lift meth
+inst 5770:5783 <> formula_axiom2
+R5786:5794 Top.Fusion <> lift_conv class
+R5796:5801 Top.Fusion <> axiom2 abbrev
+R5803:5808 Top.Fusion <> axiomF abbrev
+R5897:5900 Top.Fusion <> lift meth
+R5897:5900 Top.Fusion <> lift meth
+R5921:5924 Top.Fusion <> lift meth
+R5921:5924 Top.Fusion <> lift meth
+R5967:5970 Top.Fusion <> lift meth
+R5967:5970 Top.Fusion <> lift meth
+R5991:5994 Top.Fusion <> lift meth
+R5991:5994 Top.Fusion <> lift meth
+R6016:6019 Top.Fusion <> lift meth
+R6016:6019 Top.Fusion <> lift meth
+R6062:6065 Top.Fusion <> lift meth
+R6062:6065 Top.Fusion <> lift meth
+R6086:6089 Top.Fusion <> lift meth
+R6086:6089 Top.Fusion <> lift meth
+R6132:6135 Top.Fusion <> lift meth
+R6132:6135 Top.Fusion <> lift meth
+R6156:6159 Top.Fusion <> lift meth
+R6156:6159 Top.Fusion <> lift meth
+R6202:6205 Top.Fusion <> lift meth
+R6202:6205 Top.Fusion <> lift meth
+R6226:6229 Top.Fusion <> lift meth
+R6226:6229 Top.Fusion <> lift meth
+R6272:6275 Top.Fusion <> lift meth
+R6272:6275 Top.Fusion <> lift meth
+R6296:6299 Top.Fusion <> lift meth
+R6296:6299 Top.Fusion <> lift meth
+R6342:6345 Top.Fusion <> lift meth
+R6342:6345 Top.Fusion <> lift meth
+R6366:6369 Top.Fusion <> lift meth
+R6366:6369 Top.Fusion <> lift meth
+R6412:6415 Top.Fusion <> lift meth
+R6412:6415 Top.Fusion <> lift meth
+R6436:6439 Top.Fusion <> lift meth
+R6436:6439 Top.Fusion <> lift meth
+R6482:6485 Top.Fusion <> lift meth
+R6482:6485 Top.Fusion <> lift meth
+R6506:6509 Top.Fusion <> lift meth
+R6506:6509 Top.Fusion <> lift meth
+R6531:6534 Top.Fusion <> lift meth
+R6531:6534 Top.Fusion <> lift meth
+R6576:6579 Top.Fusion <> lift meth
+R6576:6579 Top.Fusion <> lift meth
+R6622:6625 Top.Fusion <> lift meth
+R6622:6625 Top.Fusion <> lift meth
+R6646:6649 Top.Fusion <> lift meth
+R6646:6649 Top.Fusion <> lift meth
+R6670:6673 Top.Fusion <> lift meth
+R6670:6673 Top.Fusion <> lift meth
+R6717:6720 Top.Fusion <> lift meth
+R6717:6720 Top.Fusion <> lift meth
+R6741:6744 Top.Fusion <> lift meth
+R6741:6744 Top.Fusion <> lift meth
+R6787:6790 Top.Fusion <> lift meth
+R6787:6790 Top.Fusion <> lift meth
+R6811:6814 Top.Fusion <> lift meth
+R6811:6814 Top.Fusion <> lift meth
+R6857:6860 Top.Fusion <> lift meth
+R6857:6860 Top.Fusion <> lift meth
+R6881:6884 Top.Fusion <> lift meth
+R6881:6884 Top.Fusion <> lift meth
+R6927:6930 Top.Fusion <> lift meth
+R6927:6930 Top.Fusion <> lift meth
+R6951:6954 Top.Fusion <> lift meth
+R6951:6954 Top.Fusion <> lift meth
+R6997:7000 Top.Fusion <> lift meth
+R6997:7000 Top.Fusion <> lift meth
+R7021:7024 Top.Fusion <> lift meth
+R7021:7024 Top.Fusion <> lift meth
+R7067:7070 Top.Fusion <> lift meth
+R7067:7070 Top.Fusion <> lift meth
+R7091:7094 Top.Fusion <> lift meth
+R7091:7094 Top.Fusion <> lift meth
+R7137:7140 Top.Fusion <> lift meth
+R7137:7140 Top.Fusion <> lift meth
+R7161:7164 Top.Fusion <> lift meth
+R7161:7164 Top.Fusion <> lift meth
+prf 7250:7276 <> instantiate_lift_inversion1
+R7296:7301 Top.Fusion <> axiom1 abbrev
+binder 7293:7293 <> p:14
+R7308:7315 Top.Fusion <> formulaF abbrev
+binder 7305:7305 <> f:15
+R7349:7358 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7345:7347 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7325:7335 Top.Deductive_System <> instantiate def
+R7338:7341 Top.Fusion <> lift meth
+R7343:7343 Top.Fusion <> p:14 var
+R7348:7348 Top.Fusion <> f:15 var
+R7360:7362 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7359:7359 Top.Fusion <> f:15 var
+R7363:7366 Top.Fusion <> lift meth
+R7369:7379 Top.Deductive_System <> instantiate def
+R7381:7381 Top.Fusion <> p:14 var
+prf 7445:7471 <> instantiate_lift_inversion2
+R7489:7494 Top.Fusion <> axiom2 abbrev
+binder 7486:7486 <> p:16
+R7501:7508 Top.Fusion <> formulaF abbrev
+binder 7498:7498 <> f:17
+R7540:7547 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7536:7538 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7516:7526 Top.Deductive_System <> instantiate def
+R7529:7532 Top.Fusion <> lift meth
+R7534:7534 Top.Fusion <> p:16 var
+R7539:7539 Top.Fusion <> f:17 var
+R7549:7551 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7548:7548 Top.Fusion <> f:17 var
+R7552:7555 Top.Fusion <> lift meth
+R7558:7568 Top.Deductive_System <> instantiate def
+R7570:7570 Top.Fusion <> p:16 var
+prf 7720:7731 <> split_frame1
+R7744:7747 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7738:7743 Top.Fusion <> FrameF abbrev
+R7748:7753 Top.Fusion <> Frame1 abbrev
+R7919:7921 Coq.Init.Datatypes <> inl constr
+R7919:7921 Coq.Init.Datatypes <> inl constr
+prf 7999:8010 <> split_model1
+R8023:8026 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8017:8022 Top.Fusion <> ModelF abbrev
+R8027:8032 Top.Fusion <> Model1 abbrev
+R8113:8124 Top.Fusion <> split_frame1 thm
+R8113:8124 Top.Fusion <> split_frame1 thm
+inst 8275:8291 <> lift_split_model1
+binder 8293:8293 <> M:18
+R8297:8305 Top.Fusion <> lift_conv class
+R8308:8308 Top.Modal_Library <> W proj
+R8311:8311 Top.Modal_Library <> F proj
+R8314:8325 Top.Fusion <> split_model1 thm
+R8327:8327 Top.Fusion <> M:18 var
+R8333:8333 Top.Modal_Library <> W proj
+R8336:8336 Top.Modal_Library <> F proj
+R8338:8338 Top.Fusion <> M:18 var
+prf 8643:8664 <> split_model1_coherence
+binder 8678:8678 <> M:19
+binder 8680:8680 <> f:20
+binder 8682:8682 <> w:21
+R8724:8734 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R8689:8702 Top.Modal_Library <> fun_validation def
+R8705:8716 Top.Fusion <> split_model1 thm
+R8718:8718 Top.Fusion <> M:19 var
+R8721:8721 Top.Fusion <> w:21 var
+R8723:8723 Top.Fusion <> f:20 var
+R8735:8748 Top.Modal_Library <> fun_validation def
+R8750:8750 Top.Fusion <> M:19 var
+R8753:8756 Top.Fusion <> lift meth
+R8758:8758 Top.Fusion <> w:21 var
+R8762:8765 Top.Fusion <> lift meth
+R8767:8767 Top.Fusion <> f:20 var
+R8846:8856 Top.Modal_Library <> Build_Frame constr
+R8846:8856 Top.Modal_Library <> Build_Frame constr
+R8878:8888 Top.Modal_Library <> Build_Model constr
+R8878:8888 Top.Modal_Library <> Build_Model constr
+R9008:9011 Top.Fusion <> lift meth
+R9014:9016 Top.Modal_Library <> Neg constr
+R9028:9030 Top.Modal_Library <> Neg constr
+R9033:9036 Top.Fusion <> lift meth
+R9008:9011 Top.Fusion <> lift meth
+R9014:9016 Top.Modal_Library <> Neg constr
+R9028:9030 Top.Modal_Library <> Neg constr
+R9033:9036 Top.Fusion <> lift meth
+R9134:9137 Top.Fusion <> lift meth
+R9140:9142 Top.Modal_Library <> Neg constr
+R9154:9156 Top.Modal_Library <> Neg constr
+R9159:9162 Top.Fusion <> lift meth
+R9134:9137 Top.Fusion <> lift meth
+R9140:9142 Top.Modal_Library <> Neg constr
+R9154:9156 Top.Modal_Library <> Neg constr
+R9159:9162 Top.Fusion <> lift meth
+R9265:9268 Top.Fusion <> lift meth
+R9271:9273 Top.Modal_Library <> Box constr
+R9287:9289 Top.Modal_Library <> Box constr
+R9292:9295 Top.Fusion <> lift meth
+R9301:9304 Top.Fusion <> lift meth
+R9265:9268 Top.Fusion <> lift meth
+R9271:9273 Top.Modal_Library <> Box constr
+R9287:9289 Top.Modal_Library <> Box constr
+R9292:9295 Top.Fusion <> lift meth
+R9301:9304 Top.Fusion <> lift meth
+R9403:9406 Top.Fusion <> lift meth
+R9409:9411 Top.Modal_Library <> Box constr
+R9425:9427 Top.Modal_Library <> Box constr
+R9430:9433 Top.Fusion <> lift meth
+R9439:9442 Top.Fusion <> lift meth
+R9403:9406 Top.Fusion <> lift meth
+R9409:9411 Top.Modal_Library <> Box constr
+R9425:9427 Top.Modal_Library <> Box constr
+R9430:9433 Top.Fusion <> lift meth
+R9439:9442 Top.Fusion <> lift meth
+R9546:9549 Top.Fusion <> lift meth
+R9552:9554 Top.Modal_Library <> Dia constr
+R9568:9570 Top.Modal_Library <> Dia constr
+R9573:9576 Top.Fusion <> lift meth
+R9582:9585 Top.Fusion <> lift meth
+R9546:9549 Top.Fusion <> lift meth
+R9552:9554 Top.Modal_Library <> Dia constr
+R9568:9570 Top.Modal_Library <> Dia constr
+R9573:9576 Top.Fusion <> lift meth
+R9582:9585 Top.Fusion <> lift meth
+R9699:9702 Top.Fusion <> lift meth
+R9705:9707 Top.Modal_Library <> Dia constr
+R9721:9723 Top.Modal_Library <> Dia constr
+R9726:9729 Top.Fusion <> lift meth
+R9735:9738 Top.Fusion <> lift meth
+R9699:9702 Top.Fusion <> lift meth
+R9705:9707 Top.Modal_Library <> Dia constr
+R9721:9723 Top.Modal_Library <> Dia constr
+R9726:9729 Top.Fusion <> lift meth
+R9735:9738 Top.Fusion <> lift meth
+R9857:9860 Top.Fusion <> lift meth
+R9863:9865 Top.Modal_Library <> And constr
+R9881:9883 Top.Modal_Library <> And constr
+R9886:9889 Top.Fusion <> lift meth
+R9896:9899 Top.Fusion <> lift meth
+R9857:9860 Top.Fusion <> lift meth
+R9863:9865 Top.Modal_Library <> And constr
+R9881:9883 Top.Modal_Library <> And constr
+R9886:9889 Top.Fusion <> lift meth
+R9896:9899 Top.Fusion <> lift meth
+R10014:10017 Top.Fusion <> lift meth
+R10020:10022 Top.Modal_Library <> And constr
+R10038:10040 Top.Modal_Library <> And constr
+R10043:10046 Top.Fusion <> lift meth
+R10053:10056 Top.Fusion <> lift meth
+R10014:10017 Top.Fusion <> lift meth
+R10020:10022 Top.Modal_Library <> And constr
+R10038:10040 Top.Modal_Library <> And constr
+R10043:10046 Top.Fusion <> lift meth
+R10053:10056 Top.Fusion <> lift meth
+R10176:10179 Top.Fusion <> lift meth
+R10182:10183 Top.Modal_Library <> Or constr
+R10199:10200 Top.Modal_Library <> Or constr
+R10203:10206 Top.Fusion <> lift meth
+R10213:10216 Top.Fusion <> lift meth
+R10176:10179 Top.Fusion <> lift meth
+R10182:10183 Top.Modal_Library <> Or constr
+R10199:10200 Top.Modal_Library <> Or constr
+R10203:10206 Top.Fusion <> lift meth
+R10213:10216 Top.Fusion <> lift meth
+R10329:10332 Top.Fusion <> lift meth
+R10335:10336 Top.Modal_Library <> Or constr
+R10352:10353 Top.Modal_Library <> Or constr
+R10356:10359 Top.Fusion <> lift meth
+R10366:10369 Top.Fusion <> lift meth
+R10329:10332 Top.Fusion <> lift meth
+R10335:10336 Top.Modal_Library <> Or constr
+R10352:10353 Top.Modal_Library <> Or constr
+R10356:10359 Top.Fusion <> lift meth
+R10366:10369 Top.Fusion <> lift meth
+R10487:10490 Top.Fusion <> lift meth
+R10493:10499 Top.Modal_Library <> Implies constr
+R10515:10521 Top.Modal_Library <> Implies constr
+R10524:10527 Top.Fusion <> lift meth
+R10534:10537 Top.Fusion <> lift meth
+R10487:10490 Top.Fusion <> lift meth
+R10493:10499 Top.Modal_Library <> Implies constr
+R10515:10521 Top.Modal_Library <> Implies constr
+R10524:10527 Top.Fusion <> lift meth
+R10534:10537 Top.Fusion <> lift meth
+R10654:10657 Top.Fusion <> lift meth
+R10660:10666 Top.Modal_Library <> Implies constr
+R10682:10688 Top.Modal_Library <> Implies constr
+R10691:10694 Top.Fusion <> lift meth
+R10701:10704 Top.Fusion <> lift meth
+R10654:10657 Top.Fusion <> lift meth
+R10660:10666 Top.Modal_Library <> Implies constr
+R10682:10688 Top.Modal_Library <> Implies constr
+R10691:10694 Top.Fusion <> lift meth
+R10701:10704 Top.Fusion <> lift meth
+prf 10870:10881 <> split_frame2
+R10894:10897 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10888:10893 Top.Fusion <> FrameF abbrev
+R10898:10903 Top.Fusion <> Frame2 abbrev
+R11069:11071 Coq.Init.Datatypes <> inr constr
+R11069:11071 Coq.Init.Datatypes <> inr constr
+prf 11149:11160 <> split_model2
+R11173:11176 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11167:11172 Top.Fusion <> ModelF abbrev
+R11177:11182 Top.Fusion <> Model2 abbrev
+R11263:11274 Top.Fusion <> split_frame2 thm
+R11263:11274 Top.Fusion <> split_frame2 thm
+inst 11344:11360 <> lift_split_model2
+binder 11362:11362 <> M:22
+R11366:11374 Top.Fusion <> lift_conv class
+R11377:11377 Top.Modal_Library <> W proj
+R11380:11380 Top.Modal_Library <> F proj
+R11383:11394 Top.Fusion <> split_model2 thm
+R11396:11396 Top.Fusion <> M:22 var
+R11402:11402 Top.Modal_Library <> W proj
+R11405:11405 Top.Modal_Library <> F proj
+R11407:11407 Top.Fusion <> M:22 var
+prf 11529:11550 <> split_model2_coherence
+binder 11564:11564 <> M:23
+binder 11566:11566 <> f:24
+binder 11568:11568 <> w:25
+R11610:11620 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R11575:11588 Top.Modal_Library <> fun_validation def
+R11591:11602 Top.Fusion <> split_model2 thm
+R11604:11604 Top.Fusion <> M:23 var
+R11607:11607 Top.Fusion <> w:25 var
+R11609:11609 Top.Fusion <> f:24 var
+R11621:11634 Top.Modal_Library <> fun_validation def
+R11636:11636 Top.Fusion <> M:23 var
+R11639:11642 Top.Fusion <> lift meth
+R11644:11644 Top.Fusion <> w:25 var
+R11648:11651 Top.Fusion <> lift meth
+R11653:11653 Top.Fusion <> f:24 var
+R11731:11741 Top.Modal_Library <> Build_Frame constr
+R11731:11741 Top.Modal_Library <> Build_Frame constr
+R11763:11773 Top.Modal_Library <> Build_Model constr
+R11763:11773 Top.Modal_Library <> Build_Model constr
+R11893:11896 Top.Fusion <> lift meth
+R11899:11901 Top.Modal_Library <> Neg constr
+R11913:11915 Top.Modal_Library <> Neg constr
+R11918:11921 Top.Fusion <> lift meth
+R11893:11896 Top.Fusion <> lift meth
+R11899:11901 Top.Modal_Library <> Neg constr
+R11913:11915 Top.Modal_Library <> Neg constr
+R11918:11921 Top.Fusion <> lift meth
+R12019:12022 Top.Fusion <> lift meth
+R12025:12027 Top.Modal_Library <> Neg constr
+R12039:12041 Top.Modal_Library <> Neg constr
+R12044:12047 Top.Fusion <> lift meth
+R12019:12022 Top.Fusion <> lift meth
+R12025:12027 Top.Modal_Library <> Neg constr
+R12039:12041 Top.Modal_Library <> Neg constr
+R12044:12047 Top.Fusion <> lift meth
+R12150:12153 Top.Fusion <> lift meth
+R12156:12158 Top.Modal_Library <> Box constr
+R12172:12174 Top.Modal_Library <> Box constr
+R12177:12180 Top.Fusion <> lift meth
+R12186:12189 Top.Fusion <> lift meth
+R12150:12153 Top.Fusion <> lift meth
+R12156:12158 Top.Modal_Library <> Box constr
+R12172:12174 Top.Modal_Library <> Box constr
+R12177:12180 Top.Fusion <> lift meth
+R12186:12189 Top.Fusion <> lift meth
+R12288:12291 Top.Fusion <> lift meth
+R12294:12296 Top.Modal_Library <> Box constr
+R12310:12312 Top.Modal_Library <> Box constr
+R12315:12318 Top.Fusion <> lift meth
+R12324:12327 Top.Fusion <> lift meth
+R12288:12291 Top.Fusion <> lift meth
+R12294:12296 Top.Modal_Library <> Box constr
+R12310:12312 Top.Modal_Library <> Box constr
+R12315:12318 Top.Fusion <> lift meth
+R12324:12327 Top.Fusion <> lift meth
+R12431:12434 Top.Fusion <> lift meth
+R12437:12439 Top.Modal_Library <> Dia constr
+R12453:12455 Top.Modal_Library <> Dia constr
+R12458:12461 Top.Fusion <> lift meth
+R12467:12470 Top.Fusion <> lift meth
+R12431:12434 Top.Fusion <> lift meth
+R12437:12439 Top.Modal_Library <> Dia constr
+R12453:12455 Top.Modal_Library <> Dia constr
+R12458:12461 Top.Fusion <> lift meth
+R12467:12470 Top.Fusion <> lift meth
+R12584:12587 Top.Fusion <> lift meth
+R12590:12592 Top.Modal_Library <> Dia constr
+R12606:12608 Top.Modal_Library <> Dia constr
+R12611:12614 Top.Fusion <> lift meth
+R12620:12623 Top.Fusion <> lift meth
+R12584:12587 Top.Fusion <> lift meth
+R12590:12592 Top.Modal_Library <> Dia constr
+R12606:12608 Top.Modal_Library <> Dia constr
+R12611:12614 Top.Fusion <> lift meth
+R12620:12623 Top.Fusion <> lift meth
+R12742:12745 Top.Fusion <> lift meth
+R12748:12750 Top.Modal_Library <> And constr
+R12766:12768 Top.Modal_Library <> And constr
+R12771:12774 Top.Fusion <> lift meth
+R12781:12784 Top.Fusion <> lift meth
+R12742:12745 Top.Fusion <> lift meth
+R12748:12750 Top.Modal_Library <> And constr
+R12766:12768 Top.Modal_Library <> And constr
+R12771:12774 Top.Fusion <> lift meth
+R12781:12784 Top.Fusion <> lift meth
+R12899:12902 Top.Fusion <> lift meth
+R12905:12907 Top.Modal_Library <> And constr
+R12923:12925 Top.Modal_Library <> And constr
+R12928:12931 Top.Fusion <> lift meth
+R12938:12941 Top.Fusion <> lift meth
+R12899:12902 Top.Fusion <> lift meth
+R12905:12907 Top.Modal_Library <> And constr
+R12923:12925 Top.Modal_Library <> And constr
+R12928:12931 Top.Fusion <> lift meth
+R12938:12941 Top.Fusion <> lift meth
+R13061:13064 Top.Fusion <> lift meth
+R13067:13068 Top.Modal_Library <> Or constr
+R13084:13085 Top.Modal_Library <> Or constr
+R13088:13091 Top.Fusion <> lift meth
+R13098:13101 Top.Fusion <> lift meth
+R13061:13064 Top.Fusion <> lift meth
+R13067:13068 Top.Modal_Library <> Or constr
+R13084:13085 Top.Modal_Library <> Or constr
+R13088:13091 Top.Fusion <> lift meth
+R13098:13101 Top.Fusion <> lift meth
+R13214:13217 Top.Fusion <> lift meth
+R13220:13221 Top.Modal_Library <> Or constr
+R13237:13238 Top.Modal_Library <> Or constr
+R13241:13244 Top.Fusion <> lift meth
+R13251:13254 Top.Fusion <> lift meth
+R13214:13217 Top.Fusion <> lift meth
+R13220:13221 Top.Modal_Library <> Or constr
+R13237:13238 Top.Modal_Library <> Or constr
+R13241:13244 Top.Fusion <> lift meth
+R13251:13254 Top.Fusion <> lift meth
+R13372:13375 Top.Fusion <> lift meth
+R13378:13384 Top.Modal_Library <> Implies constr
+R13400:13406 Top.Modal_Library <> Implies constr
+R13409:13412 Top.Fusion <> lift meth
+R13419:13422 Top.Fusion <> lift meth
+R13372:13375 Top.Fusion <> lift meth
+R13378:13384 Top.Modal_Library <> Implies constr
+R13400:13406 Top.Modal_Library <> Implies constr
+R13409:13412 Top.Fusion <> lift meth
+R13419:13422 Top.Fusion <> lift meth
+R13539:13542 Top.Fusion <> lift meth
+R13545:13551 Top.Modal_Library <> Implies constr
+R13567:13573 Top.Modal_Library <> Implies constr
+R13576:13579 Top.Fusion <> lift meth
+R13586:13589 Top.Fusion <> lift meth
+R13539:13542 Top.Fusion <> lift meth
+R13545:13551 Top.Modal_Library <> Implies constr
+R13567:13573 Top.Modal_Library <> Implies constr
+R13576:13579 Top.Fusion <> lift meth
+R13586:13589 Top.Fusion <> lift meth
+var 13807:13808 Fusion P1
+R13817:13820 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13811:13816 Top.Fusion <> Frame1 abbrev
+var 13838:13839 Fusion P2
+R13848:13851 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13842:13847 Top.Fusion <> Frame2 abbrev
+def 13872:13873 <> PF
+R13882:13885 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13876:13881 Top.Fusion <> FrameF abbrev
+binder 13902:13902 <> F:28
+R13932:13935 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R13913:13914 Top.Fusion <> Fusion.P1 var
+R13917:13928 Top.Fusion <> split_frame1 thm
+R13930:13930 Top.Fusion <> F:28 var
+R13936:13937 Top.Fusion <> Fusion.P2 var
+R13940:13951 Top.Fusion <> split_frame2 thm
+R13953:13953 Top.Fusion <> F:28 var
+var 14050:14051 Fusion A1
+R14060:14063 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14054:14059 Top.Fusion <> axiom1 abbrev
+var 14081:14082 Fusion A2
+R14091:14094 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14085:14090 Top.Fusion <> axiom2 abbrev
+ind 14114:14126 <> fusion_axioms
+constr 14153:14166 <> fusion_axioms1
+constr 14222:14235 <> fusion_axioms2
+R14135:14138 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14129:14134 Top.Fusion <> axiomF abbrev
+binder 14182:14182 <> p:33
+R14189:14192 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14185:14186 Top.Fusion <> Fusion.A1 var
+R14188:14188 Top.Fusion <> p:33 var
+R14193:14205 Top.Fusion <> fusion_axioms:31 ind
+R14208:14211 Top.Fusion <> lift meth
+R14213:14213 Top.Fusion <> p:33 var
+binder 14251:14251 <> p:34
+R14258:14261 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14254:14255 Top.Fusion <> Fusion.A2 var
+R14257:14257 Top.Fusion <> p:34 var
+R14262:14274 Top.Fusion <> fusion_axioms:31 ind
+R14277:14280 Top.Fusion <> lift meth
+R14282:14282 Top.Fusion <> p:34 var
+scheme 14114:14126 <> fusion_axioms_ind
+scheme 14114:14126 <> fusion_axioms_sind
+R14291:14296 Top.Fusion Fusion <> sec
+def 14406:14410 <> sound
+binder 14412:14412 <> I:35
+R14420:14434 Top.Modal_Library <> modal_index_set class
+R14436:14436 Top.Fusion <> I:35 var
+binder 14416:14416 <> X:36
+binder 14439:14439 <> P:37
+binder 14441:14441 <> A:38
+binder 14461:14461 <> G:39
+binder 14463:14463 <> p:40
+R14468:14468 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14479:14483 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14470:14471 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R14473:14477 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R14469:14469 Top.Fusion <> A:38 var
+R14472:14472 Top.Fusion <> G:39 var
+R14478:14478 Top.Fusion <> p:40 var
+R14484:14502 Top.Modal_Library <> entails_modal_class def
+R14506:14506 Top.Fusion <> G:39 var
+R14508:14508 Top.Fusion <> p:40 var
+R14504:14504 Top.Fusion <> P:37 var
+prf 14571:14588 <> soundness_transfer
+binder 14600:14601 <> I1:41
+R14610:14624 Top.Modal_Library <> modal_index_set class
+R14626:14627 Top.Fusion <> I1:41 var
+binder 14605:14606 <> X1:42
+binder 14630:14631 <> P1:43
+binder 14633:14634 <> A1:44
+binder 14646:14647 <> I2:45
+R14656:14670 Top.Modal_Library <> modal_index_set class
+R14672:14673 Top.Fusion <> I2:45 var
+binder 14651:14652 <> X2:46
+binder 14676:14677 <> P2:47
+binder 14679:14680 <> A2:48
+R14699:14704 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14685:14689 Top.Fusion <> sound def
+R14697:14698 Top.Fusion <> A1:44 var
+R14694:14695 Top.Fusion <> P1:43 var
+R14691:14692 Top.Fusion <> I1:41 var
+R14719:14724 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14705:14709 Top.Fusion <> sound def
+R14717:14718 Top.Fusion <> A2:48 var
+R14714:14715 Top.Fusion <> P2:47 var
+R14711:14712 Top.Fusion <> I2:45 var
+R14725:14729 Top.Fusion <> sound def
+R14750:14762 Top.Fusion <> fusion_axioms ind
+R14767:14768 Top.Fusion <> A2:48 var
+R14764:14765 Top.Fusion <> A1:44 var
+R14739:14740 Top.Fusion <> PF def
+R14745:14746 Top.Fusion <> P2:47 var
+R14742:14743 Top.Fusion <> P1:43 var
+R14731:14736 Top.Fusion <> fusion def
+R15395:15421 Top.Fusion <> instantiate_lift_inversion1 thm
+R15395:15421 Top.Fusion <> instantiate_lift_inversion1 thm
+R15453:15454 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R15460:15464 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R15455:15459 Top.Sets <> Empty def
+R15465:15475 Top.Deductive_System <> instantiate def
+R15453:15454 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R15460:15464 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R15455:15459 Top.Sets <> Empty def
+R15465:15475 Top.Deductive_System <> instantiate def
+R15526:15537 Top.Fusion <> split_model1 thm
+R15526:15537 Top.Fusion <> split_model1 thm
+R15563:15567 Top.Sets <> Empty def
+R15563:15567 Top.Sets <> Empty def
+R15597:15597 Top.Modal_Library <> F proj
+R15597:15597 Top.Modal_Library <> F proj
+R15701:15712 Top.Modal_Library <> theory_modal def
+R15717:15721 Top.Sets <> Empty def
+R15701:15712 Top.Modal_Library <> theory_modal def
+R15717:15721 Top.Sets <> Empty def
+R15873:15894 Top.Fusion <> split_model1_coherence thm
+R15873:15894 Top.Fusion <> split_model1_coherence thm
+R15952:15978 Top.Fusion <> instantiate_lift_inversion2 thm
+R15952:15978 Top.Fusion <> instantiate_lift_inversion2 thm
+R16010:16011 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R16017:16021 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R16012:16016 Top.Sets <> Empty def
+R16022:16032 Top.Deductive_System <> instantiate def
+R16010:16011 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R16017:16021 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R16012:16016 Top.Sets <> Empty def
+R16022:16032 Top.Deductive_System <> instantiate def
+R16083:16094 Top.Fusion <> split_model2 thm
+R16083:16094 Top.Fusion <> split_model2 thm
+R16121:16125 Top.Sets <> Empty def
+R16121:16125 Top.Sets <> Empty def
+R16155:16155 Top.Modal_Library <> F proj
+R16155:16155 Top.Modal_Library <> F proj
+R16260:16271 Top.Modal_Library <> theory_modal def
+R16276:16280 Top.Sets <> Empty def
+R16260:16271 Top.Modal_Library <> theory_modal def
+R16276:16280 Top.Sets <> Empty def
+R16435:16456 Top.Fusion <> split_model2_coherence thm
+R16435:16456 Top.Fusion <> split_model2_coherence thm
+R16717:16725 Top.Soundness <> <> lib
+R16727:16741 Top.Modal_Notations <> <> lib
+sec 16805:16830 <> Soundness_Transfer_Example
+inst 16851:16860 <> unit_index
+R16864:16878 Top.Modal_Library <> modal_index_set class
+R16880:16883 Coq.Init.Datatypes <> unit ind
+R16942:16942 Top.Modal_Library <> C meth
+R16942:16942 Top.Modal_Library <> C meth
+R16942:16942 Top.Modal_Library <> C meth
+binder 16944:16944 <> x:49
+R16949:16952 Coq.Init.Logic <> True ind
+def 17027:17029 <> idx
+R17032:17042 Top.Modal_Library <> modal_index rec
+R17051:17067 Top.Modal_Library <> Build_modal_index constr
+R17069:17070 Coq.Init.Datatypes <> tt constr
+R17072:17072 Coq.Init.Logic <> I constr
+def 17164:17164 <> X
+R17173:17185 Top.Fusion <> fusion_axioms ind
+R17197:17198 Top.Deductive_System <> S4 ind
+R17200:17202 Top.Fusion <> idx def
+R17188:17189 Top.Deductive_System <> S4 ind
+R17191:17193 Top.Fusion <> idx def
+def 17283:17283 <> P
+R17291:17294 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R17286:17290 Top.Modal_Library <> Frame rec
+binder 17311:17311 <> F:50
+R17316:17329 Top.Modal_Library <> preorder_frame def
+R17333:17335 Top.Fusion <> idx def
+R17331:17331 Top.Fusion <> F:50 var
+def 17411:17442 <> Unnamed_thm
+R17420:17424 Top.Fusion <> sound def
+R17442:17442 Top.Fusion <> X def
+R17434:17435 Top.Fusion <> PF def
+R17439:17439 Top.Fusion <> P def
+R17437:17437 Top.Fusion <> P def
+R17426:17431 Top.Fusion <> fusion def
+R17464:17481 Top.Fusion <> soundness_transfer thm
+R17464:17481 Top.Fusion <> soundness_transfer thm
+R17550:17552 Top.Fusion <> idx def
+R17524:17535 Top.Soundness <> soundness_S4 thm
+R17550:17552 Top.Fusion <> idx def
+R17524:17535 Top.Soundness <> soundness_S4 thm
+R17622:17624 Top.Fusion <> idx def
+R17596:17607 Top.Soundness <> soundness_S4 thm
+R17622:17624 Top.Fusion <> idx def
+R17596:17607 Top.Soundness <> soundness_S4 thm
+R17640:17665 Top.Fusion Soundness_Transfer_Example <> sec

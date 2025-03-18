@@ -1,0 +1,2575 @@
+DIGEST 7e66cea2c17e2016a78022cb0be3b6b8
+FTop.Modal_Tactics
+R15:18 Top.Sets <> <> lib
+R36:43 Coq.Program.Equality <> <> lib
+R61:64 Coq.Lists.List <> <> lib
+R66:78 Top.Modal_Library <> <> lib
+R80:94 Top.Modal_Notations <> <> lib
+R96:111 Top.Deductive_System <> <> lib
+R121:133 Coq.Lists.List ListNotations <> mod
+sec 145:151 <> Tactics
+R168:182 Top.Modal_Library <> modal_index_set class
+binder 165:165 <> X:2
+prf 193:207 <> derive_identity
+binder 219:219 <> A:3
+binder 221:222 <> Γ:4
+binder 224:225 <> φ:5
+R240:245 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R230:235 Top.Sets <> Subset def
+R239:239 Top.Modal_Tactics <> A:3 var
+R237:237 Top.Deductive_System <> P ind
+R247:248 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R251:255 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R246:246 Top.Modal_Tactics <> A:3 var
+R249:250 Top.Modal_Tactics <> Γ:4 var
+R256:258 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R267:269 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R261:264 Top.Modal_Notations <> :modal::x_'->'_x not
+binder 259:260 <> φ:6
+binder 259:260 <> φ:7
+binder 265:266 <> φ:8
+binder 265:266 <> φ:9
+R311:313 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R328:330 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R316:319 Top.Modal_Notations <> :modal::x_'->'_x not
+binder 314:315 <> φ:10
+binder 314:315 <> φ:11
+R322:325 Top.Modal_Notations <> :modal::x_'->'_x not
+binder 320:321 <> φ:12
+binder 320:321 <> φ:13
+binder 326:327 <> φ:14
+binder 326:327 <> φ:15
+R297:298 Top.Deductive_System <> Mp constr
+R311:313 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R328:330 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R316:319 Top.Modal_Notations <> :modal::x_'->'_x not
+binder 314:315 <> φ:16
+binder 314:315 <> φ:17
+R322:325 Top.Modal_Notations <> :modal::x_'->'_x not
+binder 320:321 <> φ:18
+binder 320:321 <> φ:19
+binder 326:327 <> φ:20
+binder 326:327 <> φ:21
+R297:298 Top.Deductive_System <> Mp constr
+R358:360 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R383:385 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R363:366 Top.Modal_Notations <> :modal::x_'->'_x not
+binder 361:362 <> φ:22
+binder 361:362 <> φ:23
+R377:380 Top.Modal_Notations <> :modal::x_'->'_x not
+R367:367 Top.Modal_Notations <> :modal::'('_x_')' not
+R376:376 Top.Modal_Notations <> :modal::'('_x_')' not
+R370:373 Top.Modal_Notations <> :modal::x_'->'_x not
+binder 368:369 <> φ:24
+binder 368:369 <> φ:25
+binder 374:375 <> φ:26
+binder 374:375 <> φ:27
+binder 381:382 <> φ:28
+binder 381:382 <> φ:29
+R344:345 Top.Deductive_System <> Mp constr
+R358:360 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R383:385 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R363:366 Top.Modal_Notations <> :modal::x_'->'_x not
+binder 361:362 <> φ:30
+binder 361:362 <> φ:31
+R377:380 Top.Modal_Notations <> :modal::x_'->'_x not
+R367:367 Top.Modal_Notations <> :modal::'('_x_')' not
+R376:376 Top.Modal_Notations <> :modal::'('_x_')' not
+R370:373 Top.Modal_Notations <> :modal::x_'->'_x not
+binder 368:369 <> φ:32
+binder 368:369 <> φ:33
+binder 374:375 <> φ:34
+binder 374:375 <> φ:35
+binder 381:382 <> φ:36
+binder 381:382 <> φ:37
+R344:345 Top.Deductive_System <> Mp constr
+R415:417 Top.Deductive_System <> ax2 constr
+R422:424 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R433:435 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R427:430 Top.Modal_Notations <> :modal::x_'->'_x not
+binder 425:426 <> φ:38
+binder 425:426 <> φ:39
+binder 431:432 <> φ:40
+binder 431:432 <> φ:41
+R401:402 Top.Deductive_System <> Ax constr
+R415:417 Top.Deductive_System <> ax2 constr
+R422:424 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R433:435 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R427:430 Top.Modal_Notations <> :modal::x_'->'_x not
+binder 425:426 <> φ:42
+binder 425:426 <> φ:43
+binder 431:432 <> φ:44
+binder 431:432 <> φ:45
+R401:402 Top.Deductive_System <> Ax constr
+R527:529 Top.Deductive_System <> ax1 constr
+R534:536 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R545:547 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R539:542 Top.Modal_Notations <> :modal::x_'->'_x not
+binder 537:538 <> φ:46
+binder 537:538 <> φ:47
+binder 543:544 <> φ:48
+binder 543:544 <> φ:49
+R513:514 Top.Deductive_System <> Ax constr
+R527:529 Top.Deductive_System <> ax1 constr
+R534:536 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R545:547 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R539:542 Top.Modal_Notations <> :modal::x_'->'_x not
+binder 537:538 <> φ:50
+binder 537:538 <> φ:51
+binder 543:544 <> φ:52
+binder 543:544 <> φ:53
+R513:514 Top.Deductive_System <> Ax constr
+R634:636 Top.Deductive_System <> ax1 constr
+R620:621 Top.Deductive_System <> Ax constr
+R634:636 Top.Deductive_System <> ax1 constr
+R620:621 Top.Deductive_System <> Ax constr
+prf 711:726 <> deduction_subset
+binder 738:738 <> A:54
+binder 740:741 <> G1:55
+binder 743:744 <> G2:56
+R761:766 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R749:754 Top.Sets <> Subset def
+R759:760 Top.Modal_Tactics <> G2:56 var
+R756:757 Top.Modal_Tactics <> G1:55 var
+binder 774:774 <> p:57
+R795:798 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R779:787 Top.Deductive_System <> deduction ind
+R794:794 Top.Modal_Tactics <> p:57 var
+R791:792 Top.Modal_Tactics <> G1:55 var
+R789:789 Top.Modal_Tactics <> A:54 var
+R799:807 Top.Deductive_System <> deduction ind
+R814:814 Top.Modal_Tactics <> p:57 var
+R811:812 Top.Modal_Tactics <> G2:56 var
+R809:809 Top.Modal_Tactics <> A:54 var
+sec 1102:1110 Tactics Deduction
+var 1125:1125 Tactics.Deduction A
+R1133:1136 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1128:1132 Top.Deductive_System <> axiom ind
+var 1154:1154 Tactics.Deduction G
+R1157:1162 Top.Modal_Library <> theory def
+prf 1174:1182 <> modal_cut
+binder 1196:1196 <> p:60
+R1203:1203 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1214:1222 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1205:1206 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R1208:1212 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R1204:1204 Top.Modal_Tactics <> Tactics.Deduction.A var
+R1207:1207 Top.Modal_Tactics <> Tactics.Deduction.G var
+R1213:1213 Top.Modal_Tactics <> p:60 var
+binder 1230:1230 <> q:61
+R1237:1237 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1257:1262 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1273:1273 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1239:1240 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R1251:1255 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R1238:1238 Top.Modal_Tactics <> Tactics.Deduction.A var
+R1241:1246 Top.Sets <> Extend abbrev
+R1248:1248 Top.Modal_Tactics <> p:60 var
+R1250:1250 Top.Modal_Tactics <> Tactics.Deduction.G var
+R1256:1256 Top.Modal_Tactics <> q:61 var
+R1264:1265 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R1267:1271 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R1263:1263 Top.Modal_Tactics <> Tactics.Deduction.A var
+R1266:1266 Top.Modal_Tactics <> Tactics.Deduction.G var
+R1272:1272 Top.Modal_Tactics <> q:61 var
+var 1705:1707 Tactics.Deduction idx
+R1710:1720 Top.Modal_Library <> modal_index rec
+prf 1732:1740 <> modal_ax1
+binder 1754:1754 <> p:63
+binder 1756:1756 <> q:64
+R1774:1781 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1763:1763 Top.Modal_Tactics <> Tactics.Deduction.A var
+R1766:1768 Top.Deductive_System <> ax1 constr
+R1772:1772 Top.Modal_Tactics <> q:64 var
+R1770:1770 Top.Modal_Tactics <> p:63 var
+R1782:1782 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1793:1798 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1820:1820 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1784:1785 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R1787:1791 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R1783:1783 Top.Modal_Tactics <> Tactics.Deduction.A var
+R1786:1786 Top.Modal_Tactics <> Tactics.Deduction.G var
+R1792:1792 Top.Modal_Tactics <> p:63 var
+R1800:1801 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R1803:1807 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R1799:1799 Top.Modal_Tactics <> Tactics.Deduction.A var
+R1802:1802 Top.Modal_Tactics <> Tactics.Deduction.G var
+R1808:1810 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R1817:1819 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R1812:1815 Top.Modal_Notations <> :modal::x_'->'_x not
+binder 1811:1811 <> q:65
+binder 1811:1811 <> q:66
+binder 1816:1816 <> p:67
+binder 1816:1816 <> p:68
+R1854:1855 Top.Deductive_System <> Mp constr
+R1854:1855 Top.Deductive_System <> Mp constr
+R1899:1901 Top.Deductive_System <> ax1 constr
+R1885:1886 Top.Deductive_System <> Ax constr
+R1899:1901 Top.Deductive_System <> ax1 constr
+R1885:1886 Top.Deductive_System <> Ax constr
+prf 1929:1937 <> modal_ax2
+binder 1951:1951 <> p:69
+binder 1953:1953 <> q:70
+binder 1955:1955 <> r:71
+R1975:1982 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1962:1962 Top.Modal_Tactics <> Tactics.Deduction.A var
+R1965:1967 Top.Deductive_System <> ax2 constr
+R1973:1973 Top.Modal_Tactics <> r:71 var
+R1971:1971 Top.Modal_Tactics <> q:70 var
+R1969:1969 Top.Modal_Tactics <> p:69 var
+R1983:1983 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2010:2018 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1985:1986 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R1988:1992 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R1984:1984 Top.Modal_Tactics <> Tactics.Deduction.A var
+R1987:1987 Top.Modal_Tactics <> Tactics.Deduction.G var
+R1993:1995 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R2007:2009 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R1997:2000 Top.Modal_Notations <> :modal::x_'->'_x not
+binder 1996:1996 <> p:72
+binder 1996:1996 <> p:73
+R2002:2005 Top.Modal_Notations <> :modal::x_'->'_x not
+binder 2001:2001 <> q:74
+binder 2001:2001 <> q:75
+binder 2006:2006 <> r:76
+binder 2006:2006 <> r:77
+R2019:2019 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2041:2050 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2072:2072 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2021:2022 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R2024:2028 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R2020:2020 Top.Modal_Tactics <> Tactics.Deduction.A var
+R2023:2023 Top.Modal_Tactics <> Tactics.Deduction.G var
+R2029:2031 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R2038:2040 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R2033:2036 Top.Modal_Notations <> :modal::x_'->'_x not
+binder 2032:2032 <> p:78
+binder 2032:2032 <> p:79
+binder 2037:2037 <> q:80
+binder 2037:2037 <> q:81
+R2052:2053 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R2055:2059 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R2051:2051 Top.Modal_Tactics <> Tactics.Deduction.A var
+R2054:2054 Top.Modal_Tactics <> Tactics.Deduction.G var
+R2060:2062 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R2069:2071 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R2064:2067 Top.Modal_Notations <> :modal::x_'->'_x not
+binder 2063:2063 <> p:82
+binder 2063:2063 <> p:83
+binder 2068:2068 <> r:84
+binder 2068:2068 <> r:85
+R2109:2110 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R2112:2116 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R2108:2108 Top.Modal_Tactics <> Tactics.Deduction.A var
+R2111:2111 Top.Modal_Tactics <> Tactics.Deduction.G var
+R2117:2119 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R2155:2157 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R2133:2136 Top.Modal_Notations <> :modal::x_'->'_x not
+R2120:2120 Top.Modal_Notations <> :modal::'('_x_')' not
+R2132:2132 Top.Modal_Notations <> :modal::'('_x_')' not
+R2122:2125 Top.Modal_Notations <> :modal::x_'->'_x not
+binder 2121:2121 <> p:86
+binder 2121:2121 <> p:87
+R2127:2130 Top.Modal_Notations <> :modal::x_'->'_x not
+binder 2126:2126 <> q:88
+binder 2126:2126 <> q:89
+binder 2131:2131 <> r:90
+binder 2131:2131 <> r:91
+R2145:2148 Top.Modal_Notations <> :modal::x_'->'_x not
+R2137:2137 Top.Modal_Notations <> :modal::'('_x_')' not
+R2144:2144 Top.Modal_Notations <> :modal::'('_x_')' not
+R2139:2142 Top.Modal_Notations <> :modal::x_'->'_x not
+binder 2138:2138 <> p:92
+binder 2138:2138 <> p:93
+binder 2143:2143 <> q:94
+binder 2143:2143 <> q:95
+R2150:2153 Top.Modal_Notations <> :modal::x_'->'_x not
+binder 2149:2149 <> p:96
+binder 2149:2149 <> p:97
+binder 2154:2154 <> r:98
+binder 2154:2154 <> r:99
+R2109:2110 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R2112:2116 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R2108:2108 Top.Modal_Tactics <> Tactics.Deduction.A var
+R2111:2111 Top.Modal_Tactics <> Tactics.Deduction.G var
+R2117:2119 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R2155:2157 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R2133:2136 Top.Modal_Notations <> :modal::x_'->'_x not
+R2120:2120 Top.Modal_Notations <> :modal::'('_x_')' not
+R2132:2132 Top.Modal_Notations <> :modal::'('_x_')' not
+R2122:2125 Top.Modal_Notations <> :modal::x_'->'_x not
+binder 2121:2121 <> p:100
+binder 2121:2121 <> p:101
+R2127:2130 Top.Modal_Notations <> :modal::x_'->'_x not
+binder 2126:2126 <> q:102
+binder 2126:2126 <> q:103
+binder 2131:2131 <> r:104
+binder 2131:2131 <> r:105
+R2145:2148 Top.Modal_Notations <> :modal::x_'->'_x not
+R2137:2137 Top.Modal_Notations <> :modal::'('_x_')' not
+R2144:2144 Top.Modal_Notations <> :modal::'('_x_')' not
+R2139:2142 Top.Modal_Notations <> :modal::x_'->'_x not
+binder 2138:2138 <> p:106
+binder 2138:2138 <> p:107
+binder 2143:2143 <> q:108
+binder 2143:2143 <> q:109
+R2150:2153 Top.Modal_Notations <> :modal::x_'->'_x not
+binder 2149:2149 <> p:110
+binder 2149:2149 <> p:111
+binder 2154:2154 <> r:112
+binder 2154:2154 <> r:113
+R2191:2193 Top.Deductive_System <> ax2 constr
+R2177:2178 Top.Deductive_System <> Ax constr
+R2191:2193 Top.Deductive_System <> ax2 constr
+R2177:2178 Top.Deductive_System <> Ax constr
+R2218:2219 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R2221:2225 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R2217:2217 Top.Modal_Tactics <> Tactics.Deduction.A var
+R2220:2220 Top.Modal_Tactics <> Tactics.Deduction.G var
+R2226:2228 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R2247:2249 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R2237:2240 Top.Modal_Notations <> :modal::x_'->'_x not
+R2229:2229 Top.Modal_Notations <> :modal::'('_x_')' not
+R2236:2236 Top.Modal_Notations <> :modal::'('_x_')' not
+R2231:2234 Top.Modal_Notations <> :modal::x_'->'_x not
+binder 2230:2230 <> p:114
+binder 2230:2230 <> p:115
+binder 2235:2235 <> q:116
+binder 2235:2235 <> q:117
+R2242:2245 Top.Modal_Notations <> :modal::x_'->'_x not
+binder 2241:2241 <> p:118
+binder 2241:2241 <> p:119
+binder 2246:2246 <> r:120
+binder 2246:2246 <> r:121
+R2218:2219 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R2221:2225 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R2217:2217 Top.Modal_Tactics <> Tactics.Deduction.A var
+R2220:2220 Top.Modal_Tactics <> Tactics.Deduction.G var
+R2226:2228 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R2247:2249 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R2237:2240 Top.Modal_Notations <> :modal::x_'->'_x not
+R2229:2229 Top.Modal_Notations <> :modal::'('_x_')' not
+R2236:2236 Top.Modal_Notations <> :modal::'('_x_')' not
+R2231:2234 Top.Modal_Notations <> :modal::x_'->'_x not
+binder 2230:2230 <> p:122
+binder 2230:2230 <> p:123
+binder 2235:2235 <> q:124
+binder 2235:2235 <> q:125
+R2242:2245 Top.Modal_Notations <> :modal::x_'->'_x not
+binder 2241:2241 <> p:126
+binder 2241:2241 <> p:127
+binder 2246:2246 <> r:128
+binder 2246:2246 <> r:129
+R2279:2281 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R2293:2295 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R2283:2286 Top.Modal_Notations <> :modal::x_'->'_x not
+binder 2282:2282 <> p:130
+binder 2282:2282 <> p:131
+R2288:2291 Top.Modal_Notations <> :modal::x_'->'_x not
+binder 2287:2287 <> q:132
+binder 2287:2287 <> q:133
+binder 2292:2292 <> r:134
+binder 2292:2292 <> r:135
+R2271:2272 Top.Deductive_System <> Mp constr
+R2279:2281 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R2293:2295 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R2283:2286 Top.Modal_Notations <> :modal::x_'->'_x not
+binder 2282:2282 <> p:136
+binder 2282:2282 <> p:137
+R2288:2291 Top.Modal_Notations <> :modal::x_'->'_x not
+binder 2287:2287 <> q:138
+binder 2287:2287 <> q:139
+binder 2292:2292 <> r:140
+binder 2292:2292 <> r:141
+R2271:2272 Top.Deductive_System <> Mp constr
+R2324:2326 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R2333:2335 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R2328:2331 Top.Modal_Notations <> :modal::x_'->'_x not
+binder 2327:2327 <> p:142
+binder 2327:2327 <> p:143
+binder 2332:2332 <> q:144
+binder 2332:2332 <> q:145
+R2316:2317 Top.Deductive_System <> Mp constr
+R2324:2326 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R2333:2335 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R2328:2331 Top.Modal_Notations <> :modal::x_'->'_x not
+binder 2327:2327 <> p:146
+binder 2327:2327 <> p:147
+binder 2332:2332 <> q:148
+binder 2332:2332 <> q:149
+R2316:2317 Top.Deductive_System <> Mp constr
+prf 2358:2366 <> modal_ax3
+binder 2380:2380 <> p:150
+binder 2382:2382 <> q:151
+R2400:2407 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2389:2389 Top.Modal_Tactics <> Tactics.Deduction.A var
+R2392:2394 Top.Deductive_System <> ax3 constr
+R2398:2398 Top.Modal_Tactics <> q:151 var
+R2396:2396 Top.Modal_Tactics <> p:150 var
+R2408:2408 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2434:2443 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2465:2465 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2410:2411 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R2413:2417 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R2409:2409 Top.Modal_Tactics <> Tactics.Deduction.A var
+R2412:2412 Top.Modal_Tactics <> Tactics.Deduction.G var
+R2418:2420 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R2431:2433 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R2421:2421 Top.Modal_Notations <> :modal::'('_x_')' not
+R2430:2430 Top.Modal_Notations <> :modal::'('_x_')' not
+R2424:2427 Top.Modal_Notations <> :modal::x_'->'_x not
+R2422:2422 Top.Modal_Notations <> :modal::'~'_x not
+binder 2423:2423 <> q:152
+binder 2423:2423 <> q:153
+R2428:2428 Top.Modal_Notations <> :modal::'~'_x not
+binder 2429:2429 <> p:154
+binder 2429:2429 <> p:155
+R2445:2446 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R2448:2452 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R2444:2444 Top.Modal_Tactics <> Tactics.Deduction.A var
+R2447:2447 Top.Modal_Tactics <> Tactics.Deduction.G var
+R2453:2455 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R2462:2464 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R2457:2460 Top.Modal_Notations <> :modal::x_'->'_x not
+binder 2456:2456 <> p:156
+binder 2456:2456 <> p:157
+binder 2461:2461 <> q:158
+binder 2461:2461 <> q:159
+R2502:2503 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R2505:2509 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R2501:2501 Top.Modal_Tactics <> Tactics.Deduction.A var
+R2504:2504 Top.Modal_Tactics <> Tactics.Deduction.G var
+R2510:2512 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R2533:2535 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R2523:2526 Top.Modal_Notations <> :modal::x_'->'_x not
+R2513:2513 Top.Modal_Notations <> :modal::'('_x_')' not
+R2522:2522 Top.Modal_Notations <> :modal::'('_x_')' not
+R2516:2519 Top.Modal_Notations <> :modal::x_'->'_x not
+R2514:2514 Top.Modal_Notations <> :modal::'~'_x not
+binder 2515:2515 <> q:160
+binder 2515:2515 <> q:161
+R2520:2520 Top.Modal_Notations <> :modal::'~'_x not
+binder 2521:2521 <> p:162
+binder 2521:2521 <> p:163
+R2528:2531 Top.Modal_Notations <> :modal::x_'->'_x not
+binder 2527:2527 <> p:164
+binder 2527:2527 <> p:165
+binder 2532:2532 <> q:166
+binder 2532:2532 <> q:167
+R2502:2503 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R2505:2509 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R2501:2501 Top.Modal_Tactics <> Tactics.Deduction.A var
+R2504:2504 Top.Modal_Tactics <> Tactics.Deduction.G var
+R2510:2512 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R2533:2535 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R2523:2526 Top.Modal_Notations <> :modal::x_'->'_x not
+R2513:2513 Top.Modal_Notations <> :modal::'('_x_')' not
+R2522:2522 Top.Modal_Notations <> :modal::'('_x_')' not
+R2516:2519 Top.Modal_Notations <> :modal::x_'->'_x not
+R2514:2514 Top.Modal_Notations <> :modal::'~'_x not
+binder 2515:2515 <> q:168
+binder 2515:2515 <> q:169
+R2520:2520 Top.Modal_Notations <> :modal::'~'_x not
+binder 2521:2521 <> p:170
+binder 2521:2521 <> p:171
+R2528:2531 Top.Modal_Notations <> :modal::x_'->'_x not
+binder 2527:2527 <> p:172
+binder 2527:2527 <> p:173
+binder 2532:2532 <> q:174
+binder 2532:2532 <> q:175
+R2569:2571 Top.Deductive_System <> ax3 constr
+R2555:2556 Top.Deductive_System <> Ax constr
+R2569:2571 Top.Deductive_System <> ax3 constr
+R2555:2556 Top.Deductive_System <> Ax constr
+R2603:2605 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R2614:2616 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R2608:2611 Top.Modal_Notations <> :modal::x_'->'_x not
+R2606:2606 Top.Modal_Notations <> :modal::'~'_x not
+binder 2607:2607 <> q:176
+binder 2607:2607 <> q:177
+R2612:2612 Top.Modal_Notations <> :modal::'~'_x not
+binder 2613:2613 <> p:178
+binder 2613:2613 <> p:179
+R2595:2596 Top.Deductive_System <> Mp constr
+R2603:2605 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R2614:2616 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R2608:2611 Top.Modal_Notations <> :modal::x_'->'_x not
+R2606:2606 Top.Modal_Notations <> :modal::'~'_x not
+binder 2607:2607 <> q:180
+binder 2607:2607 <> q:181
+R2612:2612 Top.Modal_Notations <> :modal::'~'_x not
+binder 2613:2613 <> p:182
+binder 2613:2613 <> p:183
+R2595:2596 Top.Deductive_System <> Mp constr
+prf 2639:2647 <> modal_ax4
+binder 2661:2661 <> p:184
+binder 2663:2663 <> q:185
+R2681:2688 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2670:2670 Top.Modal_Tactics <> Tactics.Deduction.A var
+R2673:2675 Top.Deductive_System <> ax1 constr
+R2679:2679 Top.Modal_Tactics <> p:184 var
+R2677:2677 Top.Modal_Tactics <> q:185 var
+R2713:2720 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2689:2689 Top.Modal_Tactics <> Tactics.Deduction.A var
+R2692:2694 Top.Deductive_System <> ax2 constr
+R2700:2702 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R2709:2711 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R2704:2707 Top.Modal_Notations <> :modal::x_'/\'_x not
+binder 2703:2703 <> p:186
+binder 2703:2703 <> p:187
+binder 2708:2708 <> q:188
+binder 2708:2708 <> q:189
+R2698:2698 Top.Modal_Tactics <> q:185 var
+R2696:2696 Top.Modal_Tactics <> p:184 var
+R2732:2739 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2721:2721 Top.Modal_Tactics <> Tactics.Deduction.A var
+R2724:2726 Top.Deductive_System <> ax4 constr
+R2730:2730 Top.Modal_Tactics <> q:185 var
+R2728:2728 Top.Modal_Tactics <> p:184 var
+R2740:2740 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2751:2759 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2742:2743 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R2745:2749 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R2741:2741 Top.Modal_Tactics <> Tactics.Deduction.A var
+R2744:2744 Top.Modal_Tactics <> Tactics.Deduction.G var
+R2750:2750 Top.Modal_Tactics <> p:184 var
+R2760:2760 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2771:2780 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2802:2802 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2762:2763 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R2765:2769 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R2761:2761 Top.Modal_Tactics <> Tactics.Deduction.A var
+R2764:2764 Top.Modal_Tactics <> Tactics.Deduction.G var
+R2770:2770 Top.Modal_Tactics <> q:185 var
+R2782:2783 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R2785:2789 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R2781:2781 Top.Modal_Tactics <> Tactics.Deduction.A var
+R2784:2784 Top.Modal_Tactics <> Tactics.Deduction.G var
+R2790:2792 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R2799:2801 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R2794:2797 Top.Modal_Notations <> :modal::x_'/\'_x not
+binder 2793:2793 <> p:190
+binder 2793:2793 <> p:191
+binder 2798:2798 <> q:192
+binder 2798:2798 <> q:193
+R2839:2840 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R2842:2846 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R2838:2838 Top.Modal_Tactics <> Tactics.Deduction.A var
+R2841:2841 Top.Modal_Tactics <> Tactics.Deduction.G var
+R2847:2849 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R2897:2899 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R2868:2871 Top.Modal_Notations <> :modal::x_'->'_x not
+R2850:2850 Top.Modal_Notations <> :modal::'('_x_')' not
+R2867:2867 Top.Modal_Notations <> :modal::'('_x_')' not
+R2852:2855 Top.Modal_Notations <> :modal::x_'->'_x not
+binder 2851:2851 <> p:194
+binder 2851:2851 <> p:195
+R2857:2860 Top.Modal_Notations <> :modal::x_'->'_x not
+binder 2856:2856 <> q:196
+binder 2856:2856 <> q:197
+R2862:2865 Top.Modal_Notations <> :modal::x_'/\'_x not
+binder 2861:2861 <> p:198
+binder 2861:2861 <> p:199
+binder 2866:2866 <> q:200
+binder 2866:2866 <> q:201
+R2880:2883 Top.Modal_Notations <> :modal::x_'->'_x not
+R2872:2872 Top.Modal_Notations <> :modal::'('_x_')' not
+R2879:2879 Top.Modal_Notations <> :modal::'('_x_')' not
+R2874:2877 Top.Modal_Notations <> :modal::x_'->'_x not
+binder 2873:2873 <> p:202
+binder 2873:2873 <> p:203
+binder 2878:2878 <> q:204
+binder 2878:2878 <> q:205
+R2884:2884 Top.Modal_Notations <> :modal::'('_x_')' not
+R2896:2896 Top.Modal_Notations <> :modal::'('_x_')' not
+R2886:2889 Top.Modal_Notations <> :modal::x_'->'_x not
+binder 2885:2885 <> p:206
+binder 2885:2885 <> p:207
+R2891:2894 Top.Modal_Notations <> :modal::x_'/\'_x not
+binder 2890:2890 <> p:208
+binder 2890:2890 <> p:209
+binder 2895:2895 <> q:210
+binder 2895:2895 <> q:211
+R2839:2840 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R2842:2846 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R2838:2838 Top.Modal_Tactics <> Tactics.Deduction.A var
+R2841:2841 Top.Modal_Tactics <> Tactics.Deduction.G var
+R2847:2849 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R2897:2899 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R2868:2871 Top.Modal_Notations <> :modal::x_'->'_x not
+R2850:2850 Top.Modal_Notations <> :modal::'('_x_')' not
+R2867:2867 Top.Modal_Notations <> :modal::'('_x_')' not
+R2852:2855 Top.Modal_Notations <> :modal::x_'->'_x not
+binder 2851:2851 <> p:212
+binder 2851:2851 <> p:213
+R2857:2860 Top.Modal_Notations <> :modal::x_'->'_x not
+binder 2856:2856 <> q:214
+binder 2856:2856 <> q:215
+R2862:2865 Top.Modal_Notations <> :modal::x_'/\'_x not
+binder 2861:2861 <> p:216
+binder 2861:2861 <> p:217
+binder 2866:2866 <> q:218
+binder 2866:2866 <> q:219
+R2880:2883 Top.Modal_Notations <> :modal::x_'->'_x not
+R2872:2872 Top.Modal_Notations <> :modal::'('_x_')' not
+R2879:2879 Top.Modal_Notations <> :modal::'('_x_')' not
+R2874:2877 Top.Modal_Notations <> :modal::x_'->'_x not
+binder 2873:2873 <> p:220
+binder 2873:2873 <> p:221
+binder 2878:2878 <> q:222
+binder 2878:2878 <> q:223
+R2884:2884 Top.Modal_Notations <> :modal::'('_x_')' not
+R2896:2896 Top.Modal_Notations <> :modal::'('_x_')' not
+R2886:2889 Top.Modal_Notations <> :modal::x_'->'_x not
+binder 2885:2885 <> p:224
+binder 2885:2885 <> p:225
+R2891:2894 Top.Modal_Notations <> :modal::x_'/\'_x not
+binder 2890:2890 <> p:226
+binder 2890:2890 <> p:227
+binder 2895:2895 <> q:228
+binder 2895:2895 <> q:229
+R2933:2935 Top.Deductive_System <> ax2 constr
+R2941:2943 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R2950:2952 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R2945:2948 Top.Modal_Notations <> :modal::x_'/\'_x not
+binder 2944:2944 <> p:230
+binder 2944:2944 <> p:231
+binder 2949:2949 <> q:232
+binder 2949:2949 <> q:233
+R2919:2920 Top.Deductive_System <> Ax constr
+R2933:2935 Top.Deductive_System <> ax2 constr
+R2941:2943 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R2950:2952 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R2945:2948 Top.Modal_Notations <> :modal::x_'/\'_x not
+binder 2944:2944 <> p:234
+binder 2944:2944 <> p:235
+binder 2949:2949 <> q:236
+binder 2949:2949 <> q:237
+R2919:2920 Top.Deductive_System <> Ax constr
+R2971:2972 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R2974:2978 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R2970:2970 Top.Modal_Tactics <> Tactics.Deduction.A var
+R2973:2973 Top.Modal_Tactics <> Tactics.Deduction.G var
+R2979:2981 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R3007:3009 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R2990:2993 Top.Modal_Notations <> :modal::x_'->'_x not
+R2982:2982 Top.Modal_Notations <> :modal::'('_x_')' not
+R2989:2989 Top.Modal_Notations <> :modal::'('_x_')' not
+R2984:2987 Top.Modal_Notations <> :modal::x_'->'_x not
+binder 2983:2983 <> p:238
+binder 2983:2983 <> p:239
+binder 2988:2988 <> q:240
+binder 2988:2988 <> q:241
+R2994:2994 Top.Modal_Notations <> :modal::'('_x_')' not
+R3006:3006 Top.Modal_Notations <> :modal::'('_x_')' not
+R2996:2999 Top.Modal_Notations <> :modal::x_'->'_x not
+binder 2995:2995 <> p:242
+binder 2995:2995 <> p:243
+R3001:3004 Top.Modal_Notations <> :modal::x_'/\'_x not
+binder 3000:3000 <> p:244
+binder 3000:3000 <> p:245
+binder 3005:3005 <> q:246
+binder 3005:3005 <> q:247
+R2971:2972 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R2974:2978 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R2970:2970 Top.Modal_Tactics <> Tactics.Deduction.A var
+R2973:2973 Top.Modal_Tactics <> Tactics.Deduction.G var
+R2979:2981 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R3007:3009 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R2990:2993 Top.Modal_Notations <> :modal::x_'->'_x not
+R2982:2982 Top.Modal_Notations <> :modal::'('_x_')' not
+R2989:2989 Top.Modal_Notations <> :modal::'('_x_')' not
+R2984:2987 Top.Modal_Notations <> :modal::x_'->'_x not
+binder 2983:2983 <> p:248
+binder 2983:2983 <> p:249
+binder 2988:2988 <> q:250
+binder 2988:2988 <> q:251
+R2994:2994 Top.Modal_Notations <> :modal::'('_x_')' not
+R3006:3006 Top.Modal_Notations <> :modal::'('_x_')' not
+R2996:2999 Top.Modal_Notations <> :modal::x_'->'_x not
+binder 2995:2995 <> p:252
+binder 2995:2995 <> p:253
+R3001:3004 Top.Modal_Notations <> :modal::x_'/\'_x not
+binder 3000:3000 <> p:254
+binder 3000:3000 <> p:255
+binder 3005:3005 <> q:256
+binder 3005:3005 <> q:257
+R3035:3037 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R3054:3056 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R3039:3042 Top.Modal_Notations <> :modal::x_'->'_x not
+binder 3038:3038 <> p:258
+binder 3038:3038 <> p:259
+R3044:3047 Top.Modal_Notations <> :modal::x_'->'_x not
+binder 3043:3043 <> q:260
+binder 3043:3043 <> q:261
+R3049:3052 Top.Modal_Notations <> :modal::x_'/\'_x not
+binder 3048:3048 <> p:262
+binder 3048:3048 <> p:263
+binder 3053:3053 <> q:264
+binder 3053:3053 <> q:265
+R3027:3028 Top.Deductive_System <> Mp constr
+R3035:3037 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R3054:3056 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R3039:3042 Top.Modal_Notations <> :modal::x_'->'_x not
+binder 3038:3038 <> p:266
+binder 3038:3038 <> p:267
+R3044:3047 Top.Modal_Notations <> :modal::x_'->'_x not
+binder 3043:3043 <> q:268
+binder 3043:3043 <> q:269
+R3049:3052 Top.Modal_Notations <> :modal::x_'/\'_x not
+binder 3048:3048 <> p:270
+binder 3048:3048 <> p:271
+binder 3053:3053 <> q:272
+binder 3053:3053 <> q:273
+R3027:3028 Top.Deductive_System <> Mp constr
+R3092:3094 Top.Deductive_System <> ax4 constr
+R3083:3084 Top.Deductive_System <> Ax constr
+R3092:3094 Top.Deductive_System <> ax4 constr
+R3083:3084 Top.Deductive_System <> Ax constr
+R3116:3117 Top.Deductive_System <> Mp constr
+R3116:3117 Top.Deductive_System <> Mp constr
+R3155:3157 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R3164:3166 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R3159:3162 Top.Modal_Notations <> :modal::x_'->'_x not
+binder 3158:3158 <> p:274
+binder 3158:3158 <> p:275
+binder 3163:3163 <> q:276
+binder 3163:3163 <> q:277
+R3147:3148 Top.Deductive_System <> Mp constr
+R3155:3157 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R3164:3166 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R3159:3162 Top.Modal_Notations <> :modal::x_'->'_x not
+binder 3158:3158 <> p:278
+binder 3158:3158 <> p:279
+binder 3163:3163 <> q:280
+binder 3163:3163 <> q:281
+R3147:3148 Top.Deductive_System <> Mp constr
+R3189:3190 Top.Deductive_System <> Mp constr
+R3189:3190 Top.Deductive_System <> Mp constr
+R3233:3235 Top.Deductive_System <> ax1 constr
+R3224:3225 Top.Deductive_System <> Ax constr
+R3233:3235 Top.Deductive_System <> ax1 constr
+R3224:3225 Top.Deductive_System <> Ax constr
+prf 3263:3271 <> modal_ax5
+binder 3285:3285 <> p:282
+binder 3287:3287 <> q:283
+R3305:3312 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3294:3294 Top.Modal_Tactics <> Tactics.Deduction.A var
+R3297:3299 Top.Deductive_System <> ax5 constr
+R3303:3303 Top.Modal_Tactics <> q:283 var
+R3301:3301 Top.Modal_Tactics <> p:282 var
+R3313:3313 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3335:3344 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3355:3355 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3315:3316 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R3318:3322 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R3314:3314 Top.Modal_Tactics <> Tactics.Deduction.A var
+R3317:3317 Top.Modal_Tactics <> Tactics.Deduction.G var
+R3323:3325 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R3332:3334 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R3327:3330 Top.Modal_Notations <> :modal::x_'/\'_x not
+binder 3326:3326 <> p:284
+binder 3326:3326 <> p:285
+binder 3331:3331 <> q:286
+binder 3331:3331 <> q:287
+R3346:3347 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R3349:3353 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R3345:3345 Top.Modal_Tactics <> Tactics.Deduction.A var
+R3348:3348 Top.Modal_Tactics <> Tactics.Deduction.G var
+R3354:3354 Top.Modal_Tactics <> p:282 var
+R3392:3393 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R3395:3399 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R3391:3391 Top.Modal_Tactics <> Tactics.Deduction.A var
+R3394:3394 Top.Modal_Tactics <> Tactics.Deduction.G var
+R3400:3402 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R3414:3416 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R3409:3412 Top.Modal_Notations <> :modal::x_'->'_x not
+R3404:3407 Top.Modal_Notations <> :modal::x_'/\'_x not
+binder 3403:3403 <> p:288
+binder 3403:3403 <> p:289
+binder 3408:3408 <> q:290
+binder 3408:3408 <> q:291
+binder 3413:3413 <> p:292
+binder 3413:3413 <> p:293
+R3392:3393 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R3395:3399 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R3391:3391 Top.Modal_Tactics <> Tactics.Deduction.A var
+R3394:3394 Top.Modal_Tactics <> Tactics.Deduction.G var
+R3400:3402 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R3414:3416 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R3409:3412 Top.Modal_Notations <> :modal::x_'->'_x not
+R3404:3407 Top.Modal_Notations <> :modal::x_'/\'_x not
+binder 3403:3403 <> p:294
+binder 3403:3403 <> p:295
+binder 3408:3408 <> q:296
+binder 3408:3408 <> q:297
+binder 3413:3413 <> p:298
+binder 3413:3413 <> p:299
+R3450:3452 Top.Deductive_System <> ax5 constr
+R3436:3437 Top.Deductive_System <> Ax constr
+R3450:3452 Top.Deductive_System <> ax5 constr
+R3436:3437 Top.Deductive_System <> Ax constr
+R3484:3486 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R3493:3495 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R3488:3491 Top.Modal_Notations <> :modal::x_'/\'_x not
+binder 3487:3487 <> p:300
+binder 3487:3487 <> p:301
+binder 3492:3492 <> q:302
+binder 3492:3492 <> q:303
+R3476:3477 Top.Deductive_System <> Mp constr
+R3484:3486 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R3493:3495 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R3488:3491 Top.Modal_Notations <> :modal::x_'/\'_x not
+binder 3487:3487 <> p:304
+binder 3487:3487 <> p:305
+binder 3492:3492 <> q:306
+binder 3492:3492 <> q:307
+R3476:3477 Top.Deductive_System <> Mp constr
+prf 3518:3526 <> modal_ax6
+binder 3540:3540 <> p:308
+binder 3542:3542 <> q:309
+R3560:3567 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3549:3549 Top.Modal_Tactics <> Tactics.Deduction.A var
+R3552:3554 Top.Deductive_System <> ax6 constr
+R3558:3558 Top.Modal_Tactics <> q:309 var
+R3556:3556 Top.Modal_Tactics <> p:308 var
+R3568:3568 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3590:3595 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3606:3606 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3570:3571 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R3573:3577 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R3569:3569 Top.Modal_Tactics <> Tactics.Deduction.A var
+R3572:3572 Top.Modal_Tactics <> Tactics.Deduction.G var
+R3578:3580 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R3587:3589 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R3582:3585 Top.Modal_Notations <> :modal::x_'/\'_x not
+binder 3581:3581 <> p:310
+binder 3581:3581 <> p:311
+binder 3586:3586 <> q:312
+binder 3586:3586 <> q:313
+R3597:3598 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R3600:3604 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R3596:3596 Top.Modal_Tactics <> Tactics.Deduction.A var
+R3599:3599 Top.Modal_Tactics <> Tactics.Deduction.G var
+R3605:3605 Top.Modal_Tactics <> q:309 var
+R3643:3644 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R3646:3650 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R3642:3642 Top.Modal_Tactics <> Tactics.Deduction.A var
+R3645:3645 Top.Modal_Tactics <> Tactics.Deduction.G var
+R3651:3653 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R3665:3667 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R3660:3663 Top.Modal_Notations <> :modal::x_'->'_x not
+R3655:3658 Top.Modal_Notations <> :modal::x_'/\'_x not
+binder 3654:3654 <> p:314
+binder 3654:3654 <> p:315
+binder 3659:3659 <> q:316
+binder 3659:3659 <> q:317
+binder 3664:3664 <> q:318
+binder 3664:3664 <> q:319
+R3643:3644 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R3646:3650 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R3642:3642 Top.Modal_Tactics <> Tactics.Deduction.A var
+R3645:3645 Top.Modal_Tactics <> Tactics.Deduction.G var
+R3651:3653 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R3665:3667 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R3660:3663 Top.Modal_Notations <> :modal::x_'->'_x not
+R3655:3658 Top.Modal_Notations <> :modal::x_'/\'_x not
+binder 3654:3654 <> p:320
+binder 3654:3654 <> p:321
+binder 3659:3659 <> q:322
+binder 3659:3659 <> q:323
+binder 3664:3664 <> q:324
+binder 3664:3664 <> q:325
+R3701:3703 Top.Deductive_System <> ax6 constr
+R3687:3688 Top.Deductive_System <> Ax constr
+R3701:3703 Top.Deductive_System <> ax6 constr
+R3687:3688 Top.Deductive_System <> Ax constr
+R3735:3737 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R3744:3746 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R3739:3742 Top.Modal_Notations <> :modal::x_'/\'_x not
+binder 3738:3738 <> p:326
+binder 3738:3738 <> p:327
+binder 3743:3743 <> q:328
+binder 3743:3743 <> q:329
+R3727:3728 Top.Deductive_System <> Mp constr
+R3735:3737 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R3744:3746 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R3739:3742 Top.Modal_Notations <> :modal::x_'/\'_x not
+binder 3738:3738 <> p:330
+binder 3738:3738 <> p:331
+binder 3743:3743 <> q:332
+binder 3743:3743 <> q:333
+R3727:3728 Top.Deductive_System <> Mp constr
+prf 3769:3777 <> modal_ax7
+binder 3791:3791 <> p:334
+binder 3793:3793 <> q:335
+R3811:3818 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3800:3800 Top.Modal_Tactics <> Tactics.Deduction.A var
+R3803:3805 Top.Deductive_System <> ax7 constr
+R3809:3809 Top.Modal_Tactics <> q:335 var
+R3807:3807 Top.Modal_Tactics <> p:334 var
+R3819:3819 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3836:3845 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3867:3867 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3821:3822 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R3824:3828 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R3820:3820 Top.Modal_Tactics <> Tactics.Deduction.A var
+R3823:3823 Top.Modal_Tactics <> Tactics.Deduction.G var
+R3829:3831 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R3833:3835 Top.Modal_Notations <> :::'[!'_x_'!]' not
+binder 3832:3832 <> p:336
+binder 3832:3832 <> p:337
+R3847:3848 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R3850:3854 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R3846:3846 Top.Modal_Tactics <> Tactics.Deduction.A var
+R3849:3849 Top.Modal_Tactics <> Tactics.Deduction.G var
+R3855:3857 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R3864:3866 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R3859:3862 Top.Modal_Notations <> :modal::x_'\/'_x not
+binder 3858:3858 <> p:338
+binder 3858:3858 <> p:339
+binder 3863:3863 <> q:340
+binder 3863:3863 <> q:341
+R3904:3905 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R3907:3911 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R3903:3903 Top.Modal_Tactics <> Tactics.Deduction.A var
+R3906:3906 Top.Modal_Tactics <> Tactics.Deduction.G var
+R3912:3914 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R3926:3928 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R3916:3919 Top.Modal_Notations <> :modal::x_'->'_x not
+binder 3915:3915 <> p:342
+binder 3915:3915 <> p:343
+R3921:3924 Top.Modal_Notations <> :modal::x_'\/'_x not
+binder 3920:3920 <> p:344
+binder 3920:3920 <> p:345
+binder 3925:3925 <> q:346
+binder 3925:3925 <> q:347
+R3904:3905 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R3907:3911 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R3903:3903 Top.Modal_Tactics <> Tactics.Deduction.A var
+R3906:3906 Top.Modal_Tactics <> Tactics.Deduction.G var
+R3912:3914 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R3926:3928 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R3916:3919 Top.Modal_Notations <> :modal::x_'->'_x not
+binder 3915:3915 <> p:348
+binder 3915:3915 <> p:349
+R3921:3924 Top.Modal_Notations <> :modal::x_'\/'_x not
+binder 3920:3920 <> p:350
+binder 3920:3920 <> p:351
+binder 3925:3925 <> q:352
+binder 3925:3925 <> q:353
+R3962:3964 Top.Deductive_System <> ax7 constr
+R3948:3949 Top.Deductive_System <> Ax constr
+R3962:3964 Top.Deductive_System <> ax7 constr
+R3948:3949 Top.Deductive_System <> Ax constr
+R3988:3989 Top.Deductive_System <> Mp constr
+R3988:3989 Top.Deductive_System <> Mp constr
+prf 4019:4027 <> modal_ax8
+binder 4041:4041 <> p:354
+binder 4043:4043 <> q:355
+R4061:4068 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4050:4050 Top.Modal_Tactics <> Tactics.Deduction.A var
+R4053:4055 Top.Deductive_System <> ax8 constr
+R4059:4059 Top.Modal_Tactics <> q:355 var
+R4057:4057 Top.Modal_Tactics <> p:354 var
+R4069:4069 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4086:4095 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4117:4117 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4071:4072 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R4074:4078 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R4070:4070 Top.Modal_Tactics <> Tactics.Deduction.A var
+R4073:4073 Top.Modal_Tactics <> Tactics.Deduction.G var
+R4079:4081 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R4083:4085 Top.Modal_Notations <> :::'[!'_x_'!]' not
+binder 4082:4082 <> q:356
+binder 4082:4082 <> q:357
+R4097:4098 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R4100:4104 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R4096:4096 Top.Modal_Tactics <> Tactics.Deduction.A var
+R4099:4099 Top.Modal_Tactics <> Tactics.Deduction.G var
+R4105:4107 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R4114:4116 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R4109:4112 Top.Modal_Notations <> :modal::x_'\/'_x not
+binder 4108:4108 <> p:358
+binder 4108:4108 <> p:359
+binder 4113:4113 <> q:360
+binder 4113:4113 <> q:361
+R4154:4155 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R4157:4161 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R4153:4153 Top.Modal_Tactics <> Tactics.Deduction.A var
+R4156:4156 Top.Modal_Tactics <> Tactics.Deduction.G var
+R4162:4164 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R4176:4178 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R4166:4169 Top.Modal_Notations <> :modal::x_'->'_x not
+binder 4165:4165 <> q:362
+binder 4165:4165 <> q:363
+R4171:4174 Top.Modal_Notations <> :modal::x_'\/'_x not
+binder 4170:4170 <> p:364
+binder 4170:4170 <> p:365
+binder 4175:4175 <> q:366
+binder 4175:4175 <> q:367
+R4154:4155 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R4157:4161 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R4153:4153 Top.Modal_Tactics <> Tactics.Deduction.A var
+R4156:4156 Top.Modal_Tactics <> Tactics.Deduction.G var
+R4162:4164 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R4176:4178 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R4166:4169 Top.Modal_Notations <> :modal::x_'->'_x not
+binder 4165:4165 <> q:368
+binder 4165:4165 <> q:369
+R4171:4174 Top.Modal_Notations <> :modal::x_'\/'_x not
+binder 4170:4170 <> p:370
+binder 4170:4170 <> p:371
+binder 4175:4175 <> q:372
+binder 4175:4175 <> q:373
+R4212:4214 Top.Deductive_System <> ax8 constr
+R4198:4199 Top.Deductive_System <> Ax constr
+R4212:4214 Top.Deductive_System <> ax8 constr
+R4198:4199 Top.Deductive_System <> Ax constr
+R4238:4239 Top.Deductive_System <> Mp constr
+R4238:4239 Top.Deductive_System <> Mp constr
+prf 4269:4277 <> modal_ax9
+binder 4291:4291 <> p:374
+binder 4293:4293 <> q:375
+binder 4295:4295 <> r:376
+R4315:4322 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4302:4302 Top.Modal_Tactics <> Tactics.Deduction.A var
+R4305:4307 Top.Deductive_System <> ax9 constr
+R4313:4313 Top.Modal_Tactics <> r:376 var
+R4311:4311 Top.Modal_Tactics <> q:375 var
+R4309:4309 Top.Modal_Tactics <> p:374 var
+R4323:4323 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4345:4353 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4325:4326 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R4328:4332 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R4324:4324 Top.Modal_Tactics <> Tactics.Deduction.A var
+R4327:4327 Top.Modal_Tactics <> Tactics.Deduction.G var
+R4333:4335 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R4342:4344 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R4337:4340 Top.Modal_Notations <> :modal::x_'->'_x not
+binder 4336:4336 <> p:377
+binder 4336:4336 <> p:378
+binder 4341:4341 <> r:379
+binder 4341:4341 <> r:380
+R4354:4354 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4376:4384 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4356:4357 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R4359:4363 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R4355:4355 Top.Modal_Tactics <> Tactics.Deduction.A var
+R4358:4358 Top.Modal_Tactics <> Tactics.Deduction.G var
+R4364:4366 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R4373:4375 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R4368:4371 Top.Modal_Notations <> :modal::x_'->'_x not
+binder 4367:4367 <> q:381
+binder 4367:4367 <> q:382
+binder 4372:4372 <> r:383
+binder 4372:4372 <> r:384
+R4385:4385 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4407:4416 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4433:4433 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4387:4388 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R4390:4394 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R4386:4386 Top.Modal_Tactics <> Tactics.Deduction.A var
+R4389:4389 Top.Modal_Tactics <> Tactics.Deduction.G var
+R4395:4397 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R4404:4406 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R4399:4402 Top.Modal_Notations <> :modal::x_'\/'_x not
+binder 4398:4398 <> p:385
+binder 4398:4398 <> p:386
+binder 4403:4403 <> q:387
+binder 4403:4403 <> q:388
+R4418:4419 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R4421:4425 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R4417:4417 Top.Modal_Tactics <> Tactics.Deduction.A var
+R4420:4420 Top.Modal_Tactics <> Tactics.Deduction.G var
+R4426:4428 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R4430:4432 Top.Modal_Notations <> :::'[!'_x_'!]' not
+binder 4429:4429 <> r:389
+binder 4429:4429 <> r:390
+R4470:4471 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R4473:4477 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R4469:4469 Top.Modal_Tactics <> Tactics.Deduction.A var
+R4472:4472 Top.Modal_Tactics <> Tactics.Deduction.G var
+R4478:4480 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R4492:4494 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R4487:4490 Top.Modal_Notations <> :modal::x_'->'_x not
+R4482:4485 Top.Modal_Notations <> :modal::x_'\/'_x not
+binder 4481:4481 <> p:391
+binder 4481:4481 <> p:392
+binder 4486:4486 <> q:393
+binder 4486:4486 <> q:394
+binder 4491:4491 <> r:395
+binder 4491:4491 <> r:396
+R4470:4471 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R4473:4477 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R4469:4469 Top.Modal_Tactics <> Tactics.Deduction.A var
+R4472:4472 Top.Modal_Tactics <> Tactics.Deduction.G var
+R4478:4480 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R4492:4494 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R4487:4490 Top.Modal_Notations <> :modal::x_'->'_x not
+R4482:4485 Top.Modal_Notations <> :modal::x_'\/'_x not
+binder 4481:4481 <> p:397
+binder 4481:4481 <> p:398
+binder 4486:4486 <> q:399
+binder 4486:4486 <> q:400
+binder 4491:4491 <> r:401
+binder 4491:4491 <> r:402
+R4518:4520 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R4527:4529 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R4522:4525 Top.Modal_Notations <> :modal::x_'->'_x not
+binder 4521:4521 <> q:403
+binder 4521:4521 <> q:404
+binder 4526:4526 <> r:405
+binder 4526:4526 <> r:406
+R4510:4511 Top.Deductive_System <> Mp constr
+R4518:4520 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R4527:4529 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R4522:4525 Top.Modal_Notations <> :modal::x_'->'_x not
+binder 4521:4521 <> q:407
+binder 4521:4521 <> q:408
+binder 4526:4526 <> r:409
+binder 4526:4526 <> r:410
+R4510:4511 Top.Deductive_System <> Mp constr
+R4554:4556 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R4563:4565 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R4558:4561 Top.Modal_Notations <> :modal::x_'->'_x not
+binder 4557:4557 <> p:411
+binder 4557:4557 <> p:412
+binder 4562:4562 <> r:413
+binder 4562:4562 <> r:414
+R4546:4547 Top.Deductive_System <> Mp constr
+R4554:4556 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R4563:4565 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R4558:4561 Top.Modal_Notations <> :modal::x_'->'_x not
+binder 4557:4557 <> p:415
+binder 4557:4557 <> p:416
+binder 4562:4562 <> r:417
+binder 4562:4562 <> r:418
+R4546:4547 Top.Deductive_System <> Mp constr
+R4602:4604 Top.Deductive_System <> ax9 constr
+R4588:4589 Top.Deductive_System <> Ax constr
+R4602:4604 Top.Deductive_System <> ax9 constr
+R4588:4589 Top.Deductive_System <> Ax constr
+R4680:4682 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R4689:4691 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R4684:4687 Top.Modal_Notations <> :modal::x_'\/'_x not
+binder 4683:4683 <> p:419
+binder 4683:4683 <> p:420
+binder 4688:4688 <> q:421
+binder 4688:4688 <> q:422
+R4672:4673 Top.Deductive_System <> Mp constr
+R4680:4682 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R4689:4691 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R4684:4687 Top.Modal_Notations <> :modal::x_'\/'_x not
+binder 4683:4683 <> p:423
+binder 4683:4683 <> p:424
+binder 4688:4688 <> q:425
+binder 4688:4688 <> q:426
+R4672:4673 Top.Deductive_System <> Mp constr
+prf 4710:4719 <> modal_ax10
+binder 4733:4733 <> p:427
+R4750:4757 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4740:4740 Top.Modal_Tactics <> Tactics.Deduction.A var
+R4743:4746 Top.Deductive_System <> ax10 constr
+R4748:4748 Top.Modal_Tactics <> p:427 var
+R4758:4758 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4777:4786 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4803:4803 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4760:4761 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R4763:4767 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R4759:4759 Top.Modal_Tactics <> Tactics.Deduction.A var
+R4762:4762 Top.Modal_Tactics <> Tactics.Deduction.G var
+R4768:4770 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R4774:4776 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R4771:4771 Top.Modal_Notations <> :modal::'~'_x not
+R4772:4772 Top.Modal_Notations <> :modal::'~'_x not
+binder 4773:4773 <> p:428
+binder 4773:4773 <> p:429
+R4788:4789 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R4791:4795 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R4787:4787 Top.Modal_Tactics <> Tactics.Deduction.A var
+R4790:4790 Top.Modal_Tactics <> Tactics.Deduction.G var
+R4796:4798 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R4800:4802 Top.Modal_Notations <> :::'[!'_x_'!]' not
+binder 4799:4799 <> p:430
+binder 4799:4799 <> p:431
+R4845:4847 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R4851:4853 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R4848:4848 Top.Modal_Notations <> :modal::'~'_x not
+R4849:4849 Top.Modal_Notations <> :modal::'~'_x not
+binder 4850:4850 <> p:432
+binder 4850:4850 <> p:433
+R4837:4838 Top.Deductive_System <> Mp constr
+R4845:4847 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R4851:4853 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R4848:4848 Top.Modal_Notations <> :modal::'~'_x not
+R4849:4849 Top.Modal_Notations <> :modal::'~'_x not
+binder 4850:4850 <> p:434
+binder 4850:4850 <> p:435
+R4837:4838 Top.Deductive_System <> Mp constr
+R4882:4885 Top.Deductive_System <> ax10 constr
+R4868:4869 Top.Deductive_System <> Ax constr
+R4882:4885 Top.Deductive_System <> ax10 constr
+R4868:4869 Top.Deductive_System <> Ax constr
+prf 4966:4980 <> modal_syllogism
+binder 4994:4994 <> p:436
+binder 4996:4996 <> q:437
+binder 4998:4998 <> r:438
+R5027:5034 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5005:5005 Top.Modal_Tactics <> Tactics.Deduction.A var
+R5008:5010 Top.Deductive_System <> ax1 constr
+R5025:5025 Top.Modal_Tactics <> p:436 var
+R5012:5014 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R5021:5023 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R5016:5019 Top.Modal_Notations <> :modal::x_'->'_x not
+binder 5015:5015 <> q:439
+binder 5015:5015 <> q:440
+binder 5020:5020 <> r:441
+binder 5020:5020 <> r:442
+R5048:5055 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5035:5035 Top.Modal_Tactics <> Tactics.Deduction.A var
+R5038:5040 Top.Deductive_System <> ax2 constr
+R5046:5046 Top.Modal_Tactics <> r:438 var
+R5044:5044 Top.Modal_Tactics <> q:437 var
+R5042:5042 Top.Modal_Tactics <> p:436 var
+R5056:5056 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5078:5086 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5058:5059 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R5061:5065 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R5057:5057 Top.Modal_Tactics <> Tactics.Deduction.A var
+R5060:5060 Top.Modal_Tactics <> Tactics.Deduction.G var
+R5066:5068 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R5075:5077 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R5070:5073 Top.Modal_Notations <> :modal::x_'->'_x not
+binder 5069:5069 <> p:443
+binder 5069:5069 <> p:444
+binder 5074:5074 <> q:445
+binder 5074:5074 <> q:446
+R5087:5087 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5109:5118 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5140:5140 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5089:5090 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R5092:5096 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R5088:5088 Top.Modal_Tactics <> Tactics.Deduction.A var
+R5091:5091 Top.Modal_Tactics <> Tactics.Deduction.G var
+R5097:5099 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R5106:5108 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R5101:5104 Top.Modal_Notations <> :modal::x_'->'_x not
+binder 5100:5100 <> q:447
+binder 5100:5100 <> q:448
+binder 5105:5105 <> r:449
+binder 5105:5105 <> r:450
+R5120:5121 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R5123:5127 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R5119:5119 Top.Modal_Tactics <> Tactics.Deduction.A var
+R5122:5122 Top.Modal_Tactics <> Tactics.Deduction.G var
+R5128:5130 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R5137:5139 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R5132:5135 Top.Modal_Notations <> :modal::x_'->'_x not
+binder 5131:5131 <> p:451
+binder 5131:5131 <> p:452
+binder 5136:5136 <> r:453
+binder 5136:5136 <> r:454
+R5177:5178 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R5180:5184 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R5176:5176 Top.Modal_Tactics <> Tactics.Deduction.A var
+R5179:5179 Top.Modal_Tactics <> Tactics.Deduction.G var
+R5185:5187 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R5199:5201 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R5189:5192 Top.Modal_Notations <> :modal::x_'->'_x not
+binder 5188:5188 <> p:455
+binder 5188:5188 <> p:456
+R5194:5197 Top.Modal_Notations <> :modal::x_'->'_x not
+binder 5193:5193 <> q:457
+binder 5193:5193 <> q:458
+binder 5198:5198 <> r:459
+binder 5198:5198 <> r:460
+R5177:5178 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R5180:5184 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R5176:5176 Top.Modal_Tactics <> Tactics.Deduction.A var
+R5179:5179 Top.Modal_Tactics <> Tactics.Deduction.G var
+R5185:5187 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R5199:5201 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R5189:5192 Top.Modal_Notations <> :modal::x_'->'_x not
+binder 5188:5188 <> p:461
+binder 5188:5188 <> p:462
+R5194:5197 Top.Modal_Notations <> :modal::x_'->'_x not
+binder 5193:5193 <> q:463
+binder 5193:5193 <> q:464
+binder 5198:5198 <> r:465
+binder 5198:5198 <> r:466
+R5221:5229 Top.Modal_Tactics <> modal_ax1 thm
+R5221:5229 Top.Modal_Tactics <> modal_ax1 thm
+R5248:5256 Top.Modal_Tactics <> modal_ax2 thm
+R5248:5256 Top.Modal_Tactics <> modal_ax2 thm
+prf 5286:5294 <> modal_axK
+binder 5308:5308 <> p:467
+binder 5310:5310 <> q:468
+R5332:5339 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5317:5317 Top.Modal_Tactics <> Tactics.Deduction.A var
+R5320:5322 Top.Deductive_System <> axK constr
+R5330:5330 Top.Modal_Tactics <> q:468 var
+R5328:5328 Top.Modal_Tactics <> p:467 var
+R5324:5326 Top.Modal_Tactics <> Tactics.Deduction.idx var
+R5340:5340 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5369:5378 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5410:5410 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5342:5343 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R5345:5349 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R5341:5341 Top.Modal_Tactics <> Tactics.Deduction.A var
+R5344:5344 Top.Modal_Tactics <> Tactics.Deduction.G var
+R5350:5352 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R5366:5368 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R5353:5353 Top.Modal_Notations <> :modal::'['_x_']'_x not
+R5357:5357 Top.Modal_Notations <> :modal::'['_x_']'_x not
+binder 5354:5356 <> idx:469
+binder 5354:5356 <> idx:470
+R5358:5358 Top.Modal_Notations <> :modal::'('_x_')' not
+R5365:5365 Top.Modal_Notations <> :modal::'('_x_')' not
+R5360:5363 Top.Modal_Notations <> :modal::x_'->'_x not
+binder 5359:5359 <> p:471
+binder 5359:5359 <> p:472
+binder 5364:5364 <> q:473
+binder 5364:5364 <> q:474
+R5380:5381 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R5383:5387 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R5379:5379 Top.Modal_Tactics <> Tactics.Deduction.A var
+R5382:5382 Top.Modal_Tactics <> Tactics.Deduction.G var
+R5388:5390 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R5407:5409 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R5397:5400 Top.Modal_Notations <> :modal::x_'->'_x not
+R5391:5391 Top.Modal_Notations <> :modal::'['_x_']'_x not
+R5395:5395 Top.Modal_Notations <> :modal::'['_x_']'_x not
+binder 5392:5394 <> idx:475
+binder 5392:5394 <> idx:476
+binder 5396:5396 <> p:477
+binder 5396:5396 <> p:478
+R5401:5401 Top.Modal_Notations <> :modal::'['_x_']'_x not
+R5405:5405 Top.Modal_Notations <> :modal::'['_x_']'_x not
+binder 5402:5404 <> idx:479
+binder 5402:5404 <> idx:480
+binder 5406:5406 <> q:481
+binder 5406:5406 <> q:482
+R5447:5448 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R5450:5454 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R5446:5446 Top.Modal_Tactics <> Tactics.Deduction.A var
+R5449:5449 Top.Modal_Tactics <> Tactics.Deduction.G var
+R5455:5457 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R5491:5493 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R5471:5474 Top.Modal_Notations <> :modal::x_'->'_x not
+R5458:5458 Top.Modal_Notations <> :modal::'['_x_']'_x not
+R5462:5462 Top.Modal_Notations <> :modal::'['_x_']'_x not
+binder 5459:5461 <> idx:483
+binder 5459:5461 <> idx:484
+R5463:5463 Top.Modal_Notations <> :modal::'('_x_')' not
+R5470:5470 Top.Modal_Notations <> :modal::'('_x_')' not
+R5465:5468 Top.Modal_Notations <> :modal::x_'->'_x not
+binder 5464:5464 <> p:485
+binder 5464:5464 <> p:486
+binder 5469:5469 <> q:487
+binder 5469:5469 <> q:488
+R5481:5484 Top.Modal_Notations <> :modal::x_'->'_x not
+R5475:5475 Top.Modal_Notations <> :modal::'['_x_']'_x not
+R5479:5479 Top.Modal_Notations <> :modal::'['_x_']'_x not
+binder 5476:5478 <> idx:489
+binder 5476:5478 <> idx:490
+binder 5480:5480 <> p:491
+binder 5480:5480 <> p:492
+R5485:5485 Top.Modal_Notations <> :modal::'['_x_']'_x not
+R5489:5489 Top.Modal_Notations <> :modal::'['_x_']'_x not
+binder 5486:5488 <> idx:493
+binder 5486:5488 <> idx:494
+binder 5490:5490 <> q:495
+binder 5490:5490 <> q:496
+R5447:5448 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R5450:5454 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R5446:5446 Top.Modal_Tactics <> Tactics.Deduction.A var
+R5449:5449 Top.Modal_Tactics <> Tactics.Deduction.G var
+R5455:5457 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R5491:5493 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R5471:5474 Top.Modal_Notations <> :modal::x_'->'_x not
+R5458:5458 Top.Modal_Notations <> :modal::'['_x_']'_x not
+R5462:5462 Top.Modal_Notations <> :modal::'['_x_']'_x not
+binder 5459:5461 <> idx:497
+binder 5459:5461 <> idx:498
+R5463:5463 Top.Modal_Notations <> :modal::'('_x_')' not
+R5470:5470 Top.Modal_Notations <> :modal::'('_x_')' not
+R5465:5468 Top.Modal_Notations <> :modal::x_'->'_x not
+binder 5464:5464 <> p:499
+binder 5464:5464 <> p:500
+binder 5469:5469 <> q:501
+binder 5469:5469 <> q:502
+R5481:5484 Top.Modal_Notations <> :modal::x_'->'_x not
+R5475:5475 Top.Modal_Notations <> :modal::'['_x_']'_x not
+R5479:5479 Top.Modal_Notations <> :modal::'['_x_']'_x not
+binder 5476:5478 <> idx:503
+binder 5476:5478 <> idx:504
+binder 5480:5480 <> p:505
+binder 5480:5480 <> p:506
+R5485:5485 Top.Modal_Notations <> :modal::'['_x_']'_x not
+R5489:5489 Top.Modal_Notations <> :modal::'['_x_']'_x not
+binder 5486:5488 <> idx:507
+binder 5486:5488 <> idx:508
+binder 5490:5490 <> q:509
+binder 5490:5490 <> q:510
+R5527:5529 Top.Deductive_System <> axK constr
+R5531:5533 Top.Modal_Tactics <> Tactics.Deduction.idx var
+R5513:5514 Top.Deductive_System <> Ax constr
+R5527:5529 Top.Deductive_System <> axK constr
+R5531:5533 Top.Modal_Tactics <> Tactics.Deduction.idx var
+R5513:5514 Top.Deductive_System <> Ax constr
+R5565:5567 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R5581:5583 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R5568:5568 Top.Modal_Notations <> :modal::'['_x_']'_x not
+R5572:5572 Top.Modal_Notations <> :modal::'['_x_']'_x not
+binder 5569:5571 <> idx:511
+binder 5569:5571 <> idx:512
+R5573:5573 Top.Modal_Notations <> :modal::'('_x_')' not
+R5580:5580 Top.Modal_Notations <> :modal::'('_x_')' not
+R5575:5578 Top.Modal_Notations <> :modal::x_'->'_x not
+binder 5574:5574 <> p:513
+binder 5574:5574 <> p:514
+binder 5579:5579 <> q:515
+binder 5579:5579 <> q:516
+R5557:5558 Top.Deductive_System <> Mp constr
+R5565:5567 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R5581:5583 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R5568:5568 Top.Modal_Notations <> :modal::'['_x_']'_x not
+R5572:5572 Top.Modal_Notations <> :modal::'['_x_']'_x not
+binder 5569:5571 <> idx:517
+binder 5569:5571 <> idx:518
+R5573:5573 Top.Modal_Notations <> :modal::'('_x_')' not
+R5580:5580 Top.Modal_Notations <> :modal::'('_x_')' not
+R5575:5578 Top.Modal_Notations <> :modal::x_'->'_x not
+binder 5574:5574 <> p:519
+binder 5574:5574 <> p:520
+binder 5579:5579 <> q:521
+binder 5579:5579 <> q:522
+R5557:5558 Top.Deductive_System <> Mp constr
+prf 5606:5615 <> modal_axK4
+binder 5629:5629 <> p:523
+R5650:5658 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5695:5695 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5636:5636 Top.Modal_Tactics <> Tactics.Deduction.A var
+R5639:5642 Top.Deductive_System <> axK4 constr
+R5648:5648 Top.Modal_Tactics <> p:523 var
+R5644:5646 Top.Modal_Tactics <> Tactics.Deduction.idx var
+R5660:5661 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R5663:5667 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R5659:5659 Top.Modal_Tactics <> Tactics.Deduction.A var
+R5662:5662 Top.Modal_Tactics <> Tactics.Deduction.G var
+R5668:5670 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R5692:5694 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R5677:5680 Top.Modal_Notations <> :modal::x_'->'_x not
+R5671:5671 Top.Modal_Notations <> :modal::'['_x_']'_x not
+R5675:5675 Top.Modal_Notations <> :modal::'['_x_']'_x not
+binder 5672:5674 <> idx:524
+binder 5672:5674 <> idx:525
+binder 5676:5676 <> p:526
+binder 5676:5676 <> p:527
+R5681:5681 Top.Modal_Notations <> :modal::'['_x_']'_x not
+R5685:5685 Top.Modal_Notations <> :modal::'['_x_']'_x not
+binder 5682:5684 <> idx:528
+binder 5682:5684 <> idx:529
+R5686:5686 Top.Modal_Notations <> :modal::'['_x_']'_x not
+R5690:5690 Top.Modal_Notations <> :modal::'['_x_']'_x not
+binder 5687:5689 <> idx:530
+binder 5687:5689 <> idx:531
+binder 5691:5691 <> p:532
+binder 5691:5691 <> p:533
+R5747:5750 Top.Deductive_System <> axK4 constr
+R5752:5754 Top.Modal_Tactics <> Tactics.Deduction.idx var
+R5733:5734 Top.Deductive_System <> Ax constr
+R5747:5750 Top.Deductive_System <> axK4 constr
+R5752:5754 Top.Modal_Tactics <> Tactics.Deduction.idx var
+R5733:5734 Top.Deductive_System <> Ax constr
+prf 5780:5794 <> modal_explosion
+binder 5808:5808 <> p:534
+binder 5810:5810 <> q:535
+R5843:5850 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5817:5817 Top.Modal_Tactics <> Tactics.Deduction.A var
+R5820:5822 Top.Deductive_System <> ax1 constr
+R5834:5836 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R5839:5841 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R5837:5837 Top.Modal_Notations <> :modal::'~'_x not
+binder 5838:5838 <> q:536
+binder 5838:5838 <> q:537
+R5824:5826 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R5830:5832 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R5827:5827 Top.Modal_Notations <> :modal::'~'_x not
+R5828:5828 Top.Modal_Notations <> :modal::'~'_x not
+binder 5829:5829 <> p:538
+binder 5829:5829 <> p:539
+R5878:5885 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5851:5851 Top.Modal_Tactics <> Tactics.Deduction.A var
+R5854:5856 Top.Deductive_System <> ax1 constr
+R5867:5869 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R5874:5876 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R5870:5870 Top.Modal_Notations <> :modal::'~'_x not
+R5871:5871 Top.Modal_Notations <> :modal::'~'_x not
+R5872:5872 Top.Modal_Notations <> :modal::'~'_x not
+binder 5873:5873 <> p:540
+binder 5873:5873 <> p:541
+R5858:5860 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R5863:5865 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R5861:5861 Top.Modal_Notations <> :modal::'~'_x not
+binder 5862:5862 <> p:542
+binder 5862:5862 <> p:543
+R5904:5911 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5886:5886 Top.Modal_Tactics <> Tactics.Deduction.A var
+R5889:5891 Top.Deductive_System <> ax3 constr
+R5902:5902 Top.Modal_Tactics <> q:535 var
+R5893:5895 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R5898:5900 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R5896:5896 Top.Modal_Notations <> :modal::'~'_x not
+binder 5897:5897 <> p:544
+binder 5897:5897 <> p:545
+R5931:5938 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5912:5912 Top.Modal_Tactics <> Tactics.Deduction.A var
+R5915:5917 Top.Deductive_System <> ax3 constr
+R5921:5923 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R5927:5929 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R5924:5924 Top.Modal_Notations <> :modal::'~'_x not
+R5925:5925 Top.Modal_Notations <> :modal::'~'_x not
+binder 5926:5926 <> p:546
+binder 5926:5926 <> p:547
+R5919:5919 Top.Modal_Tactics <> p:534 var
+R5939:5939 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5950:5958 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5941:5942 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R5944:5948 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R5940:5940 Top.Modal_Tactics <> Tactics.Deduction.A var
+R5943:5943 Top.Modal_Tactics <> Tactics.Deduction.G var
+R5949:5949 Top.Modal_Tactics <> p:534 var
+R5959:5959 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5977:5986 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5997:5997 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5961:5962 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R5964:5968 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R5960:5960 Top.Modal_Tactics <> Tactics.Deduction.A var
+R5963:5963 Top.Modal_Tactics <> Tactics.Deduction.G var
+R5969:5971 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R5974:5976 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R5972:5972 Top.Modal_Notations <> :modal::'~'_x not
+binder 5973:5973 <> p:548
+binder 5973:5973 <> p:549
+R5988:5989 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R5991:5995 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R5987:5987 Top.Modal_Tactics <> Tactics.Deduction.A var
+R5990:5990 Top.Modal_Tactics <> Tactics.Deduction.G var
+R5996:5996 Top.Modal_Tactics <> q:535 var
+R6034:6035 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R6037:6041 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R6033:6033 Top.Modal_Tactics <> Tactics.Deduction.A var
+R6036:6036 Top.Modal_Tactics <> Tactics.Deduction.G var
+R6042:6044 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R6052:6054 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R6047:6050 Top.Modal_Notations <> :modal::x_'->'_x not
+R6045:6045 Top.Modal_Notations <> :modal::'~'_x not
+binder 6046:6046 <> p:550
+binder 6046:6046 <> p:551
+binder 6051:6051 <> q:552
+binder 6051:6051 <> q:553
+R6034:6035 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R6037:6041 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R6033:6033 Top.Modal_Tactics <> Tactics.Deduction.A var
+R6036:6036 Top.Modal_Tactics <> Tactics.Deduction.G var
+R6042:6044 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R6052:6054 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R6047:6050 Top.Modal_Notations <> :modal::x_'->'_x not
+R6045:6045 Top.Modal_Notations <> :modal::'~'_x not
+binder 6046:6046 <> p:554
+binder 6046:6046 <> p:555
+binder 6051:6051 <> q:556
+binder 6051:6051 <> q:557
+R6070:6078 Top.Modal_Tactics <> modal_ax3 thm
+R6070:6078 Top.Modal_Tactics <> modal_ax3 thm
+R6099:6107 Top.Modal_Tactics <> modal_ax1 thm
+R6099:6107 Top.Modal_Tactics <> modal_ax1 thm
+R6128:6129 Top.Deductive_System <> Mp constr
+R6128:6129 Top.Deductive_System <> Mp constr
+R6157:6165 Top.Modal_Tactics <> modal_ax3 thm
+R6157:6165 Top.Modal_Tactics <> modal_ax3 thm
+R6186:6194 Top.Modal_Tactics <> modal_ax1 thm
+R6186:6194 Top.Modal_Tactics <> modal_ax1 thm
+R6289:6291 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R6294:6296 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R6292:6292 Top.Modal_Notations <> :modal::'~'_x not
+binder 6293:6293 <> p:558
+binder 6293:6293 <> p:559
+R6281:6282 Top.Deductive_System <> Mp constr
+R6289:6291 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R6294:6296 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R6292:6292 Top.Modal_Notations <> :modal::'~'_x not
+binder 6293:6293 <> p:560
+binder 6293:6293 <> p:561
+R6281:6282 Top.Deductive_System <> Mp constr
+R6315:6323 Top.Modal_Tactics Tactics.Deduction <> sec
+prf 6333:6347 <> modal_deduction
+binder 6359:6359 <> A:562
+binder 6361:6361 <> G:563
+binder 6363:6363 <> p:564
+binder 6365:6365 <> q:565
+R6380:6385 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6370:6375 Top.Sets <> Subset def
+R6379:6379 Top.Modal_Tactics <> A:562 var
+R6377:6377 Top.Deductive_System <> P ind
+R6386:6386 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6406:6413 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6435:6435 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6388:6389 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R6400:6404 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R6387:6387 Top.Modal_Tactics <> A:562 var
+R6390:6395 Top.Sets <> Extend abbrev
+R6397:6397 Top.Modal_Tactics <> p:564 var
+R6399:6399 Top.Modal_Tactics <> G:563 var
+R6405:6405 Top.Modal_Tactics <> q:565 var
+R6415:6416 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R6418:6422 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R6414:6414 Top.Modal_Tactics <> A:562 var
+R6417:6417 Top.Modal_Tactics <> G:563 var
+R6423:6425 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R6432:6434 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R6427:6430 Top.Modal_Notations <> :modal::x_'->'_x not
+binder 6426:6426 <> p:566
+binder 6426:6426 <> p:567
+binder 6431:6431 <> q:568
+binder 6431:6431 <> q:569
+R6542:6556 Top.Modal_Tactics <> derive_identity thm
+R6542:6556 Top.Modal_Tactics <> derive_identity thm
+R6589:6597 Top.Modal_Tactics <> modal_ax1 thm
+R6589:6597 Top.Modal_Tactics <> modal_ax1 thm
+R6631:6635 Top.Deductive_System <> P_ax1 constr
+R6631:6635 Top.Deductive_System <> P_ax1 constr
+R6691:6699 Top.Modal_Tactics <> modal_ax1 thm
+R6691:6699 Top.Modal_Tactics <> modal_ax1 thm
+R6729:6733 Top.Deductive_System <> P_ax1 constr
+R6729:6733 Top.Deductive_System <> P_ax1 constr
+R6811:6819 Top.Modal_Tactics <> modal_ax2 thm
+R6811:6819 Top.Modal_Tactics <> modal_ax2 thm
+R6849:6853 Top.Deductive_System <> P_ax2 constr
+R6849:6853 Top.Deductive_System <> P_ax2 constr
+R7000:7008 Top.Modal_Tactics <> modal_ax1 thm
+R7000:7008 Top.Modal_Tactics <> modal_ax1 thm
+R7038:7042 Top.Deductive_System <> P_ax1 constr
+R7038:7042 Top.Deductive_System <> P_ax1 constr
+prf 7096:7111 <> modal_peirce_law
+binder 7123:7123 <> A:570
+binder 7125:7125 <> G:571
+binder 7127:7127 <> p:572
+R7142:7148 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7178:7178 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7132:7137 Top.Sets <> Subset def
+R7141:7141 Top.Modal_Tactics <> A:570 var
+R7139:7139 Top.Deductive_System <> P ind
+R7150:7151 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R7153:7157 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R7149:7149 Top.Modal_Tactics <> A:570 var
+R7152:7152 Top.Modal_Tactics <> G:571 var
+R7158:7160 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R7175:7177 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R7170:7173 Top.Modal_Notations <> :modal::x_'->'_x not
+R7161:7161 Top.Modal_Notations <> :modal::'('_x_')' not
+R7169:7169 Top.Modal_Notations <> :modal::'('_x_')' not
+R7164:7167 Top.Modal_Notations <> :modal::x_'->'_x not
+R7162:7162 Top.Modal_Notations <> :modal::'~'_x not
+binder 7163:7163 <> p:573
+binder 7163:7163 <> p:574
+binder 7168:7168 <> p:575
+binder 7168:7168 <> p:576
+binder 7174:7174 <> p:577
+binder 7174:7174 <> p:578
+R7282:7284 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R7292:7294 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R7287:7290 Top.Modal_Notations <> :modal::x_'->'_x not
+R7285:7285 Top.Modal_Notations <> :modal::'~'_x not
+binder 7286:7286 <> p:579
+binder 7286:7286 <> p:580
+binder 7291:7291 <> p:581
+binder 7291:7291 <> p:582
+R7282:7284 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R7292:7294 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R7287:7290 Top.Modal_Notations <> :modal::x_'->'_x not
+R7285:7285 Top.Modal_Notations <> :modal::'~'_x not
+binder 7286:7286 <> p:583
+binder 7286:7286 <> p:584
+binder 7291:7291 <> p:585
+binder 7291:7291 <> p:586
+R7365:7366 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R7368:7372 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R7373:7375 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R7389:7391 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R7378:7381 Top.Modal_Notations <> :modal::x_'->'_x not
+R7376:7376 Top.Modal_Notations <> :modal::'~'_x not
+binder 7377:7377 <> p:587
+binder 7377:7377 <> p:588
+R7383:7386 Top.Modal_Notations <> :modal::x_'->'_x not
+binder 7382:7382 <> p:589
+binder 7382:7382 <> p:590
+R7387:7387 Top.Modal_Notations <> :modal::'~'_x not
+binder 7388:7388 <> q:591
+binder 7388:7388 <> q:592
+R7365:7366 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R7368:7372 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R7373:7375 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R7389:7391 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R7378:7381 Top.Modal_Notations <> :modal::x_'->'_x not
+R7376:7376 Top.Modal_Notations <> :modal::'~'_x not
+binder 7377:7377 <> p:593
+binder 7377:7377 <> p:594
+R7383:7386 Top.Modal_Notations <> :modal::x_'->'_x not
+binder 7382:7382 <> p:595
+binder 7382:7382 <> p:596
+R7387:7387 Top.Modal_Notations <> :modal::'~'_x not
+binder 7388:7388 <> q:597
+binder 7388:7388 <> q:598
+R7416:7430 Top.Modal_Tactics <> modal_deduction thm
+R7416:7430 Top.Modal_Tactics <> modal_deduction thm
+R7416:7430 Top.Modal_Tactics <> modal_deduction thm
+R7450:7464 Top.Modal_Tactics <> modal_explosion thm
+R7516:7519 Top.Deductive_System <> Prem constr
+R7450:7464 Top.Modal_Tactics <> modal_explosion thm
+R7516:7519 Top.Deductive_System <> Prem constr
+R7516:7519 Top.Deductive_System <> Prem constr
+R7553:7554 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R7556:7560 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R7561:7563 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R7604:7606 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R7579:7582 Top.Modal_Notations <> :modal::x_'->'_x not
+R7564:7564 Top.Modal_Notations <> :modal::'('_x_')' not
+R7578:7578 Top.Modal_Notations <> :modal::'('_x_')' not
+R7567:7570 Top.Modal_Notations <> :modal::x_'->'_x not
+R7565:7565 Top.Modal_Notations <> :modal::'~'_x not
+binder 7566:7566 <> p:599
+binder 7566:7566 <> p:600
+R7572:7575 Top.Modal_Notations <> :modal::x_'->'_x not
+binder 7571:7571 <> p:601
+binder 7571:7571 <> p:602
+R7576:7576 Top.Modal_Notations <> :modal::'~'_x not
+binder 7577:7577 <> q:603
+binder 7577:7577 <> q:604
+R7592:7595 Top.Modal_Notations <> :modal::x_'->'_x not
+R7583:7583 Top.Modal_Notations <> :modal::'('_x_')' not
+R7591:7591 Top.Modal_Notations <> :modal::'('_x_')' not
+R7586:7589 Top.Modal_Notations <> :modal::x_'->'_x not
+R7584:7584 Top.Modal_Notations <> :modal::'~'_x not
+binder 7585:7585 <> p:605
+binder 7585:7585 <> p:606
+binder 7590:7590 <> p:607
+binder 7590:7590 <> p:608
+R7598:7601 Top.Modal_Notations <> :modal::x_'->'_x not
+R7596:7596 Top.Modal_Notations <> :modal::'~'_x not
+binder 7597:7597 <> p:609
+binder 7597:7597 <> p:610
+R7602:7602 Top.Modal_Notations <> :modal::'~'_x not
+binder 7603:7603 <> q:611
+binder 7603:7603 <> q:612
+R7638:7640 Top.Deductive_System <> ax2 constr
+R7624:7625 Top.Deductive_System <> Ax constr
+R7553:7554 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R7556:7560 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R7561:7563 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R7604:7606 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R7579:7582 Top.Modal_Notations <> :modal::x_'->'_x not
+R7564:7564 Top.Modal_Notations <> :modal::'('_x_')' not
+R7578:7578 Top.Modal_Notations <> :modal::'('_x_')' not
+R7567:7570 Top.Modal_Notations <> :modal::x_'->'_x not
+R7565:7565 Top.Modal_Notations <> :modal::'~'_x not
+binder 7566:7566 <> p:613
+binder 7566:7566 <> p:614
+R7572:7575 Top.Modal_Notations <> :modal::x_'->'_x not
+binder 7571:7571 <> p:615
+binder 7571:7571 <> p:616
+R7576:7576 Top.Modal_Notations <> :modal::'~'_x not
+binder 7577:7577 <> q:617
+binder 7577:7577 <> q:618
+R7592:7595 Top.Modal_Notations <> :modal::x_'->'_x not
+R7583:7583 Top.Modal_Notations <> :modal::'('_x_')' not
+R7591:7591 Top.Modal_Notations <> :modal::'('_x_')' not
+R7586:7589 Top.Modal_Notations <> :modal::x_'->'_x not
+R7584:7584 Top.Modal_Notations <> :modal::'~'_x not
+binder 7585:7585 <> p:619
+binder 7585:7585 <> p:620
+binder 7590:7590 <> p:621
+binder 7590:7590 <> p:622
+R7598:7601 Top.Modal_Notations <> :modal::x_'->'_x not
+R7596:7596 Top.Modal_Notations <> :modal::'~'_x not
+binder 7597:7597 <> p:623
+binder 7597:7597 <> p:624
+R7602:7602 Top.Modal_Notations <> :modal::'~'_x not
+binder 7603:7603 <> q:625
+binder 7603:7603 <> q:626
+R7638:7640 Top.Deductive_System <> ax2 constr
+R7624:7625 Top.Deductive_System <> Ax constr
+R7708:7709 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R7711:7715 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R7716:7718 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R7740:7742 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R7728:7731 Top.Modal_Notations <> :modal::x_'->'_x not
+R7719:7719 Top.Modal_Notations <> :modal::'('_x_')' not
+R7727:7727 Top.Modal_Notations <> :modal::'('_x_')' not
+R7722:7725 Top.Modal_Notations <> :modal::x_'->'_x not
+R7720:7720 Top.Modal_Notations <> :modal::'~'_x not
+binder 7721:7721 <> p:627
+binder 7721:7721 <> p:628
+binder 7726:7726 <> p:629
+binder 7726:7726 <> p:630
+R7734:7737 Top.Modal_Notations <> :modal::x_'->'_x not
+R7732:7732 Top.Modal_Notations <> :modal::'~'_x not
+binder 7733:7733 <> p:631
+binder 7733:7733 <> p:632
+R7738:7738 Top.Modal_Notations <> :modal::'~'_x not
+binder 7739:7739 <> q:633
+binder 7739:7739 <> q:634
+R7760:7761 Top.Deductive_System <> Mp constr
+R7708:7709 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R7711:7715 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R7716:7718 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R7740:7742 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R7728:7731 Top.Modal_Notations <> :modal::x_'->'_x not
+R7719:7719 Top.Modal_Notations <> :modal::'('_x_')' not
+R7727:7727 Top.Modal_Notations <> :modal::'('_x_')' not
+R7722:7725 Top.Modal_Notations <> :modal::x_'->'_x not
+R7720:7720 Top.Modal_Notations <> :modal::'~'_x not
+binder 7721:7721 <> p:635
+binder 7721:7721 <> p:636
+binder 7726:7726 <> p:637
+binder 7726:7726 <> p:638
+R7734:7737 Top.Modal_Notations <> :modal::x_'->'_x not
+R7732:7732 Top.Modal_Notations <> :modal::'~'_x not
+binder 7733:7733 <> p:639
+binder 7733:7733 <> p:640
+R7738:7738 Top.Modal_Notations <> :modal::'~'_x not
+binder 7739:7739 <> q:641
+binder 7739:7739 <> q:642
+R7760:7761 Top.Deductive_System <> Mp constr
+R7789:7790 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R7792:7796 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R7797:7799 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R7819:7821 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R7809:7812 Top.Modal_Notations <> :modal::x_'->'_x not
+R7800:7800 Top.Modal_Notations <> :modal::'('_x_')' not
+R7808:7808 Top.Modal_Notations <> :modal::'('_x_')' not
+R7803:7806 Top.Modal_Notations <> :modal::x_'->'_x not
+R7801:7801 Top.Modal_Notations <> :modal::'~'_x not
+binder 7802:7802 <> p:643
+binder 7802:7802 <> p:644
+binder 7807:7807 <> p:645
+binder 7807:7807 <> p:646
+R7814:7817 Top.Modal_Notations <> :modal::x_'->'_x not
+binder 7813:7813 <> q:647
+binder 7813:7813 <> q:648
+binder 7818:7818 <> p:649
+binder 7818:7818 <> p:650
+R7789:7790 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R7792:7796 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R7797:7799 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R7819:7821 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R7809:7812 Top.Modal_Notations <> :modal::x_'->'_x not
+R7800:7800 Top.Modal_Notations <> :modal::'('_x_')' not
+R7808:7808 Top.Modal_Notations <> :modal::'('_x_')' not
+R7803:7806 Top.Modal_Notations <> :modal::x_'->'_x not
+R7801:7801 Top.Modal_Notations <> :modal::'~'_x not
+binder 7802:7802 <> p:651
+binder 7802:7802 <> p:652
+binder 7807:7807 <> p:653
+binder 7807:7807 <> p:654
+R7814:7817 Top.Modal_Notations <> :modal::x_'->'_x not
+binder 7813:7813 <> q:655
+binder 7813:7813 <> q:656
+binder 7818:7818 <> p:657
+binder 7818:7818 <> p:658
+R7860:7862 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R7871:7873 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R7865:7868 Top.Modal_Notations <> :modal::x_'->'_x not
+R7863:7863 Top.Modal_Notations <> :modal::'~'_x not
+binder 7864:7864 <> p:659
+binder 7864:7864 <> p:660
+R7869:7869 Top.Modal_Notations <> :modal::'~'_x not
+binder 7870:7870 <> q:661
+binder 7870:7870 <> q:662
+R7839:7853 Top.Modal_Tactics <> modal_syllogism thm
+R7860:7862 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R7871:7873 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R7865:7868 Top.Modal_Notations <> :modal::x_'->'_x not
+R7863:7863 Top.Modal_Notations <> :modal::'~'_x not
+binder 7864:7864 <> p:663
+binder 7864:7864 <> p:664
+R7869:7869 Top.Modal_Notations <> :modal::'~'_x not
+binder 7870:7870 <> q:665
+binder 7870:7870 <> q:666
+R7839:7853 Top.Modal_Tactics <> modal_syllogism thm
+R7955:7957 Top.Deductive_System <> ax3 constr
+R7941:7942 Top.Deductive_System <> Ax constr
+R7955:7957 Top.Deductive_System <> ax3 constr
+R7941:7942 Top.Deductive_System <> Ax constr
+R8023:8024 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R8026:8030 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R8031:8033 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R8069:8071 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R8047:8050 Top.Modal_Notations <> :modal::x_'->'_x not
+R8034:8034 Top.Modal_Notations <> :modal::'('_x_')' not
+R8046:8046 Top.Modal_Notations <> :modal::'('_x_')' not
+R8036:8039 Top.Modal_Notations <> :modal::x_'->'_x not
+binder 8035:8035 <> q:667
+binder 8035:8035 <> q:668
+R8041:8044 Top.Modal_Notations <> :modal::x_'->'_x not
+binder 8040:8040 <> q:669
+binder 8040:8040 <> q:670
+binder 8045:8045 <> p:671
+binder 8045:8045 <> p:672
+R8059:8062 Top.Modal_Notations <> :modal::x_'->'_x not
+R8051:8051 Top.Modal_Notations <> :modal::'('_x_')' not
+R8058:8058 Top.Modal_Notations <> :modal::'('_x_')' not
+R8053:8056 Top.Modal_Notations <> :modal::x_'->'_x not
+binder 8052:8052 <> q:673
+binder 8052:8052 <> q:674
+binder 8057:8057 <> q:675
+binder 8057:8057 <> q:676
+R8064:8067 Top.Modal_Notations <> :modal::x_'->'_x not
+binder 8063:8063 <> q:677
+binder 8063:8063 <> q:678
+binder 8068:8068 <> p:679
+binder 8068:8068 <> p:680
+R8103:8105 Top.Deductive_System <> ax2 constr
+R8089:8090 Top.Deductive_System <> Ax constr
+R8023:8024 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R8026:8030 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R8031:8033 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R8069:8071 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R8047:8050 Top.Modal_Notations <> :modal::x_'->'_x not
+R8034:8034 Top.Modal_Notations <> :modal::'('_x_')' not
+R8046:8046 Top.Modal_Notations <> :modal::'('_x_')' not
+R8036:8039 Top.Modal_Notations <> :modal::x_'->'_x not
+binder 8035:8035 <> q:681
+binder 8035:8035 <> q:682
+R8041:8044 Top.Modal_Notations <> :modal::x_'->'_x not
+binder 8040:8040 <> q:683
+binder 8040:8040 <> q:684
+binder 8045:8045 <> p:685
+binder 8045:8045 <> p:686
+R8059:8062 Top.Modal_Notations <> :modal::x_'->'_x not
+R8051:8051 Top.Modal_Notations <> :modal::'('_x_')' not
+R8058:8058 Top.Modal_Notations <> :modal::'('_x_')' not
+R8053:8056 Top.Modal_Notations <> :modal::x_'->'_x not
+binder 8052:8052 <> q:687
+binder 8052:8052 <> q:688
+binder 8057:8057 <> q:689
+binder 8057:8057 <> q:690
+R8064:8067 Top.Modal_Notations <> :modal::x_'->'_x not
+binder 8063:8063 <> q:691
+binder 8063:8063 <> q:692
+binder 8068:8068 <> p:693
+binder 8068:8068 <> p:694
+R8103:8105 Top.Deductive_System <> ax2 constr
+R8089:8090 Top.Deductive_System <> Ax constr
+R8172:8173 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R8175:8179 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R8180:8182 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R8201:8203 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R8191:8194 Top.Modal_Notations <> :modal::x_'->'_x not
+R8183:8183 Top.Modal_Notations <> :modal::'('_x_')' not
+R8190:8190 Top.Modal_Notations <> :modal::'('_x_')' not
+R8185:8188 Top.Modal_Notations <> :modal::x_'->'_x not
+binder 8184:8184 <> q:695
+binder 8184:8184 <> q:696
+binder 8189:8189 <> q:697
+binder 8189:8189 <> q:698
+R8196:8199 Top.Modal_Notations <> :modal::x_'->'_x not
+binder 8195:8195 <> q:699
+binder 8195:8195 <> q:700
+binder 8200:8200 <> p:701
+binder 8200:8200 <> p:702
+R8221:8222 Top.Deductive_System <> Mp constr
+R8172:8173 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R8175:8179 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R8180:8182 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R8201:8203 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R8191:8194 Top.Modal_Notations <> :modal::x_'->'_x not
+R8183:8183 Top.Modal_Notations <> :modal::'('_x_')' not
+R8190:8190 Top.Modal_Notations <> :modal::'('_x_')' not
+R8185:8188 Top.Modal_Notations <> :modal::x_'->'_x not
+binder 8184:8184 <> q:703
+binder 8184:8184 <> q:704
+binder 8189:8189 <> q:705
+binder 8189:8189 <> q:706
+R8196:8199 Top.Modal_Notations <> :modal::x_'->'_x not
+binder 8195:8195 <> q:707
+binder 8195:8195 <> q:708
+binder 8200:8200 <> p:709
+binder 8200:8200 <> p:710
+R8221:8222 Top.Deductive_System <> Mp constr
+R8248:8249 Top.Deductive_System <> Mp constr
+R8248:8249 Top.Deductive_System <> Mp constr
+R8277:8291 Top.Modal_Tactics <> derive_identity thm
+R8277:8291 Top.Modal_Tactics <> derive_identity thm
+prf 8312:8345 <> modal_double_negation_introduction
+binder 8357:8357 <> A:711
+binder 8359:8359 <> G:712
+binder 8361:8361 <> p:713
+R8376:8382 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8406:8406 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8366:8371 Top.Sets <> Subset def
+R8375:8375 Top.Modal_Tactics <> A:711 var
+R8373:8373 Top.Deductive_System <> P ind
+R8384:8385 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R8387:8391 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R8383:8383 Top.Modal_Tactics <> A:711 var
+R8386:8386 Top.Modal_Tactics <> G:712 var
+R8392:8394 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R8403:8405 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R8396:8399 Top.Modal_Notations <> :modal::x_'->'_x not
+binder 8395:8395 <> p:714
+binder 8395:8395 <> p:715
+R8400:8400 Top.Modal_Notations <> :modal::'~'_x not
+R8401:8401 Top.Modal_Notations <> :modal::'~'_x not
+binder 8402:8402 <> p:716
+binder 8402:8402 <> p:717
+R8437:8438 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R8440:8444 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R8445:8447 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R8458:8460 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R8452:8455 Top.Modal_Notations <> :modal::x_'->'_x not
+R8448:8448 Top.Modal_Notations <> :modal::'~'_x not
+R8449:8449 Top.Modal_Notations <> :modal::'~'_x not
+R8450:8450 Top.Modal_Notations <> :modal::'~'_x not
+binder 8451:8451 <> p:718
+binder 8451:8451 <> p:719
+R8456:8456 Top.Modal_Notations <> :modal::'~'_x not
+binder 8457:8457 <> p:720
+binder 8457:8457 <> p:721
+R8437:8438 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R8440:8444 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R8445:8447 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R8458:8460 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R8452:8455 Top.Modal_Notations <> :modal::x_'->'_x not
+R8448:8448 Top.Modal_Notations <> :modal::'~'_x not
+R8449:8449 Top.Modal_Notations <> :modal::'~'_x not
+R8450:8450 Top.Modal_Notations <> :modal::'~'_x not
+binder 8451:8451 <> p:722
+binder 8451:8451 <> p:723
+R8456:8456 Top.Modal_Notations <> :modal::'~'_x not
+binder 8457:8457 <> p:724
+binder 8457:8457 <> p:725
+R8488:8491 Top.Deductive_System <> ax10 constr
+R8493:8495 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R8498:8500 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R8496:8496 Top.Modal_Notations <> :modal::'~'_x not
+binder 8497:8497 <> p:726
+binder 8497:8497 <> p:727
+R8474:8475 Top.Deductive_System <> Ax constr
+R8488:8491 Top.Deductive_System <> ax10 constr
+R8493:8495 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R8498:8500 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R8496:8496 Top.Modal_Notations <> :modal::'~'_x not
+binder 8497:8497 <> p:728
+binder 8497:8497 <> p:729
+R8474:8475 Top.Deductive_System <> Ax constr
+R8557:8565 Top.Modal_Tactics <> modal_ax3 thm
+R8557:8565 Top.Modal_Tactics <> modal_ax3 thm
+prf 8632:8652 <> modal_excluded_middle
+binder 8664:8664 <> A:730
+binder 8666:8666 <> G:731
+binder 8668:8668 <> p:732
+R8683:8689 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8712:8712 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8673:8678 Top.Sets <> Subset def
+R8682:8682 Top.Modal_Tactics <> A:730 var
+R8680:8680 Top.Deductive_System <> P ind
+R8691:8692 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R8694:8698 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R8690:8690 Top.Modal_Tactics <> A:730 var
+R8693:8693 Top.Modal_Tactics <> G:731 var
+R8699:8701 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R8709:8711 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R8703:8706 Top.Modal_Notations <> :modal::x_'\/'_x not
+binder 8702:8702 <> p:733
+binder 8702:8702 <> p:734
+R8707:8707 Top.Modal_Notations <> :modal::'~'_x not
+binder 8708:8708 <> p:735
+binder 8708:8708 <> p:736
+R8744:8746 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R8754:8756 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R8748:8751 Top.Modal_Notations <> :modal::x_'\/'_x not
+binder 8747:8747 <> p:737
+binder 8747:8747 <> p:738
+R8752:8752 Top.Modal_Notations <> :modal::'~'_x not
+binder 8753:8753 <> p:739
+binder 8753:8753 <> p:740
+R8744:8746 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R8754:8756 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R8748:8751 Top.Modal_Notations <> :modal::x_'\/'_x not
+binder 8747:8747 <> p:741
+binder 8747:8747 <> p:742
+R8752:8752 Top.Modal_Notations <> :modal::'~'_x not
+binder 8753:8753 <> p:743
+binder 8753:8753 <> p:744
+R8770:8770 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R8794:8809 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R8832:8832 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R8772:8773 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R8775:8779 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R8780:8782 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R8791:8793 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R8785:8788 Top.Modal_Notations <> :modal::x_'->'_x not
+R8783:8783 Top.Modal_Notations <> :modal::'~'_x not
+binder 8784:8784 <> q:745
+binder 8784:8784 <> q:746
+R8789:8789 Top.Modal_Notations <> :modal::'~'_x not
+binder 8790:8790 <> p:747
+binder 8790:8790 <> p:748
+R8811:8812 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R8814:8818 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R8819:8821 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R8829:8831 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R8824:8827 Top.Modal_Notations <> :modal::x_'->'_x not
+R8822:8822 Top.Modal_Notations <> :modal::'~'_x not
+binder 8823:8823 <> p:749
+binder 8823:8823 <> p:750
+binder 8828:8828 <> q:751
+binder 8828:8828 <> q:752
+R8770:8770 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R8794:8809 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R8832:8832 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R8772:8773 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R8775:8779 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R8780:8782 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R8791:8793 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R8785:8788 Top.Modal_Notations <> :modal::x_'->'_x not
+R8783:8783 Top.Modal_Notations <> :modal::'~'_x not
+binder 8784:8784 <> q:753
+binder 8784:8784 <> q:754
+R8789:8789 Top.Modal_Notations <> :modal::'~'_x not
+binder 8790:8790 <> p:755
+binder 8790:8790 <> p:756
+R8811:8812 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R8814:8818 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R8819:8821 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R8829:8831 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R8824:8827 Top.Modal_Notations <> :modal::x_'->'_x not
+R8822:8822 Top.Modal_Notations <> :modal::'~'_x not
+binder 8823:8823 <> p:757
+binder 8823:8823 <> p:758
+binder 8828:8828 <> q:759
+binder 8828:8828 <> q:760
+R8872:8880 Top.Modal_Tactics <> modal_ax3 thm
+R8872:8880 Top.Modal_Tactics <> modal_ax3 thm
+R8923:8937 Top.Modal_Tactics <> modal_syllogism thm
+R8923:8937 Top.Modal_Tactics <> modal_syllogism thm
+R9021:9035 Top.Modal_Tactics <> modal_syllogism thm
+R9021:9035 Top.Modal_Tactics <> modal_syllogism thm
+R9133:9136 Top.Deductive_System <> ax10 constr
+R9119:9120 Top.Deductive_System <> Ax constr
+R9133:9136 Top.Deductive_System <> ax10 constr
+R9119:9120 Top.Deductive_System <> Ax constr
+R9222:9224 Top.Deductive_System <> ax7 constr
+R9208:9209 Top.Deductive_System <> Ax constr
+R9222:9224 Top.Deductive_System <> ax7 constr
+R9208:9209 Top.Deductive_System <> Ax constr
+R9293:9326 Top.Modal_Tactics <> modal_double_negation_introduction thm
+R9293:9326 Top.Modal_Tactics <> modal_double_negation_introduction thm
+R9374:9376 Top.Deductive_System <> ax8 constr
+R9360:9361 Top.Deductive_System <> Ax constr
+R9374:9376 Top.Deductive_System <> ax8 constr
+R9360:9361 Top.Deductive_System <> Ax constr
+R9445:9447 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R9457:9459 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R9448:9448 Top.Modal_Notations <> :modal::'('_x_')' not
+R9456:9456 Top.Modal_Notations <> :modal::'('_x_')' not
+R9451:9454 Top.Modal_Notations <> :modal::x_'->'_x not
+R9449:9449 Top.Modal_Notations <> :modal::'~'_x not
+binder 9450:9450 <> q:761
+binder 9450:9450 <> q:762
+binder 9455:9455 <> q:763
+binder 9455:9455 <> q:764
+R9437:9438 Top.Deductive_System <> Mp constr
+R9445:9447 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R9457:9459 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R9448:9448 Top.Modal_Notations <> :modal::'('_x_')' not
+R9456:9456 Top.Modal_Notations <> :modal::'('_x_')' not
+R9451:9454 Top.Modal_Notations <> :modal::x_'->'_x not
+R9449:9449 Top.Modal_Notations <> :modal::'~'_x not
+binder 9450:9450 <> q:765
+binder 9450:9450 <> q:766
+binder 9455:9455 <> q:767
+binder 9455:9455 <> q:768
+R9437:9438 Top.Deductive_System <> Mp constr
+R9474:9489 Top.Modal_Tactics <> modal_peirce_law thm
+R9474:9489 Top.Modal_Tactics <> modal_peirce_law thm
+R9543:9545 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R9548:9550 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R9546:9546 Top.Modal_Notations <> :modal::'~'_x not
+binder 9547:9547 <> p:769
+binder 9547:9547 <> p:770
+R9522:9536 Top.Modal_Tactics <> modal_syllogism thm
+R9543:9545 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R9548:9550 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R9546:9546 Top.Modal_Notations <> :modal::'~'_x not
+binder 9547:9547 <> p:771
+binder 9547:9547 <> p:772
+R9522:9536 Top.Modal_Tactics <> modal_syllogism thm
+prf 9665:9676 <> modal_axDual
+binder 9688:9688 <> A:773
+binder 9690:9690 <> G:774
+binder 9692:9692 <> p:775
+binder 9694:9696 <> idx:776
+R9717:9722 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9701:9706 Top.Sets <> Subset def
+R9716:9716 Top.Modal_Tactics <> A:773 var
+R9709:9709 Top.Deductive_System <> K ind
+R9711:9713 Top.Modal_Tactics <> idx:776 var
+R9723:9723 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R9745:9751 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R9775:9775 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R9725:9726 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R9728:9732 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R9724:9724 Top.Modal_Tactics <> A:773 var
+R9727:9727 Top.Modal_Tactics <> G:774 var
+R9733:9735 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R9742:9744 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R9736:9736 Top.Modal_Notations <> :modal::'<'_x_'>'_x not
+R9740:9740 Top.Modal_Notations <> :modal::'<'_x_'>'_x not
+binder 9737:9739 <> idx:777
+binder 9737:9739 <> idx:778
+binder 9741:9741 <> p:779
+binder 9741:9741 <> p:780
+R9753:9754 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R9756:9760 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R9752:9752 Top.Modal_Tactics <> A:773 var
+R9755:9755 Top.Modal_Tactics <> G:774 var
+R9761:9763 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R9772:9774 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R9764:9764 Top.Modal_Notations <> :modal::'~'_x not
+R9765:9765 Top.Modal_Notations <> :modal::'['_x_']'_x not
+R9769:9769 Top.Modal_Notations <> :modal::'['_x_']'_x not
+binder 9766:9768 <> idx:781
+binder 9766:9768 <> idx:782
+R9770:9770 Top.Modal_Notations <> :modal::'~'_x not
+binder 9771:9771 <> p:783
+binder 9771:9771 <> p:784
+R9806:9807 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R9809:9813 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R9814:9816 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R9836:9838 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R9823:9827 Top.Modal_Notations <> :modal::x_'<->'_x not
+R9817:9817 Top.Modal_Notations <> :modal::'<'_x_'>'_x not
+R9821:9821 Top.Modal_Notations <> :modal::'<'_x_'>'_x not
+binder 9818:9820 <> idx:785
+binder 9818:9820 <> idx:786
+binder 9822:9822 <> p:787
+binder 9822:9822 <> p:788
+R9828:9828 Top.Modal_Notations <> :modal::'~'_x not
+R9829:9829 Top.Modal_Notations <> :modal::'['_x_']'_x not
+R9833:9833 Top.Modal_Notations <> :modal::'['_x_']'_x not
+binder 9830:9832 <> idx:789
+binder 9830:9832 <> idx:790
+R9834:9834 Top.Modal_Notations <> :modal::'~'_x not
+binder 9835:9835 <> p:791
+binder 9835:9835 <> p:792
+R9828:9828 Top.Modal_Notations <> :modal::'~'_x not
+R9829:9829 Top.Modal_Notations <> :modal::'['_x_']'_x not
+R9833:9833 Top.Modal_Notations <> :modal::'['_x_']'_x not
+binder 9830:9832 <> idx:793
+binder 9830:9832 <> idx:794
+R9834:9834 Top.Modal_Notations <> :modal::'~'_x not
+binder 9835:9835 <> p:795
+binder 9835:9835 <> p:796
+R9817:9817 Top.Modal_Notations <> :modal::'<'_x_'>'_x not
+R9821:9821 Top.Modal_Notations <> :modal::'<'_x_'>'_x not
+binder 9818:9820 <> idx:797
+binder 9818:9820 <> idx:798
+binder 9822:9822 <> p:799
+binder 9822:9822 <> p:800
+R9806:9807 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R9809:9813 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R9814:9816 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R9836:9838 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R9823:9827 Top.Modal_Notations <> :modal::x_'<->'_x not
+R9817:9817 Top.Modal_Notations <> :modal::'<'_x_'>'_x not
+R9821:9821 Top.Modal_Notations <> :modal::'<'_x_'>'_x not
+binder 9818:9820 <> idx:801
+binder 9818:9820 <> idx:802
+binder 9822:9822 <> p:803
+binder 9822:9822 <> p:804
+R9828:9828 Top.Modal_Notations <> :modal::'~'_x not
+R9829:9829 Top.Modal_Notations <> :modal::'['_x_']'_x not
+R9833:9833 Top.Modal_Notations <> :modal::'['_x_']'_x not
+binder 9830:9832 <> idx:805
+binder 9830:9832 <> idx:806
+R9834:9834 Top.Modal_Notations <> :modal::'~'_x not
+binder 9835:9835 <> p:807
+binder 9835:9835 <> p:808
+R9828:9828 Top.Modal_Notations <> :modal::'~'_x not
+R9829:9829 Top.Modal_Notations <> :modal::'['_x_']'_x not
+R9833:9833 Top.Modal_Notations <> :modal::'['_x_']'_x not
+binder 9830:9832 <> idx:809
+binder 9830:9832 <> idx:810
+R9834:9834 Top.Modal_Notations <> :modal::'~'_x not
+binder 9835:9835 <> p:811
+binder 9835:9835 <> p:812
+R9817:9817 Top.Modal_Notations <> :modal::'<'_x_'>'_x not
+R9821:9821 Top.Modal_Notations <> :modal::'<'_x_'>'_x not
+binder 9818:9820 <> idx:813
+binder 9818:9820 <> idx:814
+binder 9822:9822 <> p:815
+binder 9822:9822 <> p:816
+R9866:9871 Top.Deductive_System <> axDual constr
+R9852:9853 Top.Deductive_System <> Ax constr
+R9866:9871 Top.Deductive_System <> axDual constr
+R9852:9853 Top.Deductive_System <> Ax constr
+R9908:9915 Top.Deductive_System <> K_axDual constr
+R9908:9915 Top.Deductive_System <> K_axDual constr
+R9968:9976 Top.Modal_Tactics <> modal_ax5 thm
+R9968:9976 Top.Modal_Tactics <> modal_ax5 thm
+R10011:10013 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R10020:10022 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R10014:10014 Top.Modal_Notations <> :modal::'<'_x_'>'_x not
+R10018:10018 Top.Modal_Notations <> :modal::'<'_x_'>'_x not
+binder 10015:10017 <> idx:817
+binder 10015:10017 <> idx:818
+binder 10019:10019 <> p:819
+binder 10019:10019 <> p:820
+R10003:10004 Top.Deductive_System <> Mp constr
+R10011:10013 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R10020:10022 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R10014:10014 Top.Modal_Notations <> :modal::'<'_x_'>'_x not
+R10018:10018 Top.Modal_Notations <> :modal::'<'_x_'>'_x not
+binder 10015:10017 <> idx:821
+binder 10015:10017 <> idx:822
+binder 10019:10019 <> p:823
+binder 10019:10019 <> p:824
+R10003:10004 Top.Deductive_System <> Mp constr
+R10072:10080 Top.Modal_Tactics <> modal_ax6 thm
+R10072:10080 Top.Modal_Tactics <> modal_ax6 thm
+R10115:10117 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R10126:10128 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R10118:10118 Top.Modal_Notations <> :modal::'~'_x not
+R10119:10119 Top.Modal_Notations <> :modal::'['_x_']'_x not
+R10123:10123 Top.Modal_Notations <> :modal::'['_x_']'_x not
+binder 10120:10122 <> idx:825
+binder 10120:10122 <> idx:826
+R10124:10124 Top.Modal_Notations <> :modal::'~'_x not
+binder 10125:10125 <> p:827
+binder 10125:10125 <> p:828
+R10107:10108 Top.Deductive_System <> Mp constr
+R10115:10117 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R10126:10128 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R10118:10118 Top.Modal_Notations <> :modal::'~'_x not
+R10119:10119 Top.Modal_Notations <> :modal::'['_x_']'_x not
+R10123:10123 Top.Modal_Notations <> :modal::'['_x_']'_x not
+binder 10120:10122 <> idx:829
+binder 10120:10122 <> idx:830
+R10124:10124 Top.Modal_Notations <> :modal::'~'_x not
+binder 10125:10125 <> p:831
+binder 10125:10125 <> p:832
+R10107:10108 Top.Deductive_System <> Mp constr
+prf 10178:10214 <> modal_implies_absurd_derives_negation
+binder 10226:10226 <> A:833
+binder 10228:10228 <> G:834
+binder 10230:10230 <> p:835
+binder 10232:10232 <> q:836
+R10247:10252 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10237:10242 Top.Sets <> Subset def
+R10246:10246 Top.Modal_Tactics <> A:833 var
+R10244:10244 Top.Deductive_System <> P ind
+R10253:10253 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10281:10288 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10306:10306 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10255:10256 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R10258:10262 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R10254:10254 Top.Modal_Tactics <> A:833 var
+R10257:10257 Top.Modal_Tactics <> G:834 var
+R10263:10265 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R10278:10280 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R10267:10270 Top.Modal_Notations <> :modal::x_'->'_x not
+binder 10266:10266 <> p:837
+binder 10266:10266 <> p:838
+R10272:10275 Top.Modal_Notations <> :modal::x_'/\'_x not
+binder 10271:10271 <> q:839
+binder 10271:10271 <> q:840
+R10276:10276 Top.Modal_Notations <> :modal::'~'_x not
+binder 10277:10277 <> q:841
+binder 10277:10277 <> q:842
+R10290:10291 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R10293:10297 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R10289:10289 Top.Modal_Tactics <> A:833 var
+R10292:10292 Top.Modal_Tactics <> G:834 var
+R10298:10300 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R10303:10305 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R10301:10301 Top.Modal_Notations <> :modal::'~'_x not
+binder 10302:10302 <> p:843
+binder 10302:10302 <> p:844
+R10337:10338 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R10340:10344 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R10345:10347 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R10355:10357 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R10349:10352 Top.Modal_Notations <> :modal::x_'\/'_x not
+binder 10348:10348 <> p:845
+binder 10348:10348 <> p:846
+R10353:10353 Top.Modal_Notations <> :modal::'~'_x not
+binder 10354:10354 <> p:847
+binder 10354:10354 <> p:848
+R10337:10338 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R10340:10344 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R10345:10347 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R10355:10357 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R10349:10352 Top.Modal_Notations <> :modal::x_'\/'_x not
+binder 10348:10348 <> p:849
+binder 10348:10348 <> p:850
+R10353:10353 Top.Modal_Notations <> :modal::'~'_x not
+binder 10354:10354 <> p:851
+binder 10354:10354 <> p:852
+R10371:10391 Top.Modal_Tactics <> modal_excluded_middle thm
+R10371:10391 Top.Modal_Tactics <> modal_excluded_middle thm
+R10435:10437 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R10439:10441 Top.Modal_Notations <> :::'[!'_x_'!]' not
+binder 10438:10438 <> p:853
+binder 10438:10438 <> p:854
+R10443:10445 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R10448:10450 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R10446:10446 Top.Modal_Notations <> :modal::'~'_x not
+binder 10447:10447 <> p:855
+binder 10447:10447 <> p:856
+R10420:10428 Top.Modal_Tactics <> modal_ax9 thm
+R10435:10437 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R10439:10441 Top.Modal_Notations <> :::'[!'_x_'!]' not
+binder 10438:10438 <> p:857
+binder 10438:10438 <> p:858
+R10443:10445 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R10448:10450 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R10446:10446 Top.Modal_Notations <> :modal::'~'_x not
+binder 10447:10447 <> p:859
+binder 10447:10447 <> p:860
+R10420:10428 Top.Modal_Tactics <> modal_ax9 thm
+R10514:10516 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R10524:10526 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R10518:10521 Top.Modal_Notations <> :modal::x_'/\'_x not
+binder 10517:10517 <> q:861
+binder 10517:10517 <> q:862
+R10522:10522 Top.Modal_Notations <> :modal::'~'_x not
+binder 10523:10523 <> q:863
+binder 10523:10523 <> q:864
+R10493:10507 Top.Modal_Tactics <> modal_syllogism thm
+R10514:10516 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R10524:10526 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R10518:10521 Top.Modal_Notations <> :modal::x_'/\'_x not
+binder 10517:10517 <> q:865
+binder 10517:10517 <> q:866
+R10522:10522 Top.Modal_Notations <> :modal::'~'_x not
+binder 10523:10523 <> q:867
+binder 10523:10523 <> q:868
+R10493:10507 Top.Modal_Tactics <> modal_syllogism thm
+R10623:10637 Top.Modal_Tactics <> modal_deduction thm
+R10623:10637 Top.Modal_Tactics <> modal_deduction thm
+R10660:10674 Top.Modal_Tactics <> modal_explosion thm
+R10660:10674 Top.Modal_Tactics <> modal_explosion thm
+R10855:10857 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R10860:10862 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R10858:10858 Top.Modal_Notations <> :modal::'~'_x not
+binder 10859:10859 <> q:869
+binder 10859:10859 <> q:870
+R10840:10848 Top.Modal_Tactics <> modal_ax5 thm
+R10855:10857 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R10860:10862 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R10858:10858 Top.Modal_Notations <> :modal::'~'_x not
+binder 10859:10859 <> q:871
+binder 10859:10859 <> q:872
+R10840:10848 Top.Modal_Tactics <> modal_ax5 thm
+R10927:10930 Top.Deductive_System <> Prem constr
+R10927:10930 Top.Deductive_System <> Prem constr
+R10992:10994 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R10996:10998 Top.Modal_Notations <> :::'[!'_x_'!]' not
+binder 10995:10995 <> q:873
+binder 10995:10995 <> q:874
+R10977:10985 Top.Modal_Tactics <> modal_ax6 thm
+R10992:10994 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R10996:10998 Top.Modal_Notations <> :::'[!'_x_'!]' not
+binder 10995:10995 <> q:875
+binder 10995:10995 <> q:876
+R10977:10985 Top.Modal_Tactics <> modal_ax6 thm
+R11063:11066 Top.Deductive_System <> Prem constr
+R11063:11066 Top.Deductive_System <> Prem constr
+R11107:11121 Top.Modal_Tactics <> derive_identity thm
+R11107:11121 Top.Modal_Tactics <> derive_identity thm
+prf 11172:11208 <> modal_negation_derives_implies_absurd
+binder 11220:11220 <> A:877
+binder 11222:11222 <> G:878
+binder 11224:11224 <> p:879
+binder 11226:11226 <> q:880
+R11241:11246 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11231:11236 Top.Sets <> Subset def
+R11240:11240 Top.Modal_Tactics <> A:877 var
+R11238:11238 Top.Deductive_System <> P ind
+R11247:11247 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11265:11272 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11300:11300 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11249:11250 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R11252:11256 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R11248:11248 Top.Modal_Tactics <> A:877 var
+R11251:11251 Top.Modal_Tactics <> G:878 var
+R11257:11259 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R11262:11264 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R11260:11260 Top.Modal_Notations <> :modal::'~'_x not
+binder 11261:11261 <> p:881
+binder 11261:11261 <> p:882
+R11274:11275 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R11277:11281 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R11273:11273 Top.Modal_Tactics <> A:877 var
+R11276:11276 Top.Modal_Tactics <> G:878 var
+R11282:11284 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R11297:11299 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R11286:11289 Top.Modal_Notations <> :modal::x_'->'_x not
+binder 11285:11285 <> p:883
+binder 11285:11285 <> p:884
+R11291:11294 Top.Modal_Notations <> :modal::x_'/\'_x not
+binder 11290:11290 <> q:885
+binder 11290:11290 <> q:886
+R11295:11295 Top.Modal_Notations <> :modal::'~'_x not
+binder 11296:11296 <> q:887
+binder 11296:11296 <> q:888
+R11328:11342 Top.Modal_Tactics <> modal_deduction thm
+R11328:11342 Top.Modal_Tactics <> modal_deduction thm
+R11361:11375 Top.Modal_Tactics <> modal_explosion thm
+R11361:11375 Top.Modal_Tactics <> modal_explosion thm
+R11509:11512 Top.Deductive_System <> Prem constr
+R11509:11512 Top.Deductive_System <> Prem constr
+R11543:11558 Top.Modal_Tactics <> deduction_subset thm
+R11543:11558 Top.Modal_Tactics <> deduction_subset thm
+prf 11639:11661 <> modal_impl_transitivity
+binder 11673:11673 <> M:889
+binder 11675:11675 <> a:890
+binder 11677:11677 <> b:891
+binder 11679:11679 <> c:892
+R11726:11732 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11750:11750 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11684:11684 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R11702:11707 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R11725:11725 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R11686:11689 Top.Modal_Notations <> :::x_'|='_x not
+R11685:11685 Top.Modal_Tactics <> M:889 var
+R11690:11692 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R11699:11701 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R11694:11697 Top.Modal_Notations <> :modal::x_'->'_x not
+binder 11693:11693 <> a:893
+binder 11693:11693 <> a:894
+binder 11698:11698 <> b:895
+binder 11698:11698 <> b:896
+R11709:11712 Top.Modal_Notations <> :::x_'|='_x not
+R11708:11708 Top.Modal_Tactics <> M:889 var
+R11713:11715 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R11722:11724 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R11717:11720 Top.Modal_Notations <> :modal::x_'->'_x not
+binder 11716:11716 <> b:897
+binder 11716:11716 <> b:898
+binder 11721:11721 <> c:899
+binder 11721:11721 <> c:900
+R11734:11737 Top.Modal_Notations <> :::x_'|='_x not
+R11733:11733 Top.Modal_Tactics <> M:889 var
+R11738:11740 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R11747:11749 Top.Modal_Notations <> :::'[!'_x_'!]' not
+R11742:11745 Top.Modal_Notations <> :modal::x_'->'_x not
+binder 11741:11741 <> a:901
+binder 11741:11741 <> a:902
+binder 11746:11746 <> c:903
+binder 11746:11746 <> c:904
+R11839:11845 Top.Modal_Tactics Tactics <> sec
