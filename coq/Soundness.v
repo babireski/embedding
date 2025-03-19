@@ -4,6 +4,8 @@ Section Soundness.
 
 Context `{X: modal_index_set}.
 
+Theorem deduction : forall (Γ : theory) (α β : formula) i, (S4 i; Γ |-- [! α -> β !]) -> S4 i;  Γ |-- [! β !].
+
 (* p -> (q -> p) *)
 Lemma Hilbert_Axiom_1_soundness:
   forall M w φ ψ,
@@ -201,7 +203,6 @@ Proof.
 Qed.
 
 (* K is sound for every frame. *)
-
 Theorem soundness:
   forall (G: theory) (φ: formula) idx,
   (K idx; G |-- φ) ->

@@ -37,6 +37,17 @@ Fixpoint modalSize (f: formula): nat :=
   | Implies p1 p2 => 1 + (modalSize p1) + (modalSize p2)
 end.
 
+Fixpoint modalDepth (f: formula): nat :=
+  match f with 
+  | Lit     x     => 0
+  | Neg     p1    => 1 + (modalDepth p1)
+  | Box   i p1    => 1 + (modalDepth p1)
+  | Dia   i p1    => 1 + (modalDepth p1)
+  | And     p1 p2 => 1 + max (modalDepth p1) (modalDepth p2)
+  | Or      p1 p2 => 1 + max (modalDepth p1) (modalDepth p2)
+  | Implies p1 p2 => 1 + max (modalDepth p1) (modalDepth p2)
+end.
+
 Fixpoint literals (f: formula): set nat :=
   match f with 
   | Lit     x     => set_add eq_nat_dec x (empty_set nat)
