@@ -1,8 +1,8 @@
 DIGEST 95cfde7919a961b2da8e14cf1cceb811
 FTop.Modal_Notations
 R15:27 Top.Modal_Library <> <> lib
-R29:32 Coq.Lists.List <> <> lib
-R43:55 Coq.Lists.List ListNotations <> mod
+R29:32 Stdlib.Lists.List <> <> lib
+R43:55 Stdlib.Lists.List ListNotations <> mod
 not 173:173 <> :modal::x
 not 232:232 <> :modal::'('_x_')'
 not 290:290 <> :::'[!'_x_'!]'

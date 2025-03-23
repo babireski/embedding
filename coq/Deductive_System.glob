@@ -2,10 +2,10 @@ DIGEST 8c9c65fc7fe53b0f124f3bcbb7abd500
 FTop.Deductive_System
 R15:27 Top.Modal_Library <> <> lib
 R29:43 Top.Modal_Notations <> <> lib
-R45:48 Coq.Lists.List <> <> lib
-R50:58 Coq.Logic.Classical <> <> lib
-R60:64 Coq.Init.Logic <> <> lib
-R66:73 Coq.Program.Equality <> <> lib
+R45:48 Stdlib.Lists.List <> <> lib
+R50:58 Stdlib.Logic.Classical <> <> lib
+R60:64 Corelib.Init.Logic <> <> lib
+R66:73 Stdlib.Program.Equality <> <> lib
 R75:78 Top.Sets <> <> lib
 sec 115:121 <> Hilbert
 var  135:135 Hilbert X
@@ -29,98 +29,98 @@ constr 791:794 <> axK4
 constr 833:835 <> axD
 constr 874:877 <> axK5
 constr 916:919 <> axGL
-R243:246 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R243:246 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
 R236:242 Top.Modal_Library <> formula ind
-R254:257 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R254:257 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
 R247:253 Top.Modal_Library <> formula ind
 R258:262 Top.Deductive_System <> axiom:3 ind
-R280:283 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R280:283 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
 R273:279 Top.Modal_Library <> formula ind
-R291:294 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R291:294 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
 R284:290 Top.Modal_Library <> formula ind
-R302:305 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R302:305 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
 R295:301 Top.Modal_Library <> formula ind
 R306:310 Top.Deductive_System <> axiom:3 ind
-R328:331 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R328:331 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
 R321:327 Top.Modal_Library <> formula ind
-R339:342 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R339:342 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
 R332:338 Top.Modal_Library <> formula ind
 R343:347 Top.Deductive_System <> axiom:3 ind
-R365:368 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R365:368 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
 R358:364 Top.Modal_Library <> formula ind
-R376:379 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R376:379 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
 R369:375 Top.Modal_Library <> formula ind
 R380:384 Top.Deductive_System <> axiom:3 ind
-R402:405 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R402:405 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
 R395:401 Top.Modal_Library <> formula ind
-R413:416 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R413:416 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
 R406:412 Top.Modal_Library <> formula ind
 R417:421 Top.Deductive_System <> axiom:3 ind
-R439:442 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R439:442 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
 R432:438 Top.Modal_Library <> formula ind
-R450:453 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R450:453 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
 R443:449 Top.Modal_Library <> formula ind
 R454:458 Top.Deductive_System <> axiom:3 ind
-R476:479 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R476:479 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
 R469:475 Top.Modal_Library <> formula ind
-R487:490 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R487:490 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
 R480:486 Top.Modal_Library <> formula ind
 R491:495 Top.Deductive_System <> axiom:3 ind
-R513:516 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R513:516 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
 R506:512 Top.Modal_Library <> formula ind
-R524:527 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R524:527 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
 R517:523 Top.Modal_Library <> formula ind
 R528:532 Top.Deductive_System <> axiom:3 ind
-R550:553 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R550:553 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
 R543:549 Top.Modal_Library <> formula ind
-R561:564 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R561:564 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
 R554:560 Top.Modal_Library <> formula ind
-R572:575 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R572:575 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
 R565:571 Top.Modal_Library <> formula ind
 R576:580 Top.Deductive_System <> axiom:3 ind
-R599:602 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R599:602 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
 R592:598 Top.Modal_Library <> formula ind
 R603:607 Top.Deductive_System <> axiom:3 ind
-R629:632 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R629:632 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
 R618:628 Top.Modal_Library <> modal_index rec
-R640:643 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R640:643 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
 R633:639 Top.Modal_Library <> formula ind
-R651:654 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R651:654 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
 R644:650 Top.Modal_Library <> formula ind
 R655:659 Top.Deductive_System <> axiom:3 ind
-R684:687 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R684:687 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
 R673:683 Top.Modal_Library <> modal_index rec
-R695:698 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R695:698 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
 R688:694 Top.Modal_Library <> formula ind
 R699:703 Top.Deductive_System <> axiom:3 ind
-R725:728 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R725:728 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
 R714:724 Top.Modal_Library <> modal_index rec
-R736:739 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R736:739 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
 R729:735 Top.Modal_Library <> formula ind
 R740:744 Top.Deductive_System <> axiom:3 ind
-R766:769 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R766:769 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
 R755:765 Top.Modal_Library <> modal_index rec
-R777:780 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R777:780 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
 R770:776 Top.Modal_Library <> formula ind
 R781:785 Top.Deductive_System <> axiom:3 ind
-R808:811 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R808:811 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
 R797:807 Top.Modal_Library <> modal_index rec
-R819:822 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R819:822 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
 R812:818 Top.Modal_Library <> formula ind
 R823:827 Top.Deductive_System <> axiom:3 ind
-R849:852 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R849:852 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
 R838:848 Top.Modal_Library <> modal_index rec
-R860:863 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R860:863 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
 R853:859 Top.Modal_Library <> formula ind
 R864:868 Top.Deductive_System <> axiom:3 ind
-R891:894 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R891:894 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
 R880:890 Top.Modal_Library <> modal_index rec
-R902:905 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R902:905 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
 R895:901 Top.Modal_Library <> formula ind
 R906:910 Top.Deductive_System <> axiom:3 ind
-R933:936 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R933:936 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
 R922:932 Top.Modal_Library <> modal_index rec
-R944:947 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R944:947 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
 R937:943 Top.Modal_Library <> formula ind
 R948:952 Top.Deductive_System <> axiom:3 ind
 scheme 213:217 <> axiom_rect
@@ -487,18 +487,18 @@ constr 2051:2054 <> Prem
 constr 2140:2141 <> Ax
 constr 2270:2271 <> Mp
 constr 2414:2416 <> Nec
-R1990:1993 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1990:1993 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
 R1985:1989 Top.Deductive_System <> axiom ind
 binder 1982:1982 <> A:169
-R2007:2010 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2007:2010 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
 R2001:2006 Top.Modal_Library <> theory def
-R2018:2021 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2018:2021 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
 R2011:2017 Top.Modal_Library <> formula ind
 R2068:2073 Top.Modal_Library <> theory def
 binder 2065:2065 <> t:172
 R2080:2086 Top.Modal_Library <> formula ind
 binder 2077:2077 <> f:173
-R2097:2104 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2097:2104 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
 R2094:2094 Top.Deductive_System <> t:172 var
 R2096:2096 Top.Deductive_System <> f:173 var
 R2105:2113 Top.Deductive_System <> deduction:170 ind
@@ -511,11 +511,11 @@ R2167:2171 Top.Deductive_System <> axiom ind
 binder 2164:2164 <> a:175
 R2178:2184 Top.Modal_Library <> formula ind
 binder 2175:2175 <> f:176
-R2195:2202 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2195:2202 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
 R2192:2192 Top.Deductive_System <> A:169 var
 R2194:2194 Top.Deductive_System <> a:175 var
-R2220:2227 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R2216:2218 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2220:2227 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R2216:2218 Corelib.Init.Logic <> ::type_scope:x_'='_x not
 R2203:2213 Top.Deductive_System <> instantiate def
 R2215:2215 Top.Deductive_System <> a:175 var
 R2219:2219 Top.Deductive_System <> f:176 var
@@ -528,7 +528,7 @@ binder 2282:2282 <> t:177
 R2299:2305 Top.Modal_Library <> formula ind
 binder 2294:2294 <> f:178
 binder 2296:2296 <> g:179
-R2339:2346 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2339:2346 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
 R2313:2321 Top.Deductive_System <> deduction:170 ind
 R2327:2329 Top.Modal_Notations <> :::'[!'_x_'!]' not
 R2336:2338 Top.Modal_Notations <> :::'[!'_x_'!]' not
@@ -539,7 +539,7 @@ binder 2335:2335 <> g:182
 binder 2335:2335 <> g:183
 R2325:2325 Top.Deductive_System <> t:177 var
 R2323:2323 Top.Deductive_System <> A:169 var
-R2362:2369 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2362:2369 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
 R2347:2355 Top.Deductive_System <> deduction:170 ind
 R2361:2361 Top.Deductive_System <> f:178 var
 R2359:2359 Top.Deductive_System <> t:177 var
@@ -554,7 +554,7 @@ R2442:2448 Top.Modal_Library <> formula ind
 binder 2439:2439 <> f:185
 R2455:2465 Top.Modal_Library <> modal_index rec
 binder 2452:2452 <> i:186
-R2492:2499 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2492:2499 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
 R2473:2481 Top.Deductive_System <> deduction:170 ind
 R2491:2491 Top.Deductive_System <> f:185 var
 R2485:2489 Top.Sets <> Empty def
@@ -587,7 +587,7 @@ constr 2865:2869 <> P_ax7
 constr 2904:2908 <> P_ax8
 constr 2943:2947 <> P_ax9
 constr 2988:2993 <> P_ax10
-R2609:2612 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2609:2612 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
 R2604:2608 Top.Deductive_System <> axiom ind
 binder 2639:2640 <> φ:195
 binder 2642:2643 <> ψ:196
@@ -659,10 +659,10 @@ ind 3059:3059 <> K
 constr 3083:3085 <> K_P
 constr 3116:3120 <> K_axK
 constr 3159:3166 <> K_axDual
-R3067:3070 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3067:3070 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
 R3062:3066 Top.Deductive_System <> axiom ind
 binder 3095:3096 <> φ:220
-R3103:3106 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3103:3106 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
 R3099:3099 Top.Deductive_System <> P ind
 R3101:3102 Top.Deductive_System <> φ:220 var
 R3107:3107 Top.Deductive_System <> K:218 ind
@@ -684,10 +684,10 @@ scheme 3059:3059 <> K_sind
 ind 3226:3226 <> T
 constr 3250:3252 <> T_K
 constr 3283:3287 <> T_axT
-R3234:3237 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3234:3237 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
 R3229:3233 Top.Deductive_System <> axiom ind
 binder 3262:3263 <> φ:226
-R3270:3273 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3270:3273 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
 R3266:3266 Top.Deductive_System <> K ind
 R3268:3269 Top.Deductive_System <> φ:226 var
 R3274:3274 Top.Deductive_System <> T:224 ind
@@ -702,10 +702,10 @@ scheme 3226:3226 <> T_sind
 ind 3358:3358 <> B
 constr 3382:3384 <> B_T
 constr 3415:3419 <> B_axB
-R3366:3369 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3366:3369 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
 R3361:3365 Top.Deductive_System <> axiom ind
 binder 3394:3395 <> φ:230
-R3402:3405 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3402:3405 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
 R3398:3398 Top.Deductive_System <> T ind
 R3400:3401 Top.Deductive_System <> φ:230 var
 R3406:3406 Top.Deductive_System <> B:228 ind
@@ -720,10 +720,10 @@ scheme 3358:3358 <> B_sind
 ind 3478:3479 <> K4
 constr 3503:3506 <> K4_K
 constr 3538:3544 <> K4_axK4
-R3487:3490 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3487:3490 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
 R3482:3486 Top.Deductive_System <> axiom ind
 binder 3516:3517 <> φ:234
-R3524:3527 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3524:3527 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
 R3520:3520 Top.Deductive_System <> K ind
 R3522:3523 Top.Deductive_System <> φ:234 var
 R3528:3529 Top.Deductive_System <> K4:232 ind
@@ -738,10 +738,10 @@ scheme 3478:3479 <> K4_sind
 ind 3601:3601 <> D
 constr 3625:3627 <> D_K
 constr 3658:3662 <> D_axD
-R3609:3612 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3609:3612 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
 R3604:3608 Top.Deductive_System <> axiom ind
 binder 3637:3638 <> φ:238
-R3645:3648 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3645:3648 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
 R3641:3641 Top.Deductive_System <> K ind
 R3643:3644 Top.Deductive_System <> φ:238 var
 R3649:3649 Top.Deductive_System <> D:236 ind
@@ -756,10 +756,10 @@ scheme 3601:3601 <> D_sind
 ind 3720:3721 <> K5
 constr 3745:3748 <> K5_K
 constr 3780:3786 <> K5_axK5
-R3729:3732 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3729:3732 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
 R3724:3728 Top.Deductive_System <> axiom ind
 binder 3758:3759 <> φ:242
-R3766:3769 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3766:3769 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
 R3762:3762 Top.Deductive_System <> K ind
 R3764:3765 Top.Deductive_System <> φ:242 var
 R3770:3771 Top.Deductive_System <> K5:240 ind
@@ -774,10 +774,10 @@ scheme 3720:3721 <> K5_sind
 ind 3861:3862 <> S4
 constr 3886:3889 <> S4_T
 constr 3921:3927 <> S4_axK4
-R3870:3873 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3870:3873 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
 R3865:3869 Top.Deductive_System <> axiom ind
 binder 3899:3900 <> φ:246
-R3907:3910 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3907:3910 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
 R3903:3903 Top.Deductive_System <> T ind
 R3905:3906 Top.Deductive_System <> φ:246 var
 R3911:3912 Top.Deductive_System <> S4:244 ind
@@ -792,16 +792,16 @@ scheme 3861:3862 <> S4_sind
 ind 3993:3994 <> S5
 constr 4018:4021 <> S5_B
 constr 4053:4057 <> S5_S4
-R4002:4005 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4002:4005 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
 R3997:4001 Top.Deductive_System <> axiom ind
 binder 4031:4032 <> φ:250
-R4039:4042 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4039:4042 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
 R4035:4035 Top.Deductive_System <> B ind
 R4037:4038 Top.Deductive_System <> φ:250 var
 R4043:4044 Top.Deductive_System <> S5:248 ind
 R4046:4047 Top.Deductive_System <> φ:250 var
 binder 4067:4068 <> φ:251
-R4077:4080 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4077:4080 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
 R4072:4073 Top.Deductive_System <> S4 ind
 R4075:4076 Top.Deductive_System <> φ:251 var
 R4081:4082 Top.Deductive_System <> S5:248 ind
@@ -811,16 +811,16 @@ scheme 3993:3994 <> S5_sind
 ind 4129:4132 <> S5_2
 constr 4156:4161 <> S5_2_T
 constr 4195:4201 <> S5_2_K5
-R4140:4143 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4140:4143 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
 R4135:4139 Top.Deductive_System <> axiom ind
 binder 4171:4172 <> φ:254
-R4179:4182 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4179:4182 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
 R4175:4175 Top.Deductive_System <> T ind
 R4177:4178 Top.Deductive_System <> φ:254 var
 R4183:4186 Top.Deductive_System <> S5_2:252 ind
 R4188:4189 Top.Deductive_System <> φ:254 var
 binder 4211:4212 <> φ:255
-R4221:4224 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4221:4224 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
 R4216:4217 Top.Deductive_System <> K5 ind
 R4219:4220 Top.Deductive_System <> φ:255 var
 R4225:4228 Top.Deductive_System <> S5_2:252 ind
@@ -830,10 +830,10 @@ scheme 4129:4132 <> S5_2_sind
 ind 4245:4246 <> GL
 constr 4270:4274 <> GL_K4
 constr 4309:4315 <> GL_axGL
-R4254:4257 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4254:4257 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
 R4249:4253 Top.Deductive_System <> axiom ind
 binder 4286:4287 <> φ:258
-R4295:4298 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4295:4298 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
 R4290:4291 Top.Deductive_System <> K4 ind
 R4293:4294 Top.Deductive_System <> φ:258 var
 R4299:4300 Top.Deductive_System <> GL:256 ind
@@ -854,15 +854,15 @@ R4550:4564 Top.Modal_Library <> modal_index_set class
 prf 4575:4585 <> derive_weak
 binder 4597:4598 <> Γ:262
 binder 4600:4602 <> ẟ:263
-R4620:4625 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4620:4625 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
 R4607:4612 Top.Sets <> Subset def
 R4617:4619 Top.Deductive_System <> ẟ:263 var
 R4614:4615 Top.Deductive_System <> Γ:262 var
 binder 4633:4633 <> A:264
 binder 4635:4636 <> φ:265
-R4641:4641 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R4654:4661 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R4675:4675 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4641:4641 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R4654:4661 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R4675:4675 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
 R4643:4644 Top.Deductive_System <> :::x_';'_x_'|--'_x not
 R4647:4651 Top.Deductive_System <> :::x_';'_x_'|--'_x not
 R4642:4642 Top.Deductive_System <> A:264 var
@@ -886,9 +886,9 @@ binder 4879:4879 <> A:266
 binder 4881:4883 <> ẟ:267
 binder 4885:4886 <> Γ:268
 binder 4888:4889 <> φ:269
-R4894:4894 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R4907:4914 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R4937:4937 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4894:4894 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R4907:4914 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R4937:4937 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
 R4896:4897 Top.Deductive_System <> :::x_';'_x_'|--'_x not
 R4900:4904 Top.Deductive_System <> :::x_';'_x_'|--'_x not
 R4895:4895 Top.Deductive_System <> A:266 var

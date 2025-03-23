@@ -30,14 +30,14 @@ Inductive axiom: Set :=
 Definition instantiate (a: axiom): formula :=
   match a with
   | ax1      φ ψ   => [! φ -> (ψ -> φ) !]
-  | ax2      φ ψ Ɣ => [! (φ -> (ψ -> Ɣ)) -> ((φ -> ψ) -> (φ -> Ɣ)) !]
+  | ax2      φ ψ γ => [! (φ -> (ψ -> γ)) -> ((φ -> ψ) -> (φ -> γ)) !]
   | ax3      φ ψ   => [! (~ψ -> ~φ) -> (φ -> ψ) !]
   | ax4      φ ψ   => [! φ -> (ψ -> (φ /\ ψ)) !]
   | ax5      φ ψ   => [! (φ /\ ψ) -> φ !]
   | ax6      φ ψ   => [! (φ /\ ψ) -> ψ !]
   | ax7      φ ψ   => [! φ -> (φ \/ ψ) !]
   | ax8      φ ψ   => [! ψ -> (φ \/ ψ) !]
-  | ax9      φ ψ Ɣ => [! (φ -> Ɣ) -> ((ψ -> Ɣ) -> ((φ \/ ψ) -> Ɣ)) !]
+  | ax9      φ ψ γ => [! (φ -> γ) -> ((ψ -> γ) -> ((φ \/ ψ) -> γ)) !]
   | ax10     φ     => [! ~~φ -> φ !]
   | axK    i φ ψ   => [! [i](φ -> ψ) -> ([i]φ -> [i]ψ) !]
   | axDual i φ     => [! <i>φ <-> ~[i]~φ !]
@@ -77,14 +77,14 @@ Context `{X: modal_index_set}.
 
 Inductive P: axiom -> Prop :=
   | P_ax1: forall φ ψ, P (ax1 φ ψ)
-  | P_ax2: forall φ ψ Ɣ, P (ax2 φ ψ Ɣ)
+  | P_ax2: forall φ ψ γ, P (ax2 φ ψ γ)
   | P_ax3: forall φ ψ, P (ax3 φ ψ)
   | P_ax4: forall φ ψ, P (ax4 φ ψ)
   | P_ax5: forall φ ψ, P (ax5 φ ψ)
   | P_ax6: forall φ ψ, P (ax6 φ ψ)
   | P_ax7: forall φ ψ, P (ax7 φ ψ)
   | P_ax8: forall φ ψ, P (ax8 φ ψ)
-  | P_ax9: forall φ ψ Ɣ, P (ax9 φ ψ Ɣ)
+  | P_ax9: forall φ ψ γ, P (ax9 φ ψ γ)
   | P_ax10: forall φ, P (ax10 φ).
 
 Variable idx: modal_index.

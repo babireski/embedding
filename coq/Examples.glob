@@ -1,12 +1,12 @@
 DIGEST 259e50f749616a179870df0eea6d7a8f
 FTop.Examples
-R15:18 Coq.Lists.List <> <> lib
+R15:18 Stdlib.Lists.List <> <> lib
 R20:32 Top.Modal_Library <> <> lib
 R34:48 Top.Modal_Notations <> <> lib
 R50:65 Top.Deductive_System <> <> lib
 R67:79 Top.Modal_Tactics <> <> lib
 R81:84 Top.Sets <> <> lib
-R94:106 Coq.Lists.List ListNotations <> mod
+R94:106 Stdlib.Lists.List ListNotations <> mod
 sec 118:125 <> Examples
 var  138:138 Examples X
 R141:155 Top.Modal_Library <> modal_index_set class
@@ -15,9 +15,9 @@ binder 183:183 <> A:3
 binder 185:185 <> G:4
 binder 187:187 <> i:5
 binder 201:201 <> f:6
-R206:212 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
-R214:218 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
-R250:250 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R206:212 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R214:218 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R250:250 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
 binder 213:213 <> p:7
 R220:221 Top.Deductive_System <> :::x_';'_x_'|--'_x not
 R223:227 Top.Deductive_System <> :::x_';'_x_'|--'_x not
@@ -56,14 +56,14 @@ binder 232:232 <> p:22
 binder 232:232 <> p:23
 def 265:270 <> subset
 binder 273:273 <> T:24
-R281:284 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R281:284 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
 R280:280 Top.Examples <> T:24 var
 binder 277:277 <> P:25
-R296:299 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R296:299 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
 R295:295 Top.Examples <> T:24 var
 binder 292:292 <> Q:26
 binder 324:324 <> x:27
-R330:333 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R330:333 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
 R327:327 Top.Examples <> P:25 var
 R329:329 Top.Examples <> x:27 var
 R334:334 Top.Examples <> Q:26 var
@@ -75,8 +75,8 @@ R494:495 Top.Examples <> K4 ind
 prf 514:516 <> Lob
 binder 604:604 <> A:28
 binder 606:606 <> i:29
-R651:656 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R626:629 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R651:656 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R626:629 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
 R611:616 Top.Examples <> subset def
 R625:625 Top.Examples <> A:28 var
 R619:620 Top.Deductive_System <> K4 ind
@@ -86,9 +86,9 @@ R642:642 Top.Examples <> A:28 var
 R644:648 Top.Sets <> Empty def
 R650:650 Top.Examples <> i:29 var
 binder 664:664 <> p:30
-R669:669 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R698:705 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R726:726 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R669:669 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R698:705 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R726:726 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
 R671:672 Top.Deductive_System <> :::x_';'_x_'|--'_x not
 R678:682 Top.Deductive_System <> :::x_';'_x_'|--'_x not
 R670:670 Top.Examples <> A:28 var

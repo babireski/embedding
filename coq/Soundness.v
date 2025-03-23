@@ -4,8 +4,6 @@ Section Soundness.
 
 Context `{X: modal_index_set}.
 
-Theorem deduction : forall (Γ : theory) (α β : formula) i, (S4 i; Γ |-- [! α -> β !]) -> S4 i;  Γ |-- [! β !].
-
 (* p -> (q -> p) *)
 Lemma Hilbert_Axiom_1_soundness:
   forall M w φ ψ,

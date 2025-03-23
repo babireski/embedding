@@ -1,12 +1,12 @@
 DIGEST 7e66cea2c17e2016a78022cb0be3b6b8
 FTop.Modal_Tactics
 R15:18 Top.Sets <> <> lib
-R36:43 Coq.Program.Equality <> <> lib
-R61:64 Coq.Lists.List <> <> lib
+R36:43 Stdlib.Program.Equality <> <> lib
+R61:64 Stdlib.Lists.List <> <> lib
 R66:78 Top.Modal_Library <> <> lib
 R80:94 Top.Modal_Notations <> <> lib
 R96:111 Top.Deductive_System <> <> lib
-R121:133 Coq.Lists.List ListNotations <> mod
+R121:133 Stdlib.Lists.List ListNotations <> mod
 sec 145:151 <> Tactics
 var  165:165 Tactics X
 R168:182 Top.Modal_Library <> modal_index_set class
@@ -14,7 +14,7 @@ prf 193:207 <> derive_identity
 binder 219:219 <> A:3
 binder 221:222 <> Γ:4
 binder 224:225 <> φ:5
-R240:245 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R240:245 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
 R230:235 Top.Sets <> Subset def
 R239:239 Top.Modal_Tactics <> A:3 var
 R237:237 Top.Deductive_System <> P ind
@@ -127,12 +127,12 @@ prf 711:726 <> deduction_subset
 binder 738:738 <> A:54
 binder 740:741 <> G1:55
 binder 743:744 <> G2:56
-R761:766 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R761:766 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
 R749:754 Top.Sets <> Subset def
 R759:760 Top.Modal_Tactics <> G2:56 var
 R756:757 Top.Modal_Tactics <> G1:55 var
 binder 774:774 <> p:57
-R795:798 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R795:798 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
 R779:787 Top.Deductive_System <> deduction ind
 R794:794 Top.Modal_Tactics <> p:57 var
 R791:792 Top.Modal_Tactics <> G1:55 var
@@ -143,23 +143,23 @@ R811:812 Top.Modal_Tactics <> G2:56 var
 R809:809 Top.Modal_Tactics <> A:54 var
 sec 1102:1110 Tactics Deduction
 var 1125:1125 Tactics.Deduction A
-R1133:1136 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1133:1136 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
 R1128:1132 Top.Deductive_System <> axiom ind
 var 1154:1154 Tactics.Deduction G
 R1157:1162 Top.Modal_Library <> theory def
 prf 1174:1182 <> modal_cut
 binder 1196:1196 <> p:62
-R1203:1203 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R1214:1222 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1203:1203 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R1214:1222 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
 R1205:1206 Top.Deductive_System <> :::x_';'_x_'|--'_x not
 R1208:1212 Top.Deductive_System <> :::x_';'_x_'|--'_x not
 R1204:1204 Top.Modal_Tactics <> Tactics.Deduction.A var
 R1207:1207 Top.Modal_Tactics <> Tactics.Deduction.G var
 R1213:1213 Top.Modal_Tactics <> p:62 var
 binder 1230:1230 <> q:63
-R1237:1237 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R1257:1262 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R1273:1273 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1237:1237 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R1257:1262 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R1273:1273 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
 R1239:1240 Top.Deductive_System <> :::x_';'_x_'|--'_x not
 R1251:1255 Top.Deductive_System <> :::x_';'_x_'|--'_x not
 R1238:1238 Top.Modal_Tactics <> Tactics.Deduction.A var
@@ -177,14 +177,14 @@ R1710:1720 Top.Modal_Library <> modal_index rec
 prf 1732:1740 <> modal_ax1
 binder 1754:1754 <> p:66
 binder 1756:1756 <> q:67
-R1774:1781 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1774:1781 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
 R1763:1763 Top.Modal_Tactics <> Tactics.Deduction.A var
 R1766:1768 Top.Deductive_System <> ax1 constr
 R1772:1772 Top.Modal_Tactics <> q:67 var
 R1770:1770 Top.Modal_Tactics <> p:66 var
-R1782:1782 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R1793:1798 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R1820:1820 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1782:1782 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R1793:1798 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R1820:1820 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
 R1784:1785 Top.Deductive_System <> :::x_';'_x_'|--'_x not
 R1787:1791 Top.Deductive_System <> :::x_';'_x_'|--'_x not
 R1783:1783 Top.Modal_Tactics <> Tactics.Deduction.A var
@@ -211,14 +211,14 @@ prf 1929:1937 <> modal_ax2
 binder 1951:1951 <> p:72
 binder 1953:1953 <> q:73
 binder 1955:1955 <> r:74
-R1975:1982 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1975:1982 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
 R1962:1962 Top.Modal_Tactics <> Tactics.Deduction.A var
 R1965:1967 Top.Deductive_System <> ax2 constr
 R1973:1973 Top.Modal_Tactics <> r:74 var
 R1971:1971 Top.Modal_Tactics <> q:73 var
 R1969:1969 Top.Modal_Tactics <> p:72 var
-R1983:1983 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R2010:2018 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1983:1983 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R2010:2018 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
 R1985:1986 Top.Deductive_System <> :::x_';'_x_'|--'_x not
 R1988:1992 Top.Deductive_System <> :::x_';'_x_'|--'_x not
 R1984:1984 Top.Modal_Tactics <> Tactics.Deduction.A var
@@ -233,9 +233,9 @@ binder 2001:2001 <> q:77
 binder 2001:2001 <> q:78
 binder 2006:2006 <> r:79
 binder 2006:2006 <> r:80
-R2019:2019 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R2041:2050 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R2072:2072 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2019:2019 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R2041:2050 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R2072:2072 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
 R2021:2022 Top.Deductive_System <> :::x_';'_x_'|--'_x not
 R2024:2028 Top.Deductive_System <> :::x_';'_x_'|--'_x not
 R2020:2020 Top.Modal_Tactics <> Tactics.Deduction.A var
@@ -401,14 +401,14 @@ R2316:2317 Top.Deductive_System <> Mp constr
 prf 2358:2366 <> modal_ax3
 binder 2380:2380 <> p:153
 binder 2382:2382 <> q:154
-R2400:2407 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2400:2407 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
 R2389:2389 Top.Modal_Tactics <> Tactics.Deduction.A var
 R2392:2394 Top.Deductive_System <> ax3 constr
 R2398:2398 Top.Modal_Tactics <> q:154 var
 R2396:2396 Top.Modal_Tactics <> p:153 var
-R2408:2408 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R2434:2443 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R2465:2465 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2408:2408 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R2434:2443 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R2465:2465 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
 R2410:2411 Top.Deductive_System <> :::x_';'_x_'|--'_x not
 R2413:2417 Top.Deductive_System <> :::x_';'_x_'|--'_x not
 R2409:2409 Top.Modal_Tactics <> Tactics.Deduction.A var
@@ -504,12 +504,12 @@ R2595:2596 Top.Deductive_System <> Mp constr
 prf 2639:2647 <> modal_ax4
 binder 2661:2661 <> p:187
 binder 2663:2663 <> q:188
-R2681:2688 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2681:2688 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
 R2670:2670 Top.Modal_Tactics <> Tactics.Deduction.A var
 R2673:2675 Top.Deductive_System <> ax1 constr
 R2679:2679 Top.Modal_Tactics <> p:187 var
 R2677:2677 Top.Modal_Tactics <> q:188 var
-R2713:2720 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2713:2720 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
 R2689:2689 Top.Modal_Tactics <> Tactics.Deduction.A var
 R2692:2694 Top.Deductive_System <> ax2 constr
 R2700:2702 Top.Modal_Notations <> :::'[!'_x_'!]' not
@@ -521,21 +521,21 @@ binder 2708:2708 <> q:191
 binder 2708:2708 <> q:192
 R2698:2698 Top.Modal_Tactics <> q:188 var
 R2696:2696 Top.Modal_Tactics <> p:187 var
-R2732:2739 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2732:2739 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
 R2721:2721 Top.Modal_Tactics <> Tactics.Deduction.A var
 R2724:2726 Top.Deductive_System <> ax4 constr
 R2730:2730 Top.Modal_Tactics <> q:188 var
 R2728:2728 Top.Modal_Tactics <> p:187 var
-R2740:2740 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R2751:2759 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2740:2740 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R2751:2759 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
 R2742:2743 Top.Deductive_System <> :::x_';'_x_'|--'_x not
 R2745:2749 Top.Deductive_System <> :::x_';'_x_'|--'_x not
 R2741:2741 Top.Modal_Tactics <> Tactics.Deduction.A var
 R2744:2744 Top.Modal_Tactics <> Tactics.Deduction.G var
 R2750:2750 Top.Modal_Tactics <> p:187 var
-R2760:2760 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R2771:2780 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R2802:2802 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2760:2760 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R2771:2780 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R2802:2802 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
 R2762:2763 Top.Deductive_System <> :::x_';'_x_'|--'_x not
 R2765:2769 Top.Deductive_System <> :::x_';'_x_'|--'_x not
 R2761:2761 Top.Modal_Tactics <> Tactics.Deduction.A var
@@ -753,14 +753,14 @@ R3224:3225 Top.Deductive_System <> Ax constr
 prf 3263:3271 <> modal_ax5
 binder 3285:3285 <> p:285
 binder 3287:3287 <> q:286
-R3305:3312 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3305:3312 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
 R3294:3294 Top.Modal_Tactics <> Tactics.Deduction.A var
 R3297:3299 Top.Deductive_System <> ax5 constr
 R3303:3303 Top.Modal_Tactics <> q:286 var
 R3301:3301 Top.Modal_Tactics <> p:285 var
-R3313:3313 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R3335:3344 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R3355:3355 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3313:3313 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R3335:3344 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R3355:3355 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
 R3315:3316 Top.Deductive_System <> :::x_';'_x_'|--'_x not
 R3318:3322 Top.Deductive_System <> :::x_';'_x_'|--'_x not
 R3314:3314 Top.Modal_Tactics <> Tactics.Deduction.A var
@@ -828,14 +828,14 @@ R3476:3477 Top.Deductive_System <> Mp constr
 prf 3518:3526 <> modal_ax6
 binder 3540:3540 <> p:311
 binder 3542:3542 <> q:312
-R3560:3567 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3560:3567 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
 R3549:3549 Top.Modal_Tactics <> Tactics.Deduction.A var
 R3552:3554 Top.Deductive_System <> ax6 constr
 R3558:3558 Top.Modal_Tactics <> q:312 var
 R3556:3556 Top.Modal_Tactics <> p:311 var
-R3568:3568 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R3590:3595 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R3606:3606 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3568:3568 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R3590:3595 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R3606:3606 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
 R3570:3571 Top.Deductive_System <> :::x_';'_x_'|--'_x not
 R3573:3577 Top.Deductive_System <> :::x_';'_x_'|--'_x not
 R3569:3569 Top.Modal_Tactics <> Tactics.Deduction.A var
@@ -903,14 +903,14 @@ R3727:3728 Top.Deductive_System <> Mp constr
 prf 3769:3777 <> modal_ax7
 binder 3791:3791 <> p:337
 binder 3793:3793 <> q:338
-R3811:3818 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3811:3818 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
 R3800:3800 Top.Modal_Tactics <> Tactics.Deduction.A var
 R3803:3805 Top.Deductive_System <> ax7 constr
 R3809:3809 Top.Modal_Tactics <> q:338 var
 R3807:3807 Top.Modal_Tactics <> p:337 var
-R3819:3819 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R3836:3845 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R3867:3867 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3819:3819 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R3836:3845 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R3867:3867 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
 R3821:3822 Top.Deductive_System <> :::x_';'_x_'|--'_x not
 R3824:3828 Top.Deductive_System <> :::x_';'_x_'|--'_x not
 R3820:3820 Top.Modal_Tactics <> Tactics.Deduction.A var
@@ -967,14 +967,14 @@ R3988:3989 Top.Deductive_System <> Mp constr
 prf 4019:4027 <> modal_ax8
 binder 4041:4041 <> p:357
 binder 4043:4043 <> q:358
-R4061:4068 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4061:4068 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
 R4050:4050 Top.Modal_Tactics <> Tactics.Deduction.A var
 R4053:4055 Top.Deductive_System <> ax8 constr
 R4059:4059 Top.Modal_Tactics <> q:358 var
 R4057:4057 Top.Modal_Tactics <> p:357 var
-R4069:4069 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R4086:4095 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R4117:4117 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4069:4069 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R4086:4095 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R4117:4117 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
 R4071:4072 Top.Deductive_System <> :::x_';'_x_'|--'_x not
 R4074:4078 Top.Deductive_System <> :::x_';'_x_'|--'_x not
 R4070:4070 Top.Modal_Tactics <> Tactics.Deduction.A var
@@ -1032,14 +1032,14 @@ prf 4269:4277 <> modal_ax9
 binder 4291:4291 <> p:377
 binder 4293:4293 <> q:378
 binder 4295:4295 <> r:379
-R4315:4322 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4315:4322 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
 R4302:4302 Top.Modal_Tactics <> Tactics.Deduction.A var
 R4305:4307 Top.Deductive_System <> ax9 constr
 R4313:4313 Top.Modal_Tactics <> r:379 var
 R4311:4311 Top.Modal_Tactics <> q:378 var
 R4309:4309 Top.Modal_Tactics <> p:377 var
-R4323:4323 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R4345:4353 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4323:4323 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R4345:4353 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
 R4325:4326 Top.Deductive_System <> :::x_';'_x_'|--'_x not
 R4328:4332 Top.Deductive_System <> :::x_';'_x_'|--'_x not
 R4324:4324 Top.Modal_Tactics <> Tactics.Deduction.A var
@@ -1051,8 +1051,8 @@ binder 4336:4336 <> p:380
 binder 4336:4336 <> p:381
 binder 4341:4341 <> r:382
 binder 4341:4341 <> r:383
-R4354:4354 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R4376:4384 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4354:4354 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R4376:4384 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
 R4356:4357 Top.Deductive_System <> :::x_';'_x_'|--'_x not
 R4359:4363 Top.Deductive_System <> :::x_';'_x_'|--'_x not
 R4355:4355 Top.Modal_Tactics <> Tactics.Deduction.A var
@@ -1064,9 +1064,9 @@ binder 4367:4367 <> q:384
 binder 4367:4367 <> q:385
 binder 4372:4372 <> r:386
 binder 4372:4372 <> r:387
-R4385:4385 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R4407:4416 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R4433:4433 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4385:4385 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R4407:4416 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R4433:4433 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
 R4387:4388 Top.Deductive_System <> :::x_';'_x_'|--'_x not
 R4390:4394 Top.Deductive_System <> :::x_';'_x_'|--'_x not
 R4386:4386 Top.Modal_Tactics <> Tactics.Deduction.A var
@@ -1168,13 +1168,13 @@ binder 4688:4688 <> q:429
 R4672:4673 Top.Deductive_System <> Mp constr
 prf 4710:4719 <> modal_ax10
 binder 4733:4733 <> p:430
-R4750:4757 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4750:4757 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
 R4740:4740 Top.Modal_Tactics <> Tactics.Deduction.A var
 R4743:4746 Top.Deductive_System <> ax10 constr
 R4748:4748 Top.Modal_Tactics <> p:430 var
-R4758:4758 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R4777:4786 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R4803:4803 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4758:4758 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R4777:4786 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R4803:4803 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
 R4760:4761 Top.Deductive_System <> :::x_';'_x_'|--'_x not
 R4763:4767 Top.Deductive_System <> :::x_';'_x_'|--'_x not
 R4759:4759 Top.Modal_Tactics <> Tactics.Deduction.A var
@@ -1215,7 +1215,7 @@ prf 4966:4980 <> modal_syllogism
 binder 4994:4994 <> p:439
 binder 4996:4996 <> q:440
 binder 4998:4998 <> r:441
-R5027:5034 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5027:5034 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
 R5005:5005 Top.Modal_Tactics <> Tactics.Deduction.A var
 R5008:5010 Top.Deductive_System <> ax1 constr
 R5025:5025 Top.Modal_Tactics <> p:439 var
@@ -1226,14 +1226,14 @@ binder 5015:5015 <> q:442
 binder 5015:5015 <> q:443
 binder 5020:5020 <> r:444
 binder 5020:5020 <> r:445
-R5048:5055 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5048:5055 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
 R5035:5035 Top.Modal_Tactics <> Tactics.Deduction.A var
 R5038:5040 Top.Deductive_System <> ax2 constr
 R5046:5046 Top.Modal_Tactics <> r:441 var
 R5044:5044 Top.Modal_Tactics <> q:440 var
 R5042:5042 Top.Modal_Tactics <> p:439 var
-R5056:5056 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R5078:5086 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5056:5056 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R5078:5086 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
 R5058:5059 Top.Deductive_System <> :::x_';'_x_'|--'_x not
 R5061:5065 Top.Deductive_System <> :::x_';'_x_'|--'_x not
 R5057:5057 Top.Modal_Tactics <> Tactics.Deduction.A var
@@ -1245,9 +1245,9 @@ binder 5069:5069 <> p:446
 binder 5069:5069 <> p:447
 binder 5074:5074 <> q:448
 binder 5074:5074 <> q:449
-R5087:5087 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R5109:5118 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R5140:5140 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5087:5087 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R5109:5118 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R5140:5140 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
 R5089:5090 Top.Deductive_System <> :::x_';'_x_'|--'_x not
 R5092:5096 Top.Deductive_System <> :::x_';'_x_'|--'_x not
 R5088:5088 Top.Modal_Tactics <> Tactics.Deduction.A var
@@ -1305,15 +1305,15 @@ R5248:5256 Top.Modal_Tactics <> modal_ax2 thm
 prf 5286:5294 <> modal_axK
 binder 5308:5308 <> p:470
 binder 5310:5310 <> q:471
-R5332:5339 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5332:5339 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
 R5317:5317 Top.Modal_Tactics <> Tactics.Deduction.A var
 R5320:5322 Top.Deductive_System <> axK constr
 R5330:5330 Top.Modal_Tactics <> q:471 var
 R5328:5328 Top.Modal_Tactics <> p:470 var
 R5324:5326 Top.Modal_Tactics <> Tactics.Deduction.idx var
-R5340:5340 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R5369:5378 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R5410:5410 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5340:5340 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R5369:5378 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R5410:5410 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
 R5342:5343 Top.Deductive_System <> :::x_';'_x_'|--'_x not
 R5345:5349 Top.Deductive_System <> :::x_';'_x_'|--'_x not
 R5341:5341 Top.Modal_Tactics <> Tactics.Deduction.A var
@@ -1448,8 +1448,8 @@ binder 5579:5579 <> q:525
 R5557:5558 Top.Deductive_System <> Mp constr
 prf 5606:5615 <> modal_axK4
 binder 5629:5629 <> p:526
-R5650:5658 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R5695:5695 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5650:5658 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R5695:5695 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
 R5636:5636 Top.Modal_Tactics <> Tactics.Deduction.A var
 R5639:5642 Top.Deductive_System <> axK4 constr
 R5648:5648 Top.Modal_Tactics <> p:526 var
@@ -1486,7 +1486,7 @@ R5733:5734 Top.Deductive_System <> Ax constr
 prf 5780:5794 <> modal_explosion
 binder 5808:5808 <> p:537
 binder 5810:5810 <> q:538
-R5843:5850 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5843:5850 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
 R5817:5817 Top.Modal_Tactics <> Tactics.Deduction.A var
 R5820:5822 Top.Deductive_System <> ax1 constr
 R5834:5836 Top.Modal_Notations <> :::'[!'_x_'!]' not
@@ -1500,7 +1500,7 @@ R5827:5827 Top.Modal_Notations <> :modal::'~'_x not
 R5828:5828 Top.Modal_Notations <> :modal::'~'_x not
 binder 5829:5829 <> p:541
 binder 5829:5829 <> p:542
-R5878:5885 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5878:5885 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
 R5851:5851 Top.Modal_Tactics <> Tactics.Deduction.A var
 R5854:5856 Top.Deductive_System <> ax1 constr
 R5867:5869 Top.Modal_Notations <> :::'[!'_x_'!]' not
@@ -1515,7 +1515,7 @@ R5863:5865 Top.Modal_Notations <> :::'[!'_x_'!]' not
 R5861:5861 Top.Modal_Notations <> :modal::'~'_x not
 binder 5862:5862 <> p:545
 binder 5862:5862 <> p:546
-R5904:5911 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5904:5911 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
 R5886:5886 Top.Modal_Tactics <> Tactics.Deduction.A var
 R5889:5891 Top.Deductive_System <> ax3 constr
 R5902:5902 Top.Modal_Tactics <> q:538 var
@@ -1524,7 +1524,7 @@ R5898:5900 Top.Modal_Notations <> :::'[!'_x_'!]' not
 R5896:5896 Top.Modal_Notations <> :modal::'~'_x not
 binder 5897:5897 <> p:547
 binder 5897:5897 <> p:548
-R5931:5938 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5931:5938 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
 R5912:5912 Top.Modal_Tactics <> Tactics.Deduction.A var
 R5915:5917 Top.Deductive_System <> ax3 constr
 R5921:5923 Top.Modal_Notations <> :::'[!'_x_'!]' not
@@ -1534,16 +1534,16 @@ R5925:5925 Top.Modal_Notations <> :modal::'~'_x not
 binder 5926:5926 <> p:549
 binder 5926:5926 <> p:550
 R5919:5919 Top.Modal_Tactics <> p:537 var
-R5939:5939 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R5950:5958 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5939:5939 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R5950:5958 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
 R5941:5942 Top.Deductive_System <> :::x_';'_x_'|--'_x not
 R5944:5948 Top.Deductive_System <> :::x_';'_x_'|--'_x not
 R5940:5940 Top.Modal_Tactics <> Tactics.Deduction.A var
 R5943:5943 Top.Modal_Tactics <> Tactics.Deduction.G var
 R5949:5949 Top.Modal_Tactics <> p:537 var
-R5959:5959 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R5977:5986 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R5997:5997 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5959:5959 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R5977:5986 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R5997:5997 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
 R5961:5962 Top.Deductive_System <> :::x_';'_x_'|--'_x not
 R5964:5968 Top.Deductive_System <> :::x_';'_x_'|--'_x not
 R5960:5960 Top.Modal_Tactics <> Tactics.Deduction.A var
@@ -1610,13 +1610,13 @@ binder 6359:6359 <> A:565
 binder 6361:6361 <> G:566
 binder 6363:6363 <> p:567
 binder 6365:6365 <> q:568
-R6380:6385 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6380:6385 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
 R6370:6375 Top.Sets <> Subset def
 R6379:6379 Top.Modal_Tactics <> A:565 var
 R6377:6377 Top.Deductive_System <> P ind
-R6386:6386 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R6406:6413 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R6435:6435 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6386:6386 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R6406:6413 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R6435:6435 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
 R6388:6389 Top.Deductive_System <> :::x_';'_x_'|--'_x not
 R6400:6404 Top.Deductive_System <> :::x_';'_x_'|--'_x not
 R6387:6387 Top.Modal_Tactics <> A:565 var
@@ -1657,8 +1657,8 @@ prf 7096:7111 <> modal_peirce_law
 binder 7123:7123 <> A:573
 binder 7125:7125 <> G:574
 binder 7127:7127 <> p:575
-R7142:7148 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R7178:7178 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7142:7148 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R7178:7178 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
 R7132:7137 Top.Sets <> Subset def
 R7141:7141 Top.Modal_Tactics <> A:573 var
 R7139:7139 Top.Deductive_System <> P ind
@@ -2007,8 +2007,8 @@ prf 8312:8345 <> modal_double_negation_introduction
 binder 8357:8357 <> A:714
 binder 8359:8359 <> G:715
 binder 8361:8361 <> p:716
-R8376:8382 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R8406:8406 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8376:8382 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R8406:8406 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
 R8366:8371 Top.Sets <> Subset def
 R8375:8375 Top.Modal_Tactics <> A:714 var
 R8373:8373 Top.Deductive_System <> P ind
@@ -2071,8 +2071,8 @@ prf 8632:8652 <> modal_excluded_middle
 binder 8664:8664 <> A:733
 binder 8666:8666 <> G:734
 binder 8668:8668 <> p:735
-R8683:8689 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R8712:8712 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8683:8689 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R8712:8712 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
 R8673:8678 Top.Sets <> Subset def
 R8682:8682 Top.Modal_Tactics <> A:733 var
 R8680:8680 Top.Deductive_System <> P ind
@@ -2104,9 +2104,9 @@ binder 8747:8747 <> p:745
 R8752:8752 Top.Modal_Notations <> :modal::'~'_x not
 binder 8753:8753 <> p:746
 binder 8753:8753 <> p:747
-R8770:8770 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
-R8794:8809 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
-R8832:8832 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R8770:8770 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R8794:8809 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R8832:8832 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
 R8772:8773 Top.Deductive_System <> :::x_';'_x_'|--'_x not
 R8775:8779 Top.Deductive_System <> :::x_';'_x_'|--'_x not
 R8780:8782 Top.Modal_Notations <> :::'[!'_x_'!]' not
@@ -2128,9 +2128,9 @@ binder 8823:8823 <> p:752
 binder 8823:8823 <> p:753
 binder 8828:8828 <> q:754
 binder 8828:8828 <> q:755
-R8770:8770 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
-R8794:8809 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
-R8832:8832 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R8770:8770 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R8794:8809 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R8832:8832 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
 R8772:8773 Top.Deductive_System <> :::x_';'_x_'|--'_x not
 R8775:8779 Top.Deductive_System <> :::x_';'_x_'|--'_x not
 R8780:8782 Top.Modal_Notations <> :::'[!'_x_'!]' not
@@ -2213,14 +2213,14 @@ binder 9688:9688 <> A:776
 binder 9690:9690 <> G:777
 binder 9692:9692 <> p:778
 binder 9694:9696 <> idx:779
-R9717:9722 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9717:9722 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
 R9701:9706 Top.Sets <> Subset def
 R9716:9716 Top.Modal_Tactics <> A:776 var
 R9709:9709 Top.Deductive_System <> K ind
 R9711:9713 Top.Modal_Tactics <> idx:779 var
-R9723:9723 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
-R9745:9751 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
-R9775:9775 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R9723:9723 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R9745:9751 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R9775:9775 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
 R9725:9726 Top.Deductive_System <> :::x_';'_x_'|--'_x not
 R9728:9732 Top.Deductive_System <> :::x_';'_x_'|--'_x not
 R9724:9724 Top.Modal_Tactics <> A:776 var
@@ -2368,13 +2368,13 @@ binder 10226:10226 <> A:836
 binder 10228:10228 <> G:837
 binder 10230:10230 <> p:838
 binder 10232:10232 <> q:839
-R10247:10252 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10247:10252 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
 R10237:10242 Top.Sets <> Subset def
 R10246:10246 Top.Modal_Tactics <> A:836 var
 R10244:10244 Top.Deductive_System <> P ind
-R10253:10253 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R10281:10288 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R10306:10306 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10253:10253 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R10281:10288 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R10306:10306 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
 R10255:10256 Top.Deductive_System <> :::x_';'_x_'|--'_x not
 R10258:10262 Top.Deductive_System <> :::x_';'_x_'|--'_x not
 R10254:10254 Top.Modal_Tactics <> A:836 var
@@ -2496,13 +2496,13 @@ binder 11220:11220 <> A:880
 binder 11222:11222 <> G:881
 binder 11224:11224 <> p:882
 binder 11226:11226 <> q:883
-R11241:11246 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11241:11246 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
 R11231:11236 Top.Sets <> Subset def
 R11240:11240 Top.Modal_Tactics <> A:880 var
 R11238:11238 Top.Deductive_System <> P ind
-R11247:11247 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R11265:11272 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R11300:11300 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11247:11247 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R11265:11272 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R11300:11300 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
 R11249:11250 Top.Deductive_System <> :::x_';'_x_'|--'_x not
 R11252:11256 Top.Deductive_System <> :::x_';'_x_'|--'_x not
 R11248:11248 Top.Modal_Tactics <> A:880 var
@@ -2540,11 +2540,11 @@ binder 11673:11673 <> M:892
 binder 11675:11675 <> a:893
 binder 11677:11677 <> b:894
 binder 11679:11679 <> c:895
-R11726:11732 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R11750:11750 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R11684:11684 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
-R11702:11707 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
-R11725:11725 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R11726:11732 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R11750:11750 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R11684:11684 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R11702:11707 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R11725:11725 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
 R11686:11689 Top.Modal_Notations <> :::x_'|='_x not
 R11685:11685 Top.Modal_Tactics <> M:892 var
 R11690:11692 Top.Modal_Notations <> :::'[!'_x_'!]' not

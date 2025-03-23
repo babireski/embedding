@@ -1,6 +1,6 @@
 DIGEST 8d165c5983743e81ac87c057a1eefa4b
 FTop.Fusion
-R15:22 Coq.Program.Equality <> <> lib
+R15:22 Stdlib.Program.Equality <> <> lib
 R40:52 Top.Modal_Library <> <> lib
 R54:69 Top.Deductive_System <> <> lib
 R71:74 Top.Sets <> <> lib
@@ -8,14 +8,14 @@ rec 168:176 <> lift_conv
 proj 203:206 <> lift
 binder 179:179 <> A:1
 binder 181:181 <> B:2
-R210:213 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R210:213 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
 R209:209 Top.Fusion <> A:1 var
 R214:214 Top.Fusion <> B:2 var
 sec 228:233 <> Fusion
 var  265:266 Fusion I1
 var  286:287 Fusion I2
 def 363:368 <> fusion
-R384:386 Coq.Init.Datatypes <> ::type_scope:x_'+'_x not
+R384:386 Corelib.Init.Datatypes <> ::type_scope:x_'+'_x not
 R382:383 Top.Fusion <> Fusion.I1 var
 R387:388 Top.Fusion <> Fusion.I2 var
 var  452:453 Fusion X1
@@ -32,11 +32,11 @@ R607:607 Top.Modal_Library <> C meth
 R607:607 Top.Modal_Library <> C meth
 binder 609:609 <> i:9
 R626:626 Top.Fusion <> i:9 var
-R641:643 Coq.Init.Datatypes <> inl constr
+R641:643 Corelib.Init.Datatypes <> inl constr
 R651:651 Top.Modal_Library <> C meth
 R653:654 Top.Fusion <> Fusion.I1 var
 R656:657 Top.Fusion <> Fusion.X1 var
-R669:671 Coq.Init.Datatypes <> inr constr
+R669:671 Corelib.Init.Datatypes <> inr constr
 R679:679 Top.Modal_Library <> C meth
 R681:682 Top.Fusion <> Fusion.I2 var
 R684:685 Top.Fusion <> Fusion.X2 var
@@ -105,7 +105,7 @@ R1975:1980 Top.Fusion <> Frame1 abbrev
 binder 1971:1972 <> f1:11
 R1988:1993 Top.Fusion <> Frame2 abbrev
 binder 1984:1985 <> f2:12
-R2004:2006 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2004:2006 Corelib.Init.Logic <> ::type_scope:x_'='_x not
 R2000:2000 Top.Modal_Library <> W proj
 R2002:2003 Top.Fusion <> f2:12 var
 R2007:2007 Top.Modal_Library <> W proj
@@ -126,14 +126,14 @@ inst 2357:2367 <> index_lift1
 R2370:2378 Top.Fusion <> lift_conv class
 R2380:2391 Top.Fusion <> modal_index1 abbrev
 R2393:2404 Top.Fusion <> modal_indexF abbrev
-R2510:2512 Coq.Init.Datatypes <> inl constr
-R2510:2512 Coq.Init.Datatypes <> inl constr
+R2510:2512 Corelib.Init.Datatypes <> inl constr
+R2510:2512 Corelib.Init.Datatypes <> inl constr
 inst 2566:2576 <> index_lift2
 R2579:2587 Top.Fusion <> lift_conv class
 R2589:2600 Top.Fusion <> modal_index2 abbrev
 R2602:2613 Top.Fusion <> modal_indexF abbrev
-R2719:2721 Coq.Init.Datatypes <> inr constr
-R2719:2721 Coq.Init.Datatypes <> inr constr
+R2719:2721 Corelib.Init.Datatypes <> inr constr
+R2719:2721 Corelib.Init.Datatypes <> inr constr
 inst 2861:2873 <> formula_lift1
 R2876:2884 Top.Fusion <> lift_conv class
 R2886:2893 Top.Fusion <> formula1 abbrev
@@ -318,13 +318,13 @@ R7296:7301 Top.Fusion <> axiom1 abbrev
 binder 7293:7293 <> p:14
 R7308:7315 Top.Fusion <> formulaF abbrev
 binder 7305:7305 <> f:15
-R7349:7358 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R7345:7347 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7349:7358 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R7345:7347 Corelib.Init.Logic <> ::type_scope:x_'='_x not
 R7325:7335 Top.Deductive_System <> instantiate def
 R7338:7341 Top.Fusion <> lift meth
 R7343:7343 Top.Fusion <> p:14 var
 R7348:7348 Top.Fusion <> f:15 var
-R7360:7362 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7360:7362 Corelib.Init.Logic <> ::type_scope:x_'='_x not
 R7359:7359 Top.Fusion <> f:15 var
 R7363:7366 Top.Fusion <> lift meth
 R7369:7379 Top.Deductive_System <> instantiate def
@@ -334,25 +334,25 @@ R7489:7494 Top.Fusion <> axiom2 abbrev
 binder 7486:7486 <> p:16
 R7501:7508 Top.Fusion <> formulaF abbrev
 binder 7498:7498 <> f:17
-R7540:7547 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R7536:7538 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7540:7547 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R7536:7538 Corelib.Init.Logic <> ::type_scope:x_'='_x not
 R7516:7526 Top.Deductive_System <> instantiate def
 R7529:7532 Top.Fusion <> lift meth
 R7534:7534 Top.Fusion <> p:16 var
 R7539:7539 Top.Fusion <> f:17 var
-R7549:7551 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7549:7551 Corelib.Init.Logic <> ::type_scope:x_'='_x not
 R7548:7548 Top.Fusion <> f:17 var
 R7552:7555 Top.Fusion <> lift meth
 R7558:7568 Top.Deductive_System <> instantiate def
 R7570:7570 Top.Fusion <> p:16 var
 prf 7720:7731 <> split_frame1
-R7744:7747 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7744:7747 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
 R7738:7743 Top.Fusion <> FrameF abbrev
 R7748:7753 Top.Fusion <> Frame1 abbrev
-R7919:7921 Coq.Init.Datatypes <> inl constr
-R7919:7921 Coq.Init.Datatypes <> inl constr
+R7919:7921 Corelib.Init.Datatypes <> inl constr
+R7919:7921 Corelib.Init.Datatypes <> inl constr
 prf 7999:8010 <> split_model1
-R8023:8026 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8023:8026 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
 R8017:8022 Top.Fusion <> ModelF abbrev
 R8027:8032 Top.Fusion <> Model1 abbrev
 R8113:8124 Top.Fusion <> split_frame1 thm
@@ -371,7 +371,7 @@ prf 8643:8664 <> split_model1_coherence
 binder 8678:8678 <> M:19
 binder 8680:8680 <> f:20
 binder 8682:8682 <> w:21
-R8724:8734 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R8724:8734 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
 R8689:8702 Top.Modal_Library <> fun_validation def
 R8705:8716 Top.Fusion <> split_model1 thm
 R8718:8718 Top.Fusion <> M:19 var
@@ -504,13 +504,13 @@ R10682:10688 Top.Modal_Library <> Implies constr
 R10691:10694 Top.Fusion <> lift meth
 R10701:10704 Top.Fusion <> lift meth
 prf 10870:10881 <> split_frame2
-R10894:10897 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10894:10897 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
 R10888:10893 Top.Fusion <> FrameF abbrev
 R10898:10903 Top.Fusion <> Frame2 abbrev
-R11069:11071 Coq.Init.Datatypes <> inr constr
-R11069:11071 Coq.Init.Datatypes <> inr constr
+R11069:11071 Corelib.Init.Datatypes <> inr constr
+R11069:11071 Corelib.Init.Datatypes <> inr constr
 prf 11149:11160 <> split_model2
-R11173:11176 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11173:11176 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
 R11167:11172 Top.Fusion <> ModelF abbrev
 R11177:11182 Top.Fusion <> Model2 abbrev
 R11263:11274 Top.Fusion <> split_frame2 thm
@@ -529,7 +529,7 @@ prf 11529:11550 <> split_model2_coherence
 binder 11564:11564 <> M:23
 binder 11566:11566 <> f:24
 binder 11568:11568 <> w:25
-R11610:11620 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R11610:11620 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
 R11575:11588 Top.Modal_Library <> fun_validation def
 R11591:11602 Top.Fusion <> split_model2 thm
 R11604:11604 Top.Fusion <> M:23 var
@@ -662,16 +662,16 @@ R13567:13573 Top.Modal_Library <> Implies constr
 R13576:13579 Top.Fusion <> lift meth
 R13586:13589 Top.Fusion <> lift meth
 var 13807:13808 Fusion P1
-R13817:13820 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13817:13820 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
 R13811:13816 Top.Fusion <> Frame1 abbrev
 var 13838:13839 Fusion P2
-R13848:13851 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13848:13851 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
 R13842:13847 Top.Fusion <> Frame2 abbrev
 def 13872:13873 <> PF
-R13882:13885 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13882:13885 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
 R13876:13881 Top.Fusion <> FrameF abbrev
 binder 13902:13902 <> F:30
-R13932:13935 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R13932:13935 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
 R13913:13914 Top.Fusion <> Fusion.P1 var
 R13917:13928 Top.Fusion <> split_frame1 thm
 R13930:13930 Top.Fusion <> F:30 var
@@ -679,25 +679,25 @@ R13936:13937 Top.Fusion <> Fusion.P2 var
 R13940:13951 Top.Fusion <> split_frame2 thm
 R13953:13953 Top.Fusion <> F:30 var
 var 14050:14051 Fusion A1
-R14060:14063 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14060:14063 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
 R14054:14059 Top.Fusion <> axiom1 abbrev
 var 14081:14082 Fusion A2
-R14091:14094 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14091:14094 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
 R14085:14090 Top.Fusion <> axiom2 abbrev
 ind 14114:14126 <> fusion_axioms
 constr 14153:14166 <> fusion_axioms1
 constr 14222:14235 <> fusion_axioms2
-R14135:14138 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14135:14138 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
 R14129:14134 Top.Fusion <> axiomF abbrev
 binder 14182:14182 <> p:37
-R14189:14192 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14189:14192 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
 R14185:14186 Top.Fusion <> Fusion.A1 var
 R14188:14188 Top.Fusion <> p:37 var
 R14193:14205 Top.Fusion <> fusion_axioms:35 ind
 R14208:14211 Top.Fusion <> lift meth
 R14213:14213 Top.Fusion <> p:37 var
 binder 14251:14251 <> p:38
-R14258:14261 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14258:14261 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
 R14254:14255 Top.Fusion <> Fusion.A2 var
 R14257:14257 Top.Fusion <> p:38 var
 R14262:14274 Top.Fusion <> fusion_axioms:35 ind
@@ -715,8 +715,8 @@ binder 14439:14439 <> P:41
 binder 14441:14441 <> A:42
 binder 14461:14461 <> G:43
 binder 14463:14463 <> p:44
-R14468:14468 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R14479:14483 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14468:14468 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R14479:14483 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
 R14470:14471 Top.Deductive_System <> :::x_';'_x_'|--'_x not
 R14473:14477 Top.Deductive_System <> :::x_';'_x_'|--'_x not
 R14469:14469 Top.Fusion <> A:42 var
@@ -739,12 +739,12 @@ R14672:14673 Top.Fusion <> I2:49 var
 binder 14651:14652 <> X2:50
 binder 14676:14677 <> P2:51
 binder 14679:14680 <> A2:52
-R14699:14704 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14699:14704 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
 R14685:14689 Top.Fusion <> sound def
 R14697:14698 Top.Fusion <> A1:48 var
 R14694:14695 Top.Fusion <> P1:47 var
 R14691:14692 Top.Fusion <> I1:45 var
-R14719:14724 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14719:14724 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
 R14705:14709 Top.Fusion <> sound def
 R14717:14718 Top.Fusion <> A2:52 var
 R14714:14715 Top.Fusion <> P2:51 var
@@ -806,17 +806,17 @@ R16727:16741 Top.Modal_Notations <> <> lib
 sec 16805:16830 <> Soundness_Transfer_Example
 inst 16851:16860 <> unit_index
 R16864:16878 Top.Modal_Library <> modal_index_set class
-R16880:16883 Coq.Init.Datatypes <> unit ind
+R16880:16883 Corelib.Init.Datatypes <> unit ind
 R16942:16942 Top.Modal_Library <> C meth
 R16942:16942 Top.Modal_Library <> C meth
 R16942:16942 Top.Modal_Library <> C meth
 binder 16944:16944 <> x:53
-R16949:16952 Coq.Init.Logic <> True ind
+R16949:16952 Corelib.Init.Logic <> True ind
 def 17027:17029 <> idx
 R17032:17042 Top.Modal_Library <> modal_index rec
 R17051:17067 Top.Modal_Library <> Build_modal_index constr
-R17069:17070 Coq.Init.Datatypes <> tt constr
-R17072:17072 Coq.Init.Logic <> I constr
+R17069:17070 Corelib.Init.Datatypes <> tt constr
+R17072:17072 Corelib.Init.Logic <> I constr
 def 17164:17164 <> X
 R17173:17185 Top.Fusion <> fusion_axioms ind
 R17197:17198 Top.Deductive_System <> S4 ind
@@ -824,7 +824,7 @@ R17200:17202 Top.Fusion <> idx def
 R17188:17189 Top.Deductive_System <> S4 ind
 R17191:17193 Top.Fusion <> idx def
 def 17283:17283 <> P
-R17291:17294 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R17291:17294 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
 R17286:17290 Top.Modal_Library <> Frame rec
 binder 17311:17311 <> F:54
 R17316:17329 Top.Modal_Library <> preorder_frame def

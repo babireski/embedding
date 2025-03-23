@@ -76,9 +76,9 @@ Fixpoint fun_validation (M: Model) (w: W (F M)) (φ: formula): Prop :=
   | Box   i ψ   => forall w', R (F M) i w w' -> fun_validation M w' ψ
   | Dia   i ψ   => exists2 w', R (F M) i w w' & fun_validation M w' ψ
   | Neg     ψ   => ~fun_validation M w ψ
-  | And     ψ Ɣ => fun_validation M w ψ /\ fun_validation M w Ɣ
-  | Or      ψ Ɣ => fun_validation M w ψ \/ fun_validation M w Ɣ
-  | Implies ψ Ɣ => fun_validation M w ψ -> fun_validation M w Ɣ
+  | And     Ψ γ => fun_validation M w ψ /\ fun_validation M w γ
+  | Or      ψ γ => fun_validation M w ψ \/ fun_validation M w γ
+  | Implies ψ γ => fun_validation M w ψ -> fun_validation M w γ
   end.
 
 (* Model satisfazibility *)
@@ -151,9 +151,9 @@ Qed.
 
 (* Bottom-up proof *)
 Theorem transitive_deduction_bu:
-  forall M Γ ẟ φ ψ Ɣ,
-  entails M (φ :: Γ) ψ /\ entails M (ψ::ẟ) Ɣ -> 
-  entails M (φ :: Γ ++ ẟ) Ɣ.
+  forall M Γ ẟ φ ψ γ,
+  entails M (φ :: Γ) ψ /\ entails M (ψ::ẟ) γ -> 
+  entails M (φ :: Γ ++ ẟ) γ.
 Proof.
   intros.
   unfold entails in *.
@@ -166,9 +166,9 @@ Proof.
 Qed.
 
 Theorem exchange:
-  forall M Γ φ ψ Ɣ,
-  entails M (φ :: ψ :: Γ) Ɣ -> 
-  entails M (ψ :: φ :: Γ) Ɣ.
+  forall M Γ φ ψ γ,
+  entails M (φ :: ψ :: Γ) γ -> 
+  entails M (ψ :: φ :: Γ) γ.
 Proof.
   intros.
   unfold entails in *; intros.
@@ -193,8 +193,8 @@ Inductive transpose {T}: list T -> list T -> Prop :=
     forall ψ,
     transpose ψ ψ
   | transpose_trans:
-    forall φ ψ Ɣ,
-    transpose φ ψ -> transpose ψ Ɣ -> transpose φ Ɣ
+    forall φ ψ γ,
+    transpose φ ψ -> transpose ψ γ -> transpose φ γ
   | transpose_sym:
     forall φ ψ,
     transpose φ ψ -> transpose ψ φ.

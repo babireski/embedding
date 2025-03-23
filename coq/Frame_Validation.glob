@@ -1,11 +1,11 @@
 DIGEST a954d92a46e95b6687c44746e8c49f72
 FTop.Frame_Validation
-R15:23 Coq.Logic.Decidable <> <> lib
-R41:49 Coq.Logic.Classical <> <> lib
+R15:23 Stdlib.Logic.Decidable <> <> lib
+R41:49 Stdlib.Logic.Classical <> <> lib
 R67:79 Top.Modal_Library <> <> lib
 R81:95 Top.Modal_Notations <> <> lib
 R97:109 Top.Modal_Tactics <> <> lib
-R111:119 Coq.Logic.Classical <> <> lib
+R111:119 Stdlib.Logic.Classical <> <> lib
 sec 131:140 <> Validation
 var  153:153 Validation X
 R156:170 Top.Modal_Library <> modal_index_set class
@@ -13,7 +13,7 @@ prf 183:212 <> reflexive_frame_implies_axiomT
 binder 224:224 <> f:3
 binder 226:226 <> p:4
 binder 228:230 <> idx:5
-R256:261 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R256:261 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
 R235:249 Top.Modal_Library <> reflexive_frame def
 R253:255 Top.Frame_Validation <> idx:5 var
 R251:251 Top.Frame_Validation <> f:3 var
@@ -39,8 +39,8 @@ R365:379 Top.Modal_Library <> reflexive_frame def
 prf 434:463 <> axiomT_implies_reflexive_frame
 binder 475:475 <> f:13
 binder 477:479 <> idx:14
-R484:484 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R526:532 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R484:484 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R526:532 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
 binder 492:492 <> v:15
 binder 494:494 <> p:16
 R505:508 Top.Modal_Notations <> :::x_'|='_x not
@@ -63,23 +63,23 @@ binder 522:522 <> p:22
 R533:547 Top.Modal_Library <> reflexive_frame def
 R551:553 Top.Frame_Validation <> idx:14 var
 R549:549 Top.Frame_Validation <> f:13 var
-R587:600 Coq.Logic.Decidable <> contrapositive thm
-R587:600 Coq.Logic.Decidable <> contrapositive thm
-R613:619 Coq.Logic.Classical_Prop <> classic prfax
-R613:619 Coq.Logic.Classical_Prop <> classic prfax
+R587:600 Stdlib.Logic.Decidable <> contrapositive thm
+R587:600 Stdlib.Logic.Decidable <> contrapositive thm
+R613:619 Stdlib.Logic.Classical_Prop <> classic prfax
+R613:619 Stdlib.Logic.Classical_Prop <> classic prfax
 R643:657 Top.Modal_Library <> reflexive_frame def
-R675:688 Coq.Logic.Classical_Pred_Type <> not_all_ex_not thm
-R675:688 Coq.Logic.Classical_Pred_Type <> not_all_ex_not thm
-R726:739 Coq.Logic.Classical_Pred_Type <> ex_not_not_all thm
-R726:739 Coq.Logic.Classical_Pred_Type <> ex_not_not_all thm
+R675:688 Stdlib.Logic.Classical_Pred_Type <> not_all_ex_not thm
+R675:688 Stdlib.Logic.Classical_Pred_Type <> not_all_ex_not thm
+R726:739 Stdlib.Logic.Classical_Pred_Type <> ex_not_not_all thm
+R726:739 Stdlib.Logic.Classical_Pred_Type <> ex_not_not_all thm
 binder 760:760 <> x:23
 R765:765 Top.Modal_Library <> R proj
 R776:776 Top.Frame_Validation <> x:23 var
 binder 760:760 <> x:24
 R765:765 Top.Modal_Library <> R proj
 R776:776 Top.Frame_Validation <> x:24 var
-R790:803 Coq.Logic.Classical_Pred_Type <> ex_not_not_all thm
-R790:803 Coq.Logic.Classical_Pred_Type <> ex_not_not_all thm
+R790:803 Stdlib.Logic.Classical_Pred_Type <> ex_not_not_all thm
+R790:803 Stdlib.Logic.Classical_Pred_Type <> ex_not_not_all thm
 R817:819 Top.Modal_Notations <> :::'[!'_x_'!]' not
 R822:824 Top.Modal_Notations <> :::'[!'_x_'!]' not
 R820:820 Top.Modal_Notations <> :modal::'#'_x not
@@ -90,7 +90,7 @@ R849:862 Top.Modal_Library <> validate_model def
 prf 958:988 <> transitive_frame_implies_axiom4
 binder 1000:1000 <> f:25
 binder 1002:1004 <> idx:26
-R1031:1036 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1031:1036 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
 R1009:1024 Top.Modal_Library <> transitive_frame def
 R1028:1030 Top.Frame_Validation <> idx:26 var
 R1026:1026 Top.Frame_Validation <> f:25 var
@@ -125,8 +125,8 @@ R1194:1209 Top.Modal_Library <> transitive_frame def
 prf 1301:1331 <> axiom4_implies_transitive_frame
 binder 1343:1343 <> f:39
 binder 1345:1347 <> idx:40
-R1352:1352 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R1404:1410 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1352:1352 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R1404:1410 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
 binder 1360:1360 <> v:41
 binder 1362:1362 <> p:42
 R1373:1376 Top.Modal_Notations <> :::x_'|='_x not
@@ -157,35 +157,35 @@ binder 1400:1400 <> p:52
 R1411:1426 Top.Modal_Library <> transitive_frame def
 R1430:1432 Top.Frame_Validation <> idx:40 var
 R1428:1428 Top.Frame_Validation <> f:39 var
-R1466:1479 Coq.Logic.Decidable <> contrapositive thm
-R1466:1479 Coq.Logic.Decidable <> contrapositive thm
-R1492:1498 Coq.Logic.Classical_Prop <> classic prfax
-R1492:1498 Coq.Logic.Classical_Prop <> classic prfax
+R1466:1479 Stdlib.Logic.Decidable <> contrapositive thm
+R1466:1479 Stdlib.Logic.Decidable <> contrapositive thm
+R1492:1498 Stdlib.Logic.Classical_Prop <> classic prfax
+R1492:1498 Stdlib.Logic.Classical_Prop <> classic prfax
 R1522:1537 Top.Modal_Library <> transitive_frame def
-R1555:1568 Coq.Logic.Classical_Pred_Type <> not_all_ex_not thm
-R1606:1619 Coq.Logic.Classical_Pred_Type <> not_all_ex_not thm
-R1657:1670 Coq.Logic.Classical_Pred_Type <> not_all_ex_not thm
-R1555:1568 Coq.Logic.Classical_Pred_Type <> not_all_ex_not thm
-R1606:1619 Coq.Logic.Classical_Pred_Type <> not_all_ex_not thm
-R1657:1670 Coq.Logic.Classical_Pred_Type <> not_all_ex_not thm
-R1744:1747 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R1555:1568 Stdlib.Logic.Classical_Pred_Type <> not_all_ex_not thm
+R1606:1619 Stdlib.Logic.Classical_Pred_Type <> not_all_ex_not thm
+R1657:1670 Stdlib.Logic.Classical_Pred_Type <> not_all_ex_not thm
+R1555:1568 Stdlib.Logic.Classical_Pred_Type <> not_all_ex_not thm
+R1606:1619 Stdlib.Logic.Classical_Pred_Type <> not_all_ex_not thm
+R1657:1670 Stdlib.Logic.Classical_Pred_Type <> not_all_ex_not thm
+R1744:1747 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
 R1731:1731 Top.Modal_Library <> R proj
 R1748:1748 Top.Modal_Library <> R proj
-R1708:1719 Coq.Logic.Classical_Prop <> imply_to_and thm
-R1744:1747 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R1708:1719 Stdlib.Logic.Classical_Prop <> imply_to_and thm
+R1744:1747 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
 R1731:1731 Top.Modal_Library <> R proj
 R1748:1748 Top.Modal_Library <> R proj
-R1708:1719 Coq.Logic.Classical_Prop <> imply_to_and thm
-R1830:1843 Coq.Logic.Classical_Pred_Type <> ex_not_not_all thm
-R1830:1843 Coq.Logic.Classical_Pred_Type <> ex_not_not_all thm
+R1708:1719 Stdlib.Logic.Classical_Prop <> imply_to_and thm
+R1830:1843 Stdlib.Logic.Classical_Pred_Type <> ex_not_not_all thm
+R1830:1843 Stdlib.Logic.Classical_Pred_Type <> ex_not_not_all thm
 binder 1864:1864 <> x:53
 R1869:1869 Top.Modal_Library <> R proj
 R1880:1880 Top.Frame_Validation <> x:53 var
 binder 1864:1864 <> x:54
 R1869:1869 Top.Modal_Library <> R proj
 R1880:1880 Top.Frame_Validation <> x:54 var
-R1894:1907 Coq.Logic.Classical_Pred_Type <> ex_not_not_all thm
-R1894:1907 Coq.Logic.Classical_Pred_Type <> ex_not_not_all thm
+R1894:1907 Stdlib.Logic.Classical_Pred_Type <> ex_not_not_all thm
+R1894:1907 Stdlib.Logic.Classical_Pred_Type <> ex_not_not_all thm
 R1921:1923 Top.Modal_Notations <> :::'[!'_x_'!]' not
 R1926:1928 Top.Modal_Notations <> :::'[!'_x_'!]' not
 R1924:1924 Top.Modal_Notations <> :modal::'#'_x not
@@ -196,7 +196,7 @@ R1952:1965 Top.Modal_Library <> validate_model def
 prf 2092:2121 <> symmetric_frame_implies_axiomB
 binder 2133:2133 <> f:55
 binder 2135:2137 <> idx:56
-R2163:2168 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2163:2168 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
 R2142:2156 Top.Modal_Library <> symmetric_frame def
 R2160:2162 Top.Frame_Validation <> idx:56 var
 R2158:2158 Top.Frame_Validation <> f:55 var
@@ -227,8 +227,8 @@ R2301:2315 Top.Modal_Library <> symmetric_frame def
 prf 2382:2411 <> axiomB_implies_symmetric_frame
 binder 2423:2423 <> f:67
 binder 2425:2427 <> idx:68
-R2432:2432 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R2479:2485 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2432:2432 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R2479:2485 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
 binder 2440:2440 <> v:69
 binder 2442:2442 <> p:70
 R2453:2456 Top.Modal_Notations <> :::x_'|='_x not
@@ -255,29 +255,29 @@ binder 2475:2475 <> p:78
 R2486:2500 Top.Modal_Library <> symmetric_frame def
 R2504:2506 Top.Frame_Validation <> idx:68 var
 R2502:2502 Top.Frame_Validation <> f:67 var
-R2540:2553 Coq.Logic.Decidable <> contrapositive thm
-R2540:2553 Coq.Logic.Decidable <> contrapositive thm
-R2566:2572 Coq.Logic.Classical_Prop <> classic prfax
-R2566:2572 Coq.Logic.Classical_Prop <> classic prfax
+R2540:2553 Stdlib.Logic.Decidable <> contrapositive thm
+R2540:2553 Stdlib.Logic.Decidable <> contrapositive thm
+R2566:2572 Stdlib.Logic.Classical_Prop <> classic prfax
+R2566:2572 Stdlib.Logic.Classical_Prop <> classic prfax
 R2596:2610 Top.Modal_Library <> symmetric_frame def
-R2628:2641 Coq.Logic.Classical_Pred_Type <> not_all_ex_not thm
-R2679:2692 Coq.Logic.Classical_Pred_Type <> not_all_ex_not thm
-R2628:2641 Coq.Logic.Classical_Pred_Type <> not_all_ex_not thm
-R2679:2692 Coq.Logic.Classical_Pred_Type <> not_all_ex_not thm
-R2730:2741 Coq.Logic.Classical_Prop <> imply_to_and thm
-R2730:2741 Coq.Logic.Classical_Prop <> imply_to_and thm
-R2782:2795 Coq.Logic.Classical_Pred_Type <> ex_not_not_all thm
-R2782:2795 Coq.Logic.Classical_Pred_Type <> ex_not_not_all thm
+R2628:2641 Stdlib.Logic.Classical_Pred_Type <> not_all_ex_not thm
+R2679:2692 Stdlib.Logic.Classical_Pred_Type <> not_all_ex_not thm
+R2628:2641 Stdlib.Logic.Classical_Pred_Type <> not_all_ex_not thm
+R2679:2692 Stdlib.Logic.Classical_Pred_Type <> not_all_ex_not thm
+R2730:2741 Stdlib.Logic.Classical_Prop <> imply_to_and thm
+R2730:2741 Stdlib.Logic.Classical_Prop <> imply_to_and thm
+R2782:2795 Stdlib.Logic.Classical_Pred_Type <> ex_not_not_all thm
+R2782:2795 Stdlib.Logic.Classical_Pred_Type <> ex_not_not_all thm
 binder 2816:2816 <> x:79
-R2821:2822 Coq.Init.Logic <> ::type_scope:'~'_x not
+R2821:2822 Corelib.Init.Logic <> ::type_scope:'~'_x not
 R2823:2823 Top.Modal_Library <> R proj
 R2834:2834 Top.Frame_Validation <> x:79 var
 binder 2816:2816 <> x:80
-R2821:2822 Coq.Init.Logic <> ::type_scope:'~'_x not
+R2821:2822 Corelib.Init.Logic <> ::type_scope:'~'_x not
 R2823:2823 Top.Modal_Library <> R proj
 R2834:2834 Top.Frame_Validation <> x:80 var
-R2848:2861 Coq.Logic.Classical_Pred_Type <> ex_not_not_all thm
-R2848:2861 Coq.Logic.Classical_Pred_Type <> ex_not_not_all thm
+R2848:2861 Stdlib.Logic.Classical_Pred_Type <> ex_not_not_all thm
+R2848:2861 Stdlib.Logic.Classical_Pred_Type <> ex_not_not_all thm
 R2875:2877 Top.Modal_Notations <> :::'[!'_x_'!]' not
 R2880:2882 Top.Modal_Notations <> :::'[!'_x_'!]' not
 R2878:2878 Top.Modal_Notations <> :modal::'#'_x not
@@ -288,7 +288,7 @@ R2906:2919 Top.Modal_Library <> validate_model def
 prf 3051:3080 <> euclidean_frame_implies_axiom5
 binder 3092:3092 <> f:81
 binder 3094:3096 <> idx:82
-R3122:3127 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3122:3127 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
 R3101:3115 Top.Modal_Library <> euclidian_frame def
 R3119:3121 Top.Frame_Validation <> idx:82 var
 R3117:3117 Top.Frame_Validation <> f:81 var
@@ -323,8 +323,8 @@ R3252:3266 Top.Modal_Library <> euclidian_frame def
 prf 3383:3412 <> axiom5_implies_euclidean_frame
 binder 3424:3424 <> f:95
 binder 3426:3428 <> idx:96
-R3433:3433 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R3485:3491 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3433:3433 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R3485:3491 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
 binder 3441:3441 <> v:97
 binder 3443:3443 <> p:98
 R3454:3457 Top.Modal_Notations <> :::x_'|='_x not
@@ -355,37 +355,37 @@ binder 3481:3481 <> p:108
 R3492:3506 Top.Modal_Library <> euclidian_frame def
 R3510:3512 Top.Frame_Validation <> idx:96 var
 R3508:3508 Top.Frame_Validation <> f:95 var
-R3546:3559 Coq.Logic.Decidable <> contrapositive thm
-R3546:3559 Coq.Logic.Decidable <> contrapositive thm
-R3572:3578 Coq.Logic.Classical_Prop <> classic prfax
-R3572:3578 Coq.Logic.Classical_Prop <> classic prfax
+R3546:3559 Stdlib.Logic.Decidable <> contrapositive thm
+R3546:3559 Stdlib.Logic.Decidable <> contrapositive thm
+R3572:3578 Stdlib.Logic.Classical_Prop <> classic prfax
+R3572:3578 Stdlib.Logic.Classical_Prop <> classic prfax
 R3602:3616 Top.Modal_Library <> euclidian_frame def
-R3634:3647 Coq.Logic.Classical_Pred_Type <> not_all_ex_not thm
-R3685:3698 Coq.Logic.Classical_Pred_Type <> not_all_ex_not thm
-R3736:3749 Coq.Logic.Classical_Pred_Type <> not_all_ex_not thm
-R3634:3647 Coq.Logic.Classical_Pred_Type <> not_all_ex_not thm
-R3685:3698 Coq.Logic.Classical_Pred_Type <> not_all_ex_not thm
-R3736:3749 Coq.Logic.Classical_Pred_Type <> not_all_ex_not thm
-R3824:3827 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R3634:3647 Stdlib.Logic.Classical_Pred_Type <> not_all_ex_not thm
+R3685:3698 Stdlib.Logic.Classical_Pred_Type <> not_all_ex_not thm
+R3736:3749 Stdlib.Logic.Classical_Pred_Type <> not_all_ex_not thm
+R3634:3647 Stdlib.Logic.Classical_Pred_Type <> not_all_ex_not thm
+R3685:3698 Stdlib.Logic.Classical_Pred_Type <> not_all_ex_not thm
+R3736:3749 Stdlib.Logic.Classical_Pred_Type <> not_all_ex_not thm
+R3824:3827 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
 R3811:3811 Top.Modal_Library <> R proj
 R3828:3828 Top.Modal_Library <> R proj
-R3787:3798 Coq.Logic.Classical_Prop <> imply_to_and thm
-R3824:3827 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R3787:3798 Stdlib.Logic.Classical_Prop <> imply_to_and thm
+R3824:3827 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
 R3811:3811 Top.Modal_Library <> R proj
 R3828:3828 Top.Modal_Library <> R proj
-R3787:3798 Coq.Logic.Classical_Prop <> imply_to_and thm
-R3910:3923 Coq.Logic.Classical_Pred_Type <> ex_not_not_all thm
-R3910:3923 Coq.Logic.Classical_Pred_Type <> ex_not_not_all thm
+R3787:3798 Stdlib.Logic.Classical_Prop <> imply_to_and thm
+R3910:3923 Stdlib.Logic.Classical_Pred_Type <> ex_not_not_all thm
+R3910:3923 Stdlib.Logic.Classical_Pred_Type <> ex_not_not_all thm
 binder 3944:3944 <> x:109
-R3950:3951 Coq.Init.Logic <> ::type_scope:'~'_x not
+R3950:3951 Corelib.Init.Logic <> ::type_scope:'~'_x not
 R3952:3952 Top.Modal_Library <> R proj
 R3963:3963 Top.Frame_Validation <> x:109 var
 binder 3944:3944 <> x:110
-R3950:3951 Coq.Init.Logic <> ::type_scope:'~'_x not
+R3950:3951 Corelib.Init.Logic <> ::type_scope:'~'_x not
 R3952:3952 Top.Modal_Library <> R proj
 R3963:3963 Top.Frame_Validation <> x:110 var
-R3977:3990 Coq.Logic.Classical_Pred_Type <> ex_not_not_all thm
-R3977:3990 Coq.Logic.Classical_Pred_Type <> ex_not_not_all thm
+R3977:3990 Stdlib.Logic.Classical_Pred_Type <> ex_not_not_all thm
+R3977:3990 Stdlib.Logic.Classical_Pred_Type <> ex_not_not_all thm
 R4004:4006 Top.Modal_Notations <> :::'[!'_x_'!]' not
 R4009:4011 Top.Modal_Notations <> :::'[!'_x_'!]' not
 R4007:4007 Top.Modal_Notations <> :modal::'#'_x not
@@ -396,7 +396,7 @@ R4035:4048 Top.Modal_Library <> validate_model def
 prf 4179:4205 <> serial_frame_implies_axiomD
 binder 4217:4217 <> f:111
 binder 4219:4221 <> idx:112
-R4244:4249 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4244:4249 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
 R4226:4237 Top.Modal_Library <> serial_frame def
 R4241:4243 Top.Frame_Validation <> idx:112 var
 R4239:4239 Top.Frame_Validation <> f:111 var
@@ -427,8 +427,8 @@ R4344:4355 Top.Modal_Library <> serial_frame def
 prf 4482:4508 <> axiomD_implies_serial_frame
 binder 4521:4521 <> f:123
 binder 4523:4525 <> idx:124
-R4530:4530 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R4577:4583 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4530:4530 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R4577:4583 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
 binder 4538:4538 <> v:125
 binder 4540:4540 <> p:126
 R4551:4554 Top.Modal_Notations <> :::x_'|='_x not
@@ -455,25 +455,25 @@ binder 4573:4573 <> p:134
 R4584:4595 Top.Modal_Library <> serial_frame def
 R4599:4601 Top.Frame_Validation <> idx:124 var
 R4597:4597 Top.Frame_Validation <> f:123 var
-R4635:4648 Coq.Logic.Decidable <> contrapositive thm
-R4635:4648 Coq.Logic.Decidable <> contrapositive thm
-R4661:4667 Coq.Logic.Classical_Prop <> classic prfax
-R4661:4667 Coq.Logic.Classical_Prop <> classic prfax
+R4635:4648 Stdlib.Logic.Decidable <> contrapositive thm
+R4635:4648 Stdlib.Logic.Decidable <> contrapositive thm
+R4661:4667 Stdlib.Logic.Classical_Prop <> classic prfax
+R4661:4667 Stdlib.Logic.Classical_Prop <> classic prfax
 R4695:4706 Top.Modal_Library <> serial_frame def
-R4724:4737 Coq.Logic.Classical_Pred_Type <> not_all_ex_not thm
-R4724:4737 Coq.Logic.Classical_Pred_Type <> not_all_ex_not thm
-R4775:4788 Coq.Logic.Classical_Pred_Type <> ex_not_not_all thm
-R4775:4788 Coq.Logic.Classical_Pred_Type <> ex_not_not_all thm
+R4724:4737 Stdlib.Logic.Classical_Pred_Type <> not_all_ex_not thm
+R4724:4737 Stdlib.Logic.Classical_Pred_Type <> not_all_ex_not thm
+R4775:4788 Stdlib.Logic.Classical_Pred_Type <> ex_not_not_all thm
+R4775:4788 Stdlib.Logic.Classical_Pred_Type <> ex_not_not_all thm
 binder 4809:4809 <> x:135
-R4814:4815 Coq.Init.Logic <> ::type_scope:'~'_x not
+R4814:4815 Corelib.Init.Logic <> ::type_scope:'~'_x not
 R4816:4816 Top.Modal_Library <> R proj
 R4827:4827 Top.Frame_Validation <> x:135 var
 binder 4809:4809 <> x:136
-R4814:4815 Coq.Init.Logic <> ::type_scope:'~'_x not
+R4814:4815 Corelib.Init.Logic <> ::type_scope:'~'_x not
 R4816:4816 Top.Modal_Library <> R proj
 R4827:4827 Top.Frame_Validation <> x:136 var
-R4841:4854 Coq.Logic.Classical_Pred_Type <> ex_not_not_all thm
-R4841:4854 Coq.Logic.Classical_Pred_Type <> ex_not_not_all thm
+R4841:4854 Stdlib.Logic.Classical_Pred_Type <> ex_not_not_all thm
+R4841:4854 Stdlib.Logic.Classical_Pred_Type <> ex_not_not_all thm
 R4868:4870 Top.Modal_Notations <> :::'[!'_x_'!]' not
 R4873:4875 Top.Modal_Notations <> :::'[!'_x_'!]' not
 R4871:4871 Top.Modal_Notations <> :modal::'#'_x not
@@ -484,7 +484,7 @@ R4900:4913 Top.Modal_Library <> validate_model def
 prf 5053:5082 <> functional_frame_implies_axiom
 binder 5094:5094 <> f:137
 binder 5096:5098 <> idx:138
-R5125:5130 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5125:5130 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
 R5103:5118 Top.Modal_Library <> functional_frame def
 R5122:5124 Top.Frame_Validation <> idx:138 var
 R5120:5120 Top.Frame_Validation <> f:137 var
@@ -512,17 +512,17 @@ binder 5171:5173 <> idx:146
 binder 5175:5175 <> p:147
 binder 5175:5175 <> p:148
 R5231:5246 Top.Modal_Library <> functional_frame def
-R5322:5325 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R5322:5325 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
 R5309:5309 Top.Modal_Library <> R proj
 R5326:5326 Top.Modal_Library <> R proj
-R5322:5325 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R5322:5325 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
 R5309:5309 Top.Modal_Library <> R proj
 R5326:5326 Top.Modal_Library <> R proj
 prf 5406:5435 <> axiom_implies_functional_frame
 binder 5447:5447 <> f:149
 binder 5449:5451 <> idx:150
-R5456:5456 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R5503:5509 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5456:5456 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R5503:5509 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
 binder 5464:5464 <> v:151
 binder 5466:5466 <> p:152
 R5477:5480 Top.Modal_Notations <> :::x_'|='_x not
@@ -549,41 +549,41 @@ binder 5499:5499 <> p:160
 R5510:5525 Top.Modal_Library <> functional_frame def
 R5529:5531 Top.Frame_Validation <> idx:150 var
 R5527:5527 Top.Frame_Validation <> f:149 var
-R5565:5578 Coq.Logic.Decidable <> contrapositive thm
-R5565:5578 Coq.Logic.Decidable <> contrapositive thm
-R5591:5597 Coq.Logic.Classical_Prop <> classic prfax
-R5591:5597 Coq.Logic.Classical_Prop <> classic prfax
+R5565:5578 Stdlib.Logic.Decidable <> contrapositive thm
+R5565:5578 Stdlib.Logic.Decidable <> contrapositive thm
+R5591:5597 Stdlib.Logic.Classical_Prop <> classic prfax
+R5591:5597 Stdlib.Logic.Classical_Prop <> classic prfax
 R5621:5636 Top.Modal_Library <> functional_frame def
-R5654:5667 Coq.Logic.Classical_Pred_Type <> not_all_ex_not thm
-R5705:5718 Coq.Logic.Classical_Pred_Type <> not_all_ex_not thm
-R5756:5769 Coq.Logic.Classical_Pred_Type <> not_all_ex_not thm
-R5654:5667 Coq.Logic.Classical_Pred_Type <> not_all_ex_not thm
-R5705:5718 Coq.Logic.Classical_Pred_Type <> not_all_ex_not thm
-R5756:5769 Coq.Logic.Classical_Pred_Type <> not_all_ex_not thm
-R5844:5847 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R5654:5667 Stdlib.Logic.Classical_Pred_Type <> not_all_ex_not thm
+R5705:5718 Stdlib.Logic.Classical_Pred_Type <> not_all_ex_not thm
+R5756:5769 Stdlib.Logic.Classical_Pred_Type <> not_all_ex_not thm
+R5654:5667 Stdlib.Logic.Classical_Pred_Type <> not_all_ex_not thm
+R5705:5718 Stdlib.Logic.Classical_Pred_Type <> not_all_ex_not thm
+R5756:5769 Stdlib.Logic.Classical_Pred_Type <> not_all_ex_not thm
+R5844:5847 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
 R5831:5831 Top.Modal_Library <> R proj
 R5848:5848 Top.Modal_Library <> R proj
-R5807:5818 Coq.Logic.Classical_Prop <> imply_to_and thm
-R5844:5847 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R5807:5818 Stdlib.Logic.Classical_Prop <> imply_to_and thm
+R5844:5847 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
 R5831:5831 Top.Modal_Library <> R proj
 R5848:5848 Top.Modal_Library <> R proj
-R5807:5818 Coq.Logic.Classical_Prop <> imply_to_and thm
-R5930:5943 Coq.Logic.Classical_Pred_Type <> ex_not_not_all thm
-R5930:5943 Coq.Logic.Classical_Pred_Type <> ex_not_not_all thm
+R5807:5818 Stdlib.Logic.Classical_Prop <> imply_to_and thm
+R5930:5943 Stdlib.Logic.Classical_Pred_Type <> ex_not_not_all thm
+R5930:5943 Stdlib.Logic.Classical_Pred_Type <> ex_not_not_all thm
 binder 5964:5964 <> x:161
-R5981:5984 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R5981:5984 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
 R5969:5969 Top.Modal_Library <> R proj
 R5980:5980 Top.Frame_Validation <> x:161 var
-R5986:5989 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R5986:5989 Corelib.Init.Logic <> ::type_scope:x_'<>'_x not
 R5985:5985 Top.Frame_Validation <> x:161 var
 binder 5964:5964 <> x:162
-R5981:5984 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R5981:5984 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
 R5969:5969 Top.Modal_Library <> R proj
 R5980:5980 Top.Frame_Validation <> x:162 var
-R5986:5989 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R5986:5989 Corelib.Init.Logic <> ::type_scope:x_'<>'_x not
 R5985:5985 Top.Frame_Validation <> x:162 var
-R6005:6018 Coq.Logic.Classical_Pred_Type <> ex_not_not_all thm
-R6005:6018 Coq.Logic.Classical_Pred_Type <> ex_not_not_all thm
+R6005:6018 Stdlib.Logic.Classical_Pred_Type <> ex_not_not_all thm
+R6005:6018 Stdlib.Logic.Classical_Pred_Type <> ex_not_not_all thm
 R6032:6034 Top.Modal_Notations <> :::'[!'_x_'!]' not
 R6037:6039 Top.Modal_Notations <> :::'[!'_x_'!]' not
 R6035:6035 Top.Modal_Notations <> :modal::'#'_x not
@@ -594,7 +594,7 @@ R6063:6076 Top.Modal_Library <> validate_model def
 prf 6217:6241 <> dense_frame_implies_axiom
 binder 6253:6253 <> f:163
 binder 6255:6257 <> idx:164
-R6279:6284 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6279:6284 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
 R6262:6272 Top.Modal_Library <> dense_frame def
 R6276:6278 Top.Frame_Validation <> idx:164 var
 R6274:6274 Top.Frame_Validation <> f:163 var
@@ -629,8 +629,8 @@ R6390:6400 Top.Modal_Library <> dense_frame def
 prf 6550:6574 <> axiom_implies_dense_frame
 binder 6586:6586 <> f:177
 binder 6588:6590 <> idx:178
-R6595:6595 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R6647:6653 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6595:6595 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R6647:6653 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
 binder 6603:6603 <> v:179
 binder 6605:6605 <> p:180
 R6616:6619 Top.Modal_Notations <> :::x_'|='_x not
@@ -661,39 +661,39 @@ binder 6643:6643 <> p:190
 R6654:6664 Top.Modal_Library <> dense_frame def
 R6668:6670 Top.Frame_Validation <> idx:178 var
 R6666:6666 Top.Frame_Validation <> f:177 var
-R6704:6717 Coq.Logic.Decidable <> contrapositive thm
-R6704:6717 Coq.Logic.Decidable <> contrapositive thm
-R6730:6736 Coq.Logic.Classical_Prop <> classic prfax
-R6730:6736 Coq.Logic.Classical_Prop <> classic prfax
+R6704:6717 Stdlib.Logic.Decidable <> contrapositive thm
+R6704:6717 Stdlib.Logic.Decidable <> contrapositive thm
+R6730:6736 Stdlib.Logic.Classical_Prop <> classic prfax
+R6730:6736 Stdlib.Logic.Classical_Prop <> classic prfax
 R6760:6770 Top.Modal_Library <> dense_frame def
-R6788:6801 Coq.Logic.Classical_Pred_Type <> not_all_ex_not thm
-R6839:6852 Coq.Logic.Classical_Pred_Type <> not_all_ex_not thm
-R6788:6801 Coq.Logic.Classical_Pred_Type <> not_all_ex_not thm
-R6839:6852 Coq.Logic.Classical_Pred_Type <> not_all_ex_not thm
-R6890:6903 Coq.Logic.Classical_Pred_Type <> ex_not_not_all thm
-R6890:6903 Coq.Logic.Classical_Pred_Type <> ex_not_not_all thm
+R6788:6801 Stdlib.Logic.Classical_Pred_Type <> not_all_ex_not thm
+R6839:6852 Stdlib.Logic.Classical_Pred_Type <> not_all_ex_not thm
+R6788:6801 Stdlib.Logic.Classical_Pred_Type <> not_all_ex_not thm
+R6839:6852 Stdlib.Logic.Classical_Pred_Type <> not_all_ex_not thm
+R6890:6903 Stdlib.Logic.Classical_Pred_Type <> ex_not_not_all thm
+R6890:6903 Stdlib.Logic.Classical_Pred_Type <> ex_not_not_all thm
 binder 6924:6924 <> x:191
-R6929:6935 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
-R6937:6938 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R6929:6935 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R6937:6938 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
 binder 6936:6936 <> y:192
-R6951:6954 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R6951:6954 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
 R6939:6939 Top.Modal_Library <> R proj
 R6950:6950 Top.Frame_Validation <> y:192 var
 R6955:6955 Top.Modal_Library <> R proj
 R6963:6963 Top.Frame_Validation <> y:192 var
 R6965:6965 Top.Frame_Validation <> x:191 var
 binder 6924:6924 <> x:193
-R6929:6935 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
-R6937:6938 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R6929:6935 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R6937:6938 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
 binder 6936:6936 <> y:194
-R6951:6954 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R6951:6954 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
 R6939:6939 Top.Modal_Library <> R proj
 R6950:6950 Top.Frame_Validation <> y:194 var
 R6955:6955 Top.Modal_Library <> R proj
 R6963:6963 Top.Frame_Validation <> y:194 var
 R6965:6965 Top.Frame_Validation <> x:193 var
-R6979:6992 Coq.Logic.Classical_Pred_Type <> ex_not_not_all thm
-R6979:6992 Coq.Logic.Classical_Pred_Type <> ex_not_not_all thm
+R6979:6992 Stdlib.Logic.Classical_Pred_Type <> ex_not_not_all thm
+R6979:6992 Stdlib.Logic.Classical_Pred_Type <> ex_not_not_all thm
 R7006:7008 Top.Modal_Notations <> :::'[!'_x_'!]' not
 R7011:7013 Top.Modal_Notations <> :::'[!'_x_'!]' not
 R7009:7009 Top.Modal_Notations <> :modal::'#'_x not
@@ -701,20 +701,20 @@ R7006:7008 Top.Modal_Notations <> :::'[!'_x_'!]' not
 R7011:7013 Top.Modal_Notations <> :::'[!'_x_'!]' not
 R7009:7009 Top.Modal_Notations <> :modal::'#'_x not
 R7038:7051 Top.Modal_Library <> validate_model def
-R7180:7193 Coq.Logic.Classical_Pred_Type <> not_ex_all_not thm
-R7180:7193 Coq.Logic.Classical_Pred_Type <> not_ex_all_not thm
-R7213:7224 Coq.Logic.Classical_Prop <> imply_to_and thm
-R7213:7224 Coq.Logic.Classical_Prop <> imply_to_and thm
-R7276:7289 Coq.Logic.Classical_Pred_Type <> not_ex_all_not thm
-R7276:7289 Coq.Logic.Classical_Pred_Type <> not_ex_all_not thm
-R7309:7320 Coq.Logic.Classical_Prop <> imply_to_and thm
-R7356:7365 Coq.Logic.Classical_Prop <> not_and_or thm
-R7309:7320 Coq.Logic.Classical_Prop <> imply_to_and thm
-R7356:7365 Coq.Logic.Classical_Prop <> not_and_or thm
+R7180:7193 Stdlib.Logic.Classical_Pred_Type <> not_ex_all_not thm
+R7180:7193 Stdlib.Logic.Classical_Pred_Type <> not_ex_all_not thm
+R7213:7224 Stdlib.Logic.Classical_Prop <> imply_to_and thm
+R7213:7224 Stdlib.Logic.Classical_Prop <> imply_to_and thm
+R7276:7289 Stdlib.Logic.Classical_Pred_Type <> not_ex_all_not thm
+R7276:7289 Stdlib.Logic.Classical_Pred_Type <> not_ex_all_not thm
+R7309:7320 Stdlib.Logic.Classical_Prop <> imply_to_and thm
+R7356:7365 Stdlib.Logic.Classical_Prop <> not_and_or thm
+R7309:7320 Stdlib.Logic.Classical_Prop <> imply_to_and thm
+R7356:7365 Stdlib.Logic.Classical_Prop <> not_and_or thm
 prf 7566:7595 <> convergent_frame_implies_axiom
 binder 7607:7607 <> f:195
 binder 7609:7611 <> idx:196
-R7638:7643 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7638:7643 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
 R7616:7631 Top.Modal_Library <> convergent_frame def
 R7635:7637 Top.Frame_Validation <> idx:196 var
 R7633:7633 Top.Frame_Validation <> f:195 var
@@ -753,8 +753,8 @@ R7755:7770 Top.Modal_Library <> convergent_frame def
 prf 7948:7977 <> axiom_implies_convergent_frame
 binder 7989:7989 <> f:211
 binder 7991:7993 <> idx:212
-R7998:7998 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R8056:8062 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7998:7998 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R8056:8062 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
 binder 8006:8006 <> v:213
 binder 8008:8008 <> p:214
 R8019:8022 Top.Modal_Notations <> :::x_'|='_x not
@@ -789,29 +789,29 @@ binder 8052:8052 <> p:226
 R8063:8078 Top.Modal_Library <> convergent_frame def
 R8082:8084 Top.Frame_Validation <> idx:212 var
 R8080:8080 Top.Frame_Validation <> f:211 var
-R8118:8131 Coq.Logic.Decidable <> contrapositive thm
-R8118:8131 Coq.Logic.Decidable <> contrapositive thm
-R8144:8150 Coq.Logic.Classical_Prop <> classic prfax
-R8144:8150 Coq.Logic.Classical_Prop <> classic prfax
+R8118:8131 Stdlib.Logic.Decidable <> contrapositive thm
+R8118:8131 Stdlib.Logic.Decidable <> contrapositive thm
+R8144:8150 Stdlib.Logic.Classical_Prop <> classic prfax
+R8144:8150 Stdlib.Logic.Classical_Prop <> classic prfax
 R8174:8189 Top.Modal_Library <> convergent_frame def
-R8207:8220 Coq.Logic.Classical_Pred_Type <> not_all_ex_not thm
-R8258:8271 Coq.Logic.Classical_Pred_Type <> not_all_ex_not thm
-R8309:8322 Coq.Logic.Classical_Pred_Type <> not_all_ex_not thm
-R8207:8220 Coq.Logic.Classical_Pred_Type <> not_all_ex_not thm
-R8258:8271 Coq.Logic.Classical_Pred_Type <> not_all_ex_not thm
-R8309:8322 Coq.Logic.Classical_Pred_Type <> not_all_ex_not thm
-R8360:8373 Coq.Logic.Classical_Pred_Type <> ex_not_not_all thm
-R8360:8373 Coq.Logic.Classical_Pred_Type <> ex_not_not_all thm
+R8207:8220 Stdlib.Logic.Classical_Pred_Type <> not_all_ex_not thm
+R8258:8271 Stdlib.Logic.Classical_Pred_Type <> not_all_ex_not thm
+R8309:8322 Stdlib.Logic.Classical_Pred_Type <> not_all_ex_not thm
+R8207:8220 Stdlib.Logic.Classical_Pred_Type <> not_all_ex_not thm
+R8258:8271 Stdlib.Logic.Classical_Pred_Type <> not_all_ex_not thm
+R8309:8322 Stdlib.Logic.Classical_Pred_Type <> not_all_ex_not thm
+R8360:8373 Stdlib.Logic.Classical_Pred_Type <> ex_not_not_all thm
+R8360:8373 Stdlib.Logic.Classical_Pred_Type <> ex_not_not_all thm
 binder 8394:8394 <> x:227
-R8399:8400 Coq.Init.Logic <> ::type_scope:'~'_x not
+R8399:8400 Corelib.Init.Logic <> ::type_scope:'~'_x not
 R8401:8401 Top.Modal_Library <> R proj
 R8412:8412 Top.Frame_Validation <> x:227 var
 binder 8394:8394 <> x:228
-R8399:8400 Coq.Init.Logic <> ::type_scope:'~'_x not
+R8399:8400 Corelib.Init.Logic <> ::type_scope:'~'_x not
 R8401:8401 Top.Modal_Library <> R proj
 R8412:8412 Top.Frame_Validation <> x:228 var
-R8426:8439 Coq.Logic.Classical_Pred_Type <> ex_not_not_all thm
-R8426:8439 Coq.Logic.Classical_Pred_Type <> ex_not_not_all thm
+R8426:8439 Stdlib.Logic.Classical_Pred_Type <> ex_not_not_all thm
+R8426:8439 Stdlib.Logic.Classical_Pred_Type <> ex_not_not_all thm
 R8453:8455 Top.Modal_Notations <> :::'[!'_x_'!]' not
 R8458:8460 Top.Modal_Notations <> :::'[!'_x_'!]' not
 R8456:8456 Top.Modal_Notations <> :modal::'#'_x not
@@ -819,27 +819,27 @@ R8453:8455 Top.Modal_Notations <> :::'[!'_x_'!]' not
 R8458:8460 Top.Modal_Notations <> :::'[!'_x_'!]' not
 R8456:8456 Top.Modal_Notations <> :modal::'#'_x not
 R8485:8498 Top.Modal_Library <> validate_model def
-R8586:8599 Coq.Logic.Classical_Pred_Type <> not_ex_all_not thm
-R8586:8599 Coq.Logic.Classical_Pred_Type <> not_ex_all_not thm
-R8636:8647 Coq.Logic.Classical_Prop <> imply_to_and thm
-R8636:8647 Coq.Logic.Classical_Prop <> imply_to_and thm
-R8774:8787 Coq.Logic.Classical_Pred_Type <> not_ex_all_not thm
-R8774:8787 Coq.Logic.Classical_Pred_Type <> not_ex_all_not thm
-R8824:8835 Coq.Logic.Classical_Prop <> imply_to_and thm
-R8824:8835 Coq.Logic.Classical_Prop <> imply_to_and thm
-R8920:8929 Coq.Logic.Classical_Prop <> not_and_or thm
-R8920:8929 Coq.Logic.Classical_Prop <> not_and_or thm
-R8970:8983 Coq.Logic.Classical_Pred_Type <> not_ex_all_not thm
-R8970:8983 Coq.Logic.Classical_Pred_Type <> not_ex_all_not thm
-R9018:9029 Coq.Logic.Classical_Prop <> imply_to_and thm
-R9018:9029 Coq.Logic.Classical_Prop <> imply_to_and thm
+R8586:8599 Stdlib.Logic.Classical_Pred_Type <> not_ex_all_not thm
+R8586:8599 Stdlib.Logic.Classical_Pred_Type <> not_ex_all_not thm
+R8636:8647 Stdlib.Logic.Classical_Prop <> imply_to_and thm
+R8636:8647 Stdlib.Logic.Classical_Prop <> imply_to_and thm
+R8774:8787 Stdlib.Logic.Classical_Pred_Type <> not_ex_all_not thm
+R8774:8787 Stdlib.Logic.Classical_Pred_Type <> not_ex_all_not thm
+R8824:8835 Stdlib.Logic.Classical_Prop <> imply_to_and thm
+R8824:8835 Stdlib.Logic.Classical_Prop <> imply_to_and thm
+R8920:8929 Stdlib.Logic.Classical_Prop <> not_and_or thm
+R8920:8929 Stdlib.Logic.Classical_Prop <> not_and_or thm
+R8970:8983 Stdlib.Logic.Classical_Pred_Type <> not_ex_all_not thm
+R8970:8983 Stdlib.Logic.Classical_Pred_Type <> not_ex_all_not thm
+R9018:9029 Stdlib.Logic.Classical_Prop <> imply_to_and thm
+R9018:9029 Stdlib.Logic.Classical_Prop <> imply_to_and thm
 prf 9173:9188 <> modal_double_neg
 binder 9201:9201 <> M:229
 binder 9203:9203 <> w:230
 binder 9205:9205 <> p:231
-R9208:9208 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R9229:9234 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R9246:9246 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9208:9208 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R9229:9234 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R9246:9246 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
 R9210:9212 Top.Modal_Notations <> :::x_''''_x_'||-'_x not
 R9214:9218 Top.Modal_Notations <> :::x_''''_x_'||-'_x not
 R9209:9209 Top.Frame_Validation <> M:229 var
@@ -855,15 +855,15 @@ R9240:9244 Top.Modal_Notations <> :::x_''''_x_'||-'_x not
 R9235:9235 Top.Frame_Validation <> M:229 var
 R9239:9239 Top.Frame_Validation <> w:230 var
 R9245:9245 Top.Frame_Validation <> p:231 var
-R9292:9295 Coq.Logic.Classical_Prop <> NNPP thm
-R9292:9295 Coq.Logic.Classical_Prop <> NNPP thm
+R9292:9295 Stdlib.Logic.Classical_Prop <> NNPP thm
+R9292:9295 Stdlib.Logic.Classical_Prop <> NNPP thm
 prf 9321:9332 <> modal_contra
 binder 9345:9345 <> M:234
 binder 9347:9347 <> p:235
 binder 9349:9349 <> q:236
-R9354:9354 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R9376:9381 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R9399:9399 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9354:9354 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R9376:9381 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R9399:9399 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
 R9356:9359 Top.Modal_Notations <> :::x_'|='_x not
 R9355:9355 Top.Frame_Validation <> M:234 var
 R9360:9362 Top.Modal_Notations <> :::'[!'_x_'!]' not
@@ -890,7 +890,7 @@ R9483:9498 Top.Frame_Validation <> modal_double_neg thm
 prf 9558:9589 <> noetherian_frame_implies_axiomGL
 binder 9601:9601 <> f:245
 binder 9603:9605 <> idx:246
-R9632:9637 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9632:9637 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
 R9610:9625 Top.Modal_Library <> noetherian_frame def
 R9629:9631 Top.Frame_Validation <> idx:246 var
 R9627:9627 Top.Frame_Validation <> f:245 var
@@ -928,13 +928,13 @@ binder 9694:9694 <> p:259
 binder 9694:9694 <> p:260
 R9737:9748 Top.Frame_Validation <> modal_contra thm
 R9737:9748 Top.Frame_Validation <> modal_contra thm
-R9790:9803 Coq.Logic.Classical_Pred_Type <> not_all_ex_not thm
-R9844:9855 Coq.Logic.Classical_Prop <> imply_to_and thm
-R9790:9803 Coq.Logic.Classical_Pred_Type <> not_all_ex_not thm
-R9844:9855 Coq.Logic.Classical_Prop <> imply_to_and thm
+R9790:9803 Stdlib.Logic.Classical_Pred_Type <> not_all_ex_not thm
+R9844:9855 Stdlib.Logic.Classical_Prop <> imply_to_and thm
+R9790:9803 Stdlib.Logic.Classical_Pred_Type <> not_all_ex_not thm
+R9844:9855 Stdlib.Logic.Classical_Prop <> imply_to_and thm
 binder 9904:9905 <> w1:261
-R9922:9926 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
-R9954:9954 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R9922:9926 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R9954:9954 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
 R9910:9910 Top.Modal_Library <> R proj
 R9920:9921 Top.Frame_Validation <> w1:261 var
 R9935:9937 Top.Modal_Notations <> :::x_''''_x_'||-'_x not
@@ -949,8 +949,8 @@ R9948:9949 Top.Modal_Notations <> :modal::'~'_x not
 binder 9950:9950 <> p:262
 binder 9950:9950 <> p:263
 binder 9904:9905 <> w1:264
-R9922:9926 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
-R9954:9954 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R9922:9926 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R9954:9954 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
 R9910:9910 Top.Modal_Library <> R proj
 R9920:9921 Top.Frame_Validation <> w1:264 var
 R9935:9937 Top.Modal_Notations <> :::x_''''_x_'||-'_x not
@@ -964,8 +964,8 @@ R9951:9953 Top.Modal_Notations <> :::'[!'_x_'!]' not
 R9948:9949 Top.Modal_Notations <> :modal::'~'_x not
 binder 9950:9950 <> p:265
 binder 9950:9950 <> p:266
-R10110:10123 Coq.Logic.Classical_Pred_Type <> ex_not_not_all thm
-R10110:10123 Coq.Logic.Classical_Pred_Type <> ex_not_not_all thm
+R10110:10123 Stdlib.Logic.Classical_Pred_Type <> ex_not_not_all thm
+R10110:10123 Stdlib.Logic.Classical_Pred_Type <> ex_not_not_all thm
 R10231:10233 Top.Modal_Notations <> :::x_''''_x_'||-'_x not
 R10236:10240 Top.Modal_Notations <> :::x_''''_x_'||-'_x not
 R10224:10224 Top.Modal_Notations <> :::'['_x_'--'_x_']' not
@@ -1026,24 +1026,24 @@ binder 10336:10338 <> idx:283
 binder 10336:10338 <> idx:284
 binder 10341:10341 <> p:285
 binder 10341:10341 <> p:286
-R10415:10428 Coq.Logic.Classical_Pred_Type <> not_all_ex_not thm
-R10471:10482 Coq.Logic.Classical_Prop <> imply_to_and thm
-R10415:10428 Coq.Logic.Classical_Pred_Type <> not_all_ex_not thm
-R10471:10482 Coq.Logic.Classical_Prop <> imply_to_and thm
-R10506:10506 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R10544:10549 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R10594:10594 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R10520:10523 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R10415:10428 Stdlib.Logic.Classical_Pred_Type <> not_all_ex_not thm
+R10471:10482 Stdlib.Logic.Classical_Prop <> imply_to_and thm
+R10415:10428 Stdlib.Logic.Classical_Pred_Type <> not_all_ex_not thm
+R10471:10482 Stdlib.Logic.Classical_Prop <> imply_to_and thm
+R10506:10506 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R10544:10549 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R10594:10594 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R10520:10523 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
 R10507:10507 Top.Modal_Library <> R proj
-R10524:10525 Coq.Init.Logic <> ::type_scope:'~'_x not
-R10543:10543 Coq.Init.Logic <> ::type_scope:'~'_x not
+R10524:10525 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R10543:10543 Corelib.Init.Logic <> ::type_scope:'~'_x not
 R10532:10534 Top.Modal_Notations <> :::x_''''_x_'||-'_x not
 R10537:10541 Top.Modal_Notations <> :::x_''''_x_'||-'_x not
 R10526:10526 Top.Modal_Notations <> :::'['_x_'--'_x_']' not
 R10528:10529 Top.Modal_Notations <> :::'['_x_'--'_x_']' not
 R10531:10531 Top.Modal_Notations <> :::'['_x_'--'_x_']' not
-R10563:10567 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
-R10593:10593 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R10563:10567 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R10593:10593 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
 R10550:10550 Top.Modal_Library <> R proj
 R10574:10576 Top.Modal_Notations <> :::x_''''_x_'||-'_x not
 R10579:10583 Top.Modal_Notations <> :::x_''''_x_'||-'_x not
@@ -1055,20 +1055,20 @@ R10590:10592 Top.Modal_Notations <> :::'[!'_x_'!]' not
 R10587:10588 Top.Modal_Notations <> :modal::'~'_x not
 binder 10589:10589 <> p:287
 binder 10589:10589 <> p:288
-R10506:10506 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R10544:10549 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R10594:10594 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R10520:10523 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R10506:10506 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R10544:10549 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R10594:10594 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R10520:10523 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
 R10507:10507 Top.Modal_Library <> R proj
-R10524:10525 Coq.Init.Logic <> ::type_scope:'~'_x not
-R10543:10543 Coq.Init.Logic <> ::type_scope:'~'_x not
+R10524:10525 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R10543:10543 Corelib.Init.Logic <> ::type_scope:'~'_x not
 R10532:10534 Top.Modal_Notations <> :::x_''''_x_'||-'_x not
 R10537:10541 Top.Modal_Notations <> :::x_''''_x_'||-'_x not
 R10526:10526 Top.Modal_Notations <> :::'['_x_'--'_x_']' not
 R10528:10529 Top.Modal_Notations <> :::'['_x_'--'_x_']' not
 R10531:10531 Top.Modal_Notations <> :::'['_x_'--'_x_']' not
-R10563:10567 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
-R10593:10593 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R10563:10567 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R10593:10593 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
 R10550:10550 Top.Modal_Library <> R proj
 R10574:10576 Top.Modal_Notations <> :::x_''''_x_'||-'_x not
 R10579:10583 Top.Modal_Notations <> :::x_''''_x_'||-'_x not
@@ -1082,8 +1082,8 @@ binder 10589:10589 <> p:289
 binder 10589:10589 <> p:290
 R10653:10653 Top.Modal_Library <> R proj
 R10653:10653 Top.Modal_Library <> R proj
-R10760:10764 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
-R10790:10790 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R10760:10764 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R10790:10790 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
 R10748:10748 Top.Modal_Library <> R proj
 R10771:10773 Top.Modal_Notations <> :::x_''''_x_'||-'_x not
 R10776:10780 Top.Modal_Notations <> :::x_''''_x_'||-'_x not
@@ -1095,8 +1095,8 @@ R10787:10789 Top.Modal_Notations <> :::'[!'_x_'!]' not
 R10784:10785 Top.Modal_Notations <> :modal::'~'_x not
 binder 10786:10786 <> p:291
 binder 10786:10786 <> p:292
-R10760:10764 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
-R10790:10790 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R10760:10764 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R10790:10790 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
 R10748:10748 Top.Modal_Library <> R proj
 R10771:10773 Top.Modal_Notations <> :::x_''''_x_'||-'_x not
 R10776:10780 Top.Modal_Notations <> :::x_''''_x_'||-'_x not
@@ -1111,9 +1111,9 @@ binder 10786:10786 <> p:294
 prf 10914:10925 <> GL_implies_4
 binder 10937:10937 <> M:295
 binder 10939:10941 <> idx:296
-R10946:10946 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R10996:11003 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R11046:11046 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10946:10946 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R10996:11003 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R11046:11046 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
 binder 10954:10954 <> q:297
 R10958:10961 Top.Modal_Notations <> :::x_'|='_x not
 R10957:10957 Top.Frame_Validation <> M:295 var
@@ -1289,9 +1289,9 @@ binder 11391:11391 <> x:379
 binder 11391:11391 <> x:380
 binder 11554:11554 <> x:381
 binder 11556:11556 <> y:382
-R11559:11559 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R11577:11582 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R11610:11610 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11559:11559 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R11577:11582 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R11610:11610 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
 R11561:11564 Top.Modal_Notations <> :::x_'|='_x not
 R11565:11567 Top.Modal_Notations <> :::'[!'_x_'!]' not
 R11574:11576 Top.Modal_Notations <> :::'[!'_x_'!]' not
@@ -1318,9 +1318,9 @@ binder 11606:11606 <> y:393
 binder 11606:11606 <> y:394
 binder 11554:11554 <> x:395
 binder 11556:11556 <> y:396
-R11559:11559 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R11577:11582 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R11610:11610 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11559:11559 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R11577:11582 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R11610:11610 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
 R11561:11564 Top.Modal_Notations <> :::x_'|='_x not
 R11565:11567 Top.Modal_Notations <> :::'[!'_x_'!]' not
 R11574:11576 Top.Modal_Notations <> :::'[!'_x_'!]' not
@@ -1990,8 +1990,8 @@ R13206:13228 Top.Modal_Tactics <> modal_impl_transitivity thm
 prf 13329:13360 <> axiomGL_implies_noetherian_frame
 binder 13372:13372 <> f:715
 binder 13374:13376 <> idx:716
-R13381:13381 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R13440:13446 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13381:13381 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R13440:13446 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
 binder 13389:13389 <> v:717
 binder 13391:13391 <> p:718
 R13402:13405 Top.Modal_Notations <> :::x_'|='_x not
@@ -2032,85 +2032,85 @@ R13540:13570 Top.Frame_Validation <> axiom4_implies_transitive_frame thm
 R13592:13603 Top.Frame_Validation <> GL_implies_4 thm
 R13540:13570 Top.Frame_Validation <> axiom4_implies_transitive_frame thm
 R13592:13603 Top.Frame_Validation <> GL_implies_4 thm
-R13653:13666 Coq.Logic.Decidable <> contrapositive thm
-R13653:13666 Coq.Logic.Decidable <> contrapositive thm
-R13681:13687 Coq.Logic.Classical_Prop <> classic prfax
-R13681:13687 Coq.Logic.Classical_Prop <> classic prfax
+R13653:13666 Stdlib.Logic.Decidable <> contrapositive thm
+R13653:13666 Stdlib.Logic.Decidable <> contrapositive thm
+R13681:13687 Stdlib.Logic.Classical_Prop <> classic prfax
+R13681:13687 Stdlib.Logic.Classical_Prop <> classic prfax
 R13719:13747 Top.Modal_Library <> conversely_well_founded_frame def
-R13767:13780 Coq.Logic.Classical_Pred_Type <> not_all_ex_not thm
-R13819:13830 Coq.Logic.Classical_Prop <> imply_to_and thm
-R13767:13780 Coq.Logic.Classical_Pred_Type <> not_all_ex_not thm
-R13819:13830 Coq.Logic.Classical_Prop <> imply_to_and thm
+R13767:13780 Stdlib.Logic.Classical_Pred_Type <> not_all_ex_not thm
+R13819:13830 Stdlib.Logic.Classical_Prop <> imply_to_and thm
+R13767:13780 Stdlib.Logic.Classical_Pred_Type <> not_all_ex_not thm
+R13819:13830 Stdlib.Logic.Classical_Prop <> imply_to_and thm
 binder 13885:13885 <> w:731
-R13891:13894 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13891:13894 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
 R13890:13890 Top.Frame_Validation <> w:731 var
-R13895:13901 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
-R13904:13905 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R13895:13901 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R13904:13905 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
 binder 13902:13903 <> w':732
-R13906:13908 Coq.Init.Logic <> ::type_scope:'~'_x not
-R13931:13931 Coq.Init.Logic <> ::type_scope:'~'_x not
-R13913:13916 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13906:13908 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R13931:13931 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R13913:13916 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
 R13911:13912 Top.Frame_Validation <> w':732 var
-R13917:13918 Coq.Init.Logic <> ::type_scope:'~'_x not
+R13917:13918 Corelib.Init.Logic <> ::type_scope:'~'_x not
 R13919:13919 Top.Modal_Library <> R proj
 R13927:13927 Top.Frame_Validation <> w:731 var
 R13929:13930 Top.Frame_Validation <> w':732 var
 binder 13885:13885 <> w:733
-R13891:13894 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13891:13894 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
 R13890:13890 Top.Frame_Validation <> w:733 var
-R13895:13901 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
-R13904:13905 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R13895:13901 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R13904:13905 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
 binder 13902:13903 <> w':734
-R13906:13908 Coq.Init.Logic <> ::type_scope:'~'_x not
-R13931:13931 Coq.Init.Logic <> ::type_scope:'~'_x not
-R13913:13916 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13906:13908 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R13931:13931 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R13913:13916 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
 R13911:13912 Top.Frame_Validation <> w':734 var
-R13917:13918 Coq.Init.Logic <> ::type_scope:'~'_x not
+R13917:13918 Corelib.Init.Logic <> ::type_scope:'~'_x not
 R13919:13919 Top.Modal_Library <> R proj
 R13927:13927 Top.Frame_Validation <> w:733 var
 R13929:13930 Top.Frame_Validation <> w':734 var
-R13971:13984 Coq.Logic.Classical_Pred_Type <> not_ex_all_not thm
-R14019:14028 Coq.Logic.Classical_Prop <> not_and_or thm
-R13971:13984 Coq.Logic.Classical_Pred_Type <> not_ex_all_not thm
-R14019:14028 Coq.Logic.Classical_Prop <> not_and_or thm
-R14081:14094 Coq.Logic.Classical_Pred_Type <> not_all_ex_not thm
-R14081:14094 Coq.Logic.Classical_Pred_Type <> not_all_ex_not thm
-R14199:14212 Coq.Logic.Classical_Pred_Type <> not_ex_all_not thm
-R14199:14212 Coq.Logic.Classical_Pred_Type <> not_ex_all_not thm
-R14246:14255 Coq.Logic.Classical_Prop <> not_and_or thm
-R14246:14255 Coq.Logic.Classical_Prop <> not_and_or thm
-R14308:14321 Coq.Logic.Classical_Pred_Type <> not_all_ex_not thm
-R14373:14384 Coq.Logic.Classical_Prop <> imply_to_and thm
-R14430:14433 Coq.Logic.Classical_Prop <> NNPP thm
-R14308:14321 Coq.Logic.Classical_Pred_Type <> not_all_ex_not thm
-R14373:14384 Coq.Logic.Classical_Prop <> imply_to_and thm
-R14430:14433 Coq.Logic.Classical_Prop <> NNPP thm
-R14455:14468 Coq.Logic.Classical_Pred_Type <> ex_not_not_all thm
+R13971:13984 Stdlib.Logic.Classical_Pred_Type <> not_ex_all_not thm
+R14019:14028 Stdlib.Logic.Classical_Prop <> not_and_or thm
+R13971:13984 Stdlib.Logic.Classical_Pred_Type <> not_ex_all_not thm
+R14019:14028 Stdlib.Logic.Classical_Prop <> not_and_or thm
+R14081:14094 Stdlib.Logic.Classical_Pred_Type <> not_all_ex_not thm
+R14081:14094 Stdlib.Logic.Classical_Pred_Type <> not_all_ex_not thm
+R14199:14212 Stdlib.Logic.Classical_Pred_Type <> not_ex_all_not thm
+R14199:14212 Stdlib.Logic.Classical_Pred_Type <> not_ex_all_not thm
+R14246:14255 Stdlib.Logic.Classical_Prop <> not_and_or thm
+R14246:14255 Stdlib.Logic.Classical_Prop <> not_and_or thm
+R14308:14321 Stdlib.Logic.Classical_Pred_Type <> not_all_ex_not thm
+R14373:14384 Stdlib.Logic.Classical_Prop <> imply_to_and thm
+R14430:14433 Stdlib.Logic.Classical_Prop <> NNPP thm
+R14308:14321 Stdlib.Logic.Classical_Pred_Type <> not_all_ex_not thm
+R14373:14384 Stdlib.Logic.Classical_Prop <> imply_to_and thm
+R14430:14433 Stdlib.Logic.Classical_Prop <> NNPP thm
+R14455:14468 Stdlib.Logic.Classical_Pred_Type <> ex_not_not_all thm
 binder 14493:14493 <> x:735
-R14498:14499 Coq.Init.Logic <> ::type_scope:'~'_x not
+R14498:14499 Corelib.Init.Logic <> ::type_scope:'~'_x not
 R14502:14502 Top.Frame_Validation <> x:735 var
-R14520:14533 Coq.Logic.Classical_Pred_Type <> ex_not_not_all thm
+R14520:14533 Stdlib.Logic.Classical_Pred_Type <> ex_not_not_all thm
 R14551:14553 Top.Modal_Notations <> :::'[!'_x_'!]' not
 R14556:14558 Top.Modal_Notations <> :::'[!'_x_'!]' not
 R14554:14554 Top.Modal_Notations <> :modal::'#'_x not
-R14455:14468 Coq.Logic.Classical_Pred_Type <> ex_not_not_all thm
+R14455:14468 Stdlib.Logic.Classical_Pred_Type <> ex_not_not_all thm
 binder 14493:14493 <> x:736
-R14498:14499 Coq.Init.Logic <> ::type_scope:'~'_x not
+R14498:14499 Corelib.Init.Logic <> ::type_scope:'~'_x not
 R14502:14502 Top.Frame_Validation <> x:736 var
-R14520:14533 Coq.Logic.Classical_Pred_Type <> ex_not_not_all thm
+R14520:14533 Stdlib.Logic.Classical_Pred_Type <> ex_not_not_all thm
 R14551:14553 Top.Modal_Notations <> :::'[!'_x_'!]' not
 R14556:14558 Top.Modal_Notations <> :::'[!'_x_'!]' not
 R14554:14554 Top.Modal_Notations <> :modal::'#'_x not
 R14587:14600 Top.Modal_Library <> validate_model def
-R14642:14644 Coq.Init.Logic <> ::type_scope:'~'_x not
-R14690:14690 Coq.Init.Logic <> ::type_scope:'~'_x not
+R14642:14644 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R14690:14690 Corelib.Init.Logic <> ::type_scope:'~'_x not
 R14668:14670 Top.Modal_Notations <> :::x_''''_x_'||-'_x not
 R14672:14676 Top.Modal_Notations <> :::x_''''_x_'||-'_x not
 R14645:14645 Top.Modal_Notations <> :::'['_x_'--'_x_']' not
 R14647:14649 Top.Modal_Notations <> :::'['_x_'--'_x_']' not
 R14666:14667 Top.Modal_Notations <> :::'['_x_'--'_x_']' not
 binder 14656:14656 <> x:737
-R14661:14662 Coq.Init.Logic <> ::type_scope:'~'_x not
+R14661:14662 Corelib.Init.Logic <> ::type_scope:'~'_x not
 R14665:14665 Top.Frame_Validation <> x:737 var
 R14677:14679 Top.Modal_Notations <> :::'[!'_x_'!]' not
 R14687:14689 Top.Modal_Notations <> :::'[!'_x_'!]' not
@@ -2119,15 +2119,15 @@ R14684:14684 Top.Modal_Notations <> :modal::'['_x_']'_x not
 binder 14681:14683 <> idx:738
 binder 14681:14683 <> idx:739
 R14685:14685 Top.Modal_Notations <> :modal::'#'_x not
-R14642:14644 Coq.Init.Logic <> ::type_scope:'~'_x not
-R14690:14690 Coq.Init.Logic <> ::type_scope:'~'_x not
+R14642:14644 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R14690:14690 Corelib.Init.Logic <> ::type_scope:'~'_x not
 R14668:14670 Top.Modal_Notations <> :::x_''''_x_'||-'_x not
 R14672:14676 Top.Modal_Notations <> :::x_''''_x_'||-'_x not
 R14645:14645 Top.Modal_Notations <> :::'['_x_'--'_x_']' not
 R14647:14649 Top.Modal_Notations <> :::'['_x_'--'_x_']' not
 R14666:14667 Top.Modal_Notations <> :::'['_x_'--'_x_']' not
 binder 14656:14656 <> x:740
-R14661:14662 Coq.Init.Logic <> ::type_scope:'~'_x not
+R14661:14662 Corelib.Init.Logic <> ::type_scope:'~'_x not
 R14665:14665 Top.Frame_Validation <> x:740 var
 R14677:14679 Top.Modal_Notations <> :::'[!'_x_'!]' not
 R14687:14689 Top.Modal_Notations <> :::'[!'_x_'!]' not
@@ -2136,8 +2136,8 @@ R14684:14684 Top.Modal_Notations <> :modal::'['_x_']'_x not
 binder 14681:14683 <> idx:741
 binder 14681:14683 <> idx:742
 R14685:14685 Top.Modal_Notations <> :modal::'#'_x not
-R14919:14930 Coq.Logic.Classical_Prop <> imply_to_and thm
-R14919:14930 Coq.Logic.Classical_Prop <> imply_to_and thm
-R14977:14980 Coq.Logic.Classical_Prop <> NNPP thm
-R14977:14980 Coq.Logic.Classical_Prop <> NNPP thm
+R14919:14930 Stdlib.Logic.Classical_Prop <> imply_to_and thm
+R14919:14930 Stdlib.Logic.Classical_Prop <> imply_to_and thm
+R14977:14980 Stdlib.Logic.Classical_Prop <> NNPP thm
+R14977:14980 Stdlib.Logic.Classical_Prop <> NNPP thm
 R15045:15054 Top.Frame_Validation Validation <> sec

@@ -1,9 +1,9 @@
-DIGEST c59c7a3c1acecddd34f029e685f618f5
+DIGEST 1d6ed362c2aa89c73ec158db809d94bf
 FTop.Soundness
 R15:27 Top.Modal_Library <> <> lib
 R29:43 Top.Modal_Notations <> <> lib
-R45:53 Coq.Logic.Classical <> <> lib
-R55:58 Coq.Lists.List <> <> lib
+R45:53 Stdlib.Logic.Classical <> <> lib
+R55:58 Stdlib.Lists.List <> <> lib
 R60:75 Top.Deductive_System <> <> lib
 sec 87:95 <> Soundness
 var  109:109 Soundness X
@@ -99,10 +99,10 @@ binder 643:644 <> φ:40
 binder 643:644 <> φ:41
 binder 649:650 <> ψ:42
 binder 649:650 <> ψ:43
-R689:695 Coq.Logic.Classical_Prop <> classic prfax
+R689:695 Stdlib.Logic.Classical_Prop <> classic prfax
 R699:701 Top.Modal_Notations <> :::x_''''_x_'||-'_x not
 R703:707 Top.Modal_Notations <> :::x_''''_x_'||-'_x not
-R689:695 Coq.Logic.Classical_Prop <> classic prfax
+R689:695 Stdlib.Logic.Classical_Prop <> classic prfax
 R699:701 Top.Modal_Notations <> :::x_''''_x_'||-'_x not
 R703:707 Top.Modal_Notations <> :::x_''''_x_'||-'_x not
 prf 824:848 <> Hilbert_Axiom_4_soundness
@@ -270,8 +270,8 @@ binder 2001:2002 <> φ:118
 binder 2001:2002 <> φ:119
 binder 2007:2008 <> φ:120
 binder 2007:2008 <> φ:121
-R2046:2049 Coq.Logic.Classical_Prop <> NNPP thm
-R2046:2049 Coq.Logic.Classical_Prop <> NNPP thm
+R2046:2049 Stdlib.Logic.Classical_Prop <> NNPP thm
+R2046:2049 Stdlib.Logic.Classical_Prop <> NNPP thm
 prf 2116:2142 <> Axiom_Possibility_soundness
 binder 2154:2154 <> M:122
 binder 2156:2156 <> w:123
@@ -390,14 +390,14 @@ binder 2725:2727 <> idx:176
 binder 2725:2727 <> idx:177
 binder 2729:2730 <> φ:178
 binder 2729:2730 <> φ:179
-R2890:2896 Coq.Logic.Classical_Prop <> classic prfax
-R3057:3065 Coq.Relations.Relations <> <> lib
+R2890:2896 Stdlib.Logic.Classical_Prop <> classic prfax
+R3057:3065 Stdlib.Relations.Relations <> <> lib
 prf 3075:3085 <> T_soundness
 binder 3097:3097 <> M:180
 binder 3099:3099 <> w:181
 binder 3101:3102 <> φ:182
 binder 3104:3106 <> idx:183
-R3136:3141 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3136:3141 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
 R3111:3125 Top.Modal_Library <> reflexive_frame def
 R3133:3135 Top.Soundness <> idx:183 var
 R3128:3128 Top.Modal_Library <> F proj
@@ -422,7 +422,7 @@ binder 3255:3255 <> M:190
 binder 3257:3257 <> w:191
 binder 3259:3260 <> φ:192
 binder 3262:3264 <> idx:193
-R3295:3300 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3295:3300 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
 R3269:3284 Top.Modal_Library <> transitive_frame def
 R3292:3294 Top.Soundness <> idx:193 var
 R3287:3287 Top.Modal_Library <> F proj
@@ -455,12 +455,12 @@ binder 3480:3480 <> M:204
 binder 3482:3482 <> w:205
 binder 3484:3485 <> φ:206
 binder 3487:3488 <> ψ:207
-R3493:3493 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R3540:3547 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R3560:3560 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R3494:3494 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
-R3507:3514 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
-R3539:3539 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R3493:3493 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R3540:3547 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R3560:3560 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R3494:3494 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R3507:3514 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R3539:3539 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
 R3496:3498 Top.Modal_Notations <> :::x_''''_x_'||-'_x not
 R3500:3504 Top.Modal_Notations <> :::x_''''_x_'||-'_x not
 R3495:3495 Top.Soundness <> M:204 var
@@ -486,9 +486,9 @@ prf 3631:3653 <> Necessitation_soundness
 binder 3665:3665 <> M:212
 binder 3667:3668 <> φ:213
 binder 3670:3672 <> idx:214
-R3677:3677 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R3685:3692 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R3711:3711 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3677:3677 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R3685:3692 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R3711:3711 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
 R3679:3682 Top.Modal_Notations <> :::x_'|='_x not
 R3678:3678 Top.Soundness <> M:212 var
 R3683:3684 Top.Soundness <> φ:213 var
@@ -503,85 +503,85 @@ binder 3702:3704 <> idx:216
 binder 3706:3707 <> φ:217
 binder 3706:3707 <> φ:218
 R3730:3743 Top.Modal_Library <> validate_model def
-prf 3821:3829 <> soundness
-R3845:3850 Top.Modal_Library <> theory def
-binder 3842:3842 <> G:219
-R3858:3864 Top.Modal_Library <> formula ind
-binder 3854:3855 <> φ:220
-binder 3867:3869 <> idx:221
-R3874:3874 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R3890:3897 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R3906:3906 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R3880:3881 Top.Deductive_System <> :::x_';'_x_'|--'_x not
-R3883:3887 Top.Deductive_System <> :::x_';'_x_'|--'_x not
-R3875:3875 Top.Deductive_System <> K ind
-R3877:3879 Top.Soundness <> idx:221 var
-R3882:3882 Top.Soundness <> G:219 var
-R3888:3889 Top.Soundness <> φ:220 var
-R3899:3903 Top.Modal_Notations <> :::x_'||='_x not
-R3898:3898 Top.Soundness <> G:219 var
-R3904:3905 Top.Soundness <> φ:220 var
-R4053:4077 Top.Soundness <> Hilbert_Axiom_1_soundness thm
-R4053:4077 Top.Soundness <> Hilbert_Axiom_1_soundness thm
-R4117:4141 Top.Soundness <> Hilbert_Axiom_2_soundness thm
-R4117:4141 Top.Soundness <> Hilbert_Axiom_2_soundness thm
-R4181:4205 Top.Soundness <> Hilbert_Axiom_3_soundness thm
-R4181:4205 Top.Soundness <> Hilbert_Axiom_3_soundness thm
-R4245:4269 Top.Soundness <> Hilbert_Axiom_4_soundness thm
-R4245:4269 Top.Soundness <> Hilbert_Axiom_4_soundness thm
-R4309:4333 Top.Soundness <> Hilbert_Axiom_5_soundness thm
-R4309:4333 Top.Soundness <> Hilbert_Axiom_5_soundness thm
-R4373:4397 Top.Soundness <> Hilbert_Axiom_6_soundness thm
-R4373:4397 Top.Soundness <> Hilbert_Axiom_6_soundness thm
-R4437:4461 Top.Soundness <> Hilbert_Axiom_7_soundness thm
-R4437:4461 Top.Soundness <> Hilbert_Axiom_7_soundness thm
-R4501:4525 Top.Soundness <> Hilbert_Axiom_8_soundness thm
-R4501:4525 Top.Soundness <> Hilbert_Axiom_8_soundness thm
-R4565:4589 Top.Soundness <> Hilbert_Axiom_9_soundness thm
-R4565:4589 Top.Soundness <> Hilbert_Axiom_9_soundness thm
-R4629:4654 Top.Soundness <> Hilbert_Axiom_10_soundness thm
-R4629:4654 Top.Soundness <> Hilbert_Axiom_10_soundness thm
-R4691:4701 Top.Deductive_System <> instantiate def
-R4716:4732 Top.Soundness <> Axiom_K_soundness thm
-R4716:4732 Top.Soundness <> Axiom_K_soundness thm
-R4769:4779 Top.Deductive_System <> instantiate def
-R4794:4813 Top.Soundness <> Axiom_Dual_soundness thm
-R4794:4813 Top.Soundness <> Axiom_Dual_soundness thm
-R4845:4866 Top.Soundness <> Modus_Ponens_soundness thm
-R4845:4866 Top.Soundness <> Modus_Ponens_soundness thm
-R5004:5026 Top.Soundness <> Necessitation_soundness thm
-R5004:5026 Top.Soundness <> Necessitation_soundness thm
-prf 5145:5156 <> soundness_S4
-R5172:5177 Top.Modal_Library <> theory def
-binder 5169:5169 <> G:222
-R5185:5191 Top.Modal_Library <> formula ind
-binder 5181:5182 <> φ:223
-binder 5194:5196 <> idx:224
-R5201:5201 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R5218:5284 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R5208:5209 Top.Deductive_System <> :::x_';'_x_'|--'_x not
-R5211:5215 Top.Deductive_System <> :::x_';'_x_'|--'_x not
-R5202:5203 Top.Deductive_System <> S4 ind
-R5205:5207 Top.Soundness <> idx:224 var
-R5210:5210 Top.Soundness <> G:222 var
-R5216:5217 Top.Soundness <> φ:223 var
-R5285:5303 Top.Modal_Library <> entails_modal_class def
-R5337:5337 Top.Soundness <> G:222 var
-R5339:5340 Top.Soundness <> φ:223 var
-binder 5310:5310 <> F:225
-R5315:5328 Top.Modal_Library <> preorder_frame def
-R5332:5334 Top.Soundness <> idx:224 var
-R5330:5330 Top.Soundness <> F:225 var
-R5359:5377 Top.Modal_Library <> entails_modal_class def
-R5380:5386 Top.Modal_Library <> entails def
-R5498:5506 Top.Soundness <> soundness thm
-R5498:5506 Top.Soundness <> soundness thm
-R5609:5619 Top.Soundness <> T_soundness thm
-R5609:5619 Top.Soundness <> T_soundness thm
-R5686:5697 Top.Soundness <> K4_soundness thm
-R5686:5697 Top.Soundness <> K4_soundness thm
-R5747:5768 Top.Soundness <> Modus_Ponens_soundness thm
-R5747:5768 Top.Soundness <> Modus_Ponens_soundness thm
-R5873:5895 Top.Soundness <> Necessitation_soundness thm
-R5873:5895 Top.Soundness <> Necessitation_soundness thm
-R5989:5997 Top.Soundness Soundness <> sec
+prf 3820:3828 <> soundness
+R3844:3849 Top.Modal_Library <> theory def
+binder 3841:3841 <> G:219
+R3857:3863 Top.Modal_Library <> formula ind
+binder 3853:3854 <> φ:220
+binder 3866:3868 <> idx:221
+R3873:3873 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R3889:3896 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R3905:3905 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R3879:3880 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R3882:3886 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R3874:3874 Top.Deductive_System <> K ind
+R3876:3878 Top.Soundness <> idx:221 var
+R3881:3881 Top.Soundness <> G:219 var
+R3887:3888 Top.Soundness <> φ:220 var
+R3898:3902 Top.Modal_Notations <> :::x_'||='_x not
+R3897:3897 Top.Soundness <> G:219 var
+R3903:3904 Top.Soundness <> φ:220 var
+R4052:4076 Top.Soundness <> Hilbert_Axiom_1_soundness thm
+R4052:4076 Top.Soundness <> Hilbert_Axiom_1_soundness thm
+R4116:4140 Top.Soundness <> Hilbert_Axiom_2_soundness thm
+R4116:4140 Top.Soundness <> Hilbert_Axiom_2_soundness thm
+R4180:4204 Top.Soundness <> Hilbert_Axiom_3_soundness thm
+R4180:4204 Top.Soundness <> Hilbert_Axiom_3_soundness thm
+R4244:4268 Top.Soundness <> Hilbert_Axiom_4_soundness thm
+R4244:4268 Top.Soundness <> Hilbert_Axiom_4_soundness thm
+R4308:4332 Top.Soundness <> Hilbert_Axiom_5_soundness thm
+R4308:4332 Top.Soundness <> Hilbert_Axiom_5_soundness thm
+R4372:4396 Top.Soundness <> Hilbert_Axiom_6_soundness thm
+R4372:4396 Top.Soundness <> Hilbert_Axiom_6_soundness thm
+R4436:4460 Top.Soundness <> Hilbert_Axiom_7_soundness thm
+R4436:4460 Top.Soundness <> Hilbert_Axiom_7_soundness thm
+R4500:4524 Top.Soundness <> Hilbert_Axiom_8_soundness thm
+R4500:4524 Top.Soundness <> Hilbert_Axiom_8_soundness thm
+R4564:4588 Top.Soundness <> Hilbert_Axiom_9_soundness thm
+R4564:4588 Top.Soundness <> Hilbert_Axiom_9_soundness thm
+R4628:4653 Top.Soundness <> Hilbert_Axiom_10_soundness thm
+R4628:4653 Top.Soundness <> Hilbert_Axiom_10_soundness thm
+R4690:4700 Top.Deductive_System <> instantiate def
+R4715:4731 Top.Soundness <> Axiom_K_soundness thm
+R4715:4731 Top.Soundness <> Axiom_K_soundness thm
+R4768:4778 Top.Deductive_System <> instantiate def
+R4793:4812 Top.Soundness <> Axiom_Dual_soundness thm
+R4793:4812 Top.Soundness <> Axiom_Dual_soundness thm
+R4844:4865 Top.Soundness <> Modus_Ponens_soundness thm
+R4844:4865 Top.Soundness <> Modus_Ponens_soundness thm
+R5003:5025 Top.Soundness <> Necessitation_soundness thm
+R5003:5025 Top.Soundness <> Necessitation_soundness thm
+prf 5144:5155 <> soundness_S4
+R5171:5176 Top.Modal_Library <> theory def
+binder 5168:5168 <> G:222
+R5184:5190 Top.Modal_Library <> formula ind
+binder 5180:5181 <> φ:223
+binder 5193:5195 <> idx:224
+R5200:5200 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R5217:5283 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R5207:5208 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R5210:5214 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R5201:5202 Top.Deductive_System <> S4 ind
+R5204:5206 Top.Soundness <> idx:224 var
+R5209:5209 Top.Soundness <> G:222 var
+R5215:5216 Top.Soundness <> φ:223 var
+R5284:5302 Top.Modal_Library <> entails_modal_class def
+R5336:5336 Top.Soundness <> G:222 var
+R5338:5339 Top.Soundness <> φ:223 var
+binder 5309:5309 <> F:225
+R5314:5327 Top.Modal_Library <> preorder_frame def
+R5331:5333 Top.Soundness <> idx:224 var
+R5329:5329 Top.Soundness <> F:225 var
+R5358:5376 Top.Modal_Library <> entails_modal_class def
+R5379:5385 Top.Modal_Library <> entails def
+R5497:5505 Top.Soundness <> soundness thm
+R5497:5505 Top.Soundness <> soundness thm
+R5608:5618 Top.Soundness <> T_soundness thm
+R5608:5618 Top.Soundness <> T_soundness thm
+R5685:5696 Top.Soundness <> K4_soundness thm
+R5685:5696 Top.Soundness <> K4_soundness thm
+R5746:5767 Top.Soundness <> Modus_Ponens_soundness thm
+R5746:5767 Top.Soundness <> Modus_Ponens_soundness thm
+R5872:5894 Top.Soundness <> Necessitation_soundness thm
+R5872:5894 Top.Soundness <> Necessitation_soundness thm
+R5988:5996 Top.Soundness Soundness <> sec

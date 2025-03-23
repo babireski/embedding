@@ -1,18 +1,18 @@
 DIGEST 7ed159c84cd221ca585e84264bdea380
 FTop.Modal_Library
-R15:19 Coq.Arith.Arith <> <> lib
-R21:24 Coq.Lists.List <> <> lib
-R26:32 Coq.Lists.ListSet <> <> lib
-R34:42 Coq.Init.Notations <> <> lib
-R44:52 Coq.Logic.Classical <> <> lib
-R54:62 Coq.Relations.Relations <> <> lib
+R15:19 Stdlib.Arith.Arith <> <> lib
+R21:24 Stdlib.Lists.List <> <> lib
+R26:32 Stdlib.Lists.ListSet <> <> lib
+R34:42 Corelib.Init.Notations <> <> lib
+R44:52 Stdlib.Logic.Classical <> <> lib
+R54:62 Stdlib.Relations.Relations <> <> lib
 R64:67 Top.Sets <> <> lib
-R77:89 Coq.Lists.List ListNotations <> mod
+R77:89 Stdlib.Lists.List ListNotations <> mod
 sec 101:105 <> Modal
 var  118:118 Modal I
 rec 134:148 <> modal_index_set
 proj 163:163 <> C
-R167:170 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R167:170 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
 R166:166 Top.Modal_Library <> Modal.I var
 var  190:190 Modal X
 R193:207 Top.Modal_Library <> modal_index_set class
@@ -30,35 +30,35 @@ constr 420:422 <> Dia
 constr 467:469 <> And
 constr 510:511 <> Or
 constr 553:559 <> Implies
-R325:328 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R322:324 Coq.Init.Datatypes <> nat ind
+R325:328 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R322:324 Corelib.Init.Datatypes <> nat ind
 R329:335 Top.Modal_Library <> formula:8 ind
-R357:360 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R357:360 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
 R350:356 Top.Modal_Library <> formula:8 ind
 R361:367 Top.Modal_Library <> formula:8 ind
-R393:396 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R393:396 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
 R382:392 Top.Modal_Library <> modal_index rec
-R404:407 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R404:407 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
 R397:403 Top.Modal_Library <> formula:8 ind
 R408:414 Top.Modal_Library <> formula:8 ind
-R440:443 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R440:443 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
 R429:439 Top.Modal_Library <> modal_index rec
-R451:454 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R451:454 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
 R444:450 Top.Modal_Library <> formula:8 ind
 R455:461 Top.Modal_Library <> formula:8 ind
-R483:486 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R483:486 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
 R476:482 Top.Modal_Library <> formula:8 ind
-R494:497 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R494:497 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
 R487:493 Top.Modal_Library <> formula:8 ind
 R498:504 Top.Modal_Library <> formula:8 ind
-R526:529 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R526:529 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
 R519:525 Top.Modal_Library <> formula:8 ind
-R537:540 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R537:540 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
 R530:536 Top.Modal_Library <> formula:8 ind
 R541:547 Top.Modal_Library <> formula:8 ind
-R569:572 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R569:572 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
 R562:568 Top.Modal_Library <> formula:8 ind
-R580:583 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R580:583 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
 R573:579 Top.Modal_Library <> formula:8 ind
 R584:590 Top.Modal_Library <> formula:8 ind
 scheme 293:299 <> formula_rect
@@ -68,86 +68,86 @@ scheme 293:299 <> formula_sind
 def 628:636 <> modalSize
 R642:648 Top.Modal_Library <> formula ind
 binder 639:639 <> f:10
-R652:654 Coq.Init.Datatypes <> nat ind
+R652:654 Corelib.Init.Datatypes <> nat ind
 R667:667 Top.Modal_Library <> f:10 var
 R679:681 Top.Modal_Library <> Lit constr
 R702:704 Top.Modal_Library <> Neg constr
-R720:723 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
-R736:736 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R720:723 Corelib.Init.Peano <> ::nat_scope:x_'+'_x not
+R736:736 Corelib.Init.Peano <> ::nat_scope:x_'+'_x not
 R724:732 Top.Modal_Library <> modalSize:11 def
 R742:744 Top.Modal_Library <> Box constr
-R760:763 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
-R776:776 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R760:763 Corelib.Init.Peano <> ::nat_scope:x_'+'_x not
+R776:776 Corelib.Init.Peano <> ::nat_scope:x_'+'_x not
 R764:772 Top.Modal_Library <> modalSize:11 def
 R782:784 Top.Modal_Library <> Dia constr
-R800:803 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
-R816:816 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R800:803 Corelib.Init.Peano <> ::nat_scope:x_'+'_x not
+R816:816 Corelib.Init.Peano <> ::nat_scope:x_'+'_x not
 R804:812 Top.Modal_Library <> modalSize:11 def
 R822:824 Top.Modal_Library <> And constr
-R857:860 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
-R873:873 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
-R840:843 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
-R856:856 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R857:860 Corelib.Init.Peano <> ::nat_scope:x_'+'_x not
+R873:873 Corelib.Init.Peano <> ::nat_scope:x_'+'_x not
+R840:843 Corelib.Init.Peano <> ::nat_scope:x_'+'_x not
+R856:856 Corelib.Init.Peano <> ::nat_scope:x_'+'_x not
 R844:852 Top.Modal_Library <> modalSize:11 def
 R861:869 Top.Modal_Library <> modalSize:11 def
 R879:880 Top.Modal_Library <> Or constr
-R914:917 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
-R930:930 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
-R897:900 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
-R913:913 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R914:917 Corelib.Init.Peano <> ::nat_scope:x_'+'_x not
+R930:930 Corelib.Init.Peano <> ::nat_scope:x_'+'_x not
+R897:900 Corelib.Init.Peano <> ::nat_scope:x_'+'_x not
+R913:913 Corelib.Init.Peano <> ::nat_scope:x_'+'_x not
 R901:909 Top.Modal_Library <> modalSize:11 def
 R918:926 Top.Modal_Library <> modalSize:11 def
 R936:942 Top.Modal_Library <> Implies constr
-R971:974 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
-R987:987 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
-R954:957 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
-R970:970 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R971:974 Corelib.Init.Peano <> ::nat_scope:x_'+'_x not
+R987:987 Corelib.Init.Peano <> ::nat_scope:x_'+'_x not
+R954:957 Corelib.Init.Peano <> ::nat_scope:x_'+'_x not
+R970:970 Corelib.Init.Peano <> ::nat_scope:x_'+'_x not
 R958:966 Top.Modal_Library <> modalSize:11 def
 R975:983 Top.Modal_Library <> modalSize:11 def
 def 1004:1013 <> modalDepth
 R1019:1025 Top.Modal_Library <> formula ind
 binder 1016:1016 <> f:13
-R1029:1031 Coq.Init.Datatypes <> nat ind
+R1029:1031 Corelib.Init.Datatypes <> nat ind
 R1044:1044 Top.Modal_Library <> f:13 var
 R1056:1058 Top.Modal_Library <> Lit constr
 R1079:1081 Top.Modal_Library <> Neg constr
-R1097:1100 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
-R1114:1114 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R1097:1100 Corelib.Init.Peano <> ::nat_scope:x_'+'_x not
+R1114:1114 Corelib.Init.Peano <> ::nat_scope:x_'+'_x not
 R1101:1110 Top.Modal_Library <> modalDepth:14 def
 R1120:1122 Top.Modal_Library <> Box constr
-R1138:1141 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
-R1155:1155 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R1138:1141 Corelib.Init.Peano <> ::nat_scope:x_'+'_x not
+R1155:1155 Corelib.Init.Peano <> ::nat_scope:x_'+'_x not
 R1142:1151 Top.Modal_Library <> modalDepth:14 def
 R1161:1163 Top.Modal_Library <> Dia constr
-R1179:1182 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
-R1196:1196 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R1179:1182 Corelib.Init.Peano <> ::nat_scope:x_'+'_x not
+R1196:1196 Corelib.Init.Peano <> ::nat_scope:x_'+'_x not
 R1183:1192 Top.Modal_Library <> modalDepth:14 def
 R1202:1204 Top.Modal_Library <> And constr
-R1220:1222 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
-R1223:1225 Coq.Init.Peano <> max abbrev
+R1220:1222 Corelib.Init.Peano <> ::nat_scope:x_'+'_x not
+R1223:1225 Corelib.Init.Peano <> max abbrev
 R1228:1237 Top.Modal_Library <> modalDepth:14 def
 R1244:1253 Top.Modal_Library <> modalDepth:14 def
 R1263:1264 Top.Modal_Library <> Or constr
-R1281:1283 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
-R1284:1286 Coq.Init.Peano <> max abbrev
+R1281:1283 Corelib.Init.Peano <> ::nat_scope:x_'+'_x not
+R1284:1286 Corelib.Init.Peano <> max abbrev
 R1289:1298 Top.Modal_Library <> modalDepth:14 def
 R1305:1314 Top.Modal_Library <> modalDepth:14 def
 R1324:1330 Top.Modal_Library <> Implies constr
-R1342:1344 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
-R1345:1347 Coq.Init.Peano <> max abbrev
+R1342:1344 Corelib.Init.Peano <> ::nat_scope:x_'+'_x not
+R1345:1347 Corelib.Init.Peano <> max abbrev
 R1350:1359 Top.Modal_Library <> modalDepth:14 def
 R1366:1375 Top.Modal_Library <> modalDepth:14 def
 def 1396:1403 <> literals
 R1409:1415 Top.Modal_Library <> formula ind
 binder 1406:1406 <> f:16
-R1419:1421 Coq.Lists.ListSet <> set def
-R1423:1425 Coq.Init.Datatypes <> nat ind
+R1419:1421 Stdlib.Lists.ListSet <> set def
+R1423:1425 Corelib.Init.Datatypes <> nat ind
 R1438:1438 Top.Modal_Library <> f:16 var
 R1450:1452 Top.Modal_Library <> Lit constr
-R1467:1473 Coq.Lists.ListSet <> set_add def
-R1489:1497 Coq.Lists.ListSet <> empty_set def
-R1499:1501 Coq.Init.Datatypes <> nat ind
-R1475:1484 Coq.Arith.Peano_dec <> eq_nat_dec abbrev
+R1467:1473 Stdlib.Lists.ListSet <> set_add def
+R1489:1497 Stdlib.Lists.ListSet <> empty_set def
+R1499:1501 Corelib.Init.Datatypes <> nat ind
+R1475:1484 Stdlib.Arith.Peano_dec <> eq_nat_dec abbrev
 R1508:1510 Top.Modal_Library <> Dia constr
 R1525:1532 Top.Modal_Library <> literals:17 def
 R1541:1543 Top.Modal_Library <> Box constr
@@ -155,36 +155,36 @@ R1558:1565 Top.Modal_Library <> literals:17 def
 R1574:1576 Top.Modal_Library <> Neg constr
 R1591:1598 Top.Modal_Library <> literals:17 def
 R1607:1609 Top.Modal_Library <> And constr
-R1624:1632 Coq.Lists.ListSet <> set_union def
+R1624:1632 Stdlib.Lists.ListSet <> set_union def
 R1660:1667 Top.Modal_Library <> literals:17 def
 R1646:1653 Top.Modal_Library <> literals:17 def
-R1634:1643 Coq.Arith.Peano_dec <> eq_nat_dec abbrev
+R1634:1643 Stdlib.Arith.Peano_dec <> eq_nat_dec abbrev
 R1677:1678 Top.Modal_Library <> Or constr
-R1694:1702 Coq.Lists.ListSet <> set_union def
+R1694:1702 Stdlib.Lists.ListSet <> set_union def
 R1730:1737 Top.Modal_Library <> literals:17 def
 R1716:1723 Top.Modal_Library <> literals:17 def
-R1704:1713 Coq.Arith.Peano_dec <> eq_nat_dec abbrev
+R1704:1713 Stdlib.Arith.Peano_dec <> eq_nat_dec abbrev
 R1747:1753 Top.Modal_Library <> Implies constr
-R1764:1772 Coq.Lists.ListSet <> set_union def
+R1764:1772 Stdlib.Lists.ListSet <> set_union def
 R1800:1807 Top.Modal_Library <> literals:17 def
 R1786:1793 Top.Modal_Library <> literals:17 def
-R1774:1783 Coq.Arith.Peano_dec <> eq_nat_dec abbrev
+R1774:1783 Stdlib.Arith.Peano_dec <> eq_nat_dec abbrev
 rec 1827:1831 <> Frame
 proj 1846:1846 <> W
 proj 1922:1922 <> R
-R1936:1939 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1936:1939 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
 R1925:1935 Top.Modal_Library <> modal_index rec
-R1941:1944 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1941:1944 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
 R1940:1940 Top.Modal_Library <> W:20 meth
-R1946:1949 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1946:1949 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
 R1945:1945 Top.Modal_Library <> W:20 meth
 rec 1966:1970 <> Model
 proj 1985:1985 <> F
 proj 1997:1997 <> v
 R1988:1992 Top.Modal_Library <> Frame rec
-R2003:2006 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R2000:2002 Coq.Init.Datatypes <> nat ind
-R2010:2013 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2003:2006 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R2000:2002 Corelib.Init.Datatypes <> nat ind
+R2010:2013 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
 R2007:2007 Top.Modal_Library <> W proj
 R2009:2009 Top.Modal_Library <> F:23 meth
 def 2032:2045 <> fun_validation
@@ -203,7 +203,7 @@ R2131:2131 Top.Modal_Library <> M:25 var
 R2135:2135 Top.Modal_Library <> w:26 var
 R2141:2143 Top.Modal_Library <> Box constr
 binder 2164:2165 <> w':30
-R2182:2185 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2182:2185 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
 R2168:2168 Top.Modal_Library <> R proj
 R2171:2171 Top.Modal_Library <> F proj
 R2173:2173 Top.Modal_Library <> M:25 var
@@ -213,9 +213,9 @@ R2186:2199 Top.Modal_Library <> fun_validation:28 def
 R2203:2204 Top.Modal_Library <> w':30 var
 R2201:2201 Top.Modal_Library <> M:25 var
 R2213:2215 Top.Modal_Library <> Dia constr
-R2229:2236 Coq.Init.Logic <> ::type_scope:'exists2'_x_','_x_'&'_x not
-R2239:2240 Coq.Init.Logic <> ::type_scope:'exists2'_x_','_x_'&'_x not
-R2255:2257 Coq.Init.Logic <> ::type_scope:'exists2'_x_','_x_'&'_x not
+R2229:2236 Corelib.Init.Logic <> ::type_scope:'exists2'_x_','_x_'&'_x not
+R2239:2240 Corelib.Init.Logic <> ::type_scope:'exists2'_x_','_x_'&'_x not
+R2255:2257 Corelib.Init.Logic <> ::type_scope:'exists2'_x_','_x_'&'_x not
 binder 2237:2238 <> w':31
 R2241:2241 Top.Modal_Library <> R proj
 R2244:2244 Top.Modal_Library <> F proj
@@ -227,12 +227,12 @@ R2258:2271 Top.Modal_Library <> fun_validation:28 def
 R2275:2276 Top.Modal_Library <> w':32 var
 R2273:2273 Top.Modal_Library <> M:25 var
 R2285:2287 Top.Modal_Library <> Neg constr
-R2301:2301 Coq.Init.Logic <> ::type_scope:'~'_x not
+R2301:2301 Corelib.Init.Logic <> ::type_scope:'~'_x not
 R2302:2315 Top.Modal_Library <> fun_validation:28 def
 R2319:2319 Top.Modal_Library <> w:26 var
 R2317:2317 Top.Modal_Library <> M:25 var
 R2328:2330 Top.Modal_Library <> And constr
-R2366:2369 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R2366:2369 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
 R2345:2358 Top.Modal_Library <> fun_validation:28 def
 R2362:2362 Top.Modal_Library <> w:26 var
 R2360:2360 Top.Modal_Library <> M:25 var
@@ -240,7 +240,7 @@ R2370:2383 Top.Modal_Library <> fun_validation:28 def
 R2387:2387 Top.Modal_Library <> w:26 var
 R2385:2385 Top.Modal_Library <> M:25 var
 R2396:2397 Top.Modal_Library <> Or constr
-R2434:2437 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R2434:2437 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
 R2413:2426 Top.Modal_Library <> fun_validation:28 def
 R2430:2430 Top.Modal_Library <> w:26 var
 R2428:2428 Top.Modal_Library <> M:25 var
@@ -248,7 +248,7 @@ R2438:2451 Top.Modal_Library <> fun_validation:28 def
 R2455:2455 Top.Modal_Library <> w:26 var
 R2453:2453 Top.Modal_Library <> M:25 var
 R2464:2470 Top.Modal_Library <> Implies constr
-R2502:2505 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2502:2505 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
 R2481:2494 Top.Modal_Library <> fun_validation:28 def
 R2498:2498 Top.Modal_Library <> w:26 var
 R2496:2496 Top.Modal_Library <> M:25 var
@@ -266,7 +266,7 @@ R2651:2651 Top.Modal_Library <> M:33 var
 R2653:2653 Top.Modal_Library <> w:35 var
 R2655:2656 Top.Modal_Library <> φ:34 var
 def 2720:2725 <> theory
-R2737:2740 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2737:2740 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
 R2730:2736 Top.Modal_Library <> formula ind
 def 2759:2770 <> theory_modal
 R2776:2780 Top.Modal_Library <> Model rec
@@ -274,7 +274,7 @@ binder 2773:2773 <> M:36
 R2788:2793 Top.Modal_Library <> theory def
 binder 2784:2785 <> Γ:37
 binder 2814:2814 <> p:38
-R2821:2824 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2821:2824 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
 R2817:2818 Top.Modal_Library <> Γ:37 var
 R2820:2820 Top.Modal_Library <> p:38 var
 R2825:2838 Top.Modal_Library <> validate_model def
@@ -287,7 +287,7 @@ R2881:2886 Top.Modal_Library <> theory def
 binder 2877:2878 <> Γ:40
 R2894:2900 Top.Modal_Library <> formula ind
 binder 2890:2891 <> φ:41
-R3160:3163 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3160:3163 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
 R3143:3154 Top.Modal_Library <> theory_modal def
 R3156:3156 Top.Modal_Library <> M:39 var
 R3158:3159 Top.Modal_Library <> Γ:40 var
@@ -312,9 +312,9 @@ R7811:7811 Top.Modal_Library <> Modal.Classes.F var
 binder 7799:7799 <> w:47
 binder 7801:7802 <> w':48
 binder 7804:7806 <> w'':49
-R7816:7816 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R7843:7847 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R7827:7830 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R7816:7816 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R7843:7847 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R7827:7830 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
 R7817:7817 Top.Modal_Library <> R proj
 R7819:7819 Top.Modal_Library <> Modal.Classes.F var
 R7821:7821 Top.Modal_Library <> Modal.Classes.i var
@@ -333,7 +333,7 @@ R7856:7858 Top.Modal_Library <> w'':49 var
 def 7888:7902 <> symmetric_frame
 binder 7922:7922 <> w:50
 binder 7924:7925 <> w':51
-R7940:7943 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7940:7943 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
 R7930:7930 Top.Modal_Library <> R proj
 R7932:7932 Top.Modal_Library <> Modal.Classes.F var
 R7934:7934 Top.Modal_Library <> Modal.Classes.i var
@@ -348,9 +348,9 @@ def 7985:7999 <> euclidian_frame
 binder 8019:8019 <> w:52
 binder 8021:8022 <> w':53
 binder 8024:8026 <> w'':54
-R8031:8031 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R8057:8061 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R8042:8045 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R8031:8031 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R8057:8061 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R8042:8045 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
 R8032:8032 Top.Modal_Library <> R proj
 R8034:8034 Top.Modal_Library <> Modal.Classes.F var
 R8036:8036 Top.Modal_Library <> Modal.Classes.i var
@@ -368,8 +368,8 @@ R8068:8069 Top.Modal_Library <> w':53 var
 R8071:8073 Top.Modal_Library <> w'':54 var
 def 8101:8112 <> serial_frame
 binder 8132:8132 <> w:55
-R8137:8143 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
-R8146:8147 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R8137:8143 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R8146:8147 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
 binder 8144:8145 <> w':56
 R8148:8148 Top.Modal_Library <> R proj
 R8150:8150 Top.Modal_Library <> Modal.Classes.F var
@@ -380,9 +380,9 @@ def 8188:8203 <> functional_frame
 binder 8223:8223 <> w:57
 binder 8225:8226 <> w':58
 binder 8228:8230 <> w'':59
-R8235:8235 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R8261:8265 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R8246:8249 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R8235:8235 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R8261:8265 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R8246:8249 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
 R8236:8236 Top.Modal_Library <> R proj
 R8238:8238 Top.Modal_Library <> Modal.Classes.F var
 R8240:8240 Top.Modal_Library <> Modal.Classes.i var
@@ -393,23 +393,23 @@ R8252:8252 Top.Modal_Library <> Modal.Classes.F var
 R8254:8254 Top.Modal_Library <> Modal.Classes.i var
 R8256:8256 Top.Modal_Library <> w:57 var
 R8258:8260 Top.Modal_Library <> w'':59 var
-R8268:8270 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8268:8270 Corelib.Init.Logic <> ::type_scope:x_'='_x not
 R8266:8267 Top.Modal_Library <> w':58 var
 R8271:8273 Top.Modal_Library <> w'':59 var
 def 8299:8309 <> dense_frame
 binder 8329:8329 <> w:60
 binder 8331:8332 <> w':61
-R8337:8343 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
-R8347:8350 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R8337:8343 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R8347:8350 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
 binder 8344:8346 <> w'':62
-R8361:8365 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R8393:8393 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8361:8365 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R8393:8393 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
 R8351:8351 Top.Modal_Library <> R proj
 R8353:8353 Top.Modal_Library <> Modal.Classes.F var
 R8355:8355 Top.Modal_Library <> Modal.Classes.i var
 R8357:8357 Top.Modal_Library <> w:60 var
 R8359:8360 Top.Modal_Library <> w':61 var
-R8377:8380 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R8377:8380 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
 R8366:8366 Top.Modal_Library <> R proj
 R8368:8368 Top.Modal_Library <> Modal.Classes.F var
 R8370:8370 Top.Modal_Library <> Modal.Classes.i var
@@ -424,13 +424,13 @@ def 8426:8441 <> convergent_frame
 binder 8461:8461 <> w:63
 binder 8463:8463 <> x:64
 binder 8465:8465 <> y:65
-R8470:8476 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
-R8478:8481 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R8470:8476 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R8478:8481 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
 binder 8477:8477 <> z:66
-R8482:8482 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R8505:8510 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R8533:8533 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R8492:8495 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R8482:8482 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R8505:8510 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R8533:8533 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R8492:8495 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
 R8483:8483 Top.Modal_Library <> R proj
 R8485:8485 Top.Modal_Library <> Modal.Classes.F var
 R8487:8487 Top.Modal_Library <> Modal.Classes.i var
@@ -441,7 +441,7 @@ R8498:8498 Top.Modal_Library <> Modal.Classes.F var
 R8500:8500 Top.Modal_Library <> Modal.Classes.i var
 R8502:8502 Top.Modal_Library <> w:63 var
 R8504:8504 Top.Modal_Library <> y:65 var
-R8520:8523 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R8520:8523 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
 R8511:8511 Top.Modal_Library <> R proj
 R8513:8513 Top.Modal_Library <> Modal.Classes.F var
 R8515:8515 Top.Modal_Library <> Modal.Classes.i var
@@ -453,40 +453,40 @@ R8528:8528 Top.Modal_Library <> Modal.Classes.i var
 R8530:8530 Top.Modal_Library <> y:65 var
 R8532:8532 Top.Modal_Library <> z:66 var
 def 8548:8576 <> conversely_well_founded_frame
-R8636:8639 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8636:8639 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
 R8633:8633 Top.Modal_Library <> W proj
 R8635:8635 Top.Modal_Library <> Modal.Classes.F var
 binder 8630:8630 <> X:67
-R8648:8648 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R8662:8668 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R8649:8655 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
-R8657:8658 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R8648:8648 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R8662:8668 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R8649:8655 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R8657:8658 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
 binder 8656:8656 <> x:68
 R8659:8659 Top.Modal_Library <> X:67 var
 R8661:8661 Top.Modal_Library <> x:68 var
-R8669:8675 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
-R8678:8679 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R8669:8675 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R8678:8679 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
 binder 8676:8677 <> w1:69
-R8684:8691 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R8684:8691 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
 R8680:8680 Top.Modal_Library <> X:67 var
 R8682:8683 Top.Modal_Library <> w1:69 var
 binder 8699:8700 <> w2:70
-R8707:8710 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8707:8710 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
 R8703:8703 Top.Modal_Library <> X:67 var
 R8705:8706 Top.Modal_Library <> w2:70 var
-R8711:8712 Coq.Init.Logic <> ::type_scope:'~'_x not
-R8724:8724 Coq.Init.Logic <> ::type_scope:'~'_x not
+R8711:8712 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R8724:8724 Corelib.Init.Logic <> ::type_scope:'~'_x not
 R8713:8713 Top.Modal_Library <> R proj
 R8715:8715 Top.Modal_Library <> Modal.Classes.F var
 R8717:8717 Top.Modal_Library <> Modal.Classes.i var
 R8719:8720 Top.Modal_Library <> w1:69 var
 R8722:8723 Top.Modal_Library <> w2:70 var
 def 8739:8754 <> noetherian_frame
-R8783:8786 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R8783:8786 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
 R8767:8782 Top.Modal_Library <> transitive_frame def
 R8787:8815 Top.Modal_Library <> conversely_well_founded_frame def
 def 8830:8843 <> preorder_frame
-R8871:8874 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R8871:8874 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
 R8856:8870 Top.Modal_Library <> reflexive_frame def
 R8875:8890 Top.Modal_Library <> transitive_frame def
 R8898:8904 Top.Modal_Library Modal.Classes <> sec
@@ -504,9 +504,9 @@ def 9038:9048 <> equivalence
 R9058:9064 Top.Modal_Library <> formula ind
 binder 9051:9052 <> φ:74
 binder 9054:9055 <> ψ:75
-R9079:9079 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
-R9111:9116 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
-R9148:9148 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R9079:9079 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R9111:9116 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R9148:9148 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
 R9080:9092 Top.Modal_Library <> entails_modal def
 R9095:9103 Top.Sets <> Singleton ind
 R9105:9106 Top.Modal_Library <> φ:74 var
@@ -516,7 +516,7 @@ R9132:9140 Top.Sets <> Singleton ind
 R9142:9143 Top.Modal_Library <> ψ:75 var
 R9146:9147 Top.Modal_Library <> φ:74 var
 var 9161:9161 Modal P
-R9169:9172 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9169:9172 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
 R9164:9168 Top.Modal_Library <> Frame rec
 def 9191:9209 <> entails_modal_class
 R9216:9221 Top.Modal_Library <> theory def
@@ -524,7 +524,7 @@ binder 9212:9213 <> Γ:78
 R9229:9235 Top.Modal_Library <> formula ind
 binder 9225:9226 <> φ:79
 binder 9256:9256 <> M:80
-R9268:9273 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9268:9273 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
 R9261:9261 Top.Modal_Library <> Modal.P var
 R9264:9264 Top.Modal_Library <> F proj
 R9266:9266 Top.Modal_Library <> M:80 var

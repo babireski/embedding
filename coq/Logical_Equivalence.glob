@@ -3,15 +3,15 @@ FTop.Logical_Equivalence
 R15:18 Top.Sets <> <> lib
 R20:32 Top.Modal_Library <> <> lib
 R34:48 Top.Modal_Notations <> <> lib
-R50:58 Coq.Logic.Classical <> <> lib
-R60:63 Coq.Lists.List <> <> lib
+R50:58 Stdlib.Logic.Classical <> <> lib
+R60:63 Stdlib.Lists.List <> <> lib
 sec 75:85 <> Equivalence
 var  98:98 Equivalence X
 R101:115 Top.Modal_Library <> modal_index_set class
 prf 126:142 <> singleton_formula
 binder 154:154 <> M:3
 binder 156:156 <> p:4
-R189:192 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R189:192 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
 R161:172 Top.Modal_Library <> theory_modal def
 R174:174 Top.Logical_Equivalence <> M:3 var
 R177:185 Top.Sets <> Singleton ind
@@ -45,10 +45,10 @@ R440:456 Top.Logical_Equivalence <> singleton_formula thm
 R440:456 Top.Logical_Equivalence <> singleton_formula thm
 R492:494 Top.Modal_Notations <> :::x_''''_x_'||-'_x not
 R496:500 Top.Modal_Notations <> :::x_''''_x_'||-'_x not
-R477:483 Coq.Logic.Classical_Prop <> classic prfax
+R477:483 Stdlib.Logic.Classical_Prop <> classic prfax
 R492:494 Top.Modal_Notations <> :::x_''''_x_'||-'_x not
 R496:500 Top.Modal_Notations <> :::x_''''_x_'||-'_x not
-R477:483 Coq.Logic.Classical_Prop <> classic prfax
+R477:483 Stdlib.Logic.Classical_Prop <> classic prfax
 R529:541 Top.Modal_Library <> entails_modal def
 R544:550 Top.Modal_Library <> entails def
 R592:608 Top.Logical_Equivalence <> singleton_formula thm
@@ -68,16 +68,16 @@ R864:870 Top.Modal_Library <> entails def
 R873:886 Top.Modal_Library <> validate_model def
 R907:923 Top.Logical_Equivalence <> singleton_formula thm
 R907:923 Top.Logical_Equivalence <> singleton_formula thm
-R975:978 Coq.Logic.Classical_Prop <> NNPP thm
-R975:978 Coq.Logic.Classical_Prop <> NNPP thm
+R975:978 Stdlib.Logic.Classical_Prop <> NNPP thm
+R975:978 Stdlib.Logic.Classical_Prop <> NNPP thm
 R998:1010 Top.Modal_Library <> entails_modal def
 R1013:1019 Top.Modal_Library <> entails def
 R1022:1035 Top.Modal_Library <> validate_model def
 R1067:1083 Top.Logical_Equivalence <> singleton_formula thm
 R1067:1083 Top.Logical_Equivalence <> singleton_formula thm
-R1105:1111 Coq.Logic.Classical_Prop <> classic prfax
-R1142:1145 Coq.Logic.Classical_Prop <> NNPP thm
-R1142:1145 Coq.Logic.Classical_Prop <> NNPP thm
+R1105:1111 Stdlib.Logic.Classical_Prop <> classic prfax
+R1142:1145 Stdlib.Logic.Classical_Prop <> NNPP thm
+R1142:1145 Stdlib.Logic.Classical_Prop <> NNPP thm
 prf 1190:1209 <> and_to_implies_modal
 binder 1221:1222 <> φ:18
 binder 1224:1225 <> ψ:19
@@ -106,14 +106,14 @@ R1320:1333 Top.Modal_Library <> validate_model def
 R1371:1384 Top.Modal_Library <> validate_model def
 R1418:1434 Top.Logical_Equivalence <> singleton_formula thm
 R1418:1434 Top.Logical_Equivalence <> singleton_formula thm
-R1453:1455 Coq.Init.Logic <> not def
+R1453:1455 Corelib.Init.Logic <> not def
 R1559:1571 Top.Modal_Library <> entails_modal def
 R1574:1580 Top.Modal_Library <> entails def
 R1618:1631 Top.Modal_Library <> validate_model def
 R1673:1689 Top.Logical_Equivalence <> singleton_formula thm
 R1673:1689 Top.Logical_Equivalence <> singleton_formula thm
-R1758:1764 Coq.Logic.Classical_Prop <> classic prfax
-R1838:1844 Coq.Logic.Classical_Prop <> classic prfax
+R1758:1764 Stdlib.Logic.Classical_Prop <> classic prfax
+R1838:1844 Stdlib.Logic.Classical_Prop <> classic prfax
 prf 1899:1918 <> diamond_to_box_modal
 binder 1930:1931 <> φ:28
 binder 1933:1935 <> idx:29
@@ -141,12 +141,12 @@ R2017:2023 Top.Modal_Library <> entails def
 R2026:2039 Top.Modal_Library <> validate_model def
 R2081:2097 Top.Logical_Equivalence <> singleton_formula thm
 R2081:2097 Top.Logical_Equivalence <> singleton_formula thm
-R2153:2159 Coq.Logic.Classical_Prop <> classic prfax
+R2153:2159 Stdlib.Logic.Classical_Prop <> classic prfax
 R2219:2231 Top.Modal_Library <> entails_modal def
 R2234:2240 Top.Modal_Library <> entails def
 R2275:2288 Top.Modal_Library <> validate_model def
-R2323:2325 Coq.Init.Logic <> not def
+R2323:2325 Corelib.Init.Logic <> not def
 R2355:2371 Top.Logical_Equivalence <> singleton_formula thm
 R2355:2371 Top.Logical_Equivalence <> singleton_formula thm
-R2427:2433 Coq.Logic.Classical_Prop <> classic prfax
+R2427:2433 Stdlib.Logic.Classical_Prop <> classic prfax
 R2494:2504 Top.Logical_Equivalence Equivalence <> sec
