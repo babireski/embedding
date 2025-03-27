@@ -1,4 +1,4 @@
-DIGEST 8c9c65fc7fe53b0f124f3bcbb7abd500
+DIGEST c750945c723abe4568e7937b5d6eae20
 FTop.Deductive_System
 R15:27 Top.Modal_Library <> <> lib
 R29:43 Top.Modal_Notations <> <> lib
@@ -159,8 +159,8 @@ R1108:1108 Top.Modal_Notations <> :modal::'('_x_')' not
 R1102:1105 Top.Modal_Notations <> :modal::x_'->'_x not
 binder 1100:1101 <> ψ:15
 binder 1100:1101 <> ψ:16
-binder 1106:1107 <> Ɣ:17
-binder 1106:1107 <> Ɣ:18
+binder 1106:1107 <> γ:17
+binder 1106:1107 <> γ:18
 R1114:1114 Top.Modal_Notations <> :modal::'('_x_')' not
 R1139:1139 Top.Modal_Notations <> :modal::'('_x_')' not
 R1125:1128 Top.Modal_Notations <> :modal::x_'->'_x not
@@ -176,8 +176,8 @@ R1138:1138 Top.Modal_Notations <> :modal::'('_x_')' not
 R1132:1135 Top.Modal_Notations <> :modal::x_'->'_x not
 binder 1130:1131 <> φ:23
 binder 1130:1131 <> φ:24
-binder 1136:1137 <> Ɣ:25
-binder 1136:1137 <> Ɣ:26
+binder 1136:1137 <> γ:25
+binder 1136:1137 <> γ:26
 R1148:1150 Top.Deductive_System <> ax3 constr
 R1168:1170 Top.Modal_Notations <> :::'[!'_x_'!]' not
 R1197:1199 Top.Modal_Notations <> :::'[!'_x_'!]' not
@@ -277,8 +277,8 @@ R1481:1481 Top.Modal_Notations <> :modal::'('_x_')' not
 R1475:1478 Top.Modal_Notations <> :modal::x_'->'_x not
 binder 1473:1474 <> φ:67
 binder 1473:1474 <> φ:68
-binder 1479:1480 <> Ɣ:69
-binder 1479:1480 <> Ɣ:70
+binder 1479:1480 <> γ:69
+binder 1479:1480 <> γ:70
 R1486:1486 Top.Modal_Notations <> :modal::'('_x_')' not
 R1519:1519 Top.Modal_Notations <> :modal::'('_x_')' not
 R1497:1500 Top.Modal_Notations <> :modal::x_'->'_x not
@@ -287,8 +287,8 @@ R1496:1496 Top.Modal_Notations <> :modal::'('_x_')' not
 R1490:1493 Top.Modal_Notations <> :modal::x_'->'_x not
 binder 1488:1489 <> ψ:71
 binder 1488:1489 <> ψ:72
-binder 1494:1495 <> Ɣ:73
-binder 1494:1495 <> Ɣ:74
+binder 1494:1495 <> γ:73
+binder 1494:1495 <> γ:74
 R1501:1501 Top.Modal_Notations <> :modal::'('_x_')' not
 R1518:1518 Top.Modal_Notations <> :modal::'('_x_')' not
 R1512:1515 Top.Modal_Notations <> :modal::x_'->'_x not
@@ -299,8 +299,8 @@ binder 1503:1504 <> φ:75
 binder 1503:1504 <> φ:76
 binder 1509:1510 <> ψ:77
 binder 1509:1510 <> ψ:78
-binder 1516:1517 <> Ɣ:79
-binder 1516:1517 <> Ɣ:80
+binder 1516:1517 <> γ:79
+binder 1516:1517 <> γ:80
 R1528:1531 Top.Deductive_System <> ax10 constr
 R1547:1549 Top.Modal_Notations <> :::'[!'_x_'!]' not
 R1560:1562 Top.Modal_Notations <> :::'[!'_x_'!]' not
@@ -597,10 +597,10 @@ R2656:2657 Top.Deductive_System <> ψ:196 var
 R2653:2654 Top.Deductive_System <> φ:195 var
 binder 2678:2679 <> φ:197
 binder 2681:2682 <> ψ:198
-binder 2684:2685 <> Ɣ:199
+binder 2684:2685 <> γ:199
 R2688:2688 Top.Deductive_System <> P:193 ind
 R2691:2693 Top.Deductive_System <> ax2 constr
-R2701:2702 Top.Deductive_System <> Ɣ:199 var
+R2701:2702 Top.Deductive_System <> γ:199 var
 R2698:2699 Top.Deductive_System <> ψ:198 var
 R2695:2696 Top.Deductive_System <> φ:197 var
 binder 2723:2724 <> φ:200
@@ -641,10 +641,10 @@ R2935:2936 Top.Deductive_System <> ψ:211 var
 R2932:2933 Top.Deductive_System <> φ:210 var
 binder 2957:2958 <> φ:212
 binder 2960:2961 <> ψ:213
-binder 2963:2964 <> Ɣ:214
+binder 2963:2964 <> γ:214
 R2967:2967 Top.Deductive_System <> P:193 ind
 R2970:2972 Top.Deductive_System <> ax9 constr
-R2980:2981 Top.Deductive_System <> Ɣ:214 var
+R2980:2981 Top.Deductive_System <> γ:214 var
 R2977:2978 Top.Deductive_System <> ψ:213 var
 R2974:2975 Top.Deductive_System <> φ:212 var
 binder 3003:3004 <> φ:215

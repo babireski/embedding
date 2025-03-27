@@ -76,7 +76,7 @@ Fixpoint fun_validation (M: Model) (w: W (F M)) (φ: formula): Prop :=
   | Box   i ψ   => forall w', R (F M) i w w' -> fun_validation M w' ψ
   | Dia   i ψ   => exists2 w', R (F M) i w w' & fun_validation M w' ψ
   | Neg     ψ   => ~fun_validation M w ψ
-  | And     Ψ γ => fun_validation M w ψ /\ fun_validation M w γ
+  | And     ψ γ => fun_validation M w ψ /\ fun_validation M w γ
   | Or      ψ γ => fun_validation M w ψ \/ fun_validation M w γ
   | Implies ψ γ => fun_validation M w ψ -> fun_validation M w γ
   end.

@@ -127,6 +127,13 @@ Section Translations.
             ++ apply Nec. assumption.
     Qed.
 
+    Inductive BoxEnv (Γ : theory): formula -> Prop :=
+    | BoxEnvInc: forall α i, Γ α -> BoxEnv Γ [! [i]α !].
+
+    Theorem nec_gen : forall (M : axiom -> Prop) (Γ : theory) (α : formula) i, Subset (K4 i) M -> (M; BoxEnv Γ |-- [! α !]) -> M; BoxEnv Γ |-- [! [i]α !].
+    Proof.
+        intros.
+
     Fixpoint square (α : Sentence) (i : modal_index) : formula :=
     match α with
         | Contradiction   => [! #1 /\ ~#1 !]
