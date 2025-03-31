@@ -145,20 +145,43 @@ Section Translations.
         contradiction.
     Qed.
 
+    Theorem infiniteness : forall M Δ α, (M; Fin Δ |-- α) -> exists2 Γ : theory, (M; Γ |-- α) & Subset (Fin Δ) Γ.
+    Proof.
+        intros.
+        induction H as [ Γ α H₁ | Γ A α H₁ H₂ | Γ α β H₁ _ H₂ _ | Γ α i H₁ H₂].
+        + exists Γ.
+            ++ apply Prem. assumption.
+            ++ intros β H₂. assumption.
+        + exists Γ.
+            ++ apply Ax with A; assumption.
+            ++ intros β H₃. assumption.
+        + exists Γ.
+            ++ apply Mp with α.
+                +++ assumption.
+                +++ assumption.
+            ++ intros γ H₃. assumption.
+        + exists Γ.
+            ++ apply Nec. assumption.
+            ++ intros γ H₃. assumption.
+    Qed.
+
     Theorem nec_gen : forall (M : axiom -> Prop) Γ (α : formula) i, Subset (K4 i) M -> (M; Boxed Γ |-- [! α !]) -> M; Boxed Γ |-- [! [i]α !].
     Proof.
         intros M Γ α i H₁ H₂.
         apply finite_world in H₂.
         destruct H₂ as [Δ H₂ H₃].
+        generalize dependent α.
         induction Δ as [ | β Δ H₄].
-        + apply Nec. apply derive_weak with (Boxed (Fin [])).
+        + intros. apply Nec. apply derive_weak with (Boxed (Fin [])).
             ++ intros β H2. apply Boxed_fin_empty_is_empty. assumption.
             ++ apply derive_weak with (Fin []).
                 +++ intros a B. apply fin_empty_is_empty in B. contradiction.
                 +++ assumption.
-        + apply H₄.
-            ++ admit.
-            ++ admit.
+        + assert (Subset (Fin Δ) (Boxed Γ)) as H₅.
+            ++ intros γ H₅. admit.
+            ++ intros. apply H₄  with [! α -> β !] in H₅.
+                +++ admit.
+                +++ admit.
     Qed.
 
     Fixpoint square (α : Sentence) (i : modal_index) : formula :=
