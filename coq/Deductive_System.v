@@ -151,11 +151,11 @@ Section Helper.
 Context `{X: modal_index_set}.
 
 Lemma derive_weak:
-  forall Γ ẟ,
-  Subset Γ ẟ ->
+  forall Γ δ,
+  Subset Γ δ ->
   forall A φ,
   (A; Γ |-- φ) ->
-  (A; ẟ |-- φ).
+  (A; δ |-- φ).
 Proof.
   intros.
   induction H0.
@@ -168,9 +168,9 @@ Proof.
 Qed.
 
 Lemma derive_monotonicity:
-  forall A ẟ Γ φ,
+  forall A δ Γ φ,
   (A; Γ |-- φ) ->
-  (A; Union ẟ Γ |-- φ).
+  (A; Union δ Γ |-- φ).
 Proof.
   intros.
   apply derive_weak with Γ.

@@ -1,4 +1,4 @@
-Require Import Modal_Library Modal_Notations Modal_Tactics Deductive_System Sets.
+Require Import Modal_Library Modal_Notations Modal_Tactics Deductive_System Sets Completeness List.
 Set Implicit Arguments.
 
 Section Translations.
@@ -93,8 +93,8 @@ Section Translations.
         remember (Union Γ (Singleton α)) as Δ eqn: I in H.
         induction H as [ Δ β | Δ A β H₁ H₂ | Δ β γ H₁ H₂ H₃ H₄ | Δ β j H₁ H₂ ].
         + rewrite I in H. destruct H.
-            ++ apply Mp with (t := Γ) (f := [! β !]) (g := [! (α -> β) !]).
-                +++ apply Ax with (t := Γ) (a := ax1 [! β !] [! α !]) (f := [! β -> α -> β !]).
+            ++ apply Mp with [! β !].
+                +++ apply Ax with (ax1 [! β !] [! α !]).
                     ++++ apply P. apply P_ax1.
                     ++++ simpl. reflexivity.
                 +++ apply Prem. assumption.
@@ -104,35 +104,62 @@ Section Translations.
                intros.
                apply P.
                assumption.
-        + apply Mp with (t := Γ) (f := [! β !]) (g := [! α -> β !]).
-            ++ apply Ax with (t := Γ) (a := ax1 [! β !] [! α !]) (f := [! β -> α -> β !]).
+        + apply Mp with [! β !].
+            ++ apply Ax with (ax1 [! β !] [! α !]).
                 +++ apply P. apply P_ax1.
                 +++ simpl. reflexivity.
-            ++ apply Ax with (t := Γ) (a := A) (f := [! β !]).
+            ++ apply Ax with A.
                 +++ assumption.
                 +++ assumption.
         + apply H₂ in I as H₅.
           apply H₄ in I as H₆.
-          apply Mp with (t := Γ) (f := [! α -> β !]) (g := [! α -> γ !]).
-            ++ apply Mp with (t := Γ) (f := [! α -> β -> γ !]) (g := [! (α -> β) -> α -> γ !]).
-                +++ apply Ax with (t := Γ) (a := ax2 [! α !] [! β !] [! γ !]) (f := [! (α -> β -> γ) -> (α -> β) -> α -> γ !]).
+          apply Mp with [! α -> β !].
+            ++ apply Mp with [! α -> β -> γ !].
+                +++ apply Ax with (ax2 [! α !] [! β !] [! γ !]).
                     ++++ apply P. apply P_ax2.
                     ++++ simpl. reflexivity.
                 +++ assumption.
             ++ assumption. 
-        + apply Mp with (t := Γ) (f := [! [j]β !]) (g := [! α -> [j]β !]).
-            ++ apply Ax with (t := Γ) (a := ax1 [! [j]β !] [! α !]) (f := [! [j]β -> α -> [j]β !]).
+        + apply Mp with [! [j]β !].
+            ++ apply Ax with (ax1 [! [j]β !] [! α !]).
                 +++ apply P. apply P_ax1.
                 +++ simpl. reflexivity.
             ++ apply Nec. assumption.
     Qed.
 
-    Inductive BoxEnv (Γ : theory): formula -> Prop :=
-    | BoxEnvInc: forall α i, Γ α -> BoxEnv Γ [! [i]α !].
+    Inductive Boxed (Γ : theory): formula -> Prop :=
+    | Boxing : forall α i, Γ α -> Boxed Γ [! [i]α !].
 
-    Theorem nec_gen : forall (M : axiom -> Prop) (Γ : theory) (α : formula) i, Subset (K4 i) M -> (M; BoxEnv Γ |-- [! α !]) -> M; BoxEnv Γ |-- [! [i]α !].
+    Lemma fin_empty_is_empty : forall (α : formula), (Fin [] α) -> (∅ α).
     Proof.
         intros.
+        simpl in H.
+        contradiction.
+    Qed.
+
+    Lemma Boxed_fin_empty_is_empty : forall (α : formula), (Boxed (Fin []) α) -> (∅ α).
+    Proof.
+        intros.
+        apply fin_empty_is_empty.
+        inversion H.
+        contradiction.
+    Qed.
+
+    Theorem nec_gen : forall (M : axiom -> Prop) Γ (α : formula) i, Subset (K4 i) M -> (M; Boxed Γ |-- [! α !]) -> M; Boxed Γ |-- [! [i]α !].
+    Proof.
+        intros M Γ α i H₁ H₂.
+        apply finite_world in H₂.
+        destruct H₂ as [Δ H₂ H₃].
+        induction Δ as [ | β Δ H₄].
+        + apply Nec. apply derive_weak with (Boxed (Fin [])).
+            ++ intros β H2. apply Boxed_fin_empty_is_empty. assumption.
+            ++ apply derive_weak with (Fin []).
+                +++ intros a B. apply fin_empty_is_empty in B. contradiction.
+                +++ assumption.
+        + apply H₄.
+            ++ admit.
+            ++ admit.
+    Qed.
 
     Fixpoint square (α : Sentence) (i : modal_index) : formula :=
     match α with
