@@ -127,8 +127,18 @@ Section Translations.
             ++ apply Nec. assumption.
     Qed.
 
-    Inductive Boxed (Γ : theory): formula -> Prop :=
-    | Boxing : forall α i, Γ α -> Boxed Γ [! [i]α !].
+    (* Inductive Im {U V}(X:U->Prop) (f:U -> V) : V->Prop :=
+    Im_intro : forall x:U, X x -> forall y:V, y = f x -> (Im X f) y.
+
+    Definition Boxed := forall Γ i, Im Γ (Box i). *)
+
+    Inductive Boxed (Γ : theory) (i : modal_index): formula -> Prop :=
+    | Boxing : forall α, Γ α -> Boxed Γ i [! [i]α !].
+
+    Lemma boxing : forall Γ α i, (Boxed Γ i) α -> exists φ, α = [! [i]φ !].
+    Proof.
+        intros. destruct H. exists α. reflexivity.
+    Qed.
 
     Lemma fin_empty_is_empty : forall (α : formula), (Fin [] α) -> (∅ α).
     Proof.
@@ -137,7 +147,7 @@ Section Translations.
         contradiction.
     Qed.
 
-    Lemma Boxed_fin_empty_is_empty : forall (α : formula), (Boxed (Fin []) α) -> (∅ α).
+    Lemma Boxed_fin_empty_is_empty : forall (α : formula) i, (Boxed (Fin []) i α) -> (∅ α).
     Proof.
         intros.
         apply fin_empty_is_empty.
@@ -165,23 +175,56 @@ Section Translations.
             ++ intros γ H₃. assumption.
     Qed.
 
-    Theorem nec_gen : forall (M : axiom -> Prop) Γ (α : formula) i, Subset (K4 i) M -> (M; Boxed Γ |-- [! α !]) -> M; Boxed Γ |-- [! [i]α !].
+    Theorem subset : forall Δ (α : formula), Subset (Fin Δ) (Fin (α :: Δ)).
+    Proof.
+        intros Δ α β H.
+        right. assumption.
+    Qed.
+
+    Theorem union : forall M Δ α β, (M; (Fin (β :: Δ)) |-- α) -> (M; Fin Δ ∪ [β] |-- α).
+    Proof.
+        intros. inversion H.
+        + destruct H0.
+            ++ rewrite H0. apply Prem. right. reflexivity.
+            ++ apply Prem. left. assumption.
+        + apply Ax with a.
+            ++ assumption.
+            ++ assumption.
+        + apply Mp with f.
+            ++ admit.
+            ++ admit.
+        + apply Nec. assumption.
+    Admitted.
+
+    Theorem nec_gen : forall (M : axiom -> Prop) Γ (α : formula) i, Subset (K4 i) M -> (M; Boxed Γ i |-- [! α !]) -> M; Boxed Γ i |-- [! [i]α !].
     Proof.
         intros M Γ α i H₁ H₂.
         apply finite_world in H₂.
         destruct H₂ as [Δ H₂ H₃].
         generalize dependent α.
         induction Δ as [ | β Δ H₄].
-        + intros. apply Nec. apply derive_weak with (Boxed (Fin [])).
-            ++ intros β H2. apply Boxed_fin_empty_is_empty. assumption.
+        + intros. apply Nec. apply derive_weak with (Boxed (Fin []) i).
+            ++ intros β H2. apply Boxed_fin_empty_is_empty with i. assumption.
             ++ apply derive_weak with (Fin []).
                 +++ intros a B. apply fin_empty_is_empty in B. contradiction.
                 +++ assumption.
-        + assert (Subset (Fin Δ) (Boxed Γ)) as H₅.
-            ++ intros γ H₅. admit.
-            ++ intros. apply H₄  with [! α -> β !] in H₅.
-                +++ admit.
-                +++ admit.
+        + intros α H₅. assert (Boxed Γ i β).
+            ++ apply H₃. left. reflexivity.
+            ++ apply boxing in H. destruct H. apply Mp with [! [i][i]x !].
+                +++ apply Mp with [! [i]([i]x -> α) !].
+                    ++++ apply Ax with (axK i [! [i]x !] α).
+                        +++++ apply H₁. apply K4_K. apply K_axK.
+                        +++++ reflexivity.
+                    ++++ apply H₄.
+                        +++++ intros γ J. apply H₃. apply subset. assumption.
+                        +++++ apply deduction.
+                            ++++++ intros A J. apply H₁. apply K4_K. apply K_P. assumption.
+                            ++++++ apply union. rewrite <- H. assumption.
+                +++ apply Mp with [! [i]x !].
+                    ++++ apply Ax with (axK4 i x).
+                        +++++ apply H₁. apply K4_axK4.
+                        +++++ reflexivity.
+                    ++++ apply Prem. rewrite <- H. apply H₃. left. reflexivity.
     Qed.
 
     Fixpoint square (α : Sentence) (i : modal_index) : formula :=
