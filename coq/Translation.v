@@ -4,11 +4,9 @@ Set Implicit Arguments.
 Section Translations.
     Context `{X : modal_index_set}.
 
-    Definition Counting := nat.
-
     Inductive Sentence : Set :=
     | Contradiction : Sentence
-    | Proposition   : Counting -> Sentence
+    | Proposition   : nat      -> Sentence
     | Conjunction   : Sentence -> Sentence -> Sentence
     | Disjunction   : Sentence -> Sentence -> Sentence
     | Implication   : Sentence -> Sentence -> Sentence.
@@ -77,16 +75,6 @@ Section Translations.
     Notation " A ∪ B " := (Union A B) (at level 48, left associativity).
     Notation " [ a ] " := (Singleton a) (at level 0, right associativity).
 
-    Theorem union_empty_left : forall {T} (A: T -> Prop) t, A t <-> Union Empty A t.
-    Proof.
-        intros.
-        split.
-        + intros. right. assumption.
-        + intros. destruct H.
-            ++ contradiction.
-            ++ assumption.
-    Qed.
-
     Theorem deduction : forall (M : axiom -> Prop) (Γ : theory) (α β : formula), Subset P M -> (M; Γ ∪ [[! α !]] |-- [! β !]) -> M; Γ |-- [! α -> β !].
     Proof.
         intros M Γ α β P H.
@@ -127,11 +115,6 @@ Section Translations.
             ++ apply Nec. assumption.
     Qed.
 
-    (* Inductive Im {U V}(X:U->Prop) (f:U -> V) : V->Prop :=
-    Im_intro : forall x:U, X x -> forall y:V, y = f x -> (Im X f) y.
-
-    Definition Boxed := forall Γ i, Im Γ (Box i). *)
-
     Inductive Boxed (Γ : theory) (i : modal_index): formula -> Prop :=
     | Boxing : forall α, Γ α -> Boxed Γ i [! [i]α !].
 
@@ -153,26 +136,6 @@ Section Translations.
         apply fin_empty_is_empty.
         inversion H.
         contradiction.
-    Qed.
-
-    Theorem infiniteness : forall M Δ α, (M; Fin Δ |-- α) -> exists2 Γ : theory, (M; Γ |-- α) & Subset (Fin Δ) Γ.
-    Proof.
-        intros.
-        induction H as [ Γ α H₁ | Γ A α H₁ H₂ | Γ α β H₁ _ H₂ _ | Γ α i H₁ H₂].
-        + exists Γ.
-            ++ apply Prem. assumption.
-            ++ intros β H₂. assumption.
-        + exists Γ.
-            ++ apply Ax with A; assumption.
-            ++ intros β H₃. assumption.
-        + exists Γ.
-            ++ apply Mp with α.
-                +++ assumption.
-                +++ assumption.
-            ++ intros γ H₃. assumption.
-        + exists Γ.
-            ++ apply Nec. assumption.
-            ++ intros γ H₃. assumption.
     Qed.
 
     Theorem subset : forall Δ (α : formula), Subset (Fin Δ) (Fin (α :: Δ)).
@@ -245,20 +208,91 @@ Section Translations.
         | Implication ϕ ψ => [! [i] (circle ϕ i) -> circle ψ i !]
     end.
 
-    Theorem equivalence : forall (α : Sentence) i, (S4 i ; Empty |-- Box i (circle α i)) <-> (S4 i ; Empty |-- Box i (square α i)).
+    Lemma splitting : forall M Γ α β, Subset P M -> (M; Γ |-- [! α !]) /\ (M; Γ |-- [! β !]) <-> (M; Γ |-- [! α /\ β !]).
+    Proof.
+        intros M Γ α β H₁. split. 
+        + intros H₂. destruct H₂ as [H₃ H₄]. apply Mp with [! β !]. apply Mp with [! α !].
+            ++ apply Ax with (ax4 α β).
+                +++ apply H₁. apply P_ax4.
+                +++ reflexivity.
+            ++ assumption.
+            ++ assumption.
+        + intros H₂. split; apply Mp with [! α /\ β !].
+            ++ apply Ax with (ax5 α β).
+                +++ apply H₁. apply P_ax5.
+                +++ reflexivity.
+            ++ assumption.
+            ++ apply Ax with (ax6 α β).
+                +++ apply H₁. apply P_ax6.
+                +++ reflexivity.
+            ++ assumption.
+    Qed.
+
+    Lemma nec_and_distribution : forall M α β i, Subset (T i) M -> (M; ∅ |-- [! [i]α /\ [i]β !]) -> M; ∅ |-- [! [i](α /\ β) !].
+    Proof.
+        intros M α β i H₁ H₂.
+        apply Nec. apply Mp with β. apply Mp with α.
+        + apply Ax with (ax4 α β).
+            ++ apply H₁. apply T_K. apply K_P. apply P_ax4.
+            ++ reflexivity.
+        + apply splitting in H₂.
+            ++ destruct H₂ as [H₂ _]. apply Mp with [! [i]α !].
+                +++ apply Ax with (axT i α). apply H₁. apply T_axT. reflexivity.
+                +++ assumption.
+            ++ intros A H₃. apply H₁. apply T_K. apply K_P. assumption.
+        + apply splitting in H₂.
+            ++ destruct H₂ as [_ H₂]. apply Mp with [! [i]β !].
+                +++ apply Ax with (axT i β). apply H₁. apply T_axT. reflexivity.
+                +++ assumption.
+            ++ intros A H₃. apply H₁. apply T_K. apply K_P. assumption.
+    Qed.
+
+    Theorem equivalence : forall (α : Sentence) i, (S4 i ; Empty |-- Box i (circle α i)) <-> (S4 i ; Empty |--  square α i).
     Proof.
     intros.
     split.
-    + intros. induction α.
+    + intros. induction α as [ | a | α H₁ β H₂ | α H₁ β H₂ | α H₁ β H₂].
+        ++ apply Mp with (Box i (circle ⊥ i)).
+            +++ apply Ax with (axT i (square ⊥ i)).
+                * apply S4_T. apply T_axT.
+                * reflexivity.
+            +++ assumption.
         ++ assumption.
-        ++ eapply Nec. assumption.
+        ++ apply Mp with (square β i).
+            +++ apply Mp with (square α i).
+                * apply Ax with (ax4 (square α i) (square β i)).
+                    ** apply S4_T, T_K, K_P, P_ax4.
+                    ** reflexivity.
+                * apply H₁. apply Nec. apply Mp with (circle (α ∧ β) i).
+                    ** apply Ax with (ax5 (circle α i) (circle β i)).
+                        *** apply S4_T, T_K, K_P, P_ax5.
+                        *** reflexivity.
+                    ** apply Mp with (Box i (circle (α ∧ β) i)).
+                        *** apply Ax with (axT i (circle (α ∧ β) i)).
+                            - apply S4_T, T_axT.
+                            - reflexivity.
+                        *** assumption.
+            +++ apply H₂. apply Nec. apply Mp with (circle (α ∧ β) i).
+                * apply Ax with (ax6 (circle α i) (circle β i)).
+                    ** apply S4_T, T_K, K_P, P_ax6.
+                    ** reflexivity.
+                * apply Mp with (Box i (circle (α ∧ β) i)).
+                    ** apply Ax with (axT i (circle (α ∧ β) i)).
+                        *** apply S4_T, T_axT.
+                        *** reflexivity.
+                    ** assumption.
         ++ admit.
         ++ admit.
-        ++ admit.
-    + intros. induction α.
+    + intros. induction α as [ | a | α H₁ β H₂ | α H₁ β H₂ | α H₁ β H₂].
+        ++ apply Nec. assumption.
         ++ assumption.
-        ++ admit.
-        ++ admit.
+        ++ apply nec_and_distribution.
+            +++ intros A H₃. apply S4_T. assumption.
+            +++ apply splitting.
+                * intros A H₃. apply S4_T, T_K, K_P. assumption.
+                * split.
+                    ** apply H₁. apply splitting in H. destruct H as [H _]. assumption. intros A H1. apply S4_T, T_K, K_P. assumption.
+                    ** apply H₂. apply splitting in H. destruct H as [_ H]. assumption. intros A H1. apply S4_T, T_K, K_P. assumption.
         ++ admit.
         ++ admit.
     Admitted.

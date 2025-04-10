@@ -1,4 +1,4 @@
-DIGEST c750945c723abe4568e7937b5d6eae20
+DIGEST 5c54321832e7a4b330fa627cd1c29c3e
 FTop.Deductive_System
 R15:27 Top.Modal_Library <> <> lib
 R29:43 Top.Modal_Notations <> <> lib
@@ -853,54 +853,54 @@ var  4547:4547 Helper X
 R4550:4564 Top.Modal_Library <> modal_index_set class
 prf 4575:4585 <> derive_weak
 binder 4597:4598 <> Γ:262
-binder 4600:4602 <> ẟ:263
-R4620:4625 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
-R4607:4612 Top.Sets <> Subset def
-R4617:4619 Top.Deductive_System <> ẟ:263 var
-R4614:4615 Top.Deductive_System <> Γ:262 var
-binder 4633:4633 <> A:264
-binder 4635:4636 <> φ:265
-R4641:4641 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
-R4654:4661 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
-R4675:4675 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
-R4643:4644 Top.Deductive_System <> :::x_';'_x_'|--'_x not
-R4647:4651 Top.Deductive_System <> :::x_';'_x_'|--'_x not
-R4642:4642 Top.Deductive_System <> A:264 var
-R4645:4646 Top.Deductive_System <> Γ:262 var
-R4652:4653 Top.Deductive_System <> φ:265 var
-R4663:4664 Top.Deductive_System <> :::x_';'_x_'|--'_x not
-R4668:4672 Top.Deductive_System <> :::x_';'_x_'|--'_x not
-R4662:4662 Top.Deductive_System <> A:264 var
-R4665:4667 Top.Deductive_System <> ẟ:263 var
-R4673:4674 Top.Deductive_System <> φ:265 var
-R4721:4724 Top.Deductive_System <> Prem constr
-R4721:4724 Top.Deductive_System <> Prem constr
-R4766:4767 Top.Deductive_System <> Ax constr
-R4766:4767 Top.Deductive_System <> Ax constr
-R4800:4801 Top.Deductive_System <> Mp constr
-R4800:4801 Top.Deductive_System <> Mp constr
-R4821:4823 Top.Deductive_System <> Nec constr
-R4821:4823 Top.Deductive_System <> Nec constr
-prf 4849:4867 <> derive_monotonicity
-binder 4879:4879 <> A:266
-binder 4881:4883 <> ẟ:267
-binder 4885:4886 <> Γ:268
-binder 4888:4889 <> φ:269
-R4894:4894 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
-R4907:4914 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
-R4937:4937 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
-R4896:4897 Top.Deductive_System <> :::x_';'_x_'|--'_x not
-R4900:4904 Top.Deductive_System <> :::x_';'_x_'|--'_x not
-R4895:4895 Top.Deductive_System <> A:266 var
-R4898:4899 Top.Deductive_System <> Γ:268 var
-R4905:4906 Top.Deductive_System <> φ:269 var
-R4916:4917 Top.Deductive_System <> :::x_';'_x_'|--'_x not
-R4930:4934 Top.Deductive_System <> :::x_';'_x_'|--'_x not
-R4915:4915 Top.Deductive_System <> A:266 var
-R4918:4922 Top.Sets <> Union def
-R4928:4929 Top.Deductive_System <> Γ:268 var
-R4924:4926 Top.Deductive_System <> ẟ:267 var
-R4935:4936 Top.Deductive_System <> φ:269 var
-R4965:4975 Top.Deductive_System <> derive_weak thm
-R4965:4975 Top.Deductive_System <> derive_weak thm
-R5045:5050 Top.Deductive_System Helper <> sec
+binder 4600:4601 <> δ:263
+R4618:4623 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R4606:4611 Top.Sets <> Subset def
+R4616:4617 Top.Deductive_System <> δ:263 var
+R4613:4614 Top.Deductive_System <> Γ:262 var
+binder 4631:4631 <> A:264
+binder 4633:4634 <> φ:265
+R4639:4639 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R4652:4659 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R4672:4672 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R4641:4642 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R4645:4649 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R4640:4640 Top.Deductive_System <> A:264 var
+R4643:4644 Top.Deductive_System <> Γ:262 var
+R4650:4651 Top.Deductive_System <> φ:265 var
+R4661:4662 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R4665:4669 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R4660:4660 Top.Deductive_System <> A:264 var
+R4663:4664 Top.Deductive_System <> δ:263 var
+R4670:4671 Top.Deductive_System <> φ:265 var
+R4718:4721 Top.Deductive_System <> Prem constr
+R4718:4721 Top.Deductive_System <> Prem constr
+R4763:4764 Top.Deductive_System <> Ax constr
+R4763:4764 Top.Deductive_System <> Ax constr
+R4797:4798 Top.Deductive_System <> Mp constr
+R4797:4798 Top.Deductive_System <> Mp constr
+R4818:4820 Top.Deductive_System <> Nec constr
+R4818:4820 Top.Deductive_System <> Nec constr
+prf 4846:4864 <> derive_monotonicity
+binder 4876:4876 <> A:266
+binder 4878:4879 <> δ:267
+binder 4881:4882 <> Γ:268
+binder 4884:4885 <> φ:269
+R4890:4890 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R4903:4910 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R4932:4932 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R4892:4893 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R4896:4900 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R4891:4891 Top.Deductive_System <> A:266 var
+R4894:4895 Top.Deductive_System <> Γ:268 var
+R4901:4902 Top.Deductive_System <> φ:269 var
+R4912:4913 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R4925:4929 Top.Deductive_System <> :::x_';'_x_'|--'_x not
+R4911:4911 Top.Deductive_System <> A:266 var
+R4914:4918 Top.Sets <> Union def
+R4923:4924 Top.Deductive_System <> Γ:268 var
+R4920:4921 Top.Deductive_System <> δ:267 var
+R4930:4931 Top.Deductive_System <> φ:269 var
+R4960:4970 Top.Deductive_System <> derive_weak thm
+R4960:4970 Top.Deductive_System <> derive_weak thm
+R5040:5045 Top.Deductive_System Helper <> sec
