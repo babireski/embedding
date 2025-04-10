@@ -29,7 +29,7 @@ Section Translations.
 
     Definition Theory := Sentence -> Prop.
 
-    Inductive Schema : Type :=
+    (* Inductive Schema : Type :=
     | S₁ : Sentence -> Sentence -> Schema
     | S₂ : Sentence -> Sentence -> Sentence -> Schema
     | S₃ : Sentence -> Sentence -> Schema
@@ -67,6 +67,19 @@ Section Translations.
     Inductive Deduction : Theory -> Sentence -> Prop :=
     | R₁ : forall (Γ : Theory) (α : Sentence), Γ α -> Deduction Γ α
     | R₂ : forall (Γ : Theory) (a : Schema) (α : Sentence), System a -> instantiate a = α -> Deduction Γ α
+    | R₃ : forall (Γ : Theory) (α β : Sentence), Deduction Γ (α → β) -> Deduction Γ α ->  Deduction Γ β. *)
+
+    Inductive Deduction : Theory -> Sentence -> Prop :=
+    | R₁ : forall (Γ : Theory) (α : Sentence), Γ α -> Deduction Γ α
+    | A₁ : forall Γ α β,   Deduction Γ (α → β → α)
+    | A₂ : forall Γ α β γ, Deduction Γ ((α → β → γ) → (α → β) → α → γ)
+    | A₃ : forall Γ α β,   Deduction Γ (α → β → α ∧ β)
+    | A₄ : forall Γ α β,   Deduction Γ (α ∧ β → α)
+    | A₅ : forall Γ α β,   Deduction Γ (α ∧ β → β)
+    | A₆ : forall Γ α β,   Deduction Γ (α → α ∨ β)
+    | A₇ : forall Γ α β,   Deduction Γ (β → α ∨ β)
+    | A₈ : forall Γ α β γ, Deduction Γ ((α → γ) → (β → γ) → α ∨ β → γ )
+    | A₉ : forall Γ α,     Deduction Γ (⊥ → α)
     | R₃ : forall (Γ : Theory) (α β : Sentence), Deduction Γ (α → β) -> Deduction Γ α ->  Deduction Γ β.
 
     Notation "Γ ⊢ α" := (Deduction Γ α) (at level 110, no associativity).
@@ -196,7 +209,7 @@ Section Translations.
         | Proposition a   => [! [i] #a !]
         | Conjunction ϕ ψ => [! square ϕ i /\ square ψ i !]
         | Disjunction ϕ ψ => [! square ϕ i \/ square ψ i !]
-        | Implication ϕ ψ => [! square ϕ i -> square ψ i !]
+        | Implication ϕ ψ => [! [i] (square ϕ i -> square ψ i) !]
     end. 
 
     Fixpoint circle (α : Sentence) (i : modal_index) : formula :=
@@ -303,4 +316,41 @@ Section Translations.
         eapply Nec.
         assumption.
     Qed.
+
+    Inductive Squared (Γ : Theory) (i : modal_index): theory :=
+    | Squaring : forall α, Γ α -> Squared Γ i (square α i).
+
+    Theorem correctness : forall Γ α i, (Γ ⊢ α) -> S4 i; Squared Γ i |-- square α i.
+    Proof.
+        intros. induction H as [Γ α H | | | | | | | | | | Γ α β H₁ H₃ H₂ H₄].
+        + apply Prem. apply Squaring. assumption.
+        + admit.
+        + admit.
+        + admit.
+        + apply Nec. apply Ax with (ax5 (square α i) (square β i)).
+            ++ apply S4_T, T_K, K_P, P_ax5.
+            ++ reflexivity.
+        + apply Nec. apply Ax with (ax6 (square α i) (square β i)).
+            ++ apply S4_T, T_K, K_P, P_ax6.
+            ++ reflexivity.
+        + apply Nec. apply Ax with (ax7 (square α i) (square β i)).
+            ++ apply S4_T, T_K, K_P, P_ax7.
+            ++ reflexivity.
+        + apply Nec. apply Ax with (ax8 (square α i) (square β i)).
+            ++ apply S4_T, T_K, K_P, P_ax8.
+            ++ reflexivity.
+        + admit.
+        + apply Nec. apply deduction.
+            ++ intros A H. apply S4_T, T_K, K_P. assumption.
+            ++ apply consistency_deduction.
+                +++ intros A H. apply S4_T, T_K, K_P. assumption.
+                +++ fold square. intro. unfold Consistent, not in H. specialize H with (p := #1).
+        + apply Mp with (square α i).
+            ++ apply Mp with (square (α → β) i).
+                +++ apply Ax with (axT i (Implies (square α i)  (square β i))).
+                    * apply S4_T, T_axT.
+                    * reflexivity.
+                +++ assumption.
+            ++ assumption.
+    Admitted.
 End Translations.
