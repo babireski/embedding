@@ -310,11 +310,22 @@ Section Translations.
         ++ admit.
     Admitted.
 
-    Lemma square_nec : forall α i, (S4 i ; Empty |-- square α i) -> (S4 i ; Empty |-- Box i (square α i)).
+    Lemma square_nec : forall Γ α i, S4 i ; Γ |-- Implies ( square α i) (Box i (square α i)).
     Proof.
         intros.
-        eapply Nec.
-        assumption.
+    Admitted.
+
+    Lemma transitivity : forall M Γ α β γ, Subset P M -> M ; Γ |-- [! (α -> β) -> (β -> γ) -> α -> γ !].
+    Proof.
+        intros. apply deduction, deduction, deduction.
+        + assumption.
+        + assumption.
+        + assumption.
+        + apply Mp with β.
+            ++ apply Prem. left. right. reflexivity.
+            ++ apply Mp with α.
+                +++ apply Prem. left. left. right. reflexivity.
+                +++ apply Prem. right. reflexivity.
     Qed.
 
     Inductive Squared (Γ : Theory) (i : modal_index): theory :=
@@ -324,7 +335,17 @@ Section Translations.
     Proof.
         intros. induction H as [Γ α H | | | | | | | | | | Γ α β H₁ H₃ H₂ H₄].
         + apply Prem. apply Squaring. assumption.
-        + admit.
+        + apply Nec. apply Mp with (Implies (Box i (square α i)) (Box i (Implies (square β i) (square α i)))).
+            ++ apply Mp with (Implies (square α i) (Box i (square α i))).
+                +++ apply transitivity. intros A H. apply S4_T, T_K, K_P. assumption.
+                +++ apply square_nec.
+            ++ apply Mp with (Box i (Implies (square α i) (Implies (square β i) (square α i)))).
+                +++ apply Ax with (axK i (square α i) (Implies (square β i) (square α i))).
+                    * apply S4_T, T_K, K_axK.
+                    * reflexivity.
+                +++ apply Nec. apply Ax with (ax1 (square α i) (square β i)).
+                * apply S4_T, T_K, K_P, P_ax1.
+                * reflexivity.
         + admit.
         + admit.
         + apply Nec. apply Ax with (ax5 (square α i) (square β i)).
@@ -344,7 +365,7 @@ Section Translations.
             ++ intros A H. apply S4_T, T_K, K_P. assumption.
             ++ apply consistency_deduction.
                 +++ intros A H. apply S4_T, T_K, K_P. assumption.
-                +++ fold square. intro. unfold Consistent, not in H. specialize H with (p := #1).
+                +++ unfold Consistent. intros H. specialize H with [! #1 !]. apply H,  Prem. right. right. reflexivity.
         + apply Mp with (square α i).
             ++ apply Mp with (square (α → β) i).
                 +++ apply Ax with (axT i (Implies (square α i)  (square β i))).
