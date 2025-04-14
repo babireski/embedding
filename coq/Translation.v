@@ -269,6 +269,48 @@ Section Translations.
         + assumption.
     Qed.
 
+    Lemma or_intro_left : forall M Γ α β γ, Subset P M -> M ; Γ |-- [! (α -> β) -> α -> β \/ γ !].
+    Proof.
+        intros. apply deduction, deduction; try assumption.
+        apply Mp with β.
+        + apply Ax with (ax7 β γ).
+            ++ apply H, P_ax7.
+            ++ reflexivity.
+        + apply Mp with α.
+            ++ apply Prem. left. right. reflexivity.
+            ++ apply Prem. right. reflexivity.
+    Qed.
+
+    Lemma or_intro_right : forall M Γ α β γ, Subset P M -> M ; Γ |-- [! (α -> β) -> α -> γ \/ β !].
+    Proof.
+        intros. apply deduction, deduction; try assumption.
+        apply Mp with β.
+        + apply Ax with (ax8 γ β).
+            ++ apply H, P_ax8.
+            ++ reflexivity.
+        + apply Mp with α.
+            ++ apply Prem. left. right. reflexivity.
+            ++ apply Prem. right. reflexivity.
+    Qed.
+
+    Lemma or_exchange : forall M Γ α β γ δ, Subset P M -> M ; Γ |-- [! (α -> γ) -> (β -> δ) -> α \/ β -> γ \/ δ !].
+    Proof.
+        intros. apply deduction, deduction, deduction; try assumption.
+        apply Mp with [! α \/ β !].
+        + apply Mp with [! β -> γ \/ δ !].
+            ++ apply Mp with [! α -> γ \/ δ !].
+                +++ apply Ax with (ax9 α β [! γ \/ δ !]).
+                    * apply H, P_ax9.
+                    * reflexivity.
+                +++ apply Mp with [! α -> γ !].
+                    * apply or_intro_left. assumption.
+                    * apply Prem. left. left. right. reflexivity.
+            ++ apply Mp with [! β -> δ !].
+                +++ apply or_intro_right. assumption.
+                +++ apply Prem. left. right. reflexivity.
+        + apply Prem. right. reflexivity.
+    Qed.
+
     Theorem equivalence : forall (α : Sentence) i, (S4 i ; Empty |-- Box i (circle α i)) <-> (S4 i ; Empty |--  square α i).
     Proof.
     intros. split.
@@ -302,7 +344,13 @@ Section Translations.
                         *** apply S4_T, T_axT.
                         *** reflexivity.
                     ** assumption.
-        ++ admit.
+        ++ apply Mp with (circle (α ∨ β) i).
+            +++ apply Mp with (Implies (circle β i) (square β i)).
+                * admit.
+                * apply deduction.
+                    ** admit.
+                    ** admit.
+            +++ admit.
         ++ admit.
     + intros. induction α as [ | a | α H₁ β H₂ | α H₁ β H₂ | α H₁ β H₂].
         ++ apply Nec. assumption.
@@ -345,8 +393,6 @@ Section Translations.
         + assumption.
     Qed.
 
-    Lemma empty_left : forall A, ∅ ∪ A = A.
-
     Lemma context_box : forall M α β i, (M ; (Boxed (∅ ∪ [α]) i) |-- β) -> M ; ∅ ∪ [[! [i]α !]] |-- β.
     Proof.
         intros. admit.
@@ -372,7 +418,7 @@ Section Translations.
                 * reflexivity.
         + apply Nec. apply deduction.
             ++ intros A H. apply S4_T, T_K, K_P. assumption.
-            ++ apply context_box. apply strict_deduction. 
+            ++ apply context_box. apply strict_deduction. admit.
         + apply Nec. apply Mp with (Implies (Box i (square α i)) (Box i (Implies (square β i) (And (square α i) (square β i))))).
             ++ apply Mp with (Implies (square α i) (Box i (square α i))).
                 +++ apply transitivity. intros A H. apply S4_T, T_K, K_P. assumption.
