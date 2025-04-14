@@ -172,11 +172,11 @@ Section Translations.
         + apply Nec. assumption.
     Admitted.
 
-    Theorem nec_gen : forall (M : axiom -> Prop) Γ (α : formula) i, Subset (K4 i) M -> (M; Boxed Γ i |-- [! α !]) -> M; Boxed Γ i |-- [! [i]α !].
+    Theorem nec_gen : forall Γ (α : formula) i, (S4 i; Boxed Γ i |-- [! α !]) -> S4 i; Boxed Γ i |-- [! [i]α !].
     Proof.
-        intros M Γ α i H₁ H₂.
-        apply finite_world in H₂.
-        destruct H₂ as [Δ H₂ H₃].
+        intros Γ α i H₁.
+        apply finite_world in H₁.
+        destruct H₁ as [Δ H₁ H₂].
         generalize dependent α.
         induction Δ as [ | β Δ H₄].
         + intros. apply Nec. apply derive_weak with (Boxed (Fin []) i).
@@ -185,22 +185,22 @@ Section Translations.
                 +++ intros a B. apply fin_empty_is_empty in B. contradiction.
                 +++ assumption.
         + intros α H₅. assert (Boxed Γ i β).
-            ++ apply H₃. left. reflexivity.
+            ++ apply H₂. left. reflexivity.
             ++ apply boxing in H. destruct H. apply Mp with [! [i][i]x !].
                 +++ apply Mp with [! [i]([i]x -> α) !].
                     ++++ apply Ax with (axK i [! [i]x !] α).
-                        +++++ apply H₁. apply K4_K. apply K_axK.
+                        +++++ apply S4_T, T_K. apply K_axK.
                         +++++ reflexivity.
                     ++++ apply H₄.
-                        +++++ intros γ J. apply H₃. apply subset. assumption.
+                        +++++ intros γ J. apply H₂. apply subset. assumption.
                         +++++ apply deduction.
-                            ++++++ intros A J. apply H₁. apply K4_K. apply K_P. assumption.
+                            ++++++ intros A J. apply S4_T, T_K, K_P. assumption.
                             ++++++ apply union. rewrite <- H. assumption.
                 +++ apply Mp with [! [i]x !].
                     ++++ apply Ax with (axK4 i x).
-                        +++++ apply H₁. apply K4_axK4.
+                        +++++ apply S4_axK4.
                         +++++ reflexivity.
-                    ++++ apply Prem. rewrite <- H. apply H₃. left. reflexivity.
+                    ++++ apply Prem. rewrite <- H. apply H₂. left. reflexivity.
     Qed.
 
     Fixpoint square (α : Sentence) (i : modal_index) : formula :=
@@ -210,7 +210,7 @@ Section Translations.
         | Conjunction ϕ ψ => [! square ϕ i /\ square ψ i !]
         | Disjunction ϕ ψ => [! square ϕ i \/ square ψ i !]
         | Implication ϕ ψ => [! [i] (square ϕ i -> square ψ i) !]
-    end. 
+    end.
 
     Fixpoint circle (α : Sentence) (i : modal_index) : formula :=
     match α with
@@ -260,10 +260,18 @@ Section Translations.
             ++ intros A H₃. apply H₁. apply T_K. apply K_P. assumption.
     Qed.
 
+    Lemma unnecessity : forall M Γ α i, Subset (T i) M -> (M ; Γ |-- [! [i]α!]) -> M ; Γ |-- α.
+    Proof.
+        intros M Γ α i H₁ H₂. apply Mp with [! [i]α!].
+        + apply Ax with (axT i α).
+            ++ apply H₁. apply T_axT.
+            ++ reflexivity.
+        + assumption.
+    Qed.
+
     Theorem equivalence : forall (α : Sentence) i, (S4 i ; Empty |-- Box i (circle α i)) <-> (S4 i ; Empty |--  square α i).
     Proof.
-    intros.
-    split.
+    intros. split.
     + intros. induction α as [ | a | α H₁ β H₂ | α H₁ β H₂ | α H₁ β H₂].
         ++ apply Mp with (Box i (circle ⊥ i)).
             +++ apply Ax with (axT i (square ⊥ i)).
@@ -328,10 +336,26 @@ Section Translations.
                 +++ apply Prem. right. reflexivity.
     Qed.
 
+    Lemma strict_deduction : forall Γ α β i, (S4 i ; (Boxed Γ i) ∪ [α]|-- β) -> S4 i ; (Boxed Γ i) |-- [! [i](α -> β) !].
+    Proof.
+        intros Γ α β i H₁.
+        apply nec_gen.
+        apply deduction.
+        + intros A H₃. apply S4_T, T_K, K_P. assumption.
+        + assumption.
+    Qed.
+
+    Lemma empty_left : forall A, ∅ ∪ A = A.
+
+    Lemma context_box : forall M α β i, (M ; (Boxed (∅ ∪ [α]) i) |-- β) -> M ; ∅ ∪ [[! [i]α !]] |-- β.
+    Proof.
+        intros. admit.
+    Admitted.
+
     Inductive Squared (Γ : Theory) (i : modal_index): theory :=
     | Squaring : forall α, Γ α -> Squared Γ i (square α i).
 
-    Theorem correctness : forall Γ α i, (Γ ⊢ α) -> S4 i; Squared Γ i |-- square α i.
+    Theorem soundness : forall Γ α i, (Γ ⊢ α) -> S4 i; Squared Γ i |-- square α i.
     Proof.
         intros. induction H as [Γ α H | | | | | | | | | | Γ α β H₁ H₃ H₂ H₄].
         + apply Prem. apply Squaring. assumption.
@@ -346,8 +370,20 @@ Section Translations.
                 +++ apply Nec. apply Ax with (ax1 (square α i) (square β i)).
                 * apply S4_T, T_K, K_P, P_ax1.
                 * reflexivity.
-        + admit.
-        + admit.
+        + apply Nec. apply deduction.
+            ++ intros A H. apply S4_T, T_K, K_P. assumption.
+            ++ apply context_box. apply strict_deduction. 
+        + apply Nec. apply Mp with (Implies (Box i (square α i)) (Box i (Implies (square β i) (And (square α i) (square β i))))).
+            ++ apply Mp with (Implies (square α i) (Box i (square α i))).
+                +++ apply transitivity. intros A H. apply S4_T, T_K, K_P. assumption.
+                +++ apply square_nec.
+            ++ apply Mp with (Box i (Implies (square α i) (Implies (square β i) (And (square α i) (square β i))))).
+                +++ apply Ax with (axK i (square α i) (Implies (square β i) (And (square α i) (square β i)))).
+                    * apply S4_T, T_K, K_axK.
+                    * reflexivity.
+                +++ apply Nec. apply Ax with (ax4 (square α i) (square β i)).
+                    * apply S4_T, T_K, K_P, P_ax4.
+                    * reflexivity.
         + apply Nec. apply Ax with (ax5 (square α i) (square β i)).
             ++ apply S4_T, T_K, K_P, P_ax5.
             ++ reflexivity.
@@ -374,4 +410,17 @@ Section Translations.
                 +++ assumption.
             ++ assumption.
     Admitted.
+
+    (* Lemma pseudoexplosion : forall α ϵ, [α] ⊢ (α → ϵ) → ϵ.
+
+    Fixpoint translation Γ ϵ α : Sentence :=
+    match α with
+        | [!   #a   !] => (#a → ϵ) → ϵ
+        | [!   ~φ   !] => (translation Γ ϵ α) → ϵ
+        | [! [i]  φ !] => (* (something → ϵ) → ϵ *)
+        | [! <i>  φ !] => 
+        | [! φ /\ ψ !] => (translation Γ ϵ φ)  ∨ (translation Γ ϵ ψ)
+        | [! φ \/ ψ !] => ((translation Γ ϵ φ) ∨ (translation Γ ϵ ψ) → ϵ) → ϵ
+        | [! φ -> ψ !] => (translation Γ ϵ φ)  ∨ (translation Γ ϵ ψ)
+    end. *)
 End Translations.
