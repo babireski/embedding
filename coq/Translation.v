@@ -48,34 +48,23 @@ Section Translations.
     Notation " A ∪ B " := (Union A B) (at level 48, left associativity).
     Notation " [ a ] " := (Singleton a) (at level 0, right associativity).
 
-    Inductive Boxed Γ i : formula -> Prop :=
-    | Boxing : forall α, Γ α -> Boxed Γ i [! [i]α !].
+    (* Inductive Boxed Γ i : formula -> Prop :=
+    | Boxing : forall α, Γ α -> Boxed Γ i [! [i]α !]. *)
 
-    Lemma unboxing : forall Γ α i, (Boxed Γ i) α -> exists φ, α = [! [i]φ !].
+    Definition Boxed (Γ : theory) i := forall α, Γ α -> exists β, α = [! [i]β !].
+
+    (* Lemma unboxing : forall Γ α i, (Boxed Γ i) α -> exists φ, α = [! [i]φ !].
     Proof.
         intros. destruct H. exists α. reflexivity.
-    Qed.
+    Qed. *)
 
-    Lemma fin_empty_is_empty : forall (α : formula), (Fin [] α) -> (∅ α).
-    Proof.
-        intros.
-        simpl in H.
-        contradiction.
-    Qed.
-
-    Lemma Boxed_fin_empty_is_empty : forall (α : formula) i, (Boxed (Fin []) i α) -> (∅ α).
+    (* Lemma Boxed_fin_empty_is_empty : forall (α : formula) i, (Boxed (Fin []) i α) -> (∅ α).
     Proof.
         intros.
         apply fin_empty_is_empty.
         inversion H.
         contradiction.
-    Qed.
-
-    Theorem subset : forall Δ (α : formula), Subset (Fin Δ) (Fin (α :: Δ)).
-    Proof.
-        intros Δ α β H.
-        right. assumption.
-    Qed.
+    Qed. *)
 
     Theorem union : forall M Δ α β, (M; (Fin (β :: Δ)) |-- α) -> (M; [β] ∪ Fin Δ |-- α).
     Proof.
@@ -92,35 +81,31 @@ Section Translations.
         + apply Nec. assumption.
     Admitted.
 
-    Theorem nec_gen : forall Γ (α : formula) i, (S4 i; Boxed Γ i |-- [! α !]) -> S4 i; Boxed Γ i |-- [! [i]α !].
+    Theorem nec_gen : forall Γ α i, Boxed Γ i -> (S4 i; Γ |-- [! α !]) -> S4 i; Γ |-- [! [i]α !].
     Proof.
-        intros Γ α i H₁.
-        apply finite_world in H₁.
-        destruct H₁ as [Δ H₁ H₂].
-        generalize dependent α.
-        induction Δ as [ | β Δ H₄].
-        + intros. apply Nec. apply derive_weak with (Boxed (Fin []) i).
-            ++ intros β H2. apply Boxed_fin_empty_is_empty with i. assumption.
-            ++ apply derive_weak with (Fin []).
-                +++ intros a B. apply fin_empty_is_empty in B. contradiction.
-                +++ assumption.
-        + intros α H₅. assert (Boxed Γ i β).
-            ++ apply H₂. left. reflexivity.
-            ++ apply unboxing in H. destruct H. apply Mp with [! [i][i]x !].
-                +++ apply Mp with [! [i]([i]x -> α) !].
-                    ++++ apply Ax with (axK i [! [i]x !] α).
-                        +++++ apply S4_T, T_K. apply K_axK.
-                        +++++ reflexivity.
-                    ++++ apply H₄.
-                        +++++ intros γ J. apply H₂. apply subset. assumption.
-                        +++++ apply modal_deduction.
-                            ++++++ repeat constructor. assumption.
-                            ++++++ apply union. rewrite <- H. assumption.
-                +++ apply Mp with [! [i]x !].
-                    ++++ apply Ax with (axK4 i x).
-                        +++++ apply S4_axK4.
-                        +++++ reflexivity.
-                    ++++ apply Prem. rewrite <- H. apply H₂. left. reflexivity.
+        intros Γ φ i H₁ H₂.
+        apply finite_world in H₂.
+        destruct H₂ as [Δ H₂ H₃].
+        generalize dependent φ.
+        induction Δ as [ | φ Δ H₄].
+        + intros. apply Nec. apply derive_weak with (Fin []).
+            ++ intros α H₄. contradiction.
+            ++ assumption.
+        + intros β H₅. assert (Γ φ) as H₆.
+            ++ apply H₃. left. reflexivity.
+            ++ apply H₁ in H₆. destruct H₆ as [α H₆]. apply Mp with [! [i]α !].
+                +++ apply modal_syllogism with [! [i][i]α !].
+                    * repeat constructor.
+                    * repeat constructor.
+                    * apply modal_axK4, S4_axK4.
+                    * apply modal_axK.
+                        ** constructor. constructor. apply K_axK.
+                        ** apply H₄.
+                            *** intros γ H₇. apply H₃. right. assumption.
+                            *** apply modal_deduction.
+                                - repeat constructor. assumption.
+                                - rewrite <- H₆. apply union. assumption.
+                +++ apply Prem. apply H₃. left. assumption.
     Qed.
 
     Fixpoint square (α : Sentence) (i : modal_index) : formula :=
@@ -161,32 +146,48 @@ Section Translations.
             ++ assumption.
     Qed.
 
-    Lemma nec_and_distribution : forall M α β i, Subset (T i) M -> (M; ∅ |-- [! [i]α /\ [i]β !]) -> M; ∅ |-- [! [i](α /\ β) !].
+    Lemma nec_and_distribution : forall Γ α β i, Boxed Γ i -> (S4 i; Γ |-- [! [i]α /\ [i]β !]) <-> (S4 i; Γ |-- [! [i](α /\ β) !]).
     Proof.
-        intros M α β i H₁ H₂.
-        apply Nec. apply Mp with β. apply Mp with α.
-        + apply Ax with (ax4 α β).
-            ++ apply H₁. apply T_K. apply K_P. apply P_ax4.
-            ++ reflexivity.
-        + apply splitting in H₂.
-            ++ destruct H₂ as [H₂ _]. apply Mp with [! [i]α !].
-                +++ apply Ax with (axT i α). apply H₁. apply T_axT. reflexivity.
-                +++ assumption.
-            ++ intros A H₃. apply H₁. apply T_K. apply K_P. assumption.
-        + apply splitting in H₂.
-            ++ destruct H₂ as [_ H₂]. apply Mp with [! [i]β !].
-                +++ apply Ax with (axT i β). apply H₁. apply T_axT. reflexivity.
-                +++ assumption.
-            ++ intros A H₃. apply H₁. apply T_K. apply K_P. assumption.
-    Qed.
-
-    Lemma unnecessity : forall M Γ α i, Subset (T i) M -> (M ; Γ |-- [! [i]α!]) -> M ; Γ |-- α.
-    Proof.
-        intros M Γ α i H₁ H₂. apply Mp with [! [i]α!].
-        + apply Ax with (axT i α).
-            ++ apply H₁. apply T_axT.
-            ++ reflexivity.
-        + assumption.
+        intros Γ α β i H₁.
+        split.
+        + intros H₂. apply nec_gen. assumption. apply Mp with β. apply Mp with α.
+            ++ apply Ax with (ax4 α β).
+                +++ repeat constructor.
+                +++ reflexivity.
+            ++ apply splitting in H₂.
+                +++ destruct H₂ as [H₂ _]. apply Mp with [! [i]α !].
+                    * apply Ax with (axT i α). constructor. apply T_axT. reflexivity.
+                    * assumption.
+                +++ intros A H₃. repeat constructor. assumption.
+            ++ apply splitting in H₂.
+                +++ destruct H₂ as [_ H₂]. apply Mp with [! [i]β !].
+                    * apply Ax with (axT i β). constructor. apply T_axT. reflexivity.
+                    * assumption.
+                +++ intros A H₃. repeat constructor. assumption.
+        + intros H₂. apply Mp with [! [i]β !]. apply Mp with [! [i]α !].
+            ++ apply Ax with (ax4 [! [i]α !] [! [i]β !]).
+               repeat constructor.
+               reflexivity.
+            ++ apply nec_gen. assumption. apply Mp with [! α /\ β !].
+                +++ apply Ax with (ax5 α β).
+                    repeat constructor.
+                    reflexivity.
+                +++ apply Mp with [! [i](α /\ β) !].
+                    * apply Ax with (axT i [! α /\ β !]).
+                      constructor.
+                      apply T_axT.
+                      reflexivity.
+                    * assumption.
+            ++ apply nec_gen. assumption. apply Mp with [! α /\ β !].
+                +++ apply Ax with (ax6 α β).
+                    repeat constructor.
+                    reflexivity.
+                +++ apply Mp with [! [i](α /\ β) !].
+                    * apply Ax with (axT i [! α /\ β !]).
+                        constructor.
+                        apply T_axT.
+                        reflexivity.
+                    * assumption.
     Qed.
 
     Lemma or_intro_left : forall M Γ α β γ, Subset P M -> M ; Γ |-- [! (α -> β) -> α -> β \/ γ !].
@@ -231,69 +232,84 @@ Section Translations.
         + apply Prem. left. reflexivity.
     Qed.
 
-    Theorem equivalence : forall (α : Sentence) i, (S4 i ; Empty |-- Box i (circle α i)) <-> (S4 i ; Empty |--  square α i).
+    Theorem equivalence : forall (α : Sentence) i, (S4 i ; Empty |-- And (Implies (Box i (circle α i)) (square α i)) (Implies (square α i) (Box i (circle α i)))).
     Proof.
-    intros. split.
+    intros. apply splitting. repeat constructor. assumption. split.
     + intros. induction α as [ | a | α H₁ β H₂ | α H₁ β H₂ | α H₁ β H₂].
-        ++ apply Mp with (Box i (circle ⊥ i)).
-            +++ apply Ax with (axT i (square ⊥ i)).
-                * apply S4_T. apply T_axT.
-                * reflexivity.
-            +++ assumption.
-        ++ assumption.
-        ++ apply Mp with (square β i).
+        ++ apply Ax with (axT i (square ⊥ i)).
+            +++ apply S4_T, T_axT.
+            +++ reflexivity.
+        ++ apply derive_identity. repeat constructor. assumption.
+        ++ apply modal_deduction. repeat constructor. assumption. apply Mp with (square β i).
             +++ apply Mp with (square α i).
                 * apply Ax with (ax4 (square α i) (square β i)).
-                    ** apply S4_T, T_K, K_P, P_ax4.
+                    ** repeat constructor.
                     ** reflexivity.
-                * apply H₁. apply Nec. apply Mp with (circle (α ∧ β) i).
-                    ** apply Ax with (ax5 (circle α i) (circle β i)).
-                        *** apply S4_T, T_K, K_P, P_ax5.
-                        *** reflexivity.
-                    ** apply Mp with (Box i (circle (α ∧ β) i)).
-                        *** apply Ax with (axT i (circle (α ∧ β) i)).
-                            - apply S4_T, T_axT.
-                            - reflexivity.
-                        *** assumption.
-            +++ apply H₂. apply Nec. apply Mp with (circle (α ∧ β) i).
-                * apply Ax with (ax6 (circle α i) (circle β i)).
-                    ** apply S4_T, T_K, K_P, P_ax6.
-                    ** reflexivity.
-                * apply Mp with (Box i (circle (α ∧ β) i)).
-                    ** apply Ax with (axT i (circle (α ∧ β) i)).
-                        *** apply S4_T, T_axT.
-                        *** reflexivity.
-                    ** assumption.
+                * apply Mp with (Box i (circle α i)).
+                    ** apply derive_weak with ∅. left. contradiction. assumption.
+                    ** apply Mp with (And (Box i (circle α i)) (Box i (circle β i))).
+                        *** apply Ax with (ax5 (Box i (circle α i)) (Box i (circle β i))).
+                            repeat constructor.
+                            reflexivity.
+                        *** apply nec_and_distribution.
+                            - constructor. assumption.
+                            - 
+            +++ apply Mp with (Box i (circle β i)).
+                * apply derive_weak with ∅. left. contradiction. assumption.
+                * apply Mp with (And (Box i (circle α i)) (Box i (circle β i))).
+                    ** apply Ax with (ax6 (Box i (circle α i)) (Box i (circle β i))). repeat constructor. reflexivity.
+                    ** apply Mp with (Box i (And (circle α i) (circle β i))).
+                       admit.
+                       apply Prem. left. reflexivity.
+
         ++ apply Mp with (circle (α ∨ β) i).
-            +++ apply Mp with (Implies (circle β i) (square β i)).
-                * admit.
+            +++ apply Mp with (Implies (Box i (circle β i)) (square β i)).
+                * apply Mp with (Implies (Box i (circle α i)) (square α i)).
+                    ** apply or_exchange. repeat constructor. assumption.
+                    ** 
                 * apply modal_deduction.
-                    ** admit.
+                    ** repeat constructor. assumption.
                     ** admit.
             +++ admit.
-        ++ admit.
+        ++ apply Nec.
     + intros. induction α as [ | a | α H₁ β H₂ | α H₁ β H₂ | α H₁ β H₂].
         ++ apply Nec. assumption.
         ++ assumption.
         ++ apply nec_and_distribution.
-            +++ intros A H₃. apply S4_T. assumption.
+            +++ constructor. assumption.
             +++ apply splitting.
-                * intros A H₃. apply S4_T, T_K, K_P. assumption.
+                * repeat constructor. assumption.
                 * split.
-                    ** apply H₁. apply splitting in H. destruct H as [H _]. assumption. intros A H1. apply S4_T, T_K, K_P. assumption.
-                    ** apply H₂. apply splitting in H. destruct H as [_ H]. assumption. intros A H1. apply S4_T, T_K, K_P. assumption.
+                    ** apply H₁. apply splitting in H. destruct H as [H _]. assumption. repeat constructor. assumption.
+                    ** apply H₂. apply splitting in H. destruct H as [_ H]. assumption. repeat constructor. assumption.
         ++ admit.
         ++ admit.
     Admitted.
+
+    Lemma left_or : forall Γ α β γ i, (S4 i; Extend α Γ |-- γ) -> (S4 i; Extend β Γ |-- γ) -> (S4 i; Extend [! α \/ β !] Γ |-- γ).
+    Proof.
+        intros.
+        apply Mp with [! α \/ β !].
+        + apply Mp with [! β -> γ !].
+            ++ apply Mp with [! α -> γ !].
+                +++ apply Ax with (ax9 α β γ). repeat constructor. reflexivity.
+                +++ apply derive_weak with Γ. right. assumption. apply modal_deduction. repeat constructor. assumption. assumption.
+            ++ apply derive_weak with Γ. right. assumption. apply modal_deduction. repeat constructor. assumption. assumption.
+        + apply Prem. left. reflexivity.
+    Qed.
+
+    (* Lemma nec_or_undistribute : forall Γ α β i, S4 i; (Boxed Γ i) |-- [! [i]α \/ [i]β -> [i](α \/ β) !].
+    Proof.
+        intros. apply modal_deduction. repeat constructor. assumption.
+        apply left_or.
+        + apply boxing. *)
 
     Lemma square_nec : forall Γ α i, S4 i ; Γ |-- Implies (square α i) (Box i (square α i)).
     Proof.
         intros.
         induction α as [ | | α H₁ β H₂ | | ].
         + admit.
-        + apply Ax with (axK4 i [! #n !]).
-            ++ apply S4_axK4.
-            ++ reflexivity.
+        + apply modal_axK4. apply S4_axK4.
         + apply modal_deduction.
             ++ repeat constructor. assumption.
             ++ apply Mp with (And (Box i (square α i)) (Box i (square β i))).
@@ -309,7 +325,16 @@ Section Translations.
                                 - repeat constructor.
                                 - reflexivity.
                             *** apply Prem. left. reflexivity.
-        + admit.
+        + apply modal_deduction. repeat constructor. assumption.
+          apply Mp with (Or (Box i (square α1 i)) (Box i (square α2 i))).
+              ++ admit.
+              ++ apply Mp with (Or (square α1 i) (square α2 i)).
+                    +++ apply Mp with (Implies (square α2 i) (Box i (square α2 i))).
+                        * apply Mp with (Implies (square α1 i) (Box i (square α1 i))).
+                            ** apply or_exchange. repeat constructor. assumption.
+                            ** apply derive_weak with Γ. right. assumption. assumption.
+                        * apply derive_weak with Γ. right. assumption. assumption.
+                    +++ apply Prem. left. reflexivity.
         + apply Ax with (axK4 i (Implies (square α1 i) (square α2 i))).
             ++ apply S4_axK4.
             ++ reflexivity.
@@ -328,36 +353,18 @@ Section Translations.
                 +++ apply Prem. left. reflexivity.
     Qed.
 
-    Lemma strict_deduction : forall Γ α β i, (S4 i ; [α] ∪ (Boxed Γ i) |-- β) -> S4 i ; (Boxed Γ i) |-- [! [i](α -> β) !].
+    Lemma strict_deduction : forall Γ α β i, Boxed Γ i -> (S4 i ; [α] ∪ Γ |-- β) -> S4 i ; Γ |-- [! [i](α -> β) !].
     Proof.
-        intros Γ α β i H₁.
+        intros Γ α β i H₁ H₂.
         apply nec_gen.
-        apply modal_deduction.
-        + repeat constructor. assumption.
         + assumption.
+        + apply modal_deduction.
+            ++ repeat constructor. assumption.
+            ++ assumption.
     Qed.
-
-    Lemma context_box : forall M α β i, (M ; (Boxed ([α] ∪ ∅) i) |-- β) -> M ; [[! [i]α !]] ∪ ∅ |-- β.
-    Proof.
-        intros. admit.
-    Admitted.
 
     Inductive Squared (Γ : Theory) (i : modal_index): theory :=
     | Squaring : forall α, Γ α -> Squared Γ i (square α i).
-
-    Theorem boxing : forall M Δ α β i, (M;  (Boxed ([α] ∪ Δ) i) |-- β) -> M; ([[! [i]α!]] ∪ (Boxed Δ i)) |-- β.
-    Proof.
-        intros.
-        inversion H.
-        + apply Prem. assert (Subset ((Boxed ([α] ∪ Δ) i)) (([[! [i]α!]] ∪ (Boxed Δ i)))).
-            ++ intros a J. admit.
-            ++ apply H3. assumption.
-        + apply Ax with a.
-            ++ assumption.
-            ++ assumption.
-        + admit.
-        + admit.
-    Admitted.
 
     Theorem strict_ponens : forall Γ α β i, (S4 i; Γ |-- [! [i](α -> β) !]) -> (S4 i; Γ |-- α) -> S4 i; Γ |-- β.
     Proof.
@@ -388,13 +395,20 @@ Section Translations.
                 * reflexivity.
         + apply Nec. apply modal_deduction.
             ++ repeat constructor. assumption.
-            ++ fold square. apply context_box. apply strict_deduction. apply boxing. apply strict_deduction.
+            ++ fold square. repeat (apply strict_deduction).
+                +++ intros φ H. destruct H.
+                    * inversion H. exists (Implies (square α i) (Box i (Implies (square β i) (square γ i)))). reflexivity.
+                    * contradiction.
+                +++ intros φ H. destruct H as [H | [H | H]].
+                    * inversion H. exists (Implies (square α i) (square β i)). reflexivity.
+                    * inversion H. exists (Implies (square α i) (Box i (Implies (square β i) (square γ i)))). reflexivity.
+                    * contradiction.
                 +++ apply strict_ponens with (square β i).
                     * apply strict_ponens with (square α i).
-                        ** apply Prem. right. apply Boxing. right. left. reflexivity.
+                        ** apply Prem. right. right. left. reflexivity.
                         ** apply Prem. left. reflexivity.
                     * apply strict_ponens with (square α i).
-                        ** apply Prem. right. apply Boxing. left. reflexivity.
+                        ** apply Prem. right. left. reflexivity.
                         ** apply Prem. left. reflexivity.
         + apply Nec. apply Mp with (Implies (Box i (square α i)) (Box i (Implies (square β i) (And (square α i) (square β i))))).
             ++ apply Mp with (Implies (square α i) (Box i (square α i))).
@@ -413,30 +427,33 @@ Section Translations.
         + apply Nec. apply Ax with (ax8 (square α i) (square β i)). repeat constructor. reflexivity.
         + apply Nec. apply modal_deduction.
             ++ repeat constructor. assumption.
-            ++ fold square. apply context_box.
-               apply strict_deduction, boxing.
-               apply strict_deduction.
-               apply Mp with (Or (square α i) (square β i)).
-                   +++ apply Mp with (Implies (square β i) (square γ i)).
-                       * apply Mp with (Implies (square α i) ((square γ i))).
-                           ** apply Ax with (ax9 (square α i) (square β i) (square γ i)).
-                               *** repeat constructor.
-                               *** reflexivity.
-                           ** apply Mp with (Box i (Implies (square α i) (square γ i))).
-                               *** apply Ax with (axT i (Implies (square α i) (square γ i))).
-                                   - apply S4_T, T_axT.
-                                   - reflexivity.
-                               *** apply Prem. right. apply Boxing. right. left. reflexivity.
-                       * apply Mp with (Box i (Implies (square β i) (square γ i))).
-                           ** apply Ax with (axT i (Implies (square β i) (square γ i))).
-                               *** apply S4_T, T_axT.
-                               *** reflexivity.
-                           ** apply Prem. right. apply Boxing. left. reflexivity.
-                   +++ apply Prem. left. reflexivity. 
+            ++ fold square. repeat (apply strict_deduction).
+                +++ intros φ H.
+                    destruct H as [H | H]. inversion H. exists (Implies (square α i) (square γ i)). reflexivity. contradiction.
+                +++ intros φ H.
+                    destruct H as [H | H]. inversion H. exists (Implies (square β i) (square γ i)). reflexivity. 
+                    destruct H as [H | H]. inversion H. exists (Implies (square α i) (square γ i)). reflexivity. contradiction.
+                +++ apply Mp with (Or (square α i) (square β i)).
+                   * apply Mp with (Implies (square β i) (square γ i)).
+                       ** apply Mp with (Implies (square α i) ((square γ i))).
+                           *** apply Ax with (ax9 (square α i) (square β i) (square γ i)).
+                               - repeat constructor.
+                               - reflexivity.
+                           *** apply Mp with (Box i (Implies (square α i) (square γ i))).
+                               - apply Ax with (axT i (Implies (square α i) (square γ i))).
+                                   -- apply S4_T, T_axT.
+                                   -- reflexivity.
+                               - apply Prem. right. right. left. reflexivity.
+                       ** apply Mp with (Box i (Implies (square β i) (square γ i))).
+                           *** apply Ax with (axT i (Implies (square β i) (square γ i))).
+                               - apply S4_T, T_axT.
+                               - reflexivity.
+                           *** apply Prem. right. left. reflexivity.
+                    * apply Prem. left. reflexivity. 
         + apply Nec. apply modal_deduction.
             ++ repeat constructor. assumption.
             ++ apply consistency_deduction.
-                +++ intros A H. apply S4_T, T_K, K_P. assumption.
+                +++ repeat constructor. assumption.
                 +++ unfold Consistent. intros H. specialize H with [! #1 !]. apply H, Prem. right. left. reflexivity.
         + apply Mp with (square α i).
             ++ apply Mp with (square (α → β) i).
