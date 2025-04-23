@@ -53,19 +53,6 @@ Section Translations.
 
     Definition Boxed (Γ : theory) i := forall α, Γ α -> exists β, α = [! [i]β !].
 
-    (* Lemma unboxing : forall Γ α i, (Boxed Γ i) α -> exists φ, α = [! [i]φ !].
-    Proof.
-        intros. destruct H. exists α. reflexivity.
-    Qed. *)
-
-    (* Lemma Boxed_fin_empty_is_empty : forall (α : formula) i, (Boxed (Fin []) i α) -> (∅ α).
-    Proof.
-        intros.
-        apply fin_empty_is_empty.
-        inversion H.
-        contradiction.
-    Qed. *)
-
     Theorem union : forall M Δ α β, (M; (Fin (β :: Δ)) |-- α) -> (M; [β] ∪ Fin Δ |-- α).
     Proof.
         intros. inversion H.
@@ -131,17 +118,17 @@ Section Translations.
         intros M Γ α β H₁. split. 
         + intros H₂. destruct H₂ as [H₃ H₄]. apply Mp with [! β !]. apply Mp with [! α !].
             ++ apply Ax with (ax4 α β).
-                +++ apply H₁. apply P_ax4.
+                +++ apply H₁. constructor.
                 +++ reflexivity.
             ++ assumption.
             ++ assumption.
         + intros H₂. split; apply Mp with [! α /\ β !].
             ++ apply Ax with (ax5 α β).
-                +++ apply H₁. apply P_ax5.
+                +++ apply H₁. constructor.
                 +++ reflexivity.
             ++ assumption.
             ++ apply Ax with (ax6 α β).
-                +++ apply H₁. apply P_ax6.
+                +++ apply H₁. constructor.
                 +++ reflexivity.
             ++ assumption.
     Qed.
@@ -252,16 +239,27 @@ Section Translations.
                             repeat constructor.
                             reflexivity.
                         *** apply nec_and_distribution.
-                            - constructor. assumption.
-                            - 
+                            - intros γ H₃.
+                              inversion H₃ as [H₄ | H₄]. 
+                              exists (circle (α ∧ β) i).
+                              inversion H₄ as [H₅]. reflexivity. contradiction.
+                            - apply Prem. left. reflexivity.
             +++ apply Mp with (Box i (circle β i)).
                 * apply derive_weak with ∅. left. contradiction. assumption.
                 * apply Mp with (And (Box i (circle α i)) (Box i (circle β i))).
-                    ** apply Ax with (ax6 (Box i (circle α i)) (Box i (circle β i))). repeat constructor. reflexivity.
-                    ** apply Mp with (Box i (And (circle α i) (circle β i))).
-                       admit.
-                       apply Prem. left. reflexivity.
-
+                    ** apply Ax with (ax6 (Box i (circle α i)) (Box i (circle β i))).
+                       repeat constructor.
+                       reflexivity.
+                    ** apply nec_and_distribution.
+                        *** intros γ H₃.
+                            inversion H₃ as [H₄ | H₄].
+                            exists (circle (α ∧ β) i).
+                            inversion H₄ as [H₅].
+                            reflexivity.
+                            contradiction.
+                        *** apply Prem.
+                            left.
+                            reflexivity.
         ++ apply Mp with (circle (α ∨ β) i).
             +++ apply Mp with (Implies (Box i (circle β i)) (square β i)).
                 * apply Mp with (Implies (Box i (circle α i)) (square α i)).
