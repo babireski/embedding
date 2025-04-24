@@ -219,6 +219,9 @@ Section Translations.
         + apply Prem. left. reflexivity.
     Qed.
 
+    Definition Squared (Γ : theory) i := forall α, Γ α -> exists β, α = square β i.
+    Definition Circled (Γ : theory) i := forall α, Γ α -> exists β, α = Box i (circle β i).
+
     Theorem equivalence : forall (α : Sentence) i, (S4 i ; Empty |-- And (Implies (Box i (circle α i)) (square α i)) (Implies (square α i) (Box i (circle α i)))).
     Proof.
     intros. apply splitting. repeat constructor. assumption. split.
@@ -263,26 +266,25 @@ Section Translations.
         ++ apply Mp with (circle (α ∨ β) i).
             +++ apply Mp with (Implies (Box i (circle β i)) (square β i)).
                 * apply Mp with (Implies (Box i (circle α i)) (square α i)).
-                    ** apply or_exchange. repeat constructor. assumption.
-                    ** 
-                * apply modal_deduction.
-                    ** repeat constructor. assumption.
                     ** admit.
+                    ** assumption.
+                * assumption.
             +++ admit.
-        ++ apply Nec.
+        ++ admit.
     + intros. induction α as [ | a | α H₁ β H₂ | α H₁ β H₂ | α H₁ β H₂].
-        ++ apply Nec. assumption.
-        ++ assumption.
-        ++ apply nec_and_distribution.
-            +++ constructor. assumption.
-            +++ apply splitting.
-                * repeat constructor. assumption.
-                * split.
-                    ** apply H₁. apply splitting in H. destruct H as [H _]. assumption. repeat constructor. assumption.
-                    ** apply H₂. apply splitting in H. destruct H as [_ H]. assumption. repeat constructor. assumption.
+        ++ admit.
+        ++ admit.
+        ++ admit.
         ++ admit.
         ++ admit.
     Admitted.
+
+    Theorem equivalence : forall Γ α i, (Circled Γ i -> S4 i ; Γ |-- circle α i) <-> (Squared Γ i -> S4 i ; Γ |-- square α i).
+    Proof.
+        intros. split.
+        + intros H₁ H₂.
+          induction α.
+          ++ apply H₁. unfold Circled. intros α H₃.
 
     Lemma left_or : forall Γ α β γ i, (S4 i; Extend α Γ |-- γ) -> (S4 i; Extend β Γ |-- γ) -> (S4 i; Extend [! α \/ β !] Γ |-- γ).
     Proof.
@@ -360,9 +362,6 @@ Section Translations.
             ++ repeat constructor. assumption.
             ++ assumption.
     Qed.
-
-    Inductive Squared (Γ : Theory) (i : modal_index): theory :=
-    | Squaring : forall α, Γ α -> Squared Γ i (square α i).
 
     Theorem strict_ponens : forall Γ α β i, (S4 i; Γ |-- [! [i](α -> β) !]) -> (S4 i; Γ |-- α) -> S4 i; Γ |-- β.
     Proof.
