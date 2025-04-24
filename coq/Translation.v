@@ -263,14 +263,22 @@ Section Translations.
                         *** apply Prem.
                             left.
                             reflexivity.
-        ++ apply Mp with (circle (α ∨ β) i).
-            +++ apply Mp with (Implies (Box i (circle β i)) (square β i)).
-                * apply Mp with (Implies (Box i (circle α i)) (square α i)).
-                    ** admit.
-                    ** assumption.
-                * assumption.
-            +++ admit.
-        ++ admit.
+        ++ apply modal_deduction.
+            +++ repeat constructor. assumption.
+            +++ apply Mp with (circle (α ∨ β) i).
+                * apply Mp with (Implies (Box i (circle β i)) (square β i)).
+                    ** apply Mp with (Implies (Box i (circle α i)) (square α i)).
+                        *** apply or_exchange. repeat constructor. assumption.
+                        *** apply derive_weak with ∅. right. assumption. assumption.
+                    ** apply derive_weak with ∅. right. assumption. assumption.
+                * apply Mp with (Box i (circle (α ∨ β) i)).
+                    ** apply Ax with (axT i (circle (α ∨ β) i)).
+                        *** apply S4_T, T_axT.
+                        *** reflexivity.
+                    ** apply Prem. left. reflexivity.
+        ++ apply modal_deduction.
+            +++ repeat constructor. assumption.
+            +++ apply
     + intros. induction α as [ | a | α H₁ β H₂ | α H₁ β H₂ | α H₁ β H₂].
         ++ admit.
         ++ admit.
@@ -279,12 +287,12 @@ Section Translations.
         ++ admit.
     Admitted.
 
-    Theorem equivalence : forall Γ α i, (Circled Γ i -> S4 i ; Γ |-- circle α i) <-> (Squared Γ i -> S4 i ; Γ |-- square α i).
+    (* Theorem equivalence : forall Γ α i, (Circled Γ i -> S4 i ; Γ |-- circle α i) <-> (Squared Γ i -> S4 i ; Γ |-- square α i).
     Proof.
         intros. split.
         + intros H₁ H₂.
           induction α.
-          ++ apply H₁. unfold Circled. intros α H₃.
+          ++ apply H₁. unfold Circled. intros α H₃. *)
 
     Lemma left_or : forall Γ α β γ i, (S4 i; Extend α Γ |-- γ) -> (S4 i; Extend β Γ |-- γ) -> (S4 i; Extend [! α \/ β !] Γ |-- γ).
     Proof.
@@ -297,12 +305,6 @@ Section Translations.
             ++ apply derive_weak with Γ. right. assumption. apply modal_deduction. repeat constructor. assumption. assumption.
         + apply Prem. left. reflexivity.
     Qed.
-
-    (* Lemma nec_or_undistribute : forall Γ α β i, S4 i; (Boxed Γ i) |-- [! [i]α \/ [i]β -> [i](α \/ β) !].
-    Proof.
-        intros. apply modal_deduction. repeat constructor. assumption.
-        apply left_or.
-        + apply boxing. *)
 
     Lemma square_nec : forall Γ α i, S4 i ; Γ |-- Implies (square α i) (Box i (square α i)).
     Proof.
