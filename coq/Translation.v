@@ -290,19 +290,54 @@ Section Translations.
         + apply Prem. left. reflexivity.
     Qed.
 
-    Lemma nec_or_distribution : forall Γ α β i, Boxed Γ i -> (S4 i; Γ |-- [! [i]α \/ [i]β !]) <-> (S4 i; Γ |-- [! [i](α \/ β) !]).
+    Lemma nec_or_distribution : forall Γ α β i, (S4 i; Γ |-- [! [i]α \/ [i]β -> [i](α \/ β) !]).
     Proof.
-        intros Γ α β i H₁.
-        split.
-        + intros H₂. apply nec_gen. assumption. apply Mp with [! [i]α \/ [i]β !].
-            ++ apply Mp with [! [i]β -> β !].
-                +++ apply Mp with [! [i]α -> α !].
-                    * apply or_exchange. repeat constructor. assumption.
-                    * apply Ax with (axT i α). constructor. apply T_axT. reflexivity.
-                +++ apply Ax with (axT i β). constructor. apply T_axT. reflexivity.
-            ++ assumption.
-        + intros H₂. admit.
-    Admitted.
+        intros Γ α β i.
+        apply derive_weak with Empty.
+        intros γ H.
+        contradiction.
+        apply Mp with [! [i]β -> [i](α \/ β) !].
+        apply Mp with [! [i]α -> [i](α \/ β) !].
+        + apply Ax with (ax9 [! [i]α !] [! [i]β !] [! [i](α \/ β) !]).
+          repeat constructor.
+          reflexivity.
+        + apply modal_deduction.
+          repeat constructor.
+          assumption.
+          apply nec_gen.
+          intros γ H.
+          destruct H.
+          * destruct H.
+            exists α.
+            reflexivity.
+          * destruct H.
+          * apply modal_ax7.
+            repeat constructor.
+            apply modal_axT with i.
+            constructor.
+            assumption.
+            apply Prem.
+            left.
+            reflexivity.
+        + apply modal_deduction.
+          repeat constructor.
+          assumption.
+          apply nec_gen.
+          intros γ H.
+          destruct H.
+          * destruct H.
+            exists β.
+            reflexivity.
+          * destruct H.
+          * apply modal_ax8.
+            repeat constructor.
+            apply modal_axT with i.
+            constructor.
+            assumption.
+            apply Prem.
+            left.
+            reflexivity.
+    Qed.
 
     Inductive Squared Γ i : formula -> Prop :=
     | Squaring : forall α, Γ α -> Squared Γ i [! α ? i !].
@@ -475,7 +510,7 @@ Section Translations.
           * apply modal_deduction.
             repeat constructor.
             assumption.
-            
+            apply Mp with 
 
         + apply splitting. repeat constructor. assumption. split.
             ++ apply modal_deduction.
