@@ -39,8 +39,6 @@ Section Translations.
     Notation " A ∪ B " := (Union A B) (at level 48, left associativity).
     Notation " [ a ] " := (Singleton a) (at level 0, right associativity).
 
-    Definition Boxed (Γ : theory) i := forall α, Γ α -> exists β, α = [! [i]β !].
-
     Theorem union : forall M Δ α β, (M; (Fin (β :: Δ)) |-- α) -> (M; [β] ∪ Fin Δ |-- α).
     Proof.
         intros. inversion H.
@@ -81,6 +79,8 @@ Section Translations.
             reflexivity.
     Qed.
 
+    Definition Boxed (Γ : theory) i := forall α, Γ α -> exists β, α = [! [i]β !].
+
     Theorem nec_gen : forall Γ α i, Boxed Γ i -> (S4 i; Γ |-- [! α !]) -> S4 i; Γ |-- [! [i]α !].
     Proof.
         intros Γ φ i H₁ H₂.
@@ -88,24 +88,43 @@ Section Translations.
         destruct H₂ as [Δ H₂ H₃].
         generalize dependent φ.
         induction Δ as [ | φ Δ H₄].
-        + intros. apply Nec. apply derive_weak with (Fin []).
-            ++ intros α H₄. contradiction.
-            ++ assumption.
-        + intros β H₅. assert (Γ φ) as H₆.
-            ++ apply H₃. left. reflexivity.
-            ++ apply H₁ in H₆. destruct H₆ as [α H₆]. apply Mp with [! [i]α !].
-                +++ apply modal_syllogism with [! [i][i]α !].
-                    * repeat constructor.
-                    * repeat constructor.
-                    * apply modal_axK4, S4_axK4.
-                    * apply modal_axK.
-                        ** constructor. constructor. apply K_axK.
-                        ** apply H₄.
-                            *** intros γ H₇. apply H₃. right. assumption.
-                            *** apply modal_deduction.
-                                - repeat constructor. assumption.
-                                - rewrite <- H₆. apply union. assumption.
-                +++ apply Prem. apply H₃. left. assumption.
+        + intros.
+          apply Nec.
+          apply derive_weak with (Fin []).
+          intros α H₄.
+          contradiction.
+          assumption.
+        + intros β H₅.
+          assert (Γ φ) as H₆.
+          apply H₃.
+          left.
+          reflexivity.
+          apply H₁ in H₆.
+          destruct H₆ as [α H₆].
+          apply Mp with [! [i]α !].
+          * apply modal_syllogism with [! [i][i]α !].
+            - repeat constructor.
+            - repeat constructor.
+            - apply modal_axK4, S4_axK4.
+            - apply modal_axK.
+              constructor.
+              constructor.
+              apply K_axK.
+              apply H₄.
+              intros γ H₇.
+              apply H₃.
+              right.
+              assumption.
+              apply modal_deduction.
+              repeat constructor.
+              assumption.
+              rewrite <- H₆.
+              apply union.
+              assumption.
+          * apply Prem.
+            apply H₃.
+            left.
+            assumption.
     Qed.
 
     Lemma modal_axT : forall A Γ α i, Subset (T i) A -> (A ; Γ |-- [! [i]α !]) -> A ; Γ |-- α.
@@ -272,22 +291,31 @@ Section Translations.
             ++ apply Prem. left. reflexivity.
     Qed.
 
-    Lemma or_exchange : forall M Γ α β γ δ, Subset P M -> M ; Γ |-- [! (α -> γ) -> (β -> δ) -> α \/ β -> γ \/ δ !].
+    Lemma or_exchange : forall M Γ α β γ δ, Subset P M -> (M ; Γ |-- [! α -> γ !]) -> (M ; Γ |-- [! β -> δ !]) -> (M ; Γ |-- [! α \/ β -> γ \/ δ !]).
     Proof.
-        intros. repeat (apply modal_deduction); try assumption.
-        apply Mp with [! α \/ β !].
-        + apply Mp with [! β -> γ \/ δ !].
-            ++ apply Mp with [! α -> γ \/ δ !].
-                +++ apply Ax with (ax9 α β [! γ \/ δ !]).
-                    * apply H, P_ax9.
-                    * reflexivity.
-                +++ apply Mp with [! α -> γ !].
-                    * apply or_intro_left. assumption.
-                    * apply Prem. right. right. left. reflexivity.
-            ++ apply Mp with [! β -> δ !].
-                +++ apply or_intro_right. assumption.
-                +++ apply Prem. right. left. reflexivity.
-        + apply Prem. left. reflexivity.
+      intros M Γ α β γ δ H₁ H₂ H₃.
+      apply modal_deduction.
+      assumption.
+      apply modal_ax9 with α β.
+      apply H₁.
+      constructor.
+      * apply Mp with [! α -> γ !].
+        + apply or_intro_left.
+          assumption.
+        + apply derive_weak with Γ.
+          right.
+          assumption.
+          assumption.
+      * apply Mp with [! β -> δ !].
+        + apply or_intro_right.
+          assumption.
+        + apply derive_weak with Γ.
+          right.
+          assumption.
+          assumption.
+      * apply Prem.
+        left.
+        reflexivity.
     Qed.
 
     Lemma nec_or_distribution : forall Γ α β i, (S4 i; Γ |-- [! [i]α \/ [i]β -> [i](α \/ β) !]).
@@ -339,11 +367,14 @@ Section Translations.
             reflexivity.
     Qed.
 
+    Inductive Inboxed Γ i : formula -> Prop :=
+    | Inboxing : forall α, Γ α -> Inboxed Γ i [! [i]α !].
+
     Inductive Squared Γ i : formula -> Prop :=
     | Squaring : forall α, Γ α -> Squared Γ i [! α ? i !].
 
     Inductive Circled Γ i : formula -> Prop :=
-    | Circling : forall α, Γ α -> Circled Γ i [! [i](α ? i) !].
+    | Circling : forall α, Γ α -> Circled Γ i [! [i](α ! i) !].
 
     Lemma strict_deduction : forall Γ α β i, Boxed Γ i -> (S4 i ; [α] ∪ Γ |-- β) -> S4 i ; Γ |-- [! [i](α -> β) !].
     Proof.
@@ -367,9 +398,12 @@ Section Translations.
       + assumption.
     Qed.
 
-    Theorem equivalence : forall (α : Sentence) i, S4 i ; Empty |-- [! [i](α ! i) <-> (α ? i) !].
+    Theorem equivalence : forall Γ (α : Sentence) i, S4 i ; Γ |-- [! [i](α ! i) <-> (α ? i) !].
     Proof.
-      intros α i.
+      intros Γ α i.
+      apply derive_weak with ∅.
+      intros β H.
+      contradiction.
       induction α as [ | | α H₁ β H₂ | α H₁ β H₂ | α H₁ β H₂].
       + apply splitting.
         repeat constructor.
@@ -484,18 +518,18 @@ Section Translations.
             repeat constructor.
             assumption.
             apply Mp with [! [i](α ! i) \/ [i](β ! i) !].
-            apply Mp with [! [i](β ! i) -> (β ? i) !].
-            apply Mp with [! [i](α ! i) -> (α ? i) !].
-            - apply or_exchange.
-              repeat constructor.
+            apply or_exchange.
+            - repeat constructor.
               assumption.
-            - apply derive_weak with ∅.
+            - fold square.
+              apply derive_weak with ∅.
               left.
               contradiction.
               apply modal_ax5 with [! (α ? i) -> [i](α ! i) !].
               repeat constructor.
               assumption.
-            - apply derive_weak with ∅.
+            - fold square.
+              apply derive_weak with ∅.
               left.
               contradiction.
               apply modal_ax5 with [! (β ? i) -> [i](β ! i) !].
@@ -510,67 +544,145 @@ Section Translations.
           * apply modal_deduction.
             repeat constructor.
             assumption.
-            apply Mp with 
-
-        + apply splitting. repeat constructor. assumption. split.
-            ++ apply modal_deduction.
-                +++ repeat constructor. assumption.
-                +++ apply nec_gen.
-                    * intros γ H₃. inversion H₃ as [H₄ | H₄]. exists (circle (α → β) i). inversion H₄. reflexivity. contradiction.
-                    * fold square. apply modal_syllogism with [! [i](β ! i) !].
-                        ** repeat constructor.
-                        ** repeat constructor.
-                        ** apply modal_syllogism with [! [i](α ! i) !].
-                            *** repeat constructor.
-                            *** repeat constructor.
-                            *** apply modal_ax6 with [! [i](α ! i) -> (α ? i) !].
-                                - repeat constructor.
-                                - apply derive_weak with ∅. right. assumption. assumption.
-                            *** apply modal_syllogism with [! [i][i](α ! i) !].
-                                - repeat constructor.
-                                - repeat constructor.
-                                - apply Ax with (axK4 i [! α ! i !]).
-                                    -- apply S4_axK4.
-                                    -- reflexivity.
-                                - apply modal_axK.
-                                    -- constructor. constructor. apply K_axK.
-                                    -- apply Prem. left. reflexivity.
-                        ** apply modal_ax5 with [! (β ? i) -> [i](β ! i) !].
-                            *** repeat constructor.
-                            *** apply derive_weak with ∅. right. assumption. assumption.
-            ++ apply modal_deduction.
-                +++ repeat constructor. assumption.
-                +++ apply strict_deduction.
-                    * intros γ H₃. exists [! (α ? i) -> (β ? i) !]. inversion H₃.
-                        ** inversion H. reflexivity.
-                        ** contradiction.
-                    * fold circle. apply Mp with [! [i](β ! i)!].
-                        ** apply Ax with (axT i [! (β ! i) !]).
-                            *** constructor. apply T_axT.
-                            *** reflexivity.
-                        ** apply Mp with [! (β ? i) !].
-                            *** apply Mp with [! [i](β ! i) <-> (β ? i) !].
-                                - apply Ax with (ax6 [! [i](β ! i) -> (β ? i) !] [! (β ? i) -> [i](β ! i) !]).
-                                    -- repeat constructor.
-                                    -- simpl. reflexivity.
-                                - apply derive_weak with ∅. repeat constructor. contradiction. assumption.
-                            *** apply Mp with [! [i](α ! i) !].
-                                - apply modal_syllogism with [! (α ? i) !].
-                                    -- repeat constructor.
-                                    -- repeat constructor.
-                                    -- apply derive_weak with ∅. repeat constructor. contradiction.
-                                       apply Mp with [! [i](α ! i) <-> (α ? i) !].
-                                       --- apply Ax with (ax5 [! [i](α ! i) -> (α ? i) !] [! (α ? i) -> [i](α ! i) !]).
-                                           repeat constructor.
-                                           reflexivity.
-                                       --- assumption.
-                                    -- apply Mp with [! [i]((α ? i) -> (β ? i)) !].
-                                        --- apply Ax with (axT i [! (α ? i) -> (β ? i) !]).
-                                            constructor. apply T_axT.
-                                            reflexivity.
-                                        --- apply Prem. right. left. reflexivity.
-                                - apply Prem. left. reflexivity.
-    Admitted.
+            apply Mp with [! [i][i](α ! i) \/ [i][i](β ! i) !].
+            apply nec_or_distribution.
+            apply Mp with [! (α ? i) \/ (β ? i) !].
+            apply or_exchange.
+            - repeat constructor.
+              assumption.
+            - apply modal_syllogism with [! [i](α ! i) !].
+              repeat constructor.
+              repeat constructor.
+              apply derive_weak with ∅.
+              left.
+              contradiction.
+              apply modal_ax6 with [! [i](α ! i) -> (α ? i) !].
+              repeat constructor.
+              assumption.
+              apply Ax with (axK4 i [! α ! i!]).
+              apply S4_axK4.
+              reflexivity.
+            - apply modal_syllogism with [! [i](β ! i) !].
+              repeat constructor.
+              repeat constructor.
+              apply derive_weak with ∅.
+              left.
+              contradiction.
+              apply modal_ax6 with [! [i](β ! i) -> (β ? i) !].
+              repeat constructor.
+              assumption.
+              apply Ax with (axK4 i [! β ! i!]).
+              apply S4_axK4.
+              reflexivity.
+            - apply Prem.
+              left.
+              reflexivity.
+        + apply splitting.
+          repeat constructor.
+          assumption.
+          split.
+          * apply modal_deduction.
+            repeat constructor.
+            assumption.
+            apply strict_deduction.
+            intros γ H₃.
+            destruct H₃ as [H₃ | H₃].
+            destruct H₃.
+            exists (circle (α → β) i).
+            reflexivity.
+            contradiction.
+            fold square.
+            apply Mp with [! α ? i !].
+            - apply modal_syllogism with [! [i](β ! i) !].
+              repeat constructor.
+              repeat constructor.
+              apply modal_syllogism with [! [i](α ! i) !].
+              repeat constructor.
+              repeat constructor.
+              apply derive_weak with ∅.
+              left.
+              contradiction.
+              apply modal_ax6 with [! [i](α ! i) -> (α ? i) !].
+              repeat constructor.
+              assumption.
+              apply derive_weak with (Extend (Box i (circle (α → β) i)) ∅).
+              right.
+              assumption.
+              apply modal_deduction.
+              repeat constructor.
+              assumption.
+              apply nec_gen.
+              intros γ H₃.
+              destruct H₃ as [H₃ | [H₃ | H₃]].
+              destruct H₃.
+              exists [! (α ! i) !].
+              reflexivity.
+              destruct H₃.
+              exists (circle (α → β) i).
+              reflexivity.
+              contradiction.
+              apply Mp with  [! [i](α ! i) !].
+              apply modal_axT with i.
+              constructor.
+              assumption.
+              apply Prem.
+              right.
+              left.
+              reflexivity.
+              apply Prem.
+              left.
+              reflexivity.
+              apply derive_weak with ∅.
+              left.
+              contradiction.
+              apply modal_ax5 with [! (β ? i) -> [i](β ! i) !].
+              repeat constructor.
+              assumption.
+            - apply Prem.
+              left.
+              reflexivity.
+          * apply modal_deduction.
+            repeat constructor.
+            assumption.
+            apply strict_deduction.
+            intros γ H₃.
+            destruct H₃ as [H₃ | H₃].
+            - destruct H₃.
+              exists [! (α ? i) -> (β ? i) !].
+              reflexivity.
+            - contradiction.
+            - fold circle.
+              apply modal_axT with i.
+              constructor.
+              assumption.
+              apply Mp with [! β ? i !].
+              apply derive_weak with ∅.
+              left.
+              contradiction.
+              apply modal_ax6 with [! [i](β ! i) -> (β ? i)!].
+              repeat constructor.
+              assumption.
+              apply Mp with [! [i](α ! i) !].
+              apply modal_syllogism with [! (α ? i) !].
+              repeat constructor.
+              repeat constructor.
+              apply derive_weak with ∅.
+              left.
+              contradiction.
+              apply modal_ax5 with [! (α ? i) -> [i](α ! i) !].
+              repeat constructor.
+              assumption.
+              apply modal_axT with i.
+              constructor.
+              assumption.
+              apply Prem.
+              right.
+              left.
+              reflexivity.
+              apply Prem.
+              left.
+              reflexivity.
+    Qed.
 
     Lemma square_nec : forall Γ α i, S4 i ; Γ |-- [! (α ? i) -> [i](α ? i) !].
     Proof.
@@ -617,19 +729,17 @@ Section Translations.
           apply Mp with [! [i](α ? i) \/ [i](β ? i) !].
           * admit.
           * apply Mp with [! (α ? i) \/ (β ? i) !].
-            - apply Mp with [! (β ? i) -> [i](β ? i) !].
-              ++ apply Mp with [! (α ? i) -> [i](α ? i) !].
-                 ** apply or_exchange.
-                    repeat constructor.
-                    assumption.
-                 ** apply derive_weak with Γ.
-                    right.
-                    assumption.
-                    assumption.
-              ++ apply derive_weak with Γ.
-                 right.
-                 assumption.
-                 assumption.
+            - apply or_exchange.
+              repeat constructor.
+              assumption.
+              apply derive_weak with Γ.
+              right.
+              assumption.
+              assumption.
+              apply derive_weak with Γ.
+              right.
+              assumption.
+              assumption.
             - apply Prem.
               left.
               reflexivity.
@@ -637,6 +747,129 @@ Section Translations.
           * apply S4_axK4.
           * reflexivity.
     Admitted.
+
+    Theorem intr_nec_left : forall Γ α i, (S4 i ; Squared Γ i |-- [! (α ? i) !]) -> (S4 i ; Inboxed (Squared Γ i) i |-- [! (α ? i) !]).
+    Proof.
+      intros.
+      induction H as [Δ β | Δ A β H₁ H₂ | Δ β γ H₁ H₂ H₃ H₄ | Δ β j H₁ H₂].
+      * apply modal_axT with i.
+        constructor.
+        assumption.
+        apply Prem.
+        apply Inboxing.
+        assumption.
+      * apply Ax with A.
+        assumption.
+        assumption.
+      * apply Mp with β.
+        assumption.
+        assumption.
+      * apply Nec.
+        assumption.
+    Qed.
+
+    Theorem elim_nec_left : forall Γ α i, (S4 i ; Inboxed (Squared Γ i) i |-- [! [i](α ? i) !]) -> (S4 i ; Squared Γ i |-- [! [i](α ? i) !]).
+    Proof.
+      intros.
+      induction H as [Δ β H | | | ].
+      +
+
+
+
+
+      inversion H as [Δ β H₁ H₂ H₃ | Δ A β H₁ H₂ H₃ H₄ | Δ β γ H₁ H₂ H₃ H₄ | Δ β j H₁ H₂ H₃].
+      * inversion H₁ as [γ H₄ H₅].
+        apply Mp with [! (α ? i) !].
+        apply square_nec.
+        apply Prem.
+        assumption.
+      * apply Ax with A.
+        assumption.
+        assumption.
+      * 
+      * apply Nec.
+        assumption.
+
+    Theorem equivalencee : forall Γ α i, (S4 i ; Circled Γ i |-- [! (α ! i) !]) <-> (S4 i ; Squared Γ i |-- [! (α ? i) !]).
+    Proof.
+      intros Γ α i.
+      split.
+      * intros H.
+        apply finite_world in H.
+        destruct H as [Δ H₁ H₂].
+        generalize dependent α.
+        induction Δ as [ | φ Δ H₃].
+        + intros α H₁.
+          apply derive_weak with (Fin []).
+          intros β H₃.
+          contradiction.
+          apply Mp with [! [i](α ! i) !].
+          - apply modal_ax5 with [! (α ? i) -> [i](α ! i) !].
+            repeat constructor.
+            apply equivalence.
+          - apply nec_gen.
+            intros β H₃.
+            contradiction.
+            assumption.
+        + intros α H₁.
+          assert ((Circled Γ i) φ) as H₄.
+          apply H₂.
+          left.
+          reflexivity.
+          destruct H₄ as [β H₄].
+          apply Mp with [! (β ? i) !].
+          apply modal_axT with i.
+          constructor.
+          assumption.
+          specialize H₃ with (β → α).
+          apply H₃.
+          intros γ H₆.
+          apply H₂.
+          right.
+          assumption.
+          apply modal_deduction.
+          repeat constructor.
+          assumption.
+          fold circle.
+          apply union.
+          assumption.
+          apply Prem.
+          apply Squaring.
+          assumption.
+      * intros H.
+        apply finite_world in H.
+        destruct H as [Δ H₁ H₂].
+        generalize dependent α.
+        induction Δ as [ | φ Δ H₃].
+        + intros α H₁.
+          apply derive_weak with (Fin []).
+          intros β H₃.
+          contradiction.
+          apply modal_axT with i.
+          constructor.
+          assumption.
+          apply Mp with [! (α ? i) !].
+          - apply modal_ax6 with [! [i](α ! i) -> (α ? i) !].
+            repeat constructor.
+            apply equivalence.
+          - assumption.
+        + intros α H₁.
+          assert ((Squared Γ i) φ) as H₄.
+          apply H₂.
+          left.
+          reflexivity.
+          destruct H₄ as [β H₄].
+          apply Mp with [! [i](β ! i) !].
+          specialize H₃ with (β → α).
+          apply H₃.
+          intros γ H₆.
+          apply H₂.
+          right.
+          assumption.
+          simpl.
+
+          apply Mp with [! (β ? i) -> (α ? i) !].
+          apply square_nec.
 
     Theorem soundness : forall Γ α i, (Γ ⊢ α) -> S4 i; Squared Γ i |-- [! α ? i !].
     Proof.
