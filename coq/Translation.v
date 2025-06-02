@@ -1,5 +1,4 @@
 Require Import Modal_Library Modal_Notations Modal_Tactics Deductive_System Sets Completeness List.
-Require Import Stdlib.Program.Equality.
 Set Implicit Arguments.
 
 Section Translations.
@@ -806,44 +805,51 @@ Section Translations.
     Proof.
       intros.
       remember (Inboxed (Squared Γ i) i) as Δ eqn : E₁.
-      remember [! (α ? i) -> (β ? i) !] as γ eqn : E₂.
       revert H.
-      induction 1 as [Δ δ H₁ | | | ].
-      * rewrite E₁ in H₁.
-        inversion H₁ as [ɛ H₂ H₃].
-        inversion H₂ as [ζ H₄ H₅].
-        apply Mp with [! (ζ ? i) !].
+      induction 1 as [Δ γ H₁ | Δ A γ H₁ H₂ | Δ γ δ _ H₁ _ H₂ | Δ γ j H₁ _].
+      + rewrite E₁ in H₁.
+        inversion H₁ as [δ H₂ H₃].
+        inversion H₂ as [ɛ H₄ H₅].
+        apply Mp with [! (ɛ ? i) !].
         apply square_nec.
         rewrite H₅.
         apply Prem.
         assumption.
-      * apply Ax with a.
-        assumption.
-        assumption.
-      * apply Mp with f.
-        apply IHdeduction1.
-        assumption.
-        apply IHdeduction2.
-        assumption.
-      * apply Nec.
-        assumption.
-    Qed.
-
-    Theorem in_nc_rg : forall Γ α β i, (S4 i ; Inboxed (Squared Γ i) i |-- [! (α ? i) -> (β ? i) !]) -> S4 i ; Squared Γ i |-- [! (α ? i) -> (β ? i) !].
-    Proof.
-      intros.
-      remember (Inboxed (Squared Γ i) i) as Δ eqn : E₁.
-      remember [! (α ? i) -> (β ? i) !] as γ eqn : E₂.
-      induction H as [Δ γ H₁ | Δ A γ H₁ H₂ | Δ δ γ H₁ H₂ H₃ H₄ | Δ γ j H₁ H₂].
-      + rewrite E₁ in H₁.
-        rewrite E₂ in H₁.
-        inversion H₁.
       + apply Ax with A.
         assumption.
         assumption.
-      + rewrite E₁ in *.
-        
+      + apply Mp with γ.
+        apply H₁.
+        assumption.
+        apply H₂.
+        assumption.
+      + apply Nec.
+        assumption.
+    Qed.
 
+    Theorem in_nc_rg : forall Γ α β i, (S4 i ; Squared Γ i |-- [! (α ? i) -> (β ? i) !]) -> S4 i ; Inboxed (Squared Γ i) i |-- [! (α ? i) -> (β ? i) !].
+    Proof.
+      intros.
+      remember (Squared Γ i) as Δ eqn : E₁.
+      revert H.
+      induction 1 as [Δ γ H₁ | Δ A γ H₁ H₂ | Δ γ δ H₁ H₂ H₃ H₄ | Δ γ j H₁ H₂].
+      + apply modal_axT with i.
+        constructor.
+        assumption.
+        apply Prem.
+        apply Inboxing.
+        assumption.
+      + apply Ax with A.
+        assumption.
+        assumption.
+      + apply Mp with γ.
+        apply H₂.
+        assumption.
+        apply H₄.
+        assumption.
+      + apply Nec.
+        assumption.
+    Qed.
 
     Theorem equivalencee : forall Γ α i, (S4 i ; Circled Γ i |-- [! (α ! i) !]) <-> (S4 i ; Squared Γ i |-- [! (α ? i) !]).
     Proof.
