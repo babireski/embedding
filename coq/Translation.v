@@ -1,4 +1,5 @@
 Require Import Modal_Library Modal_Notations Modal_Tactics Deductive_System Sets Completeness List.
+Require Import Stdlib.Program.Equality.
 Set Implicit Arguments.
 
 Section Translations.
@@ -748,47 +749,58 @@ Section Translations.
           * reflexivity.
     Admitted.
 
-    Theorem intr_nec_left : forall Γ α i, (S4 i ; Squared Γ i |-- [! (α ? i) !]) -> (S4 i ; Inboxed (Squared Γ i) i |-- [! (α ? i) !]).
+    Theorem intr_nec_left : forall Γ α φ i, (S4 i ; Extend φ Γ |-- [! (α ? i) !]) -> (S4 i ; Extend φ (Inboxed Γ i) |-- [! (α ? i) !]).
     Proof.
       intros.
-      induction H as [Δ β | Δ A β H₁ H₂ | Δ β γ H₁ H₂ H₃ H₄ | Δ β j H₁ H₂].
+      remember (Extend φ Γ) as Δ eqn : E₁.
+      remember [! (α ? i) !] as β eqn : E₂.
+      induction H as [Δ β H₁ | Δ A β H₁ H₂ | Δ β γ H₁ H₂ H₃ H₄ | Δ β j H₁ H₂].
       * apply modal_axT with i.
         constructor.
         assumption.
+        rewrite E₁ in H₁.
+        destruct H₁.
+        apply Mp with [! β !].
+        rewrite E₂.
+        apply square_nec.
         apply Prem.
+        left.
+        assumption.
+        apply Prem.
+        right.
         apply Inboxing.
         assumption.
       * apply Ax with A.
         assumption.
         assumption.
-      * apply Mp with β.
-        assumption.
-        assumption.
+      * admit.
       * apply Nec.
         assumption.
-    Qed.
+    Admitted.
 
-    Theorem elim_nec_left : forall Γ α i, (S4 i ; Inboxed (Squared Γ i) i |-- [! [i](α ? i) !]) -> (S4 i ; Squared Γ i |-- [! [i](α ? i) !]).
+    Theorem elim_nec_left : forall (Γ : theory) α i, (S4 i ; Inboxed Γ i |-- [! [i](α ? i) !]) -> (S4 i ; Γ |-- [! (α ? i) !]).
     Proof.
       intros.
-      induction H as [Δ β H | | | ].
-      +
-
-
-
-
-      inversion H as [Δ β H₁ H₂ H₃ | Δ A β H₁ H₂ H₃ H₄ | Δ β γ H₁ H₂ H₃ H₄ | Δ β j H₁ H₂ H₃].
-      * inversion H₁ as [γ H₄ H₅].
-        apply Mp with [! (α ? i) !].
-        apply square_nec.
+      remember (Inboxed Γ i) as Δ eqn : E₁.
+      remember [! [i](α ? i) !] as β eqn : E₂.
+      induction H as [Δ β H₁ | Δ A β H₁ H₂ | Δ β γ H₁ H₂ H₃ H₄ | Δ β j H₁ H₂].
+      + rewrite E₁ in H₁.
+        inversion H₁ as [γ H₂ H₃].
         apply Prem.
+        rewrite E₂ in H₃.
+        inversion H₃ as [H₄].
+        rewrite H₄ in H₂.
         assumption.
-      * apply Ax with A.
+      + apply modal_axT with i.
+        constructor.
         assumption.
+        apply Ax with A.
         assumption.
-      * 
-      * apply Nec.
+        rewrite E₂ in H₂.
         assumption.
+      + admit.
+      + 
+    Admitted.
 
     Theorem equivalencee : forall Γ α i, (S4 i ; Circled Γ i |-- [! (α ! i) !]) <-> (S4 i ; Squared Γ i |-- [! (α ? i) !]).
     Proof.
@@ -867,9 +879,27 @@ Section Translations.
           right.
           assumption.
           simpl.
-
-          apply Mp with [! (β ? i) -> (α ? i) !].
-          apply square_nec.
+          pose proof elim_nec_left as H₅.
+          specialize H₅ with (Fin Δ) (β → α) i.
+          simpl in H₅.
+          apply H₅.
+          apply nec_gen.
+          intros γ H₆.
+          inversion H₆ as [δ H₇ H₈].
+          exists δ.
+          reflexivity.
+          apply strict_deduction.
+          intros γ H₆.
+          inversion H₆ as [δ H₇ H₈].
+          exists δ.
+          reflexivity.
+          apply intr_nec_left.
+          apply union.
+          assumption.
+          apply Prem.
+          apply Circling.
+          assumption.
+    Qed.
 
     Theorem soundness : forall Γ α i, (Γ ⊢ α) -> S4 i; Squared Γ i |-- [! α ? i !].
     Proof.
