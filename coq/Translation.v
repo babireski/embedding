@@ -802,6 +802,81 @@ Section Translations.
       + 
     Admitted.
 
+    Theorem el_nc_lf : forall Γ α β i, (S4 i ; Inboxed (Squared Γ i) i |-- [! [i]((α ? i) -> (β ? i)) !]) -> S4 i ; Squared Γ i |-- [! [i]((α ? i) -> (β ? i)) !].
+    Proof.
+      intros.
+      remember (Inboxed (Squared Γ i)) as Δ eqn : E.
+      revert H.
+      revert E.
+      induction 2.
+      *
+
+      revert α β H₁.
+      induction 2.
+      - admit.
+      - admit.
+      - 
+
+
+      (* apply finite_world in H.
+      destruct H as [Δ H₁ H₂].
+      induction Δ as [ | γ Δ H₃].
+      + intros.
+        apply derive_weak with (Fin []).
+        intros γ H₃.
+        contradiction.
+        assumption.
+      + intros. *)
+        
+
+      (* induction H as [Δ γ | | | ].
+      + admit.
+      + admit.
+      + apply Mp with f. *)
+
+      dependent induction H.
+      + inversion H as [γ H₁ H₂].
+        inversion H₁ as [δ H₃ H₄].
+        destruct δ; discriminate H₄.
+      + apply Ax with a.
+        assumption.
+        assumption.
+      + apply IHdeduction2.
+        reflexivity.
+        reflexivity.
+      
+      induction H as [Δ δ H₁ | Δ A γ H₁ H₂ | Δ γ δ H₁ H₂ H₃ H₄ |  Δ γ j H₁ H₂].
+      + rewrite E₁ in H₁.
+        rewrite E₂ in H₁.
+        inversion H₁ as [ɛ H₂ H₃].
+        inversion H₂ as [ζ H₄ H₅].
+        destruct ζ; discriminate H₅.
+      + apply Ax with A.
+        assumption.
+        assumption.
+      + 
+
+
+        unfold square in H₅.
+        simpl in H₅.
+
+
+    Theorem in_nc_rg : forall Γ α β i, (S4 i ; Inboxed (Squared Γ i) i |-- [! (α ? i) -> (β ? i) !]) -> S4 i ; Squared Γ i |-- [! (α ? i) -> (β ? i) !].
+    Proof.
+      intros.
+      remember (Inboxed (Squared Γ i) i) as Δ eqn : E₁.
+      remember [! (α ? i) -> (β ? i) !] as γ eqn : E₂.
+      induction H as [Δ γ H₁ | Δ A γ H₁ H₂ | Δ δ γ H₁ H₂ H₃ H₄ | Δ γ j H₁ H₂].
+      + rewrite E₁ in H₁.
+        rewrite E₂ in H₁.
+        inversion H₁.
+      + apply Ax with A.
+        assumption.
+        assumption.
+      + rewrite E₁ in *.
+        
+
+
     Theorem equivalencee : forall Γ α i, (S4 i ; Circled Γ i |-- [! (α ! i) !]) <-> (S4 i ; Squared Γ i |-- [! (α ? i) !]).
     Proof.
       intros Γ α i.
@@ -819,9 +894,14 @@ Section Translations.
           - apply modal_ax5 with [! (α ? i) -> [i](α ! i) !].
             repeat constructor.
             apply equivalence.
-          - apply nec_gen.
-            intros β H₃.
-            contradiction.
+          inversion H₆ as [δ H₇ H₈].
+          exists δ.
+          reflexivity.
+          apply strict_deduction.
+          intros γ H₆.
+          inversion H₆ as [δ H₇ H₈].
+          exists δ.
+          reflexivity.
             assumption.
         + intros α H₁.
           assert ((Circled Γ i) φ) as H₄.
