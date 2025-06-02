@@ -805,60 +805,29 @@ Section Translations.
     Theorem el_nc_lf : forall Γ α β i, (S4 i ; Inboxed (Squared Γ i) i |-- [! [i]((α ? i) -> (β ? i)) !]) -> S4 i ; Squared Γ i |-- [! [i]((α ? i) -> (β ? i)) !].
     Proof.
       intros.
-      remember (Inboxed (Squared Γ i)) as Δ eqn : E.
+      remember (Inboxed (Squared Γ i) i) as Δ eqn : E₁.
+      remember [! (α ? i) -> (β ? i) !] as γ eqn : E₂.
       revert H.
-      revert E.
-      induction 2.
-      *
-
-      revert α β H₁.
-      induction 2.
-      - admit.
-      - admit.
-      - 
-
-
-      (* apply finite_world in H.
-      destruct H as [Δ H₁ H₂].
-      induction Δ as [ | γ Δ H₃].
-      + intros.
-        apply derive_weak with (Fin []).
-        intros γ H₃.
-        contradiction.
+      induction 1 as [Δ | | | ].
+      * rewrite E₁ in H.
+        inversion H.
+        inversion H0.
+        apply Mp with [! (α1 ? i) !].
+        apply square_nec.
+        rewrite H2.
+        apply Prem.
         assumption.
-      + intros. *)
-        
-
-      (* induction H as [Δ γ | | | ].
-      + admit.
-      + admit.
-      + apply Mp with f. *)
-
-      dependent induction H.
-      + inversion H as [γ H₁ H₂].
-        inversion H₁ as [δ H₃ H₄].
-        destruct δ; discriminate H₄.
-      + apply Ax with a.
+      * apply Ax with a.
         assumption.
         assumption.
-      + apply IHdeduction2.
-        reflexivity.
-        reflexivity.
-      
-      induction H as [Δ δ H₁ | Δ A γ H₁ H₂ | Δ γ δ H₁ H₂ H₃ H₄ |  Δ γ j H₁ H₂].
-      + rewrite E₁ in H₁.
-        rewrite E₂ in H₁.
-        inversion H₁ as [ɛ H₂ H₃].
-        inversion H₂ as [ζ H₄ H₅].
-        destruct ζ; discriminate H₅.
-      + apply Ax with A.
+      * apply Mp with f.
+        apply IHdeduction1.
         assumption.
+        apply IHdeduction2.
         assumption.
-      + 
-
-
-        unfold square in H₅.
-        simpl in H₅.
+      * apply Nec.
+        assumption.
+    Qed.
 
 
     Theorem in_nc_rg : forall Γ α β i, (S4 i ; Inboxed (Squared Γ i) i |-- [! (α ? i) -> (β ? i) !]) -> S4 i ; Squared Γ i |-- [! (α ? i) -> (β ? i) !].
