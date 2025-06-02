@@ -808,13 +808,13 @@ Section Translations.
       remember (Inboxed (Squared Γ i) i) as Δ eqn : E₁.
       remember [! (α ? i) -> (β ? i) !] as γ eqn : E₂.
       revert H.
-      induction 1 as [Δ | | | ].
-      * rewrite E₁ in H.
-        inversion H.
-        inversion H0.
-        apply Mp with [! (α1 ? i) !].
+      induction 1 as [Δ δ H₁ | | | ].
+      * rewrite E₁ in H₁.
+        inversion H₁ as [ɛ H₂ H₃].
+        inversion H₂ as [ζ H₄ H₅].
+        apply Mp with [! (ζ ? i) !].
         apply square_nec.
-        rewrite H2.
+        rewrite H₅.
         apply Prem.
         assumption.
       * apply Ax with a.
@@ -828,7 +828,6 @@ Section Translations.
       * apply Nec.
         assumption.
     Qed.
-
 
     Theorem in_nc_rg : forall Γ α β i, (S4 i ; Inboxed (Squared Γ i) i |-- [! (α ? i) -> (β ? i) !]) -> S4 i ; Squared Γ i |-- [! (α ? i) -> (β ? i) !].
     Proof.
