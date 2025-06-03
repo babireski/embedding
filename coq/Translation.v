@@ -367,14 +367,14 @@ Section Translations.
             reflexivity.
     Qed.
 
-    Inductive Inboxed Γ i : formula -> Prop :=
-    | Inboxing : forall α, Γ α -> Inboxed Γ i [! [i]α !].
+    Inductive Imboxed Γ i : formula -> Prop :=
+    | Imboxing : forall α, Γ α -> Imboxed Γ i [! [i]α !].
 
     Inductive Squared Γ i : formula -> Prop :=
     | Squaring : forall α, Γ α -> Squared Γ i [! α ? i !].
 
     Inductive Circled Γ i : formula -> Prop :=
-    | Circling : forall α, Γ α -> Circled Γ i [! [i](α ! i) !].
+    | Circling : forall α, Γ α -> Circled Γ i [! α ! i !].
 
     Lemma strict_deduction : forall Γ α β i, Boxed Γ i -> (S4 i ; [α] ∪ Γ |-- β) -> S4 i ; Γ |-- [! [i](α -> β) !].
     Proof.
@@ -748,65 +748,11 @@ Section Translations.
           * reflexivity.
     Admitted.
 
-    Theorem intr_nec_left : forall Γ α φ i, (S4 i ; Extend φ Γ |-- [! (α ? i) !]) -> (S4 i ; Extend φ (Inboxed Γ i) |-- [! (α ? i) !]).
+    Theorem el_nc_lf : forall Γ α β i, (S4 i ; Imboxed (Squared Γ i) i |-- [! [i]((α ? i) -> (β ? i)) !]) -> S4 i ; Squared Γ i |-- [! [i]((α ? i) -> (β ? i)) !].
     Proof.
       intros.
-      remember (Extend φ Γ) as Δ eqn : E₁.
-      remember [! (α ? i) !] as β eqn : E₂.
-      induction H as [Δ β H₁ | Δ A β H₁ H₂ | Δ β γ H₁ H₂ H₃ H₄ | Δ β j H₁ H₂].
-      * apply modal_axT with i.
-        constructor.
-        assumption.
-        rewrite E₁ in H₁.
-        destruct H₁.
-        apply Mp with [! β !].
-        rewrite E₂.
-        apply square_nec.
-        apply Prem.
-        left.
-        assumption.
-        apply Prem.
-        right.
-        apply Inboxing.
-        assumption.
-      * apply Ax with A.
-        assumption.
-        assumption.
-      * admit.
-      * apply Nec.
-        assumption.
-    Admitted.
-
-    Theorem elim_nec_left : forall (Γ : theory) α i, (S4 i ; Inboxed Γ i |-- [! [i](α ? i) !]) -> (S4 i ; Γ |-- [! (α ? i) !]).
-    Proof.
-      intros.
-      remember (Inboxed Γ i) as Δ eqn : E₁.
-      remember [! [i](α ? i) !] as β eqn : E₂.
-      induction H as [Δ β H₁ | Δ A β H₁ H₂ | Δ β γ H₁ H₂ H₃ H₄ | Δ β j H₁ H₂].
-      + rewrite E₁ in H₁.
-        inversion H₁ as [γ H₂ H₃].
-        apply Prem.
-        rewrite E₂ in H₃.
-        inversion H₃ as [H₄].
-        rewrite H₄ in H₂.
-        assumption.
-      + apply modal_axT with i.
-        constructor.
-        assumption.
-        apply Ax with A.
-        assumption.
-        rewrite E₂ in H₂.
-        assumption.
-      + admit.
-      + 
-    Admitted.
-
-    Theorem el_nc_lf : forall Γ α β i, (S4 i ; Inboxed (Squared Γ i) i |-- [! [i]((α ? i) -> (β ? i)) !]) -> S4 i ; Squared Γ i |-- [! [i]((α ? i) -> (β ? i)) !].
-    Proof.
-      intros.
-      remember (Inboxed (Squared Γ i) i) as Δ eqn : E₁.
-      revert H.
-      induction 1 as [Δ γ H₁ | Δ A γ H₁ H₂ | Δ γ δ _ H₁ _ H₂ | Δ γ j H₁ _].
+      remember (Imboxed (Squared Γ i) i) as Δ eqn : E₁.
+      induction H as [Δ γ H₁ | Δ A γ H₁ H₂ | Δ γ δ _ H₁ _ H₂ | Δ γ j H₁ _].
       + rewrite E₁ in H₁.
         inversion H₁ as [δ H₂ H₃].
         inversion H₂ as [ɛ H₄ H₅].
@@ -827,17 +773,16 @@ Section Translations.
         assumption.
     Qed.
 
-    Theorem in_nc_rg : forall Γ α β i, (S4 i ; Squared Γ i |-- [! (α ? i) -> (β ? i) !]) -> S4 i ; Inboxed (Squared Γ i) i |-- [! (α ? i) -> (β ? i) !].
+    Theorem in_nc_rg : forall Γ α β i, (S4 i ; Squared Γ i |-- [! (α ? i) -> (β ? i) !]) -> S4 i ; Imboxed (Squared Γ i) i |-- [! (α ? i) -> (β ? i) !].
     Proof.
       intros.
       remember (Squared Γ i) as Δ eqn : E₁.
-      revert H.
-      induction 1 as [Δ γ H₁ | Δ A γ H₁ H₂ | Δ γ δ H₁ H₂ H₃ H₄ | Δ γ j H₁ H₂].
+      induction H as [Δ γ H₁ | Δ A γ H₁ H₂ | Δ γ δ H₁ H₂ H₃ H₄ | Δ γ j H₁ H₂].
       + apply modal_axT with i.
         constructor.
         assumption.
         apply Prem.
-        apply Inboxing.
+        apply Imboxing.
         assumption.
       + apply Ax with A.
         assumption.
@@ -851,7 +796,14 @@ Section Translations.
         assumption.
     Qed.
 
-    Theorem equivalencee : forall Γ α i, (S4 i ; Circled Γ i |-- [! (α ! i) !]) <-> (S4 i ; Squared Γ i |-- [! (α ? i) !]).
+    Lemma finite_world_v2 : forall M Γ α i, (M; Squared Γ i |-- α) -> exists2 Δ, (M; Squared (Fin Δ) i |-- α) & Subset (Squared (Fin Δ) i) (Squared Γ i).
+    Proof.
+      induction 1.
+      + intros.
+        exists ((square f i) :: nil).
+
+
+    Theorem equivalencee : forall Γ α i, (S4 i ; Imboxed (Circled Γ i) i |-- [! (α ! i) !]) <-> (S4 i ; Squared Γ i |-- [! (α ? i) !]).
     Proof.
       intros Γ α i.
       split.
@@ -868,41 +820,39 @@ Section Translations.
           - apply modal_ax5 with [! (α ? i) -> [i](α ! i) !].
             repeat constructor.
             apply equivalence.
-          inversion H₆ as [δ H₇ H₈].
-          exists δ.
-          reflexivity.
-          apply strict_deduction.
-          intros γ H₆.
-          inversion H₆ as [δ H₇ H₈].
-          exists δ.
-          reflexivity.
+          - apply nec_gen.
+            intros β H₃.
+            contradiction.
             assumption.
         + intros α H₁.
-          assert ((Circled Γ i) φ) as H₄.
+          assert ((Imboxed (Circled Γ i) i) φ) as H₄.
           apply H₂.
           left.
           reflexivity.
-          destruct H₄ as [β H₄].
-          apply Mp with [! (β ? i) !].
+          inversion H₄ as [β H₅ H₆].
+          inversion H₅ as [γ H₇ H₈].
+          apply Mp with [! (γ ? i) !].
           apply modal_axT with i.
           constructor.
           assumption.
-          specialize H₃ with (β → α).
+          specialize H₃ with (γ → α).
           apply H₃.
-          intros γ H₆.
+          intros δ H₉.
           apply H₂.
           right.
           assumption.
+          simpl.
           apply modal_deduction.
           repeat constructor.
           assumption.
-          fold circle.
           apply union.
+          rewrite H₈.
+          rewrite H₆.
           assumption.
           apply Prem.
           apply Squaring.
           assumption.
-      * intros H.
+      * intros.
         apply finite_world in H.
         destruct H as [Δ H₁ H₂].
         generalize dependent α.
@@ -933,27 +883,8 @@ Section Translations.
           right.
           assumption.
           simpl.
-          pose proof elim_nec_left as H₅.
-          specialize H₅ with (Fin Δ) (β → α) i.
-          simpl in H₅.
-          apply H₅.
-          apply nec_gen.
-          intros γ H₆.
-          inversion H₆ as [δ H₇ H₈].
-          exists δ.
-          reflexivity.
-          apply strict_deduction.
-          intros γ H₆.
-          inversion H₆ as [δ H₇ H₈].
-          exists δ.
-          reflexivity.
-          apply intr_nec_left.
-          apply union.
-          assumption.
-          apply Prem.
-          apply Circling.
-          assumption.
-    Qed.
+          assert (exists Θ, forall φ, (S4 i; Squared Θ i |-- φ) <-> (S4 i; Fin Δ |-- φ)) as H₅.
+          - 
 
     Theorem soundness : forall Γ α i, (Γ ⊢ α) -> S4 i; Squared Γ i |-- [! α ? i !].
     Proof.
@@ -1016,7 +947,7 @@ Section Translations.
           * repeat constructor.
           * repeat constructor.
           * apply square_nec.
-          * apply modal_axK.
+          * apply modal_axK.Fin Δ
             - constructor. constructor. apply K_axK.
             - apply Nec.
               apply Ax with (ax4 [! (α ? i) !] [! (β ? i) !]).
