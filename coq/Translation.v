@@ -37,9 +37,8 @@ Section Translations.
 
     Notation " ∅ " := Empty.
     Notation " A ∪ B " := (Union A B) (at level 48, left associativity).
-    Notation " [ a ] " := (Singleton a) (at level 0, right associativity).
 
-    Theorem union : forall M Δ α β, (M; (Fin (β :: Δ)) |-- α) -> (M; [β] ∪ Fin Δ |-- α).
+    Theorem union : forall M Δ α β, (M; (Fin (β :: Δ)) |-- α) -> (M; Extend β (Fin Δ) |-- α).
     Proof.
         intros. inversion H.
         + destruct H0.
@@ -376,7 +375,7 @@ Section Translations.
     Inductive Circled Γ i : formula -> Prop :=
     | Circling : forall α, Γ α -> Circled Γ i [! α ! i !].
 
-    Lemma strict_deduction : forall Γ α β i, Boxed Γ i -> (S4 i ; [α] ∪ Γ |-- β) -> S4 i ; Γ |-- [! [i](α -> β) !].
+    Lemma strict_deduction : forall Γ α β i, Boxed Γ i -> (S4 i ; Extend α Γ |-- β) -> S4 i ; Γ |-- [! [i](α -> β) !].
     Proof.
       intros Γ α β i H₁ H₂.
       apply nec_gen.
@@ -773,7 +772,7 @@ Section Translations.
         assumption.
     Qed.
 
-    Theorem in_nc_rg : forall Γ α β i, (S4 i ; Squared Γ i |-- [! (α ? i) -> (β ? i) !]) -> S4 i ; Imboxed (Squared Γ i) i |-- [! (α ? i) -> (β ? i) !].
+    Theorem in_nc_lf : forall Γ α β i, (S4 i ; Squared Γ i |-- [! (α ? i) -> (β ? i) !]) -> S4 i ; Imboxed (Squared Γ i) i |-- [! (α ? i) -> (β ? i) !].
     Proof.
       intros.
       remember (Squared Γ i) as Δ eqn : E₁.
@@ -796,12 +795,76 @@ Section Translations.
         assumption.
     Qed.
 
-    Lemma finite_world_v2 : forall M Γ α i, (M; Squared Γ i |-- α) -> exists2 Δ, (M; Squared (Fin Δ) i |-- α) & Subset (Squared (Fin Δ) i) (Squared Γ i).
+    Lemma finite_world_v2 : forall M Γ α i, (M; Squared Γ i |-- α) -> exists Δ, (M; Squared (Fin Δ) i |-- α) /\ Subset (Squared (Fin Δ) i) (Squared Γ i).
     Proof.
-      induction 1.
+      intros.
+      remember (Squared Γ i) as Θ eqn : E₁.
+      induction H as [Θ α H₁ | Θ A α H₁ H₂ | Θ α β H₁ H₂ H₃ H₄ | Θ α j H₁ H₂].
       + intros.
-        exists ((square f i) :: nil).
-
+        rewrite E₁ in H₁.
+        destruct H₁ as [α H₁].
+        exists [α].
+        split.
+        * apply Prem.
+          apply Squaring.
+          left.
+          reflexivity.
+        * intros γ H₂.
+          destruct H₂ as [γ H₂].
+          destruct H₂ as [H₂ | H₂].
+          rewrite <- H₂.
+          rewrite E₁.
+          apply Squaring.
+          assumption.
+          contradiction.
+      + exists [].
+        split.
+        * apply Ax with A.
+          assumption.
+          assumption.
+        * intros β H₃.
+          destruct H₃ as [γ H₃].
+          contradiction.
+      + apply H₂ in E₁ as H₅.
+        apply H₄ in E₁ as H₇.
+        destruct H₅ as [Φ [H₅ H₆]].
+        destruct H₇ as [Ψ [H₇ H₈]].
+        exists (Φ ++ Ψ).
+        split.
+        * apply Mp with α.
+          apply derive_weak with (Squared (Fin Φ) i).
+          intros γ H₉.
+          destruct H₉ as [γ H₉].
+          apply Squaring.
+          apply in_or_app.
+          left.
+          assumption.
+          assumption.
+          apply derive_weak with (Squared (Fin Ψ) i).
+          intros γ H₉.
+          destruct H₉ as [γ H₉].
+          apply Squaring.
+          apply in_or_app.
+          right.
+          assumption.
+          assumption.
+        * intros γ H₉.
+          destruct H₉ as [γ H₉].
+          apply in_app_or in H₉ as [H₉ | H₉].
+          apply H₆.
+          apply Squaring.
+          assumption.
+          apply H₈.
+          apply Squaring.
+          assumption.
+      + exists [].
+        split.
+        apply Nec.
+        assumption.
+        intros β H₃.
+        destruct H₃ as [β H₃].
+        contradiction.
+    Qed.
 
     Theorem equivalencee : forall Γ α i, (S4 i ; Imboxed (Circled Γ i) i |-- [! (α ! i) !]) <-> (S4 i ; Squared Γ i |-- [! (α ? i) !]).
     Proof.
@@ -853,13 +916,14 @@ Section Translations.
           apply Squaring.
           assumption.
       * intros.
-        apply finite_world in H.
-        destruct H as [Δ H₁ H₂].
+        apply finite_world_v2 in H.
+        destruct H as [Δ [H₁ H₂]].
         generalize dependent α.
         induction Δ as [ | φ Δ H₃].
         + intros α H₁.
-          apply derive_weak with (Fin []).
+          apply derive_weak with (Squared (Fin []) i).
           intros β H₃.
+          destruct H₃ as [β H₃].
           contradiction.
           apply modal_axT with i.
           constructor.
@@ -870,21 +934,40 @@ Section Translations.
             apply equivalence.
           - assumption.
         + intros α H₁.
-          assert ((Squared Γ i) φ) as H₄.
+          assert ((Squared Γ i) (square φ i)) as H₄.
           apply H₂.
+          apply Squaring.
           left.
           reflexivity.
-          destruct H₄ as [β H₄].
+          inversion H₄ as [β H₅].
           apply Mp with [! [i](β ! i) !].
           specialize H₃ with (β → α).
           apply H₃.
           intros γ H₆.
           apply H₂.
+          inversion H₆ as [δ H₇ H₈].
+          apply Squaring.
           right.
           assumption.
           simpl.
-          assert (exists Θ, forall φ, (S4 i; Squared Θ i |-- φ) <-> (S4 i; Fin Δ |-- φ)) as H₅.
-          - 
+          apply el_nc_lf.
+          apply nec_gen.
+          intros γ H₆.
+          destruct H₆ as [γ H₆].
+          exists γ.
+          reflexivity.
+          apply in_nc_lf.
+          apply modal_deduction.
+          repeat constructor.
+          assumption.
+          assert ((S4 i; Squared (Fin (φ :: Δ)) i |-- [! α ? i !]) -> S4 i; Extend [! β ? i !] (Squared (Fin Δ) i) |-- [! α ? i !]) as H₆.
+          
+          apply H₆.
+          assumption.
+          apply Prem.
+          apply Imboxing.
+          apply Circling.
+          assumption.
 
     Theorem soundness : forall Γ α i, (Γ ⊢ α) -> S4 i; Squared Γ i |-- [! α ? i !].
     Proof.
