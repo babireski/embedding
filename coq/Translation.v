@@ -38,20 +38,31 @@ Section Translations.
     Notation " ∅ " := Empty.
     Notation " A ∪ B " := (Union A B) (at level 48, left associativity).
 
-    Theorem union : forall M Δ α β, (M; (Fin (β :: Δ)) |-- α) -> (M; Extend β (Fin Δ) |-- α).
+    Theorem union : forall M Γ α β, (M; (Fin (α :: Γ)) |-- β) -> (M; Extend α (Fin Γ) |-- β).
     Proof.
-        intros. inversion H.
-        + destruct H0.
-            ++ rewrite H0. apply Prem. left. reflexivity.
-            ++ apply Prem. right. assumption.
-        + apply Ax with a.
-            ++ assumption.
-            ++ assumption.
-        + apply Mp with f.
-            ++ admit.
-            ++ admit.
-        + apply Nec. assumption.
-    Admitted.
+      intros.
+      remember (Fin (α :: Γ)) as Δ eqn : E.
+      induction H as [Δ γ H | Δ A γ H₁ H₂ | Δ γ δ H₁ H₂ H₃ H₄ | Δ γ j H₁ H₂].
+      + rewrite E in H.
+        destruct H.
+        apply Prem.
+        left.
+        rewrite H.
+        reflexivity.
+        apply Prem.
+        right.
+        assumption.
+      + apply Ax with A.
+        assumption.
+        assumption.
+      + apply Mp with γ.
+        apply H₂.
+        assumption.
+        apply H₄.
+        assumption.
+      + apply Nec.
+        assumption.
+    Qed.
 
     Theorem importation : forall A Γ α β γ, Subset P A -> (A ; Γ |-- [! α -> β -> γ !]) -> A ; Γ |-- [! α /\ β -> γ !].
     Proof.
@@ -866,6 +877,61 @@ Section Translations.
         contradiction.
     Qed.
 
+    Theorem extension : forall Γ α β i, (S4 i; Squared (Fin (α :: Γ)) i |-- [! β ? i !]) -> S4 i; Extend [! α ? i !] (Squared (Fin Γ) i) |-- [! β ? i !].
+    Proof.
+      intros.
+      remember (Squared (Fin (α :: Γ)) i) as Δ eqn : E.
+      induction H as [Δ γ H | Δ A γ H₁ H₂ | Δ γ δ H₁ H₂ H₃ H₄ | Δ γ j H₁ H₂].
+      + rewrite E in H.
+        destruct H as [γ [H | H]].
+        apply Prem.
+        rewrite H.
+        left.
+        reflexivity.
+        apply Prem.
+        right.
+        apply Squaring.
+        assumption.
+      + apply Ax with A.
+        assumption.
+        assumption.
+      + apply Mp with γ.
+        apply H₂.
+        assumption.
+        apply H₄.
+        assumption.
+      + apply Nec.
+        assumption.
+    Qed.
+
+    Theorem substitution : forall Γ α β γ i, [! α ? i !] = [! β ? i !] ->(S4 i; Squared (Fin (α :: Γ)) i |-- γ) -> S4 i; Squared (Fin (β :: Γ)) i |-- γ.
+    Proof.
+      intros Γ α β γ i H₁ H₂.
+      remember (Squared (Fin (α :: Γ)) i) as Δ eqn : E.
+      induction H₂ as [Δ γ H₂ | Δ A γ H₂ H₃ | Δ γ δ H₂ H₃ H₄ H₅ | Δ γ j H₂ H₃].
+      + apply Prem.
+        rewrite E in H₂.
+        destruct H₂ as [γ [H₃ | H₃]].
+        rewrite H₃ in H₁.
+        rewrite H₁.
+        apply Squaring.
+        left.
+        reflexivity.
+        apply Squaring.
+        right.
+        assumption.
+      + apply Ax with A.
+        assumption.
+        assumption.
+      + apply Mp with γ.
+        apply H₃.
+        assumption.
+        apply H₅.
+        assumption.
+      + apply Nec.
+        assumption.
+    Qed.
+
     Theorem equivalencee : forall Γ α i, (S4 i ; Imboxed (Circled Γ i) i |-- [! (α ! i) !]) <-> (S4 i ; Squared Γ i |-- [! (α ? i) !]).
     Proof.
       intros Γ α i.
@@ -939,35 +1005,37 @@ Section Translations.
           apply Squaring.
           left.
           reflexivity.
-          inversion H₄ as [β H₅].
+          inversion H₄ as [β H₅ H₆].
           apply Mp with [! [i](β ! i) !].
           specialize H₃ with (β → α).
           apply H₃.
-          intros γ H₆.
+          intros γ H₇.
           apply H₂.
-          inversion H₆ as [δ H₇ H₈].
+          inversion H₇ as [δ H₈ H₉].
           apply Squaring.
           right.
           assumption.
           simpl.
           apply el_nc_lf.
           apply nec_gen.
-          intros γ H₆.
-          destruct H₆ as [γ H₆].
+          intros γ H₇.
+          destruct H₇ as [γ H₇].
           exists γ.
           reflexivity.
           apply in_nc_lf.
           apply modal_deduction.
           repeat constructor.
           assumption.
-          assert ((S4 i; Squared (Fin (φ :: Δ)) i |-- [! α ? i !]) -> S4 i; Extend [! β ? i !] (Squared (Fin Δ) i) |-- [! α ? i !]) as H₆.
-          
-          apply H₆.
+          apply extension.
+          apply substitution with φ.
+          rewrite H₆.
+          reflexivity.
           assumption.
           apply Prem.
           apply Imboxing.
           apply Circling.
           assumption.
+    Qed.
 
     Theorem soundness : forall Γ α i, (Γ ⊢ α) -> S4 i; Squared Γ i |-- [! α ? i !].
     Proof.
@@ -982,12 +1050,16 @@ Section Translations.
           * repeat constructor.
           * apply square_nec.
           * apply modal_axK.
-            - constructor. constructor. apply K_axK.
+            - constructor.
+              constructor.
+              apply K_axK.
             - apply Nec.
               apply Ax with (ax1 [! (α ? i) !] [! (β ? i) !]).
               repeat constructor.
               reflexivity.
-        + apply Nec. fold square. apply modal_deduction.
+        + apply Nec.
+          fold square.
+          apply modal_deduction.
           * repeat constructor.
             assumption.
           * repeat (apply strict_deduction).
@@ -1030,8 +1102,10 @@ Section Translations.
           * repeat constructor.
           * repeat constructor.
           * apply square_nec.
-          * apply modal_axK.Fin Δ
-            - constructor. constructor. apply K_axK.
+          * apply modal_axK.
+            - constructor.
+              constructor.
+              apply K_axK.
             - apply Nec.
               apply Ax with (ax4 [! (α ? i) !] [! (β ? i) !]).
               repeat constructor.
@@ -1116,9 +1190,18 @@ Section Translations.
         + apply Mp with [! α ? i !].
             ++ apply Mp with [! [i]((α ? i) -> (β ? i)) !].
                 +++ apply Ax with (axT i [! (α ? i) -> (β ? i) !]).
-                    * constructor. apply T_axT.
+                    * constructor.
+                      apply T_axT.
                     * reflexivity.
                 +++ assumption.
             ++ assumption.
+    Qed.
+
+    Theorem circlesoundness : forall Γ α i, (Γ ⊢ α) -> S4 i; Imboxed (Circled Γ i) i |-- [! α ! i !].
+    Proof.
+      intros.
+      apply equivalencee.
+      apply soundness.
+      assumption.
     Qed.
 End Translations.
