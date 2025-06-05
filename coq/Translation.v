@@ -718,26 +718,38 @@ Section Translations.
           * repeat constructor.
             assumption.
           * apply Mp with [! [i](α ? i) /\ [i](β ? i) !].
-            - admit.
-            - apply Mp with [! [i](β ? i) !].
-              ++ admit.
-              ++ apply Mp with [! β ? i !].
-                 ** apply derive_weak with Γ.
-                    -- right. 
-                       assumption.
-                    -- assumption.
-                 ** apply Mp with (square (α ∧ β) i).
-                    -- apply Ax with (ax6 [! α ? i !] [! β ? i !]).
-                       repeat constructor.
-                       reflexivity.
-                    -- apply Prem.
-                       left.
-                       reflexivity.
+            - apply nec_and_undistribution.
+            - apply modal_ax4.
+              repeat constructor.
+              repeat constructor.
+              repeat constructor.
+              apply Mp with [! α ? i !].
+              apply derive_weak with Γ.
+              intros γ H₃.
+              right.
+              assumption.
+              assumption.
+              apply modal_ax5 with (square β i).
+              repeat constructor.
+              apply Prem.
+              left.
+              reflexivity.
+              apply Mp with [! β ? i !].
+              apply derive_weak with Γ.
+              intros γ H₃.
+              right.
+              assumption.
+              assumption.
+              apply modal_ax6 with (square α i).
+              repeat constructor.
+              apply Prem.
+              left.
+              reflexivity.
         + apply modal_deduction.
           repeat constructor.
           assumption.
           apply Mp with [! [i](α ? i) \/ [i](β ? i) !].
-          * admit.
+          * apply nec_or_distribution.
           * apply Mp with [! (α ? i) \/ (β ? i) !].
             - apply or_exchange.
               repeat constructor.
@@ -756,7 +768,7 @@ Section Translations.
         + apply Ax with (axK4 i [! (α ? i) -> (β ? i) !]).
           * apply S4_axK4.
           * reflexivity.
-    Admitted.
+    Qed.
 
     Theorem el_nc_lf : forall Γ α β i, (S4 i ; Imboxed (Squared Γ i) i |-- [! [i]((α ? i) -> (β ? i)) !]) -> S4 i ; Squared Γ i |-- [! [i]((α ? i) -> (β ? i)) !].
     Proof.
@@ -904,7 +916,7 @@ Section Translations.
         assumption.
     Qed.
 
-    Theorem substitution : forall Γ α β γ i, [! α ? i !] = [! β ? i !] ->(S4 i; Squared (Fin (α :: Γ)) i |-- γ) -> S4 i; Squared (Fin (β :: Γ)) i |-- γ.
+    Theorem substitution : forall Γ α β γ i, [! α ? i !] = [! β ? i !] -> (S4 i; Squared (Fin (α :: Γ)) i |-- γ) -> S4 i; Squared (Fin (β :: Γ)) i |-- γ.
     Proof.
       intros Γ α β γ i H₁ H₂.
       remember (Squared (Fin (α :: Γ)) i) as Δ eqn : E.
